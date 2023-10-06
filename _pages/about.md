@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
+title: About me
 permalink: /about/
-image: '/assets/img/01.jpg'
+image: '/assets/img/profile.jpg'
 ---
 
-Hi, my name is Derrick Wells. I like being at the center of events, being free and enjoying every moment. Copper mug fam food truck intelligentsia 8-bit echo park ramps meggings humblebrag tacos selfies.
-
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity.
+Hi, my name is Kevin Kim.
 
 ***
 
@@ -15,6 +13,36 @@ Leverage agile frameworks to provide a robust synopsis for high level overviews.
 
 ***
 
-Proactively envisioned multimedia based expertise and cross-media growth strategies. Seamlessly visualize quality intellectual capital without superior collaboration and idea-sharing. Holistically pontificate installed base portals after maintainable products.
+#### [Now](#now)
+(This is a [now page](https://nownownow.com/about))
 
-Phosfluorescently engage worldwide methodologies with web-enabled technology. Interactively coordinate proactive e-commerce via process-centric "outside the box" thinking. Completely pursue scalable customer service through sustainable potentialities.
+Updated on February 10, 2023, from Hanoi, Vietnam.
+
+### Building [My Blog]({{ site.url }}/blog)
+I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
+
+### Study about Product & Design
+\#Design-system
+- [Apply OOAD in the building design system (Part 1)](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
+- [Apply OOAD in the building design system (Part 2)](https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063).
+- [Design Token](https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4)
+
+\#Product #Design #Management
+- [Design Debt](https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140)
+
+\#Gamification
+- [Designing gamification features in fintech products](https://hackernoon.com/designing-gamification-features-in-fintech-products)
+
+\#Blockchain \#Web3.0
+- [Personal or Social Identity](https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son)
+
+[See more](https://www.notion.so/sonkd/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c)
+
+### 2023 (In progress)
+- Head of Product at [Ready.io](https://ready.io)
+- Research about HCI and Cognitive load
+- Design a Banking service for Household merchants in Vietnam
+
+If my life changes, I’ll update this page.
+
+Inspired by [johanbrook](https://johanbrook.com/now/)

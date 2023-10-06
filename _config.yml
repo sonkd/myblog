@@ -1,27 +1,29 @@
-title: Derrick Wells – Independent Product Designer
+title: Kevin Son – Product Designer
 logo:  # you can add own logo.
-description: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
+description: A Designer love food.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings
 author:
-  name: Derrick Wells
-  image: '/assets/img/01.jpg'
-  job: Independent Product Designer
-  bio: Passionate designer curating designs for new startups  and  founders  and crafts  beautiful user interfaces with love.
-  email: forexample@website.com
+  name: Kevin Son
+  image: '/assets/img/profile.jpg'
+  job: Product Designer
+  bio: I'm a UX Designer and living in Hanoi, Vietnam
+  email: sonkdbk@gmail.com
 
 
 # Contact links
 contact:
   - name: Twitter
-    link: https://twitter.com/
-  - name: Facebook
-    link: https://facebook.com/
+    link: https://twitter.com/KevinSonkd
   - name: Instagram
-    link: https://instagram.com/
+    link: https://www.instagram.com/kimdinhson/
+  - name: Medium
+    link: https://medium.com/@sonkd
+  - name: Linkedin
+    link: https://www.linkedin.com/in/kevinsonkd/
 
 
 # Comment Section (Disqus)
