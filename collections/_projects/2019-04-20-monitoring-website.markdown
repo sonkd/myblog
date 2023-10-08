@@ -3,7 +3,7 @@ title: "📈 Monitoring website"
 layout: post
 date: 2019-04-20 12:56:34
 tag: [SaaS, Service, Dasboard, Monitoring, Tracking, Software, Administration]
-image: /assets/img/vodafone_V.jpg
+image: /assets/img/project//vodafone_V.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

@@ -3,7 +3,7 @@ title: "❤️ Ứng dụng quản lý hồ sơ sức khoẻ"
 layout: post
 date: 2018-06-20 12:30:45
 tag: [Healthy, Mobile, Application, UX, Design]
-image: /assets/img/red-heartbeat-symbol-graphic-illustration_53876-8061.jpg
+image: /assets/img/project/red-heartbeat-symbol-graphic-illustration_53876-8061.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

@@ -3,7 +3,7 @@ title: "📑 ERP Dashboard"
 layout: post
 date: 2019-08-26 10:15:20
 tag: [SaaS, Service, ERP, Monitoring, Tracking, Software, Management]
-image: /assets/img/erp-business.jpg
+image: /assets/img/project/erp-business.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

@@ -3,12 +3,13 @@ layout: page
 title: 🖋️Blog
 permalink: /blog/
 order: 2
+show: true
 ---
 
 <hr>
 <div class="container">
-    {% if site.posts.size > 0 %}
-    {% for post in site.posts %}
+    {% if site.blog.size > 0 %}
+    {% for post in site.blog %}
     <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
         {% if post.image %}
         <div class="article__image-box">

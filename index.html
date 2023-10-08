@@ -11,8 +11,8 @@ title: Home
       <h1 class="author__job">{{ site.author.job }}</h1>
       <p class="author__bio">{{ site.author.bio }}</p>
       <div class="author__more">
-        <a href="mailto:{{site.author.email}}?subject=Hello%20%F0%9F%91%8B" class="say-hello">Say hello</a>
-        <a href="{{site.baseurl}}/about/" class="know-more">Know More</a>
+        <a href="{{site.baseurl}}/about/" class="say-hello">Know more</a>
+        <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a>
       </div>
     </div>
   </section>
@@ -22,15 +22,13 @@ title: Home
 <div class="container">
   <!-- begin Projects -->
   <section class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-    <h3 class="">Latest works</h3>
-    ...
+    {% include latest_works.html %}
   </section>
   <!-- end Projects -->
 
   <!-- begin Blog posts -->
-  {% include blog_post.html %}
+  {% include recent_posts.html %}
   <!-- end Blog posts -->
 </div>
-
 
 

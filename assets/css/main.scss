@@ -35,6 +35,7 @@
 
 /* ============== :: 2 Base Styles ============== */
 @import '2-base/base';
+@import '2-base/button';
 
 
 /* ============== :: 3 Modules ============== */
@@ -50,6 +51,9 @@
 /* :: 3.4 Footer */
 @import '3-modules/footer';
 
+/* :: 3.5 Scroll to top */
+@import '3-modules/scroll-button-top';
+
 
 /* ============== :: 4 Layouts ============== */
 /* :: 4.1 Article */
@@ -63,3 +67,6 @@
 
 /* :: 4.4 Tag Page */
 @import '4-layouts/tag-page';
+
+/* :: 4.5 Project Card */
+@import '4-layouts/project-card';

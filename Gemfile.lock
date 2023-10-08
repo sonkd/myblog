@@ -55,8 +55,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
-    jekyll-paginate-v2 (3.0.0)
-      jekyll (>= 3.0, < 5.0)
+    jekyll-pagebreak (0.9.2)
+      jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-sitemap (1.4.0)
@@ -133,7 +133,7 @@ DEPENDENCIES
   bundler
   jekyll
   jekyll-admin
-  jekyll-paginate-v2
+  jekyll-pagebreak
   jekyll-sitemap
   jekyll-tagging
   jemoji

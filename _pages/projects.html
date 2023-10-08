@@ -4,24 +4,48 @@ title: 🚀Projects
 permalink: /projects/
 image: 
 order: 1
+show: true
 ---
 
-<div class="container">
-	{% if site.projects.size == 0 %}
+<div class="container animate">
+    <section>
+        {% if site.projects.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.pagination.enabled %}
-		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
-				{% if post.hidden != true %}
-					{% include blog_post.html %}
-				{% endif %}
-			{% endif %}
-		{% endfor %}
-
-		{% include pagination.html %}
-	{% else %}
-	  {% for post in site.projects reversed %}
-	  	{% include blog_post.html %}
-	  {% endfor %}
-	{% endif %}
+	    {% else %}
+        <div class="row" data-pagebreak="7" data-pagebreak-url="./:num/">
+            {% for post in site.projects reversed %}
+            {% assign c = "c-project-card" %}
+            <article class="{{c}} col col-4 col-d-6 col-t-12">
+              <div class="{{c}}__content">
+                <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">
+                  <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
+                </a>
+                <div class="{{c}}__info">
+                  <div class="{{c}}__info-wrap">
+                    <h3 class="{{c}}__title">{{ post.title }}</h3>
+                  </div>
+                  <div class="{{c}}__info-wrap">
+                    {% if post.description %}
+                    <div class="{{c}}__subtitle">{{ post.description }}</div>
+                    {% endif %}
+                  </div>
+                </div>
+              </div>
+            </article>
+            {% endfor %}
+        </div>
+	    {% endif %}
+    </section>
+    <br>
+    <div style="text-align: center;">
+        <p>
+            <a href="" data-pagebreak-control="prev">◀️Previous</a>
+            Page 
+            <span data-pagebreak-label="current">1</span>
+            of
+            <span data-pagebreak-label="total">1</span>
+            <a href="" data-pagebreak-control="next">Next▶️</a>
+        </p>
+    </div>   
+     
 </div>

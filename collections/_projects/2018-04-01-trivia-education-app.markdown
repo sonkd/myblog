@@ -3,7 +3,7 @@ title: "📚 Ứng dụng trắc nghiệm giải đố"
 layout: post
 date: 2018-04-01 12:30:45
 tag: [Trivia, Mobile, Application, UX, Education]
-image: /assets/img/banner-trivia.png
+image: /assets/img/project/banner-trivia.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

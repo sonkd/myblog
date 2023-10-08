@@ -1,6 +1,6 @@
-<h3 class="">Recent posts</h3>
-{% if site.posts.size > 0 %}
-{% for post in site.posts limit: 5 %}
+<h3 class="">Latest works</h3>
+{% if site.blog.size > 0 %}
+{% for post in site.projects limit: 5 %}
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
     {% if post.image %}
     <div class="article__image-box">
@@ -29,6 +29,6 @@
 </div>
 {% endfor %}
 <div style="text-align: center;">
-    <a href="{{site.baseurl}}/blog/" class="know-more">See More</a>
+    <a href="{{site.baseurl}}/projects/" class="know-more">See more works</a>
 </div>
 {% endif %}

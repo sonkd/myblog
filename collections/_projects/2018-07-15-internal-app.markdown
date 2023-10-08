@@ -3,7 +3,7 @@ title: "💼 Ứng dụng quản lý nhân viên"
 layout: post
 date: 2018-07-15 12:56:34
 tag: [Enterprise, Mobile, Application, UX, Tools]
-image: /assets/img/demo_app.png
+image: /assets/img/project/demo_app.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -24,6 +24,6 @@ Các chức năng chính:
 - Bản tin tin tức nội bộ tập đoàn.
 - Đặt lịch và nhắc nhở cuộc họp.
 
-<video src="/assets/images/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
+<video src="/assets/img/project/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
 
 ---
