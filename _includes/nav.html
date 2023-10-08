@@ -1,0 +1,23 @@
+<nav class="main-nav">
+    <span class="main-nav__open">menu</span>
+
+    <div class="main-nav__box">
+      <span class="main-nav__close">Close</span>
+
+      <ul class="nav__list list-reset">
+        {% assign nav_list = site.pages | sort: 'order' %} 
+        {% assign current_page = page.title %}
+        {% for page in nav_list %}
+          {% unless page.name == 'tags.html' or page.name == '404.html' %}
+          {% if page.title != current_page and page.title %}
+          <li class="nav__item">
+            <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+          </li>
+          {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+
+    </div>
+
+  </nav>

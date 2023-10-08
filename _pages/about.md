@@ -3,6 +3,7 @@ layout: page
 title: About me
 permalink: /about/
 image: '/assets/img/profile.jpg'
+order: 4
 ---
 
 Hi, my name is Kevin Kim.

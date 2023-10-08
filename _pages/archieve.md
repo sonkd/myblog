@@ -2,7 +2,8 @@
 layout: page
 title: 🗄️Archieve
 permalink: /archieve/
-image: '/assets/img/profile.jpg'
+image: 
+order: 3
 ---
 
 Hi, my name is Kevin Kim.

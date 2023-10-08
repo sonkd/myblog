@@ -40,6 +40,25 @@ permalink: pretty
 plugins:
   - jekyll-sitemap
   - jekyll/tagging
+  - jemoji
+  - jekyll-admin
+  - jekyll-paginate-v2
+
+collections_dir: collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+pagination:
+  enabled: true
+  sort_reverse: true # display recent posts first
+  title: ":title" # Changing this will mess up the header display logic
+  per_page: 7
+  permalink: "/:num/" # pagination link that will be appended
+
+# if you don't need projects, comment the *projects* configs below
+projects: true
 
 # Pages Path
 defaults:
