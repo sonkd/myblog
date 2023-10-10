@@ -1,18 +1,19 @@
 ---
-layout: library
-title: 🗄️Library
-permalink: /library/
-image: 
-order: 3
+layout: default
+title: Food
+permalink: /library#tab-food/
+image:
+isMainPage: false
 ---
 
-Share my moments
+Foodie
 
 <div class="container-full">
     {% if site.library.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	  {% else %}
     {% for post in site.library %}
+    {% if post.category == 'food' %}
     <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
         {% if post.image %}
         <div class="article__image-box">
@@ -26,7 +27,7 @@ Share my moments
         </div>
         {% endif %}
     </div>
+    {% endif %}
     {% endfor %}
     {% endif %}
 </div>
-

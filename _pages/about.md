@@ -4,6 +4,7 @@ title: About me
 permalink: /about/
 image: '/assets/img/profile.jpg'
 order: 4
+isMainPage: true
 ---
 
 Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT software services, and digital banking industry since 2016.
@@ -12,13 +13,13 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 
 > _"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions"_--Albert Einstein.
 
----
-<div class="text-left">
-<p style="font-weight:bold">Read <a href="#now"> I'm doing now first ↓</a></p>
-</div>
 
+<div class="text-left">
+<p style="font-weight:bold">Read <a href="#now">what I'm working on now ↓</a></p>
+</div>
+---
 <section class="row">
-    <div class="col col-4 col-d-6 col-t-12">
+    <div class="col col-3 col-6 col-t-12">
         <h4>My experiences</h4>
         <ul style="color: $gray-blue;">
             <li>Bank/Fintech</li>
@@ -26,7 +27,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
             <li>Game</li>
         </ul>
     </div>
-    <div class="col col-4 col-d-6 col-t-12">
+    <div class="col col-3 col-6 col-t-12">
         <h4> Methodologies </h4>
         <ul>
             <li>Agile</li>
@@ -34,7 +35,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
             <li>Design Thinking</li>
         </ul>
     </div>
-    <div class="col col-4 col-d-6 col-t-12">
+    <div class="col col-3 col-6 col-t-12">
         <h4>Knowledge & Practices</h4>
         <ul>
             <li>HTML, CSS, JS</li>
@@ -46,7 +47,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
             <li>Product management</li>          
         </ul>
     </div>
-    <div class="col col-4 col-d-6 col-t-12">
+    <div class="col col-3 col-6 col-t-12">
         <h4>Tools</h4>
         <ul>
             <li>Confluence, Jira, Notion</li>

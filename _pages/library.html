@@ -1,0 +1,48 @@
+---
+layout: default
+title: 🗄️Library
+permalink: /library/
+image: 
+order: 3
+isMainPage: true
+---
+<!-- Hero -->
+<section class="et-hero-tabs container-full">
+    <div class="page__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+        <h1 class="page__title">{{ page.title | escape }}</h1>
+    </div>
+    {% if site.pages.size == 0 %}
+    <p class="text-center">Nothing published yet!</p>
+    {% else %}
+
+    <!--
+    <div class="et-hero-tabs-container">
+        {% for tab in site.data.library-tabs %}
+        <a class="et-hero-tab" href="#tab-{{tab.name}}">{{ tab.title }}</a>
+        {% endfor %}
+        <span class="et-hero-tab-slider"></span>
+    </div>
+    -->
+    <div class="et-hero-tabs-container">
+        {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" %}
+        {% for tab in tabs %}
+        <a class="et-hero-tab" href="#tab-{{tab.name | remove: '.html'}}">{{ tab.title }}</a>
+        {% endfor %}
+        <span class="et-hero-tab-slider"></span>
+    </div>
+
+</section>
+<!-- Main -->
+<main class="library-main">
+    {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" %}
+    {% for tab in tabs %}
+    <section class="et-slide" id="tab-{{tab.name | remove: '.html'}}">
+        {% assign c = "{{tab.name}}-content" %}
+        <div class="page__content {{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+            {{ tab.content }}
+        </div>
+    </section>
+    {% endfor %}
+</main>
+{% endif %}
+
