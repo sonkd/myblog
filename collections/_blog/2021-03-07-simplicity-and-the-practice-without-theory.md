@@ -26,6 +26,7 @@ and,
 > He who loves practice without theory is like the sailor who boards ship without a rudder and compass and never knows where he may cast.
 
 When I am thinking about simplicity, I always associate it with complication.
+
 ---
 A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Suy-nghi-don-gian-khong-giup-cuoc-song-cua-ban-don-gian-8w0) that I liked.
 

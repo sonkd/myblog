@@ -7,12 +7,12 @@ order: 1
 show: true
 ---
 
-<div class="container-full animate">
-    <section>
-        {% if site.projects.size == 0 %}
+<section class="container-full animate">
+  
+    {% if site.projects.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
-	    {% else %}
-        <div class="row" data-pagebreak="7" data-pagebreak-url="./:num/">
+	  {% else %}
+        <div class="row" data-pagebreak="8" data-pagebreak-url="./:num/">
             {% for post in site.projects reversed %}
             {% assign c = "c-project-card" %}
             <article class="{{c}} col col-4 col-d-6 col-t-12">
@@ -34,18 +34,7 @@ show: true
             </article>
             {% endfor %}
         </div>
-	    {% endif %}
-    </section>
-    <br>
-    <div style="text-align: center;">
-        <p>
-            <a href="" data-pagebreak-control="prev">◀️Previous</a>
-            Page 
-            <span data-pagebreak-label="current">1</span>
-            of
-            <span data-pagebreak-label="total">1</span>
-            <a href="" data-pagebreak-control="next">Next▶️</a>
-        </p>
-    </div>   
-     
-</div>
+	  {% endif %}
+</section>
+<br>
+{% include pagination-nav.html %}

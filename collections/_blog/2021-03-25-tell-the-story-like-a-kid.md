@@ -5,7 +5,6 @@ date: 2021-03-25 23:54:34
 author: sonohyeah
 image: 
 headerImage: false
-description: ""
 tag:
 - Design
 - Storytelling
@@ -19,6 +18,7 @@ hidden: false
 # Chuyện của một đứa trẻ
 
 Tôi có một đứa cháu lên 5 ở cái tuổi hay nghịch và thích "nói". Chuyện khá bình thường và không có gì đáng bàn. Thi thoảng tôi có để ý đến những câu chuyện mà con bé kể, phát hiện ra có điều gì đó khiến mọi người xung quanh cảm thấy thú vị và điều đó làm tôi liên tưởng đến nhiều điều.
+
 ---
 
 Ví dụ một câu chuyện gần đây con bé kể với tôi là,

@@ -2,14 +2,23 @@
 layout: default
 ---
 
-<div class="container">
+<div class="container-full">
   <!-- begin page -->
   <article class="page">
 
     <div class="page__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       <h1 class="page__title">{{ page.title | escape }}</h1>
       {% if page.image %}
-      <div class="page-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+      <div class="container-full">
+        <div class="row">
+          <div class="col col-12">
+            <div class="c-page-image animate">
+              <img alt="My best photo" loading="lazy" src="{{site.baseurl}}{{page.image}}">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="page-image" style="background-image: url({{site.baseurl}}{{page.image}})"></div>-->
       {% endif %}
     </div>
 

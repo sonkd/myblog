@@ -6,7 +6,7 @@ body {
   font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
   font-size: 16px;
   color: $dark;
-  background-color: #fff;
+  background-color: $background-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   input, textarea {
@@ -26,7 +26,7 @@ body {
 }
 
 *::selection {
-  color: #fff;
+  color: white;
   background-color: $primary-color;
 }
 

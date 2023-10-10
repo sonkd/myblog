@@ -41,32 +41,26 @@
 /* ============== :: 3 Modules ============== */
 /* :: 3.1 Wrapper */
 @import '3-modules/wrapper';
-
 /* :: 3.2 Header */
 @import '3-modules/header';
-
 /* :: 3.3 Author Section */
 @import '3-modules/author-section';
-
 /* :: 3.4 Footer */
 @import '3-modules/footer';
-
 /* :: 3.5 Scroll to top */
 @import '3-modules/scroll-button-top';
+/* :: 3.6 Pagingnation */
+@import '3-modules/pagination';
 
 
 /* ============== :: 4 Layouts ============== */
 /* :: 4.1 Article */
 @import '4-layouts/article';
-
 /* :: 4.2 Post */
 @import '4-layouts/post';
-
 /* :: 4.3 Page */
 @import '4-layouts/page';
-
 /* :: 4.4 Tag Page */
 @import '4-layouts/tag-page';
-
 /* :: 4.5 Project Card */
 @import '4-layouts/project-card';

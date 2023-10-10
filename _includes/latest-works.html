@@ -1,4 +1,4 @@
-<h3 class="">Latest works</h3>
+<h2 class="">Latest works</h2>
 {% if site.blog.size > 0 %}
 <div class="row">
         {% for post in site.projects reversed limit: 6 %}
@@ -23,7 +23,7 @@
         {% endfor %}
 </div>
 
-<div style="text-align: center;">
-    <a href="{{site.baseurl}}/projects/" class="know-more">See more works</a>
+<div style="text-align: center;padding-top: 10px;">
+    <a href="{{site.baseurl}}/projects/" class="works-button c-button c-button--secondary c-button--small">See more works</a>
 </div>
 {% endif %}

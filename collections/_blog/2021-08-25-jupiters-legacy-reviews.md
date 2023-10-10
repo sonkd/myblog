@@ -5,7 +5,6 @@ date: 2021-08-25 18:40:00
 author: sonohyeah
 image: 
 headerImage: false
-description: ""
 tag:
 - Design
 - Product
@@ -19,6 +18,7 @@ hidden: false
 ---
 
 Tôi đã xem xong chuỗi tập phim Jupiter's Legacy (Di sản Mộc tinh) được vài tháng, nay hồi tưởng lại vẫn thấy còn nhiều điều thú vị đọng lại từ serie phim này. Link xem phim trên Netflix: [Jupiter's Legacy](https://www.netflix.com/vn-en/title/80244953). 
+
 ---
 Ở đây, tôi sẽ không review và chia sẻ những thứ liên quan đến giải trí, bạn có thể xem review dưới góc độ điện ảnh của [Phê Phim](https://youtu.be/Pq3HWXfHdXI). Tôi liên tưởng đến một vấn đề được đúc rút ra từ nó - **Con đường sự nghiệp** của mỗi người. 
 
