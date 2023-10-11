@@ -14,17 +14,8 @@ isMainPage: true
     {% if site.pages.size == 0 %}
     <p class="text-center">Nothing published yet!</p>
     {% else %}
-
-    <!--
     <div class="et-hero-tabs-container">
-        {% for tab in site.data.library-tabs %}
-        <a class="et-hero-tab" href="#tab-{{tab.name}}">{{ tab.title }}</a>
-        {% endfor %}
-        <span class="et-hero-tab-slider"></span>
-    </div>
-    -->
-    <div class="et-hero-tabs-container">
-        {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" %}
+        {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" | sort: 'order' %}
         {% for tab in tabs %}
         <a class="et-hero-tab" href="#tab-{{tab.name | remove: '.html'}}">{{ tab.title }}</a>
         {% endfor %}
@@ -34,11 +25,11 @@ isMainPage: true
 </section>
 <!-- Main -->
 <main class="library-main">
-    {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" %}
+    {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" | sort: 'order' %}
     {% for tab in tabs %}
     <section class="et-slide" id="tab-{{tab.name | remove: '.html'}}">
         {% assign c = "{{tab.name}}-content" %}
-        <div class="page__content {{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+        <div class="page__content {{c}} container-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
             {{ tab.content }}
         </div>
     </section>
