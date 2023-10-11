@@ -4,30 +4,28 @@ title: Food
 permalink: /library#tab-food/
 image:
 isMainPage: false
+order: 1
 ---
-
-Foodie
-
 <div class="container-full">
-    {% if site.library.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	  {% else %}
-    {% for post in site.library %}
-    {% if post.category == 'food' %}
-    <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-        {% if post.image %}
-        <div class="article__image-box">
-            <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+    {% if site.data.food.size == 0 %}
+	<p class="text-center">Nothing published yet!</p>
+	{% else %}
+    <div class="row">
+    {% for post in site.data.food %}
+    <div class="col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+        <div class="food-photo-card">
+            <div class="food-photo-card__header">
+                <h2 class="food-card-heading">{{post.title}}</h2>
+                <h3 class="card-subheading">{{post.date}}</h3>
+            </div>
+            <div class="food-photo-card__footer">
+                <a class="food-photo-card__footer__link" href="{{post.url}}" style="background-image: url({{post.image}})">See detail</a>
+            </div>
         </div>
-        {% else %}
-        <div class="article__image-box">
-            <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})"></a>
-        </div>
-        {% endif %}
+    </div>
+    {% endfor %}
     </div>
     {% endif %}
-    {% endfor %}
-    {% endif %}
 </div>
+
+
