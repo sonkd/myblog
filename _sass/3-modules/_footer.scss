@@ -37,3 +37,53 @@
   font-size: 16px;
   color: $dark;
 }
+
+@media all {
+  .social {
+      text-align: center
+  }
+
+  .social .social__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap
+  }
+
+  .social .social__item {
+      display: inline-block;
+      margin: 0 2px
+  }
+
+  .social .social__link {
+      position: relative;
+      z-index: 1;
+      padding: 0 10px;
+      font-size: 21px;
+      line-height: 1
+  }
+
+  .social .social__link:hover {
+      color: white
+  }
+
+  .social .social__link:hover:after {
+      transform: translate3d(-50%,-50%,0) scale(.9)
+  }
+
+  .social .social__link:after {
+      content: "";
+      display: block;
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      left: 50%;
+      transform: translate3d(-50%,-50%,0) scale(0);
+      width: 100%;
+      height: 0;
+      padding-bottom: 100%;
+      border-radius: 50%;
+      background: linear-gradient(90deg,#a4a3f6 0%,#6b69fa 167%);
+      transition: all .25s
+  }
+}
