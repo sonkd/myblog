@@ -3,12 +3,17 @@ layout: default
 ---
 
 <div class="container-full">
+  <div id="tag-cloud">
+  {{ site | tag_cloud }}
+  </div>
 
   <section class="tag">
 
     <div class="tag__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       <h1 class="tag__title">{{ page.tag }}</h1>
     </div>
+    
+    {% assign posts = page.blog | concat: page.projects | concat: page.archieve %}
 
     {% for post in page.posts %}
     <!-- begin article -->
