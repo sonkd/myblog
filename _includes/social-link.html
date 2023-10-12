@@ -2,11 +2,12 @@
     <ul class="social__list list-reset">
       {% for contact in site.contact %}
       <li class="social__item">
-        <a aria-label="{{contact.name | downcase}} icon" class="social__link" href="{{contact.link}}" rel="noopener" target="_blank"><i class="ion ion-logo-{{contact.name | downcase}}"></i></a>
+        <!-- <a aria-label="{{contact.name | downcase}} icon" class="social__link" href="{{contact.link}}" rel="noopener" target="_blank"><i class="ion ion-logo-{{contact.name | downcase}}"></i></a> --> 
+        <a aria-label="{{contact.name | downcase}} icon" class="social__link" href="{{contact.link}}" rel="noopener" target="_blank"><i class="lni lni-{{contact.name | downcase}}"></i></a>
       </li>
       {% endfor %}
     </ul>
-  </div>
+</div>
 
   <!--
   <div class="contact">

@@ -7,4 +7,12 @@ isMainPage: false
 order: 3
 ---
 
-Studies
+<div class="row" id="studies">
+    {% if site.data.study-list.size == 0 %}
+	<p class="text-center">Nothing published yet!</p>
+	{% else %}
+    {% for post in site.data.study-list %}
+     {% linkpreview post.url %}
+    {% endfor %}
+    {% endif %}
+</div>

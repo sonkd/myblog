@@ -10,7 +10,7 @@ author:
   name: Kevin Son
   image: '/assets/img/profile.jpg'
   job: Product Designer
-  bio: I'm a Product Designer and living in Hanoi, Vietnam
+  bio: I'm a Product Designer love food and living in Hanoi, Vietnam
   email: sonkdbk@gmail.com
 
 
@@ -43,6 +43,7 @@ plugins:
   - jemoji
   - jekyll-admin
   - jekyll-pagebreak
+  - jekyll-linkpreview
 
 collections_dir: collections
 collections:

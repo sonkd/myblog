@@ -4,13 +4,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 93vh;
     position: relative;
-    background: white;
-		text-align: center;
-		padding: 0 2em;
+    background: none;
+	text-align: center;
+	padding: 0 2em;
     h1 {
-        font-size: 2rem;
+        font-size: 1.5rem;
         margin: 0;
         letter-spacing: 1rem;
     }
@@ -25,9 +25,9 @@
     display: flex;
     flex-direction: row;
     position: absolute;
-    bottom: 4.8em;
+    top: 87vh;
     width: 100%;
-    height: 6em;
+    height: 6vh;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background: white;
     z-index: 10;

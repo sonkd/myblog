@@ -1,15 +1,19 @@
 <div class="container-full">
   <!-- begin header -->
   <header class="header">
-
-    <div class="logo">
-      <a class="logo__link" href="{{ site.baseurl }}/">
-      {%if site.logo %}
-        <img class="logo__image" src="{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
-      {% else %}
-        {{ site.author.name }}
-      {% endif %}
-      </a>
+    <div class="id-wrapper">
+      <div class="logo">
+        <a class="logo__link" href="{{ site.baseurl }}/">
+        {%if site.logo %}
+          <img class="logo__image" src="{{ site.baseurl }}/assets/img/{{ site.logo }}" alt="{{ site.title }}">
+        {% else %}
+          {{ site.author.name }}
+        {% endif %}
+        </a>
+      </div>
+      <div class="id-social">
+      {% include social-link.html %}
+      </div>
     </div>
 
     {% include nav.html %}

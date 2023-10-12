@@ -1,10 +1,10 @@
 <div class="row" id="activity">
-    {% if site.data.activity.size == 0 %}
+    {% if site.data.activity-list.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
-    {% for post in site.data.activity %}
+    {% for post in site.data.activity-list %}
     <div class="col col-4 col-d-6 col-t-12">
-        <img class="photo-card" src="{{post.image}}" href="{{post.url}}" alt="Girl in a jacket" width="100%" height="100%">
+        <img class="photo-card" src="{{post.image}}" href="{{post.url}}" alt="{{post.description}}" width="100%" height="100%">
     </div>
     {% endfor %}
     {% endif %}
