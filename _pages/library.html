@@ -30,8 +30,7 @@ isMainPage: true
     {% assign tabs = site.pages | where_exp:"item","item.isMainPage==false" | sort: 'order' %}
     {% for tab in tabs %}
     <section class="et-slide" id="tab-{{tab.name | remove: '.html'}}">
-        {% assign c = "{{tab.name}}-content" %}
-        <div class="{{c}}" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+        <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
             {{ tab.content }}
         </div>
     </section>
