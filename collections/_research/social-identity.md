@@ -6,6 +6,6 @@ tag: [Books, Website, Design, E-commerce]
 image: /assets/img/project/lovebook.png
 link: https://www.instagram.com/p/CxLSbdWxg3f/
 author: sonohyeah
-category: food
+category: research
 ---
 hâhhahaa

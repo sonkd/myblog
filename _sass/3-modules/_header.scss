@@ -35,22 +35,11 @@
 }
 
 .id-social {
-  display: none;
-  float: left;
-}
-
-.id-wrapper {
-  width: auto;
+  /*display: none;*/
   display: inline-block;
 }
 
-/*
-.id-wrapper:hover .logo {
-  display: none;
-}
-*/
-
-.id-wrapper:hover .id-social {
+.header:hover .id-social {
   display: inline-block;
 }
 
@@ -76,7 +65,10 @@
 
 .social .social__item {
   display: inline-block;
-  margin: 0 2px
+  margin: 0 2px;
+  a {
+    color: black;
+  }
 }
 
 .social .social__link {
@@ -107,7 +99,8 @@
   height: 0;
   padding-bottom: 100%;
   border-radius: 50%;
-  background: linear-gradient(90deg,#a4a3f6 0%,#6b69fa 167%);
+  /*background: linear-gradient(90deg,#6b69fa 0%,#312fa4 167%);*/
+  background: black;
   transition: all .25s
 }
 

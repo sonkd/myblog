@@ -53,6 +53,9 @@ collections:
   blog:
     output: true
     permalink: /blog/:name
+  research:
+    output: true
+    permalink: /research/:name
 
 # Pages Path
 defaults:

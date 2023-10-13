@@ -1,11 +1,13 @@
-<div class="row" id="activity">
-    {% if site.data.activity-list.size == 0 %}
+<div class="row" data-pagebreak="20" data-pagebreak-url="./:num/">
+    {% if site.data.archieve-list.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
-    {% for post in site.data.activity-list %}
-    <div class="col col-4 col-d-6 col-t-12">
-        <img class="photo-card" src="{{post.image}}" href="{{post.url}}" alt="{{post.description}}" width="100%" height="100%">
+    {% for post in site.data.archieve-list | sort: 'date' | reverse %}
+    <div class="col col-3 col-d-6 col-t-12" style="padding:.5rem !important;">
+        <img style="border-radius: 1.5rem;" class="photo-card" src="{{post.image}}" href="{{post.url}}" alt="{{post.description}}" width="100%" height="100%">
+        <p style="padding:.5rem 0;color:gray">{{post.date}}<br>{{post.title}}</p>
     </div>
     {% endfor %}
     {% endif %}
 </div>
+{% include pagination-nav.html %}

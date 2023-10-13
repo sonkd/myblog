@@ -23,8 +23,7 @@ isMainPage: true
         </div>
         {% else %}
         <div class="article__image-box">
-            <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+            <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
         </div>
         {% endif %}
         <div class="article__content">

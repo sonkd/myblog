@@ -1,7 +1,6 @@
 <div class="container-full">
   <!-- begin header -->
   <header class="header">
-    <div class="id-wrapper">
       <div class="logo">
         <a class="logo__link" href="{{ site.baseurl }}/">
         {%if site.logo %}
@@ -10,11 +9,10 @@
           {{ site.author.name }}
         {% endif %}
         </a>
+        <div class="id-social">
+          {% include social-link.html %}
+          </div>
       </div>
-      <div class="id-social">
-      {% include social-link.html %}
-      </div>
-    </div>
 
     {% include nav.html %}
 
