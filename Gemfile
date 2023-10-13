@@ -3,7 +3,7 @@ gem "bundler"
 gem "jekyll"
 gem "jekyll-admin"
 gem "jekyll-sitemap"
-gem "jekyll-tagging"
 gem "jekyll-pagebreak"
 gem "jemoji"
 gem "jekyll-linkpreview"
+gem 'jekyll-seo-tag'

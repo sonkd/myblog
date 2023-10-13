@@ -26,11 +26,13 @@ isMainPage: true
 <main>
     <section class="et-slide" id="tab-food">
         <div class="row">
+            <h3 style="padding: 1rem;">#yummy food photos.</h3>
             <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
             <div class="elfsight-app-cdfa61b7-a8bb-43ac-a8a8-1e0a42251778"></div>
         </div>
     </section>
     <section class="et-slide" id="tab-archieve">
+        <h3>My activities</h3>
         <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
             {% for post in site.data.archieve-list limit: 12 %}
             <div class="col col-2 col-3 col-d-6 col-t-12" style="padding:1rem !important;">
@@ -44,10 +46,9 @@ isMainPage: true
         </div>
     </section>
     <section class="et-slide" id="tab-books">
-        <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
-            <h1>My queue of book</h1>
-            <br>
-            <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+        <h3>My queue of book</h3>
+        <div class="row" style="width: 100%" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+            <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green" frameborder="0" onmousewheel="" width="100%" height="1200px" style="background: transparent; border: 1px solid #ccc;"></iframe>
         </div>
     </section>
 </main>

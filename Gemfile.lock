@@ -86,10 +86,10 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
+    jekyll-seo-tag (2.8.0)
+      jekyll (>= 3.8, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-tagging (1.1.0)
-      nuggets
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     jemoji (0.13.0)
@@ -127,7 +127,6 @@ GEM
       racc (~> 1.4)
     nokogiri (1.15.4-x86_64-darwin)
       racc (~> 1.4)
-    nuggets (1.6.1)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (5.0.3)
@@ -179,8 +178,8 @@ DEPENDENCIES
   jekyll-admin
   jekyll-linkpreview
   jekyll-pagebreak
+  jekyll-seo-tag
   jekyll-sitemap
-  jekyll-tagging
   jemoji
 
 BUNDLED WITH

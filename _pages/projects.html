@@ -13,7 +13,7 @@ isMainPage: true
     {% if site.projects.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
 	  {% else %}
-        <div class="row" data-pagebreak="8" data-pagebreak-url="./:num/">
+        <div class="row" data-pagebreak="12" data-pagebreak-url="./:num/">
             {% for post in site.projects reversed %}
             {% assign c = "c-project-card" %}
             <article class="{{c}} col col-4 col-d-6 col-t-12">

@@ -39,11 +39,11 @@ markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-sitemap
-  - jekyll/tagging
   - jemoji
   - jekyll-admin
   - jekyll-pagebreak
   - jekyll-linkpreview
+  - jekyll-seo-tag
 
 collections_dir: collections
 collections:
@@ -66,11 +66,6 @@ defaults:
 
 include:
   - _pages
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag-page
-tag_permalink_style:  pretty
 
 sass:
   sass_dir: _sass

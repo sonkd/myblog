@@ -11,10 +11,8 @@ layout: default
     <div class="tag__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       <h1 class="tag__title">{{ page.tag }}</h1>
     </div>
-    
-    {% assign posts = page.blog | concat: page.projects %}
 
-    {% for post in posts %}
+    {% for post in page.posts %}
     <!-- begin article -->
     <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
       {% if post.image %}
