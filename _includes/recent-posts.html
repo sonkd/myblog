@@ -1,5 +1,5 @@
-<h2 class="">Recent posts</h2>
 {% if site.blog.size > 0 %}
+<h2 style="text-align: center;">Recent posts</h2>
 {% for post in site.blog limit: 5 %}
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
     {% if post.image %}
