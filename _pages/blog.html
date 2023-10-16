@@ -11,20 +11,10 @@ isMainPage: true
 <p style="text-align: center;">I share my thoughts about product development, user behaviors, productivity, tips, inspiration, strategies, so on.</p>
 <hr>
 {% include tag-cloud.html %}
-<div class="container-full" data-pagebreak="15" data-pagebreak-url="./:num/">
+<div data-pagebreak="15" data-pagebreak-url="./:num/">
     {% if site.blog.size > 0 %}
     {% for post in site.blog %}
     <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-        {% if post.image %}
-        <div class="article__image-box">
-            <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})"></a>
-        </div>
-        {% else %}
-        <div class="article__image-box">
-            <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
-        </div>
-        {% endif %}
         <div class="article__content">
             <h2 class="article__title">
                 <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
@@ -46,6 +36,17 @@ isMainPage: true
                 strip_html | truncate: 130 }}{% endif %}</p>
             <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">See full story</a>
         </div>
+
+        {% if post.image %}
+        <div class="article__image-box">
+            <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+                style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+        </div>
+        {% else %}
+        <div class="article__image-box">
+            <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
+        </div>
+        {% endif %}
     </div>
     {% endfor %}
     {% endif %}

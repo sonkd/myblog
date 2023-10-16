@@ -1,7 +1,7 @@
 ---
 title: "Techombank Rewind 2022"
 layout: post
-date: 2022-04-20 12:56:34
+date: 2022-12-20 12:56:34
 tag: [Digital Banking, Mobile, Rewind, Data]
 image:
 headerImage: true

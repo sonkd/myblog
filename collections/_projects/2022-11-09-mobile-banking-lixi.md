@@ -1,7 +1,7 @@
 ---
 title: "Li xi - Red envelope"
 layout: post
-date: 2022-04-20 12:56:34
+date: 2022-11-20 12:56:34
 tag: [Digital Banking, Mobile, Red Envelope]
 image:
 headerImage: true

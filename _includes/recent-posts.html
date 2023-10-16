@@ -2,17 +2,6 @@
 <h2 style="text-align: center;">Recent posts</h2>
 {% for post in site.blog limit: 5 %}
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-    {% if post.image %}
-    <div class="article__image-box">
-        <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-            style="background-image: url({{site.baseurl}}{{post.image}})"></a>
-    </div>
-    {% else %}
-    <div class="article__image-box">
-        <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-            style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
-    </div>
-    {% endif %}
     <div class="article__content">
         <h3 class="article__title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
@@ -33,6 +22,17 @@
             strip_html | truncate: 130 }}{% endif %}</p>
         <a href="{{ post.url | prepend: site.baseurl }}" class="read-more">See full story</a>
     </div>
+    {% if post.image %}
+    <div class="article__image-box">
+        <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+            style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+    </div>
+    {% else %}
+    <div class="article__image-box">
+        <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+            style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
+    </div>
+    {% endif %}
 </div>
 {% endfor %}
 <div style="text-align: center;">

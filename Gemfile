@@ -7,3 +7,4 @@ gem "jekyll-pagebreak"
 gem "jemoji"
 gem "jekyll-linkpreview"
 gem 'jekyll-seo-tag'
+gem 'jekyll-tagging'

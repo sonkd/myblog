@@ -44,6 +44,7 @@ plugins:
   - jekyll-pagebreak
   - jekyll-linkpreview
   - jekyll-seo-tag
+  - jekyll/tagging
 
 collections_dir: collections
 collections:
@@ -66,6 +67,12 @@ defaults:
 
 include:
   - _pages
+
+# Tags
+tag_page_dir:         tag
+tag_page_layout:      tag-page
+tag_permalink_style:  pretty
+
 
 sass:
   sass_dir: _sass

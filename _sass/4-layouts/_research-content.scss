@@ -1,0 +1,180 @@
+@media all,bookshop {
+  .c-research-card {
+      margin-bottom: 20px;
+      will-change: transform;
+      transition: transform .2s
+  }
+
+  .c-research-card:hover {
+      transform: translateY(-4px)
+  }
+
+  .c-research-card:hover .article__inner {
+      box-shadow: 0 20px 40px #0000001a
+  }
+}
+
+@media only all and (max-width: 768px) {
+  .c-research-card:last-child {
+      margin-bottom:0
+  }
+}
+
+@media all {
+  .c-research-card__inner {
+      border-radius: 16px;
+      overflow: hidden;
+      transform: translate(0);
+      box-shadow: 0 0 2px #00000012;
+      transition: box-shadow .2s
+  }
+
+  .c-research-card__image-wrap {
+      background: white
+  }
+
+  .c-research-card__image {
+      position: relative;
+      display: block;
+      height: 0;
+      padding-bottom: 71.25%;
+      background: $gray-white;
+      overflow: hidden
+  }
+
+  .c-research-card__image img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background-color: $gray-white
+  }
+
+  .c-research-card__content {
+      position: relative;
+      z-index: 1;
+      padding: 28px;
+      margin-top: -20px;
+      border-radius: 16px 16px 0 0;
+      background: white
+  }
+
+  .c-research-card__tags-box {
+      display: flex
+  }
+
+  .c-research-card__tag {
+      position: relative;
+      z-index: 1;
+      display: inline-block;
+      padding: 8px 12px;
+      margin: 0 4px 4px 0;
+      font-size: 12px;
+      line-height: 10px;
+      font-weight: 600;
+      text-transform: capitalize;
+      border-radius: 8px;
+      overflow: hidden;
+      color: white;
+      background: linear-gradient(90deg,#1495a7 0%,#003687 167%)
+  }
+
+  .c-research-card__tag:hover:before {
+      opacity: 1
+  }
+
+  .c-research-card__tag:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      border-radius: 8px;
+      will-change: transform;
+      transition: opacity .35s;
+      background: linear-gradient(90deg,#1495a7 0%,#003687 107%)
+  }
+
+  .c-research-card__tag:last-child {
+      margin: 0 0 4px
+  }
+
+  .c-research-card__title {
+      margin: 16px 0;
+      font-size: 24px;
+      line-height: 1.3;
+      font-weight: 700
+  }
+
+  .c-research-card__title a:hover {
+      color: black
+  }
+}
+
+@media only all and (max-width: 576px) {
+  .c-research-card__title {
+      font-size:22px
+  }
+}
+
+@media all,bookshop {
+  .c-research-card__excerpt {
+      display: -webkit-box;
+      font-size: 15px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+      color: #110e38;
+      overflow-y: hidden;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical
+  }
+
+  .c-research-card__meta {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap
+  }
+
+  .c-research-card__author-image {
+      position: relative;
+      width: 44px;
+      height: 44px;
+      margin-right: 8px;
+      border-radius: 50%;
+      overflow: hidden;
+      background-color: $gray-white
+  }
+
+  .c-research-card__author-image img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+      object-fit: cover
+  }
+
+  .c-research-card__info {
+      display: flex;
+      flex-direction: column
+  }
+
+  .c-research-card__author-name {
+      margin-bottom: 6px;
+      font-size: 16px;
+      line-height: 1;
+      font-weight: 600
+  }
+
+  .c-research-card__date {
+      font-size: 12px;
+      line-height: 14px
+  }
+}
+
+

@@ -9,39 +9,38 @@ isMainPage: true
 ---
 
 <section class="container-full animate">
-  
-    {% if site.projects.size == 0 %}
-		<p class="text-center">Nothing published yet!</p>
-	  {% else %}
-        <div class="row" data-pagebreak="12" data-pagebreak-url="./:num/">
-            {% for post in site.projects reversed %}
-            {% assign c = "c-project-card" %}
-            <article class="{{c}} col col-4 col-d-6 col-t-12">
-              <div class="{{c}}__content">
-                {% if post.image %}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">
-                  <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
-                </a>
-                {% else %}
-                <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">>
-                  <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png">
-                </a>
-                {% endif %}
-                <div class="{{c}}__info">
-                  <div class="{{c}}__info-wrap">
-                    <h3 class="{{c}}__title">{{ post.title }}</h3>
-                  </div>
-                  <div class="{{c}}__info-wrap">
-                    {% if post.description %}
-                    <div class="{{c}}__subtitle">{{ post.description }}</div>
-                    {% endif %}
-                  </div>
-                </div>
-              </div>
-            </article>
-            {% endfor %}
+{% if site.projects.size == 0 %}
+	<p class="text-center">Nothing published yet!</p>
+{% else %}
+  <div class="row" data-pagebreak="12" data-pagebreak-url="./:num/">
+  {% assign c = "c-project-card" %}
+  {% for post in site.projects reversed %} 
+    <article class="{{c}} col col-4 col-d-6 col-t-12">
+      <div class="{{c}}__content">
+        {% if post.image %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">
+          <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
+        </a>
+        {% else %}
+        <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">>
+          <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png">
+        </a>
+        {% endif %}
+        <div class="{{c}}__info">
+          <div class="{{c}}__info-wrap">
+            <h3 class="{{c}}__title">{{ post.title }}</h3>
+          </div>
+          <div class="{{c}}__info-wrap">
+          {% if post.description %}
+          <div class="{{c}}__subtitle">{{ post.description }}</div>
+          {% endif %}
+          </div>
         </div>
-	  {% endif %}
+      </div>
+    </article>
+  {% endfor %}
+  </div>
+{% endif %}
 </section>
 <br>
 {% include pagination-nav.html %}
