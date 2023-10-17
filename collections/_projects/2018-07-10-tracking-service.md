@@ -1,5 +1,5 @@
 ---
-title: "🚶 Phần mềm quản lý theo dõi"
+title: "🚶 Phần mềm quản lý theo dõi tàu thuyền"
 layout: post
 date: 2018-07-10 09:45:45
 tag: [SaaS, Enterprise, Software, Tracking, UX]

@@ -29,6 +29,7 @@ When I am thinking about simplicity, I always associate it with complication.
 
 ---
 A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Suy-nghi-don-gian-khong-giup-cuoc-song-cua-ban-don-gian-8w0) that I liked.
+{% linkpreview "https://spiderum.com/bai-dang/Suy-nghi-don-gian-khong-giup-cuoc-song-cua-ban-don-gian-8w0" %}
 
 > “Life is difficult. This is a great truth, one of the greatest truths. It is a great truth because once we truly see this truth, we transcend it. Once we truly know that life is difficult-once we truly understand and accept it-then life is no longer difficult. Because once it is accepted, the fact that life is difficult no longer matters.”
 > 

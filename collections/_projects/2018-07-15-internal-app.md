@@ -24,6 +24,4 @@ Các chức năng chính:
 - Bản tin tin tức nội bộ tập đoàn.
 - Đặt lịch và nhắc nhở cuộc họp.
 
-<video src="/assets/img/project/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
-
----
+<video src="/assets/img/project/app.mp4" width="500rem" style ="margin: auto; background-color: white" controls autoplay loop></video>

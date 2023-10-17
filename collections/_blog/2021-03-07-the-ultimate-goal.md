@@ -3,7 +3,7 @@ title: "The ultimate goal - Mục tiêu tối thượng"
 layout: post
 date: 2021-03-07 14:22:20
 author: sonohyeah
-image: 
+image: /assets/img/blog/3868C946-3849-4B8F-8952-6FA76B93546C.png
 headerImage: false
 tag:
 - Design
@@ -63,7 +63,7 @@ Lặp lại việc hỏi Tại sao theo cac câu trả lời đó nhiều lần 
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="{{site.url}}/assets/images/3868C946-3849-4B8F-8952-6FA76B93546C.png" alt="Goal levels">
+        <img class="image" src="/assets/img/blog/3868C946-3849-4B8F-8952-6FA76B93546C.png" alt="Goal levels">
         <figcaption class="caption">Visualize your goal setting as a hierarchy with multiple levels. <a href="https://www.meetconstance.com/blog/grit-ch-4">Source</a></figcaption>
     </div>
     <div class="toright">

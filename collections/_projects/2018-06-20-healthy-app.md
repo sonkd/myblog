@@ -3,7 +3,7 @@ title: "❤️ Ứng dụng quản lý hồ sơ sức khoẻ"
 layout: post
 date: 2018-06-20 12:30:45
 tag: [Healthy, Mobile, Application, UX, Design]
-image: /assets/img/project/red-heartbeat-symbol-graphic-illustration_53876-8061.jpg
+image: /assets/img/project/project-cover-ihealth.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -19,7 +19,7 @@ Các bệnh nhân "mãn tính" thường xuyên phải uống thuốc theo toa �
 
 Dành riền cho người dùng là phụ nữ, ứng dụng có thể đo và cập nhật chu kì nguyệt san, bản tin phụ nữ ...
 
-![Picture 1](https://mir-s3-cdn-cf.behance.net/project_modules/fs/39376172499537.5be9c3b6d7ef7.png)
+![Picture 1](/assets/img/project/health-app-concept.png)
 
 ---
 

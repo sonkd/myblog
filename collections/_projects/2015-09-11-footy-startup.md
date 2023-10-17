@@ -3,7 +3,7 @@ title: "⚽ Footy"
 layout: post
 date: 2016-07-02 12:30:45
 tag: [Startup, Football, Product, UX, Design]
-image: /assets/img/project/footy-logo.jpg
+image: /assets/img/project/footy1.jpg
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

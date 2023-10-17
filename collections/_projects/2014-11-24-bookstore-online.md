@@ -3,7 +3,7 @@ title: "📖 Web Bookstore online"
 layout: post
 date: 2014-11-24 10:10:45
 tag: [Books, Website, Design, E-commerce]
-image: /assets/img/project/lovebook.png
+image: /assets/img/project/project-cover-lovebook.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination

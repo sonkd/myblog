@@ -2,7 +2,8 @@
 <h2 style="text-align: center;">Latest works</h2>
 <div class="row">
 {% assign c = "c-project-card" %}
-{% for post in site.projects | reversed | limit: 6 %}
+{% assign projects = site.projects | reverse %}
+{% for post in projects | limit : 6 %}
 <article class="{{c}} col col-4 col-d-6 col-t-12">
   <div class="{{c}}__content">
     {% if post.image %}

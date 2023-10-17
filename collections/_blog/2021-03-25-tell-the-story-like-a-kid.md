@@ -3,7 +3,7 @@ title: "Storytelling - Kể chuyện như một đứa trẻ"
 layout: post
 date: 2021-03-25 23:54:34
 author: sonohyeah
-image: 
+image: /assets/img/blog/Normans-Three-Levels-of-Design.jpeg
 headerImage: false
 tag:
 - Design
@@ -42,7 +42,7 @@ Tôi cũng chưa muốn đi tìm câu trả lời những câu hỏi đó vào l
 Chúng ta sẽ nhớ lâu những câu chuyện, bài thơ hay một ca khúc hơn là ghi nhớ những kiến thức khô khan được liệt kê trong một cuốn từ điển. Những thứ có tiết tấu và nhịp điệu sẽ giúp não bộ ghi nhớ một cách vô thức dễ dàng hơn ([Thơ](https://vi.wikipedia.org/wiki/Th%C6%A1)).
 
 [Norman's Three Levels of Design](https://www.interaction-design.org/literature/article/norman-s-three-levels-of-design).
-![Picture 1](https://son-oh-yeah.github.io/assets/images/blog/Normans-Three-Levels-of-Design.jpeg)
+![Norman's Three Levels of Design](/assets/img/blog/Normans-Three-Levels-of-Design.jpeg)
 
 Một người dùng sẽ tiếp nhận và phản chiếu một nguồn thông tin, họ sẽ giải nghĩa chúng và nhận thức lại sự vật/sự việc (chuyển thành tri thức nội tại-vô thức).
 

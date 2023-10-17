@@ -1,0 +1,36 @@
+.archieve-image {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+}
+
+.archieve-overlay {
+  display: none;
+}
+
+.archieve-overlay a {
+  color: white;
+  text-decoration: underline;
+}
+
+.archieve-image:hover .archieve-overlay {
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: white;
+  font-size: 1rem;
+}
+
+.archieve-image img {
+  vertical-align: top;
+  border-radius: 1.5rem;
+}

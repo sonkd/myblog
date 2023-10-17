@@ -3,7 +3,7 @@ title: "🎮 Game Platform on Mobile"
 layout: post
 date: 2015-10-17 22:10
 tag: [SaaS, Game,Concept,Design]
-image: /assets/img/project/bracket-template1.png
+image: /assets/img/project/project-cover-game-platform.png
 headerImage: true
 projects: true
 hidden: true # don't count this post in blog pagination
@@ -12,7 +12,7 @@ description: ""
 author: sonohyeah
 ---
 
-Một dự án với mục đích tạo ra đấu trường chung cho các game casual. Tạo ra một nền tảng game esport trên mobile (Tương tự [Skillz](http://corp.skillz.com/))
+Được cảm hứng ý tưởng từ [Skillz](http://corp.skillz.com/), mục đích dự án tạo ra một đấu trường chung cho các dòng game casual trên mobile. Cho phép người chơi kết nối và cùng chơi với nhau các game trên mobile (casual game) được tích hợp trên platform.
 
 Dưới đây là prototype demo:
 <video src="/assets/img/project/concept.mp4" width="360" height="640" style ="margin: auto" controls preload></video>

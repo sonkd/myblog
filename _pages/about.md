@@ -9,7 +9,7 @@ isMainPage: true
 
 Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT software services, and digital banking industry since 2016.
 
-> As a practitioner of the Design Thinking method, my tagline is to pursue minimalism to understand myself and people deeply from intrinsic. The innovation outcomes always come from **a simple foundation**.
+> As [a practitioner of the Design Thinking method](https://www.credly.com/badges/d7ba6db5-ff1a-42e8-b854-ae6d3e8028a8), my tagline is to pursue minimalism to understand myself and people deeply from intrinsic. The innovation outcomes always come from **a simple foundation**.
 
 > _"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions"_--Albert Einstein.
 
@@ -20,23 +20,28 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 ---
 <section class="row">
     <div class="col col-3 col-6 col-t-12">
-        <h4>My experiences</h4>
+    <div class="cv-card">
+        <div class="title">My experiences</div>
         <ul style="color: $gray-blue;">
             <li>Bank/Fintech</li>
             <li>AI and enterprise software</li>
             <li>Game</li>
         </ul>
     </div>
+    </div>
     <div class="col col-3 col-6 col-t-12">
-        <h4> Methodologies </h4>
+    <div class="cv-card">
+        <div class="title">Methodologies</div>
         <ul>
             <li>Agile</li>
             <li>Lean, Lean UX</li>
             <li>Design Thinking</li>
         </ul>
     </div>
+    </div>
     <div class="col col-3 col-6 col-t-12">
-        <h4>Knowledge & Practices</h4>
+    <div class="cv-card">
+        <div class="title">Knowledge & Practices</div>
         <ul>
             <li>HTML, CSS, JS</li>
             <li>Flex-box, Responsive</li>
@@ -47,25 +52,35 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
             <li>Product management</li>          
         </ul>
     </div>
+    </div>
     <div class="col col-3 col-6 col-t-12">
-        <h4>Tools</h4>
+    <div class="cv-card">
+        <div class="title">Tools</div>
         <ul>
             <li>Confluence, Jira, Notion</li>
-            <li>**Figma**, Sketch, Adobe XD, Invison, Zeplin</li>
-            <li>**Axure RP**, **Balsamiq**, Whimsical, Visio, Digital hand drawing</li>
-            <li>**Photoshop**, Illustrator, After Effects, Lottie</li>
+            <li><b>Figma</b>, Sketch, Adobe XD, Invison, Zeplin</li>
+            <li><b>Axure RP</b>, <b>Balsamiq</b>, Whimsical, Visio, Digital hand drawing</li>
+            <li><b>Photoshop</b>>, Illustrator, After Effects, Lottie</li>
             <li>Optimal workshop</li>     
         </ul>
+    </div>
     </div>
 </section>
 
 ***
 
 ### [Now](#now)
-This is a [now page](https://nownownow.com/about). Updated on February 10, 2023, from Hanoi, Vietnam.
+<div class="article__excerpt" style="color: #666">This is a <a href="https://nownownow.com/about">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
 
 #### Building [My Blog]({{ site.url }}/blog)
 I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
+
+#### 2023 (In progress)
+- Head of Product at [Ready.io](https://ready.io)
+- Research about HCI and Cognitive load
+- ✅ Design a Banking service for Household merchants in Vietnam
+
+[See more my works]({{site.baseurl}}/projects)
 
 #### Study about Product & Design
 \#Design-system
@@ -79,15 +94,16 @@ I'd like to sharing and archive the knowledges of design in life, what things I 
 \#Gamification
 - [Designing gamification features in fintech products](https://hackernoon.com/designing-gamification-features-in-fintech-products)
 
+{% linkpreview "https://hackernoon.com/designing-gamification-features-in-fintech-products" %}
+
 \#Blockchain \#Web3.0
 - [Personal or Social Identity](https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son)
 
+{% linkpreview "https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son" %}
+
 [See more](https://www.notion.so/sonkd/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c)
 
-#### 2023 (In progress)
-- Head of Product at [Ready.io](https://ready.io)
-- Research about HCI and Cognitive load
-- Design a Banking service for Household merchants in Vietnam
+---
 
 If my life changes, I’ll update this page.
 

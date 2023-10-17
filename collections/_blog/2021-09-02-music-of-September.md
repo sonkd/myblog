@@ -3,7 +3,7 @@ title: "Music of September"
 layout: post
 date: 2021-09-02 12:30:56
 author: sonohyeah
-image: 
+image: https://img.freepik.com/premium-photo/generative-ai-illustration-music-notes-flowing-from-wireless-headphones-against-city-street-clouds_501669-25375.jpg
 headerImage: false
 description: ""
 tag:

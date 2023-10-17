@@ -3,9 +3,12 @@
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
     {% for post in site.data.archieve-list | sort: 'date' | reverse %}
-    <div class="col col-3 col-d-6 col-t-12" style="padding:.5rem !important;">
-        <img style="border-radius: 1.5rem;" class="photo-card" src="{{post.image}}" href="{{post.url}}" alt="{{post.description}}" width="100%" height="100%">
-        <p style="padding:.5rem 0;color:gray">{{post.date}}<br>{{post.title}}</p>
+    <div class="col col-3 col-d-6 col-t-12" style="text-align: center;">
+        <div class="archieve-image">
+            <img alt="{{post.description}}" src="{{post.image}}" />
+            <div class="archieve-overlay" href="{{post.url}}"><a href="{{post.url}}">{{post.description}}</a></div>  
+        </div>
+        <p style="color:gray; width: 100%;padding-top:0.5rem">{{post.date}}<br>{{post.title}}</p>
     </div>
     {% endfor %}
     {% endif %}
