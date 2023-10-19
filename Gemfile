@@ -5,6 +5,5 @@ gem "jekyll-admin"
 gem "jekyll-sitemap"
 gem "jekyll-pagebreak"
 gem "jemoji"
-gem "jekyll-linkpreview"
 gem 'jekyll-seo-tag'
 gem 'jekyll-tagging'
