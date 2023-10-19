@@ -44,7 +44,6 @@ plugins:
   - jemoji
   - jekyll-admin
   - jekyll-pagebreak
-  - jekyll-linkpreview
   - jekyll-seo-tag
   - jekyll/tagging
 
