@@ -59,8 +59,6 @@ Lấy vài ví dụ đơn giản như sau:
 Trong bài viết này liệt kê một số ví dụ điển hình những lý do dẫn đến **Design Debt**
 [What is design debt and why you should treat it seriously](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89#2bf4)
 
-{% linkpreview "https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89#2bf4"%}
-
 Phương pháp hữu hiệu nhất hiện này là chúng ta áp dụng **Design Thinking**, một phương pháp đi kèm với **Lean UX** giúp ngăn ngừa các designer thiết kế dựa trên assumption mà không kiểm chứng (nợ nần nhiều lâu dần thanh quen).
 
 ## Đối diện với sự thật và bỏ đi cái sĩ diện
