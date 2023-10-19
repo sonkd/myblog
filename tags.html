@@ -21,8 +21,9 @@ permalink: /tags/
                 {% if doc.title != null %}            
                 <li class="item">
                     <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
-                        <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside>
-                        <h5>{{ doc.title }}</h5>
+                        <!-- <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside> -->
+                        <span class="article__date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></span>
+                        <h5>{{ doc.title }}</h5>                    
                     </a>
                 </li>
                 {% endif %}
@@ -32,7 +33,7 @@ permalink: /tags/
         
         {% endfor %}
     </div>
-    <div class="col col-4 col-d-6 col-t-12">
+    <div class="col col-4 col-d-6 col-t-12" style="position: -webkit-sticky; position: sticky; top: 0;">
         {% for tag in alltags %}
         <a href="#{{ tag.name | slugify }}" class="item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%">
             {{ tag.name }}&nbsp;({{ tag.size }})
