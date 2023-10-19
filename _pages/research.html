@@ -17,7 +17,9 @@ order: 4
             <div class="{{c}}__inner">    
                 {% if post.image %}
                 <div class="{{c}}__image-wrap">
-                    <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image" style="background-image: url({{site.baseurl}}{{post.image}})"></a>
+                    <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image">
+                        <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
+                    </a>
                 </div>
                 {% else %}
                 <div class="{{c}}__image-wrap">
