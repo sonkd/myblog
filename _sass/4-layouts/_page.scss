@@ -35,8 +35,8 @@
 .page__content {
   margin-bottom: 45px;
   p {
-    font-size: 18px;
-    line-height: 32px;
+    font-size: $body-size;
+    line-height: $body-line_height;
     color: $gray;
     img {
       margin: 30px 0;

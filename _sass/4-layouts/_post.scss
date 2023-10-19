@@ -221,7 +221,7 @@
     font-family: 'IBM Plex Mono', monospace;
     font-size: 12px;
     text-transform: uppercase;
-    color: $gray-dark;
+    color: $sub-text-color;
   }
 }
 
@@ -232,9 +232,9 @@
 
 .post-tags__tag {
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 14px;
-  line-height: 24px;
-  color: $gray-lighten;
+  font-size: $caption-size;
+  line-height: $caption-ligh_height;
+  color: $tertiary-color;
   &:after {
     content: ',';
     display: inline-block;
@@ -304,7 +304,6 @@
     border-color: $blue-gray;
   }
 }
-
 
 .cv-card .title{ 
   color: black;

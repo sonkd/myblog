@@ -4,7 +4,7 @@
 
 body {
   font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
-  font-size: 16px;
+  font-size: $body-size;
   color: $dark;
   background-color: $background-color;
   -webkit-font-smoothing: antialiased;
@@ -22,7 +22,7 @@ body {
 }
 
 ::placeholder {
-	color: #666;
+	color: $gray;
 }
 
 *::selection {
@@ -48,27 +48,27 @@ h4 {
 }
 
 h1 {
-  font-size: 36px;
+  font-size: $h1-size;
 }
 
 h2 {
-  font-size: 30px;
+  font-size: $h2-size;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: $h3-size;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: $h4-size;
 }
 
 h5 {
-  font-size: 18px;
+  font-size: $h5-size;
 }
 
 h6 {
-  font-size: 16px;
+  font-size: $h6-size;
 }
 
 blockquote {

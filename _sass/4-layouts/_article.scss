@@ -35,10 +35,11 @@
 .article__title {
   margin: 0;
   a {
-    font-size: 30px;
+    font-size: $h2-size;
     font-weight: 400;
     line-height: 38px;
-    color: $gray;
+    padding-block-end: .5rem;
+    color: $primary-text-color;
     &:hover {
       color: $primary-color;
     }
@@ -48,23 +49,23 @@
 .article__meta {
   margin-bottom: .5rem;
   font-family: 'IBM Plex Mono', monospace;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: $caption-size;
+  line-height: $caption-ligh_height;
   text-transform: uppercase;
-  color: $gray-dark;
+  color: $tertiary-color;
 }
 
 .article__excerpt {
   margin-bottom: 15px;
-  font-size: 16px;
-  line-height: 27px;
+  font-size: $body-size;
+  line-height: $caption-ligh_height;
   color: $gray;
 }
 
 .read-more {
   font-weight: 700;
-  font-size: 16px;
-  line-height: 27px;
+  font-size: $body-size;
+  line-height: $body-line_height;
   color: $primary-color;
   &:hover {
     text-decoration: underline;

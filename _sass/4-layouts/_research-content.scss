@@ -1,4 +1,4 @@
-@media all,bookshop {
+@media all {
   .c-research-card {
       margin-bottom: 20px;
       will-change: transform;
@@ -105,23 +105,23 @@
 
   .c-research-card__title {
       margin: 16px 0;
-      font-size: 24px;
+      font-size: $h5-size;
       line-height: 1.3;
       font-weight: 700
   }
 
   .c-research-card__title a:hover {
-      color: black
+      color: $dark;
   }
 }
 
 @media only all and (max-width: 576px) {
   .c-research-card__title {
-      font-size:22px
+      font-size: $h4-size
   }
 }
 
-@media all,bookshop {
+@media all {
   .c-research-card__excerpt {
       display: -webkit-box;
       font-size: 15px;
@@ -176,7 +176,7 @@
     font-size: 12px;
     line-height: 20px;
     text-transform: uppercase;
-    color: $gray
+    color: $sub-text-color;
   }
 }
 
