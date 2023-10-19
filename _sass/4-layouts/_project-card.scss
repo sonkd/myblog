@@ -10,7 +10,7 @@
 		}
 	}
 
-	@media only screen and (max-width: $tablet) {
+	@media #{$mobile} {
 		&:last-child {
 			margin-bottom: 0;
 		}
@@ -75,13 +75,13 @@
 		box-shadow: 0px 0px 30px rgba($primary-color, 0.1);
 		overflow: hidden;
 
-		@media only screen and (max-width: $desktop) {
+		@media #{$tablet} {
 			&::after {
 				padding-top: 100%;
 			}
 		}
 
-		@media only screen and (max-width: $mobile) {
+		@media #{$mobile} {
 			.project__info {
 				padding: 0 32px 32px;
 			}
