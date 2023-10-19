@@ -7,29 +7,38 @@ permalink: /tags/
 <div class="container">
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 
-<section class="tag-list">
-    {% for TAG in alltags  %}
-    <h4 id="{{ TAG.name | slugify }}" class="linked-section">
-        #{{ TAG.name }}&nbsp;({{ TAG.size }})
-	</h4>
-
-    {% assign alldocs = site.documents %}
-	<ul class="list">
-	    {% for document in alldocs %}
-	    {% if document.tags contains tag.name %}
-            {% if document.title != null %}            
-            <li class="item">
-        	    <a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
-        		    <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
-        		    <h5>{{ document.title }}</h5>
-        	    </a>
-            </li>
-            {% endif %}
-        {% endif %}
-        {% endfor %}
-    </ul>
+<section class="tag-list row">
+    <div id ="list" class="col col-d-8 col-t-12">
+        {% for TAG in alltags  %}
+        <h4 id="{{ TAG.name | slugify }}" class="linked-section">
+            #{{ TAG.name }}&nbsp;({{ TAG.size }})
+        </h4>
     
+        {% assign alldocs = site.documents %}
+        <ul class="list">
+            {% for doc in alldocs %}
+            {% if doc.tags contains TAG.name %}
+                {% if doc.title != null %}            
+                <li class="item">
+                    <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
+                        <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside>
+                        <h5>{{ doc.title }}</h5>
+                    </a>
+                </li>
+                {% endif %}
+            {% endif %}
+            {% endfor %}
+        </ul>
+        
+        {% endfor %}
+    </div>
+    <div id="tag-cloud" class="col col-d-4 col-t-12">
+        {% for tag in alltags %}
+        <a href="#{{ tag.name | slugify }}" class="item" style="font-size: {{ tag.size | times: 2 | plus: 40 }}%">
+            {{ tag.name }}&nbsp;({{ tag.size }})
+        </a>
     {% endfor %}
+    </div>
 </section>
 {% assign alldocs = nil %}
 {% assign alltags = nil %}
