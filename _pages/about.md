@@ -45,7 +45,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
         <ul>
             <li>HTML, CSS, JS</li>
             <li>Flex-box, Responsive</li>
-            <li>Conduct user reasearch (IDI, survey, empathy mapping, storyboard)</li>
+            <li>Conduct user research (IDI, survey, empathy mapping, storyboard)</li>
             <li>Information Architecture, Prototyping, Interaction Design, Pitching</li>
             <li>User testing (usability testing, 5s, guerrilla testing)</li>
             <li>Design System, Version management control, Design strategy</li>
@@ -73,7 +73,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 <div class="article__excerpt" style="color: #666">This is a <a href="https://nownownow.com/about">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
 
 #### Building [My Blog]({{ site.url }}/blog)
-I'd like to sharing and archive the knowledges of design in life, what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experience, perception, and discovered things.
+I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
 
 #### 2023 (In progress)
 - Head of Product at [Ready.io](https://ready.io)
@@ -94,12 +94,8 @@ I'd like to sharing and archive the knowledges of design in life, what things I 
 \#Gamification
 - [Designing gamification features in fintech products](https://hackernoon.com/designing-gamification-features-in-fintech-products)
 
-{% linkpreview "https://hackernoon.com/designing-gamification-features-in-fintech-products" %}
-
 \#Blockchain \#Web3.0
 - [Personal or Social Identity](https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son)
-
-{% linkpreview "https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son" %}
 
 [See more](https://www.notion.so/sonkd/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c)
 
