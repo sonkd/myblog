@@ -76,3 +76,12 @@ $h5-size: 18px;
 $h6-size: 16px;
 
 /* Spacing */
+
+
+/* Screen size */
+
+$mobile: "only screen and (max-width: 568px)";
+$tablet: "only screen and (min-width: 568px) and (max-width: 1024px)";
+$desktop: 1024px;
+$above: "only screen and (min-width: 768px)";
+$below: "only screen and (max-width: 768px)";
