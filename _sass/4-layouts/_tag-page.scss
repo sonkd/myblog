@@ -17,3 +17,70 @@
   line-height: 55px;
   text-transform: capitalize;
 }
+
+
+.tag-list.list {
+
+    .item {
+      display: block;
+      // width: 80%
+      margin: 0 1rem;
+
+      .url {
+        width: 100%;
+        height: 100%;
+        display: block;
+        padding: 2rem 0;
+        text-decoration: none;
+
+        .title {
+          margin: 0;
+          width: 75%;
+          font-weight: 400;
+          transition: all ease-in-out .2s;
+          font-size: 1.25rem
+        }
+      }
+
+      &hover.url.title {
+        color: $primary-color
+      }
+    }
+
+    // maybe we can't nest html5 elements
+    // can you help me?
+    aside{
+      position: relative;
+      top: 2px;
+      margin: 0;
+      width: 25%;
+      float: right;
+      font-weight: 300;
+      color: $gray;
+      text-align: right;
+      transition: all ease-in-out .2s;
+      font-size: .875rem
+    }
+        
+    .item:hover .url aside{
+      color: $primary-color
+    }
+}
+
+.tag-item {
+    font-weight: 400;
+    // text-transform: uppercase
+    text-align: center;
+    margin-bottom: 4rem;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    // padding: .125rem .125rem
+    // border-radius: 3px
+    font-size: .875rem;
+    // background: $epsilon
+    color: black;
+    // letter-spacing: 1px
+    margin: 0 .25rem .25rem;
+    text-decoration: none;
+    display: inline-block
+  }
