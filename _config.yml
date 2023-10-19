@@ -35,7 +35,6 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 # Google Analytics
 google-analytics: # add your identifier. For example UA-99631805-1.
 
-
 # Build settings
 markdown: kramdown
 permalink: pretty
@@ -65,6 +64,10 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: ""
+    values:
+      layout: default
 
 include:
   - _pages

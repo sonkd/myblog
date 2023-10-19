@@ -1,0 +1,37 @@
+---
+layout: page
+title: Tags
+permalink: /tags/
+---
+
+<div class="container">
+{% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
+
+<section class="tag-list">
+    {% for TAG in alltags  %}
+    <h4 id="{{ TAG.name | slugify }}" class="linked-section">
+        #{{ TAG.name }}&nbsp;({{ TAG.size }})
+	</h4>
+
+    {% assign alldocs = site.documents %}
+	<ul class="list">
+	    {% for document in alldocs %}
+	    {% if document.tags contains tag.name %}
+            {% if document.title != null %}            
+            <li class="item">
+        	    <a class="url" href="{% if document.externalLink %}{{ document.externalLink }}{% else %}{{ site.url }}{{ document.url }}{% endif %}">
+        		    <aside class="date"><time datetime="{{ document.date | date:"%d-%m-%Y" }}">{{ document.date | date: "%b %d %Y" }}</time></aside>
+        		    <h5>{{ document.title }}</h5>
+        	    </a>
+            </li>
+            {% endif %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+    
+    {% endfor %}
+</section>
+{% assign alldocs = nil %}
+{% assign alltags = nil %}
+
+</div>
