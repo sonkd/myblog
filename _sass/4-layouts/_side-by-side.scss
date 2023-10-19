@@ -9,7 +9,7 @@
         margin: 4rem 0;
     }
 
-    &toleft, &toright {
+    .toleft, .toright {
         display: inline-block;
         width: 47.5%;
 
@@ -22,7 +22,7 @@
         }
     }
 
-    &toleft {
+    .toleft {
         @media #{$above} {
             margin-right: 2%;
         }
@@ -33,7 +33,7 @@
         }
     }
 
-    &toright {
+    .toright {
         @media #{$above} {
             margin-left: 2%;
             vertical-align: top;
@@ -45,11 +45,11 @@
         }
     }
 
-    &toleft.p, &toright.p {
-        margin: 0 0 4rem 0:
+    .toleft.p, .toright.p {
+        margin: 0 0 4rem 0;
 
         @media #{$below}{
-            margin: 0:
+            margin: 0;
         }
     }
 }
