@@ -49,7 +49,7 @@
 
     // maybe we can't nest html5 elements
     // can you help me?
-    aside{
+    aside {
       position: relative;
       top: 2px;
       margin: 0;
@@ -62,7 +62,7 @@
       font-size: .875rem
     }
         
-    .item:hover .url aside{
+    .item:hover .url aside {
       color: $primary-color
     }
 }
@@ -83,4 +83,4 @@
     margin: 0 .25rem .25rem;
     text-decoration: none;
     display: inline-block
-  }
+}

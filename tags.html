@@ -8,7 +8,7 @@ permalink: /tags/
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 
 <section class="tag-list row">
-    <div id ="list" class="col col-d-8 col-t-12">
+    <div class="col col-8 col-d-6 col-t-12">
         {% for TAG in alltags  %}
         <h4 id="{{ TAG.name | slugify }}" class="linked-section">
             #{{ TAG.name }}&nbsp;({{ TAG.size }})
@@ -32,7 +32,7 @@ permalink: /tags/
         
         {% endfor %}
     </div>
-    <div id="tag-cloud" class="col col-d-4 col-t-12">
+    <div class="col col-4 col-d-6 col-t-12">
         {% for tag in alltags %}
         <a href="#{{ tag.name | slugify }}" class="item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%">
             {{ tag.name }}&nbsp;({{ tag.size }})
