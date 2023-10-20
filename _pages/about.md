@@ -15,7 +15,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 
 
 <div class="text-left">
-<p style="font-weight:bold">Read <a href="#now">what I'm working on now ↓</a></p>
+<p style="font-weight:bold"><a href="#now">What I'm working on now ↓</a></p>
 </div>
 ---
 <section class="row">
@@ -70,7 +70,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 ***
 
 ### [Now](#now)
-<div class="article__excerpt" style="color: #666">This is a <a href="https://nownownow.com/about">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
+<div class="article__excerpt" style="color: #666">This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
 
 #### Building [My Blog]({{ site.url }}/blog)
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
