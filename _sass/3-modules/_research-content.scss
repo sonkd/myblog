@@ -38,7 +38,7 @@
       display: block;
       height: 0;
       padding-bottom: 71.25%;
-      background: $gray-white;
+      background: $background-color-2;
       overflow: hidden
   }
 
@@ -47,7 +47,7 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      background-color: $gray-white
+      background-color: $background-color-2
   }
 
   .c-research-card__content {
@@ -110,12 +110,16 @@
       font-weight: 700
   }
 
+  .c-research-card__title a {
+        text-decoration-line: none;
+  }   
+
   .c-research-card__title a:hover {
-      color: $dark;
+      color: $primary-color;
   }
 }
 
-@media only all and (max-width: 576px) {
+@media #{$mobile} {
   .c-research-card__title {
       font-size: $h4-size
   }
@@ -146,7 +150,7 @@
       margin-right: 8px;
       border-radius: 50%;
       overflow: hidden;
-      background-color: $gray-white
+      background-color: $background-color-2
   }
 
   .c-research-card__author-image img {
@@ -172,7 +176,7 @@
   }
 
   .c-research-card__date {
-    font-family: "IBM Plex Mono",monospace;
+    font-family: $fontMonospace;
     font-size: 12px;
     line-height: 20px;
     text-transform: uppercase;

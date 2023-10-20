@@ -2,8 +2,8 @@
 .footer {
   margin-top: 80px;
   padding: 60px 0;
-  border-top: 1px solid $gray-lighten;
-  @media (max-width: $mobile) {
+  border-top: 1px solid $border-1-color;
+  @media #{$mobile} {
     margin-top: 50px;
     padding: 50px 0;
   }
@@ -18,7 +18,7 @@
   font-size: 15px;
   font-family: 'IBM Plex Mono', monospace;
   line-height: 25px;
-  color: $gray-dark;
+  color: $gray;
   a {
     font-family: 'Lora', serif;
     color: $dark;

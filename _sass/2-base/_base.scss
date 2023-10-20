@@ -3,10 +3,10 @@
 }
 
 body {
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  font-family: $primary-font-1;
   font-size: $body-size;
   color: $dark;
-  background-color: $background-color;
+  background-color: $global-bg-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   input, textarea {
@@ -36,11 +36,11 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 45px 0 30px;
-  font-family: 'Lora', Georgia, Times, 'Times New Roman', serif;
+  margin: 3rem 0 2rem;
+  font-family: $primary-font-2;
   line-height: initial;
   font-weight: 400;
-  letter-spacing: 0.1px;
+  letter-spacing: 0.2px;
 }
 
 h4 {
@@ -73,10 +73,10 @@ h6 {
 
 blockquote {
   padding-left: 30px;
-  font-family: 'Lora', Georgia, Times, serif;
+  font-family: $primary-font-2;
   font-weight: 400;
   font-style: italic;
-  font-size: 18px;
+  font-size: 20px;
   border-left: 1px solid $secondary-color;
 }
 
@@ -101,17 +101,19 @@ img {
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
-    color: $gray-dark;
+    color: $gray;
   }
 }
 
 a {
     text-decoration: none;
-    color: $primary-color;
+    /*color: $primary-color;*/
+    color: $dark;
+    text-decoration: underline;
     transition: color 200ms;
 
     &:hover {
-        color: $dark;
+        color: $primary-color;
     }
 }
 

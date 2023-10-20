@@ -50,11 +50,12 @@
     }
   
     &--secondary {
-      color: $text-color;
-      background: $background-color-alt;
+      color: $primary-color;
+      text-decoration: none;
+      background: $background-color-4;
   
       &:hover {
-        color: $primary-color;
+        transform: translate(0, -3px);
       }
     }
   

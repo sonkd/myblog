@@ -31,6 +31,7 @@
 @import '1-tools/syntax-highlighting';
 @import '1-tools/grid';
 @import '1-tools/aos';
+@import '1-tools/animate';
 
 
 /* ============== :: 2 Base Styles ============== */
@@ -53,10 +54,16 @@
 @import '3-modules/pagination';
 /* :: 3.7 3D gallery photo */
 @import '3-modules/food-photo-card';
-/* :: 3.8 Link preview */
-@import '3-modules/linkpreview';
-/* :: 3.9 Archieve card */
+/* :: 3.8 Archieve card */
 @import '3-modules/_archieve-card';
+/* :: 3.9 Project Card */
+@import '3-modules/project-card';
+/* :: 3.10 Sticky Slider Navigation */
+@import '3-modules/sticky-slider-navigation';
+/* :: 3.11 Research content */
+@import '3-modules/research-content';
+/* :: 3.12 Side by side */
+@import '3-modules/side-by-side';
 
 
 /* ============== :: 4 Layouts ============== */
@@ -68,9 +75,3 @@
 @import '4-layouts/page';
 /* :: 4.4 Tag Page */
 @import '4-layouts/tag-page';
-/* :: 4.5 Project Card */
-@import '4-layouts/project-card';
-/* :: 4.6 Sticky Slider Navigation */
-@import '4-layouts/sticky-slider-navigation';
-/* :: 4.7 Research content */
-@import '4-layouts/research-content';

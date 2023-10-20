@@ -2,8 +2,8 @@
 .author {
   margin: 80px 0;
   padding-bottom: 70px;
-  border-bottom: 1px solid $gray-lighten;
-  @media (max-width: $mobile) {
+  border-bottom: 1px solid $border-1-color;
+  @media #{$mobile} {
     margin: 50px 0;
     padding-bottom: 50px;
   }
@@ -15,7 +15,7 @@
   max-height: 130px;
   margin: 0 auto 30px;
   border-radius: 50%;
-  background-color: $gray-white;
+  background-color: $background-color-2;
   transition: opacity 100ms ease;
   &:hover {
     .avatar {
@@ -50,6 +50,7 @@ a.say-hello {
   font-size: 13px;
   font-weight: 700;
   text-align: center;
+  text-decoration: none;
   border-radius: 40px;
   color: white;
   background-color: $primary-color;
@@ -64,7 +65,7 @@ a.know-more {
   margin-left: 25px;
   font-size: 13px;
   font-weight: 700;
-  color: $gray;
+  color: $dark;
   text-decoration: underline;
   &:hover {
     color: $primary-color;

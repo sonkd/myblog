@@ -13,6 +13,7 @@
   font-size: 1rem;
   font-weight: 700;
   color: $dark;
+  text-decoration: none;
 }
 
 .logo__image {
@@ -48,6 +49,7 @@
   margin-left: 1rem;
   .nav__link {
     color: $dark;
+    text-decoration: none;
   }
 }
 
@@ -100,7 +102,7 @@
   padding-bottom: 100%;
   border-radius: 50%;
   /*background: linear-gradient(90deg,#6b69fa 0%,#312fa4 167%);*/
-  background: black;
+  background: $dark;
   transition: all .25s
 }
 
@@ -115,7 +117,7 @@
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
-  @media (max-width: $mobile) {
+  @media #{$mobile} {
     visibility: visible;
     opacity: 1;
   }
@@ -130,7 +132,7 @@
   cursor: pointer;
 }
 
-@media (max-width: $mobile) {
+@media #{$mobile} {
   .main-nav__box {
     position: fixed;
     top: 0;

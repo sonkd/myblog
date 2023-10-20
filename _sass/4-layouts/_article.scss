@@ -3,7 +3,7 @@
   display: flex;
   margin-bottom: 50px;
   &:hover {
-    outline: 1px solid $gray-lighten;
+    outline: 1px solid $background-color-4;
     outline-offset: 1rem;
     border-radius: .5rem;
   }
@@ -12,7 +12,7 @@
 .article__image-box {
   display: table;
   /*margin-right: 30px;*/
-  @media (max-width: $mobile) {
+  @media #{$mobile} {
     display: none;
   }
 }
@@ -29,7 +29,7 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-color: $gray-white;
+  background-color: $background-color-3;
 }
 
 .article__title {
@@ -40,6 +40,7 @@
     line-height: 38px;
     padding-block-end: .5rem;
     color: $primary-text-color;
+    text-decoration: none;
     &:hover {
       color: $primary-color;
     }
@@ -67,6 +68,7 @@
   font-size: $body-size;
   line-height: $body-line_height;
   color: $primary-color;
+  text-decoration: none;
   &:hover {
     text-decoration: underline;
   }

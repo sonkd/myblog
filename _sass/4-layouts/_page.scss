@@ -2,7 +2,7 @@
 .page {
   margin-top: 80px;
   margin-bottom: 80px;
-  @media (max-width: $mobile) {
+  @media #{$mobile} {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -24,7 +24,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: $gray-white;
+  background-color: $background-color-3;
   &:after {
     content: '';
     display: table;

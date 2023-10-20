@@ -27,7 +27,7 @@ Rõ ràng trong đời không có ai là muốn nợ nần (tiền bạc) cả. 
 Trong product design có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer. Và cũng có những kiểu: không thích nợ thiết kế, không thích nợ thiết kế nhưng vẫn nợ và luôn thích nợ.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pqeJFYwnkjE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+<br>
 Nếu để design debt xảy ra, chúng ta-những người nhận mình là designer xin đừng vinh danh **"lấy người dùng làm trọng tâm"** để bảo vệ cho ý tưởng của mình, nó không giải quyết vấn đề chính nào và cũng không đủ thuyết phục khi nói chuyện với các stakeholder.
 
 Tình trạng mà tôi thấy mọi người hay gặp phải như câu chuyện "Đầu voi đuôi chuột". Chúng ta viện cớ những lý do khách quan như do vấn đề kĩ thuật hiện tại chưa đáp ứng, chiến lược kinh doanh chưa hoàn thiện, không có đủ budget, không có thời gian, ... và chúng ta vẫn "cố đấm ăn xôi" để cho ra một bản thiết kế với "life time" ngắn. Tất nhiên, chẳng mấy ai lại tiếp tục "trả nợ" vì luôn luôn lại vướng bận vào những vụ nợ nần khác (qua sprint này tới sprint khác, release này tới release khác).
@@ -44,10 +44,12 @@ Lấy vài ví dụ đơn giản như sau:
 ## Những tác nhân chính có thể dẫn đến Design Debt
 
 ### Các yếu tố khách quan
+
 - Các manager (thượng tầng) tập trung xây dựng roadmap với đầy đủ các features "hay ho" có value với khách hàng, thị trường và đặc biệt là về mặt business, không thể giám sát những thay đổi nhỏ "bên dưới".
 - Các leader (trung tầng) dẫn dắt để cân bằng thời gian thực thi, chi phí, sự cam kết, v.v dẫn đến việc trade-off các hạng mục.
 
 ### Các yếu tố chủ quan
+
 - Designer luôn design với tầm nhìn ngắn hạn, 
 - Chủ yếu focus vào **"WHAT"** thiếu sự tự vấn bản thân trả lời **"WHY"**, **"HOW"**
 - Không hiểu rõ context design và design goal [ultimate goal](/blog/2021-03-07-the-ultimate-goal)

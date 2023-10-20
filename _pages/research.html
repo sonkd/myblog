@@ -28,6 +28,27 @@ order: 4
                 {% endif %}
        
                 <div class="{{c}}__content">                   
+                    <h2 class="{{c}}__title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                    </h2>
+
+                    <div class="{{c}}__meta">
+                        <div class="{{c}}__author-name">{{site.author.name}}</div>
+                        <!--
+                        <div class="{{c}}__author-image">
+                            <img alt="{{author.name}}" data-cms-original-src="{{author.image}}" loading="lazy" src="/assets/img/profile.jpg">
+                        </div>
+                        <div class="{{c}}__info">
+                            <div class="{{c}}__author-name">{{site.author.name}}</div>
+                            <span class="{{c}}__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
+                        </div>
+                        -->
+                    </div>
+
+                    <p class="{{c}}__excerpt">
+                        {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
+                    </p>
+
                     {% if post.tags.size >= 1 %}
                     <div class="{{c}}__tags-box">
                         {% for tag in post.tags %}
@@ -35,24 +56,6 @@ order: 4
                         {% endfor %}
                     </div>
                     {% endif %}
-      
-                    <h2 class="{{c}}__title">
-                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                    </h2>
-      
-                    <p class="{{c}}__excerpt">
-                    {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
-                    </p>
-
-                    <div class="{{c}}__meta">
-                        <div class="{{c}}__author-image">
-                            <img alt="{{author.name}}" data-cms-original-src="{{author.image}}" loading="lazy" src="/assets/img/profile.jpg">
-                        </div>
-                        <div class="{{c}}__info">
-                            <div class="{{c}}__author-name">{{author.name}}</div>
-                            <span class="{{c}}__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
