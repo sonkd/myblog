@@ -119,7 +119,7 @@
   }
 }
 
-@media #{$mobile} {
+@media ($mobile) {
   .c-research-card__title {
       font-size: $h4-size
   }

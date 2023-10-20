@@ -117,7 +117,7 @@
   visibility: hidden;
   opacity: 0;
   cursor: pointer;
-  @media #{$mobile} {
+  @media ($mobile) {
     visibility: visible;
     opacity: 1;
   }
@@ -132,7 +132,7 @@
   cursor: pointer;
 }
 
-@media #{$mobile} {
+@media ($mobile) {
   .main-nav__box {
     position: fixed;
     top: 0;

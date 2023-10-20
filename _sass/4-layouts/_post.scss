@@ -2,7 +2,7 @@
 .post {
   margin-top: 80px;
   margin-bottom: 80px;
-  @media #{$mobile} {
+  @media ($mobile) {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -60,7 +60,7 @@
 .post__navigation {
   position: relative;
   z-index: 100;
-  @media #{$tablet} {
+  @media ($tablet) {
     display: none;
   }
 }
