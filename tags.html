@@ -19,8 +19,8 @@ permalink: /tags/
             {% for doc in alldocs %}
             {% if doc.tags contains TAG.name %}
                 {% if doc.title != null %}            
-                <li class="item">
-                    <time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time>
+                <li class="item article__content">
+                    <span class="article__date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></span>
                     <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
                         <!-- <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside> -->
                         <h5>{{ doc.title }}</h5>
