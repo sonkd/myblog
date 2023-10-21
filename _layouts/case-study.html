@@ -7,6 +7,9 @@ layout: default
   2. Client/Company/Project type
   3. Date
   4. Role
+  
+  Content
+
   5. Project summary
   6. The challenge
   7. Solution
@@ -23,6 +26,18 @@ layout: default
       </div>
       {% if page.image %}
       <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+      {% endif %}
+
+      {% if page.company %}
+      <div class="">{{page.company}}</div>
+      {% endif %}
+
+      <span class="article__date"><time datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format =
+        site.minima.date_format | default: "%B %-d, %Y" %}{{ page.project-date | date: date_format
+        }}</time></span>
+
+      {% if page.roles %}
+        <div class="">{{page.roles}}</div>
       {% endif %}
     </div>
 
