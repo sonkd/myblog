@@ -1,0 +1,19 @@
+/* Image */
+img {
+    border: 0;
+    padding: 0
+}
+
+img.image-zoom {
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
+}
+
+/**
+ * Image Zoom
+ */
+
+ .content img.image-zoom:active {
+    opacity: .7;
+  }

@@ -1,8 +1,8 @@
 title: Kevin Son – Product Designer
 logo:  # you can add own logo.
 description: A Designer love food.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" https://sonkd@github.io/blog # the subpath of your site, e.g. /blog
+url: "" https://sonkd@github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings
@@ -33,7 +33,7 @@ disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example
 
 
 # Google Analytics
-google-analytics: # add your identifier. For example UA-99631805-1.
+google-analytics: G-Q7TE8E3445 # add your identifier. For example UA-99631805-1.
 
 # Build settings
 markdown: kramdown

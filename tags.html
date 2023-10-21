@@ -22,9 +22,9 @@ permalink: /tags/
                 <li class="item">
                     <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
                     <!-- <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside> -->
-                        <h5 style="margin: 0 16px !important;">{{ doc.title }}</h5>
-                        <p class="article__excerpt">{% if doc.description %}{{ doc.description }}{% else %}{{ doc.content |
-                                strip_html | truncate: 70 }}{% endif %}</p>                  
+                        <h5 style="margin: 16px 0 !important;">{{ doc.title }}</h5>
+                        <p class="article__excerpt" style="text-decoration-line: none !important;">{% if doc.description %}{{ doc.description }}{% else %}{{ doc.content |
+                                strip_html | truncate: 140 }}{% endif %}</p>                  
                     </a>
                 </li>
                 {% endif %}

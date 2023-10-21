@@ -81,7 +81,7 @@ I'd like to share and archive the knowledge of design in life, and what things I
 
 [See more my works]({{site.baseurl}}/projects)
 
-#### Study about Product & Design
+#### Studied about Product & Design
 <span style="color: #6b69fa">#Design-system</span>
 - [Apply OOAD in the building design system (Part 1)](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
 - [Apply OOAD in the building design system (Part 2)](https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063).
