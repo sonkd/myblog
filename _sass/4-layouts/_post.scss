@@ -243,10 +243,12 @@
   outline-offset: 2px;
   border-radius: 8px;
   padding: 4px 8px;
+  /* Do not show "," after a tag
   &:after {
     content: ',';
     display: inline-block;
   }
+  */
   &:last-child {
     &:after {
       content: '';
