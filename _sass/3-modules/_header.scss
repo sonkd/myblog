@@ -36,8 +36,11 @@
 }
 
 .id-social {
-  /*display: none;*/
-  display: inline-block;
+  display: none;
+
+  @media #{$desktop} {
+    display: inline-block !important;
+  }
 }
 
 .header:hover .id-social {

@@ -248,13 +248,13 @@
     content: ',';
     display: inline-block;
   }
-  */
   &:last-child {
     &:after {
       content: '';
       display: inline-block;
     }
   }
+  */
   &:hover {
     background-color: $background-color-4;
   }

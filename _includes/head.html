@@ -1,12 +1,11 @@
 <head>
+  <!-- Google tag (gtag.js) -->
+  {% include google-analytics.html %}
   <meta charset="utf-8">
 
   <!-- mobile responsive meta -->
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Google tag (gtag.js) -->
-  {% include google-analytics.html %}
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
@@ -26,9 +25,6 @@
   
   <!-- Main Stylesheet -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
-
-  <!-- Photoswipe -->
-  <link href="photoswipe/dist/photoswipe.css" rel="stylesheet">
   
   {% seo %}
 </head>
