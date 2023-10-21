@@ -27,6 +27,32 @@
   <script src="{{ site.baseurl }}/assets/js/vendors/jquery.fitvids.js"></script>
   <script src="{{ site.baseurl }}/assets/js/common.js"></script>
   <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  
+  <script type="module">
+    import PhotoSwipeLightbox from 'https://unpkg.com/photoswipe/dist/photoswipe-lightbox.esm.js';
+    
+    const options = {
+      gallery:'#my-activities',
+      children:'img',
+      pswpModule: () => import('https://unpkg.com/photoswipe/photoswipe.esm.js')
+    };
+    const lightbox = new PhotoSwipeLightbox(options);
+    lightbox.on('uiRegister', function() {
+    lightbox.pswp.ui.registerElement({
+      name: 'test-button',
+      ariaLabel: 'Toggle zoom',
+      order: 9,
+      isButton: true,
+      html: 'Test',
+      onClick: (event, el) => {
+        if ( confirm('Do you want to toggle zoom?') ) {
+            lightbox.pswp.toggleZoom();
+          }
+        }
+      });
+    });
+    lightbox.init();
+  </script>
   <!-- end js -->
 </body>
 

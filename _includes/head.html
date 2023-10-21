@@ -5,6 +5,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <!-- Google tag (gtag.js) -->
+  {% include google-analytics.html %}
+
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name='description' content='{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}'>
 
@@ -19,13 +22,13 @@
   <link href="https://unpkg.com/ionicons@4.5.0-0/dist/css/ionicons.min.css" rel="stylesheet">
 
   <!-- Lineicons -->
-  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet" />
+  <link href="https://cdn.lineicons.com/4.0/lineicons.css" rel="stylesheet">
   
   <!-- Main Stylesheet -->
   <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
 
-  <!-- Google tag (gtag.js) -->
-  {% include google-analytics.html %}
+  <!-- Photoswipe -->
+  <link href="photoswipe/dist/photoswipe.css" rel="stylesheet">
   
   {% seo %}
 </head>

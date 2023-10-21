@@ -145,5 +145,4 @@ $(document).ready(function() {
   }
   
   new StickyNavigation();
-
 });

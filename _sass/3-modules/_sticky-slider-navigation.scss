@@ -46,7 +46,8 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: black;
+    color: $dark;
+    text-decoration-line: none !important;
     letter-spacing: 0.1rem;
 		transition: all 0.5s ease;
 		font-size: 0.8rem;
