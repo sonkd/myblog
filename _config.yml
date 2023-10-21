@@ -1,8 +1,8 @@
 title: Kevin Son – Product Designer
 logo:  # you can add own logo.
 description: A Designer love food.
-baseurl: https://sonkd@github.io/blog # the subpath of your site, e.g. /blog
-url: https://sonkd@github.io # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: https://sonkd.github.io/blog # the subpath of your site, e.g. /blog
+url: https://sonkd.github.io # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Author Settings
@@ -29,7 +29,7 @@ contact:
 
 
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: kimdinhson # add your shortname for Disqus Comment. For example mr-brown
 
 
 # Google Analytics
