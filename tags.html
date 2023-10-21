@@ -39,7 +39,7 @@ permalink: /tags/
     <div class="col col-4 col-d-6 col-t-12" style="position: -webkit-sticky; position: sticky; top: 0;">
         {% for tag in alltags %}
         <a href="#{{ tag.name | slugify }}" class="cloud-item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%">
-            {{ tag.name }}&nbsp;({{ tag.size }})
+            {{ tag.name }}({{ tag.size }})
         </a>
     {% endfor %}
     </div>
