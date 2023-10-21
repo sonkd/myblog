@@ -19,14 +19,16 @@ permalink: /tags/
             {% for doc in alldocs %}
             {% if doc.tags contains TAG.name %}
                 {% if doc.title != null %}            
-                <li class="item article__content">
-                    <span class="article__date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></span>
-                    <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
+                <li class="item">
+                    <div class="article__content">
+                        <span class="article__date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></span>
+                        <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
                         <!-- <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside> -->
-                        <h5>{{ doc.title }}</h5>
-                        <p class="article__excerpt">{% if doc.description %}{{ doc.description }}{% else %}{{ doc.content |
-                            strip_html | truncate: 70 }}{% endif %}</p>                  
-                    </a>
+                            <h5>{{ doc.title }}</h5>
+                            <p class="article__excerpt">{% if doc.description %}{{ doc.description }}{% else %}{{ doc.content |
+                                strip_html | truncate: 70 }}{% endif %}</p>                  
+                        </a>
+                    </div>
                 </li>
                 {% endif %}
             {% endif %}
@@ -38,7 +40,7 @@ permalink: /tags/
     <!-- Cloud tags -->
     <div class="col col-4 col-d-6 col-t-12" style="position: -webkit-sticky; position: sticky; top: 0;">
         {% for tag in alltags %}
-        <a href="#{{ tag.name | slugify }}" class="cloud-item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%">
+        <a href="#{{ tag.name | slugify }}" class="cloud-item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}%; ">
             {{ tag.name }}({{ tag.size }})
         </a>
     {% endfor %}
