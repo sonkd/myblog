@@ -17,7 +17,6 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 <div class="text-left">
 <p style="font-weight:bold"><a href="#now">What I'm working on now ↓</a></p>
 </div>
----
 <section class="row">
     <div class="col col-3 col-6 col-t-12">
     <div class="cv-card">
@@ -70,7 +69,7 @@ Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT s
 ***
 
 ### [Now](#now)
-<div class="article__excerpt" style="color: #666">This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
+<div class="article__excerpt" style="position: relative; top: -20px;">This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
 
 #### Building [My Blog]({{ site.url }}/blog)
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
@@ -83,18 +82,18 @@ I'd like to share and archive the knowledge of design in life, and what things I
 [See more my works]({{site.baseurl}}/projects)
 
 #### Study about Product & Design
-\#Design-system
+<span style="color: #6b69fa">#Design-system</span>
 - [Apply OOAD in the building design system (Part 1)](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
 - [Apply OOAD in the building design system (Part 2)](https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063).
 - [Design Token](https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4)
 
-\#Product #Design #Management
+<span style="color: #6b69fa">#Product #Design #Management</span>
 - [Design Debt](https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140)
 
-\#Gamification
+<span style="color: #6b69fa">#Gamification</span>
 - [Designing gamification features in fintech products](https://hackernoon.com/designing-gamification-features-in-fintech-products)
 
-\#Blockchain \#Web3.0
+<span style="color: #6b69fa">#Blockchain #Web3.0</span>
 - [Personal or Social Identity](https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son)
 
 [See more](https://www.notion.so/sonkd/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c)

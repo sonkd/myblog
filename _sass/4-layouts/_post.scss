@@ -2,7 +2,7 @@
 .post {
   margin-top: 80px;
   margin-bottom: 80px;
-  @media ($mobile) {
+  @media #{$mobile} {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -60,7 +60,7 @@
 .post__navigation {
   position: relative;
   z-index: 100;
-  @media ($tablet) {
+  @media #{$tablet} {
     display: none;
   }
 }
@@ -219,7 +219,7 @@
   vertical-align: middle;
   time {
     padding-right: 5px;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: $fontMonospace;
     font-size: 12px;
     text-transform: uppercase;
     color: $sub-text-color;
@@ -234,7 +234,7 @@
 .post-tags__tag {
   font-family: $fontMonospace;
   font-size: $caption-size;
-  line-height: calc($caption-ligh_height*1.75);
+  line-height: calc($caption-line_height*1.75);
   text-decoration-line: none;
   color: $tertiary-color;
 
@@ -298,7 +298,7 @@
 /* CV cards */
 .cv-card {
   cursor: pointer;
-  background-color: $background-color-1;
+  background-color: $background-color-3;
   color: $gray;
   padding: 1.5rem;
   margin: .5rem 0;

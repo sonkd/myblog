@@ -1,76 +1,79 @@
 /* Pagination */
 .pagination__inner {
-    margin: 40px 0 44px;
+  margin: 40px 0 44px;
+}
+
+.pagination__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pagination__prev,
+.pagination__count,
+.pagination__next {
+  padding: 16px 20px;
+  font-size: $body-size;
+  font-weight: 700;
+  line-height: calc($body-line_height - 8px);
+  border-radius: 16px;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
+  background-color: $background-color-4;
+
+  @media #{$mobile} {
+    padding: 16px;
   }
-  
-  .pagination__list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .pagination__prev,
-  .pagination__count,
-  .pagination__next {
-    padding: 16px 20px;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 16px;
-    border-radius: 16px;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
-    background-color: $background-color-4;
-  
-    @media ($mobile) {
-      padding: 16px;
-    }
-  }
-  
-  .pagination__prev,
-  .pagination__next {
-    font-size: 14px;
-    will-change: transform;
-  
-    &.disabled {
-      color: rgba($dark, 0.4);
-      
-      &:hover {
-        i {
-          transform: none;
-        }
-      }
-    }
-  }
-  
-  .pagination__prev {
+}
+
+.pagination__prev,
+.pagination__next {
+  font-size: 14px;
+  text-decoration-line: none;
+  color: $primary-color;
+  will-change: transform;
+
+  &.disabled {
+    color: rgba($primary-color, 0.4);
+
     &:hover {
       i {
-        transform: translateX(-1px);
+        transform: none;
       }
     }
-  
+  }
+}
+
+.pagination__prev {
+  &:hover {
     i {
-      margin-right: 2px;
-      transition: .2s;
+      transform: translateX(-1px);
     }
-  
   }
-  
-  .pagination__next {
-    &:hover {
-      i {
-        transform: translateX(1px);
-      }
-    }
-  
+
+  i {
+    margin-right: 2px;
+    transition: .2s;
+  }
+
+}
+
+.pagination__next {
+  &:hover {
     i {
-      margin-left: 2px;
-      transition: .2s;
+      transform: translateX(1px);
     }
   }
-  
-  .pagination__count {
-    margin: 0 6px;
-    font-size: 15px;
-    font-weight: 600;
-    color: rgba($dark, 0.7);
+
+  i {
+    margin-left: 2px;
+    transition: .2s;
   }
+}
+
+.pagination__count {
+  margin: 0 6px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba($gray, 0.7);
+  background-color: $background-color-3;
+}

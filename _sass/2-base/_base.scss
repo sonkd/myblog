@@ -45,30 +45,58 @@ h6 {
 
 h4 {
   font-weight: 500 !important;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h1 {
   font-size: $h1-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h2 {
   font-size: $h2-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h3 {
   font-size: $h3-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h4 {
   font-size: $h4-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h5 {
   font-size: $h5-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 h6 {
   font-size: $h6-size;
+
+  a {
+    text-decoration-line: none !important
+  }
 }
 
 blockquote {
@@ -106,10 +134,10 @@ img {
 }
 
 a {
-    text-decoration: none;
+    /*text-decoration: none;*/
     /*color: $primary-color;*/
     color: $dark;
-    text-decoration: underline;
+    text-decoration-line: underline;
     transition: color 200ms;
 
     &:hover {
@@ -125,4 +153,21 @@ hr {
   border-radius: 50%;
   border: 0;
   background: $secondary-color;
+}
+
+figcaption {
+  position: relative;
+  top: -20px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+  font-size: calc($body-size * 0.75);
+  color: $sub-text-color;
+  font-weight: 300;
+
+  @media #{$mobile} {
+    font-size: calc($body-size * 0.5);
+  }
 }

@@ -2,7 +2,7 @@
 .page {
   margin-top: 80px;
   margin-bottom: 80px;
-  @media ($mobile) {
+  @media #{$mobile} {
     margin-top: 50px;
     margin-bottom: 50px;
   }

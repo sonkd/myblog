@@ -12,7 +12,7 @@
 .article__image-box {
   display: table;
   /*margin-right: 30px;*/
-  @media ($mobile) {
+  @media #{$mobile} {
     display: none;
   }
 }
@@ -49,9 +49,9 @@
 
 .article__meta {
   margin-bottom: .5rem;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: $fontMonospace;
   font-size: $caption-size;
-  line-height: $caption-ligh_height;
+  line-height: $caption-line_height;
   text-transform: uppercase;
   color: $tertiary-color;
 }
@@ -59,7 +59,7 @@
 .article__excerpt {
   margin-bottom: 15px;
   font-size: $body-size;
-  line-height: $caption-ligh_height;
+  line-height: $caption-line_height;
   color: $gray;
 }
 

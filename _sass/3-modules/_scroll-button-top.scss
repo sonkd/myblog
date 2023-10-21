@@ -22,7 +22,7 @@
   }
 }
 
-@media ($tablet) {
+@media #{$tablet} {
   .top {
     bottom: 25px;
 

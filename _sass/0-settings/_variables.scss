@@ -1,5 +1,5 @@
 // ******************************************************************
-// Atom Variables
+// Atomic Variables
 // ******************************************************************
 
 /* Color */
@@ -47,9 +47,10 @@ $fontMonospace: "IBM Plex Mono",monospace; /*"Consolas", Liberation Mono, Menlo,
 // ******************************************************************
 
 /* Screen size */
-$mobile: "only screen and (max-width: 568px)";
-$tablet: "only screen and (min-width: 568px) and (max-width: 1024px)";
+$mobile: "only screen and (max-width: 576px)";
+$tablet: "only screen and (min-width: 576px) and (max-width: 1024px)";
 $desktop: "only screen and (min-width: 1024px)";
+
 $above: "only screen and (min-width: 768px)";
 $below: "only screen and (max-width: 768px)";
 
@@ -93,7 +94,7 @@ $body-size: 16px;
 $body-line_height: 24px;
 
 $caption-size: 12px;
-$caption-ligh_height: 20px;
+$caption-line_height: 20px;
 
 /* Spacing */
 
