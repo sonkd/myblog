@@ -57,6 +57,12 @@
     color: $dark;
     text-decoration: none;
   }
+
+  .id-social {
+    @media #{$tablet} {
+      display: inline-block !important;
+    }
+	}
 }
 
 /* Mobile Nav */
