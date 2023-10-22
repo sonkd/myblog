@@ -89,7 +89,7 @@
     height: 100%;
     visibility: hidden;
     opacity: 0;
-    z-index: 10;
+    z-index: 2000;
     background-color: $white;
     transition: 400ms ease-in-out;
     &.visible {
