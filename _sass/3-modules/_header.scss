@@ -69,9 +69,6 @@
     visibility: visible;
     opacity: 1;
   }
-	.hidden-links {
-    display: inline-block;
-  }
 }
 
 .main-nav__close {
@@ -120,6 +117,9 @@
       font-size: 27px;
       line-height: 33px;
       text-align: center;
+      .hidden-links {
+        display: inline-block;
+      }
     }
   }
 }
