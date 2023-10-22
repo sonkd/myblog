@@ -105,7 +105,8 @@
 
   .nav__list {
     position: absolute;
-    top: 6rem;
+    top: 50%;
+		left: 50%;
     transform: translate(-50%, -50%);
     max-height: 80vh;
     overflow: auto;
