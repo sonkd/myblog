@@ -35,11 +35,10 @@
 
 .id-social {
   display: none;
-  padding-left: .5rem;
 
   @media #{$desktop} {
     display: inline-block !important;
-    padding-left: 0;
+    padding-left: 0.5rem;
   }
 }
 
