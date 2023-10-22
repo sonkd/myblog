@@ -8,7 +8,7 @@
   align-items: center;
   padding: 3vh 0;
   @media #{$mobile} {
-    padding: 20px 0
+    padding: 20px 0 !important
   }
 }
 
@@ -53,12 +53,6 @@
     color: $dark;
     text-decoration: none;
   }
-
-  .hidden-links {
-    @media #{$tablet} {
-      display: inline-block !important;
-    }
-	}
 }
 
 /* Mobile Nav */
@@ -74,6 +68,9 @@
   @media #{$mobile} {
     visibility: visible;
     opacity: 1;
+  }
+	.hidden-links {
+    display: inline-block;
   }
 }
 
