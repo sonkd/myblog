@@ -35,12 +35,25 @@ permalink: /tags/
         {% endfor %}
     </div>
     <!-- Cloud tags -->
-    <div class="col col-4 col-d-6 col-t-12" style="position: -webkit-sticky; position: sticky; top: 0;">
-        {% for tag in alltags %}
-        <a href="#{{ tag.name | slugify }}" class="cloud-item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}px; ">
-            {{ tag.name }}({{ tag.size }})
-        </a>
-    {% endfor %}
+    <div class="cloud-item col col-4 col-d-6 col-t-12" style="position: -webkit-sticky; position: sticky; top: 0;">
+        <div class="sticky-info">
+            <div class="show-comp">
+                {% for tag in alltags %}
+                <a href="#{{ tag.name | slugify }}"  style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}px; ">
+                    {{ tag.name }}({{ tag.size }})
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="dupe-info">
+            <div class="show-comp">
+                {% for tag in alltags %}
+                <a href="#{{ tag.name | slugify }}"  style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}px; ">
+                    {{ tag.name }}({{ tag.size }})
+                </a>
+                {% endfor %}
+            </div>
+        </div>
     </div>
 </section>
 {% assign alldocs = nil %}

@@ -1,8 +1,8 @@
 /* Project */
 .project {
     margin-top: 1rem;
-    margin-bottom: 80px;
-    padding: 2rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
 
     @media #{$mobile} {
         margin-top: 50px;
@@ -14,16 +14,9 @@
     text-align: center;
 }
 
-.project__title {
-    margin-bottom: 10px;
-    font-size: 50px;
-    line-height: 55px;
-}
-
 .project__company {
     padding: 16px;
     text-align: left;
-    font-family: $secondary-font;
 
     .sticky-info {
         position: sticky;
@@ -43,17 +36,32 @@
     h4 {
         letter-spacing: -0.2px;
         font-weight: 600 !important;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: $body-size;
+        line-height: calc($body-line_height + 0rem);
+        letter-spacing: 0.3px;
+        color: $dark;
     }
 }
 
 .project__info {
     padding: 16px;
     text-align: left;
-    font-family: $secondary-font;
 
     h4 {
         letter-spacing: -0.2px;
         font-weight: 600 !important;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: $body-size;
+        line-height: calc($body-line_height + 0rem);
+        letter-spacing: 0.3px;
+        color: $dark;
     }
 }
 
@@ -93,7 +101,8 @@
 }
 
 .project__content {
-    margin-bottom: 45px;
+    margin: 3rem 0;
+    text-align: left;
 
     p {
         font-size: $body-size;

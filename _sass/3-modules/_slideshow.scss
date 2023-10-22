@@ -7,11 +7,18 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  background-image: "/assets/img/infinity.png";
 
 
   /* Hide the images by default */
   .mySlides {
     display: none;
+    background-color: $dark;
+
+    img {
+      height: 600px;
+      object-fit: contain;
+    }
   }
 
   /* Next & previous buttons */
@@ -20,6 +27,7 @@
     cursor: pointer;
     position: absolute;
     top: 50%;
+
     width: auto;
     margin-top: -22px;
     padding: 16px;

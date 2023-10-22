@@ -10,9 +10,11 @@ project-01:
 project-02:
   name: Music app concept
   images:
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
+    - /assets/img/project/music-app-playlist.png
+    - /assets/img/project/music-app-discover.png
+    - /assets/img/project/music-app-library.png
+    - /assets/img/project/music-app-home-flow.png
+project-03:
+  name: Music app concept
+  images:
+    - /assets/img/infinity.png

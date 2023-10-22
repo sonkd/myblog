@@ -78,7 +78,7 @@
     // border-radius: 3px
     font-size: .875rem;
     // background: $epsilon
-    color: black;
+    color: $dark;
     // letter-spacing: 1px
     margin: 0 .25rem .25rem;
     text-decoration: none;
@@ -86,9 +86,25 @@
 }
 
 .linked-section{
-  color: $gray-400;
+  color: $gray;
 }
 
 .cloud-item {
   text-decoration-line: none;
+
+  .sticky-cloud {
+    position: sticky;
+    top: 4.5rem;
+    z-index: 999;
+    
+    height:0; /* this will make them above each other */
+  }
+  
+  .sticky-cloud > *:not(.show-cloud) {
+    visibility:hidden;
+  }
+  .dupe-cloud > .show-cloud {
+    visibility:hidden;
+  }
+
 }

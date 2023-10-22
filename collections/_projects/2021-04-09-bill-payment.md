@@ -9,7 +9,9 @@ challenges:
 - blah blah blah
 - blah blah blah
 - blah blah blah
-roles: UX Design, UI interaction
+roles:
+- UX Design
+- UI interaction
 
 tag: [Digital Banking, Mobile, Payment]
 image: /assets/img/project/project-cover-TCB-bill-payment.png
@@ -27,5 +29,5 @@ Design experience for Bill & Payment services in [Techcombank](https://techcomba
 ---
 ### Results
 
-
+...
 

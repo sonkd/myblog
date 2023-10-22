@@ -4,7 +4,7 @@ layout: post
 date: 2014-11-24 10:10:45
 tag: [blockchain, social identity, web3]
 image: https://media.licdn.com/dms/image/D5612AQE_AUVF80d-_g/article-cover_image-shrink_423_752/0/1666291887004?e=1703116800&v=beta&t=DycPGpsXLQPPE9s5O6p67MhtVO2H722AJKvC1-omFIg
-link: https://www.instagram.com/p/CxLSbdWxg3f/
+link: 
 author: sonkd
 category: research
 ---
@@ -14,18 +14,18 @@ I published an article about digital Social Indentity experience [here](https://
 > An online communication platform (Community Online) needs user identification to serve the management and response of online utilities. In addition, the challenges that the platform for Online Communities needs to meet to help users stay close and trusted with relatives or friends, safety when communicating with strangers, simplifying the experience in using and managing your online identity, and a personal show-off to stand out in the online community. Using Wallet ID helps prevent catfishing profiles on Community Online and simplifies all identity verification issues, safety, and convenience.
 
 ## The key problems need to solve
-### How to be close and trustworthy with acquaintances/friends?
+#### How to be close and trustworthy with acquaintances/friends?
 - I want people to remember my name easily.
 - My name is authenticated, not to be confused with others.
 
-### How to be safe when communicating with strangers?
+#### How to be safe when communicating with strangers?
 - I want to remain anonymous and not reveal all personal information; they cannot know who I am and what I look like, and my style and preferences must be kept confidential.
 
-### How might we simplify account usage with less management effort and identification of concerns with online platforms?
+#### How might we simplify account usage with less management effort and identification of concerns with online platforms?
 - I want to pay for convenient transactions like Apple Pay, Xbox points, or even a credit card.
 - Users want to use the same username across multiple devices in a trustless manner.
 
-### How to show me to the community so people quickly know me?
+#### How to show me to the community so people quickly know me?
 - I want to make an impression.
 - I want to make it simple and easy to remember.
 
