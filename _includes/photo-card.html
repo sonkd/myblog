@@ -2,8 +2,11 @@
     {% if site.data.archieve-list.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
-    <div class="col col-3 col-t-4 col-m-12" style="text-align: center;">
-        ...
+    <div class="col col-3 col-t-4 col-m-12" style="text-align: left;">
+        {% assign date-list = site.data.archieve-list | sort: 'date' | reverse %}
+        {% for time in date-list %}
+         <p>- {{time.date}}</p>
+        {% endfor %}
     </div>
     <div class="col col-9 col-t-8 col-m-12" style="text-align: center;">
         {% assign list = site.data.archieve-list | sort: 'date' | reverse %}

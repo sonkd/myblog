@@ -22,15 +22,17 @@
         position: sticky;
         top: 4.5rem;
         z-index: 999;
-        
-        height:0; /* this will make them above each other */
+
+        height: 0;
+        /* this will make them above each other */
     }
-      
-    .sticky-info > *:not(.show-comp) {
-        visibility:hidden;
+
+    .sticky-info>*:not(.show-comp) {
+        visibility: hidden;
     }
-    .dupe-info > .show-comp {
-        visibility:hidden;
+
+    .dupe-info>.show-comp {
+        visibility: hidden;
     }
 
     h4 {
