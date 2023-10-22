@@ -43,8 +43,8 @@
   }
 }
 
-.header:hover .id-social {
-  display: inline-block;
+.hidden-links {
+  display: none
 }
 
 .nav__item {
@@ -55,7 +55,7 @@
     text-decoration: none;
   }
 
-  .id-social {
+  .hidden-links {
     @media #{$tablet} {
       display: inline-block !important;
     }
