@@ -36,7 +36,7 @@ isMainPage: true
         <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
             {% assign list = site.data.archieve-list | sort: 'date' | reverse | limit: 12 %}
             {% for post in list %}
-            <div class="col col-3 col-d-6 col-t-12" style="text-align: center;">
+            <div class="col col-4 col-d-6 col-t-12" style="text-align: center;">
                 <div class="archieve-image">
                     <img class="image-zoom" alt="{{post.description}}" src="{{post.image}}" />
                     <div class="archieve-overlay" href="{{post.url}}">{{post.description}}</div>  
