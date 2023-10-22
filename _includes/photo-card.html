@@ -2,15 +2,28 @@
     {% if site.data.archieve-list.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
-    <div class="col col-3 col-t-4 col-m-12" style="text-align: left;">
-        {% assign date-list = site.data.archieve-list | sort: 'date' | reverse %}
-        {% for time in date-list %}
-         <p>- {{time.date}}</p>
-        {% endfor %}
+    {% assign posts = site.data.archieve-list | sort: 'date' | reverse %}
+    {% assign posts_by_year = posts | group_by:"year" %}
+    <div class="year-side-bar col col-3 col-t-4 col-m-12" style="text-align: left;">
+        <div class="sticky-info">
+            <div class="show-date">
+                {% for year in posts_by_year %}
+                <a href="#{{year.name}}" style="text-decoration-line: none;"><p>{{year.name}}</p></a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="dupe-info">
+            <div class="show-date">
+                {% for year in posts_by_year %}
+                <a href="#{{year.name}}"><p>{{year.name}}</p></a>
+                {% endfor %}
+            </div>
+        </div>
     </div>
-    <div class="col col-9 col-t-8 col-m-12" style="text-align: center;">
-        {% assign list = site.data.archieve-list | sort: 'date' | reverse %}
-        {% for post in list %}
+    <div class="col col-9 col-t-8 col-m-12">
+    {% for year in posts_by_year %}
+        <h4 id="{{year.name}}" style="margin-top: 0;">🗓️ {{year.name}}</h4>
+        {% for post in posts | where: 'year', year %}
         <div class="row" style="text-align: left; padding: 1rem 0;">
             <div class="col col-4 col-t-6">
                 <div class="article__meta">
@@ -25,12 +38,15 @@
             </div>
             <div class="col col-8 col-t-6">
                 <div class="archieve-image">
-                    <img class="image-zoom" alt="{{post.description}}" src="{{post.image}}" />
-                    <!-- <div class="archieve-overlay" href="{{post.url}}">{{post.description}}</div> -->
+                    <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
+                        <img class="image-zoom" alt="{{post.description}}" src="{{post.image}}" />
+                        <!-- <div class="archieve-overlay" href="{{post.url}}">{{post.description}}</div> -->
+                    </a>
                 </div>
             </div>
         </div>
         {% endfor %}
+    {% endfor %}
     </div>
     {% endif %}
 </div>

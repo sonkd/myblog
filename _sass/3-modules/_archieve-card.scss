@@ -32,3 +32,25 @@
     vertical-align:top;
     border-radius: 1.5rem;
 }
+
+.year-side-bar {
+    padding: 16px;
+    text-align: left;
+
+    .sticky-info {
+        position: sticky;
+        top: 4.5rem;
+        z-index: 999;
+
+        height: 0;
+        /* this will make them above each other */
+    }
+
+    .sticky-info>*:not(.show-date) {
+        visibility: hidden;
+    }
+
+    .dupe-info>.show-date {
+        visibility: hidden;
+    }
+}
