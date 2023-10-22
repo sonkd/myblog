@@ -1,3 +1,18 @@
+
+.et-hero-tabs {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+
+    background-image: url('/assets/img/under-sea.gif') !important;
+    object-fit: cover;
+    height: 100%;
+    background-size: cover;
+}
+
 .et-hero-tabs,
 .et-slide {
     display: flex;
@@ -6,7 +21,6 @@
     align-items: center;
     height: 93vh;
     position: relative;
-    background: none;
 	text-align: center;
 	padding: 0 2em;
     h1 {
