@@ -28,11 +28,6 @@
   width: auto;
 }
 
-.id-social {
-  display: inline-block;
-  padding-left: .5rem;
-}
-
 .logo {
   display: inline-block;
   float: left;
@@ -40,9 +35,11 @@
 
 .id-social {
   display: none;
+  padding-left: .5rem;
 
   @media #{$desktop} {
     display: inline-block !important;
+    padding-left: 0;
   }
 }
 
