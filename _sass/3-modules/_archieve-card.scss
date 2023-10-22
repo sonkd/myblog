@@ -1,6 +1,8 @@
 .archieve-image {
     position:relative;
     width: 100%;
+    background-color: $dark;
+    border-radius: 1.5rem;
     display:inline-block;
 }
 .archieve-overlay {
@@ -18,6 +20,9 @@
     border-radius: 1.5rem;
     background:rgba(0,0,0,.5);
     position:absolute;
+    cursor: -webkit-zoom-in;
+    cursor: -moz-zoom-in;
+    cursor: zoom-in;
     top:0;
     left:0;
     display:inline-block;
@@ -30,11 +35,13 @@
 
 .archieve-image img{
     vertical-align:top;
+    width:100%;
+    height: 400px;
+    object-fit: cover;
     border-radius: 1.5rem;
 }
 
 .year-side-bar {
-    padding: 16px;
     text-align: left;
 
     .sticky-info {

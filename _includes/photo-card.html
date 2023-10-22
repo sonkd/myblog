@@ -23,7 +23,9 @@
     <div class="col col-9 col-t-8 col-m-12">
     {% for year in posts_by_year %}
         <h4 id="{{year.name}}" style="margin-top: 0;">🗓️ {{year.name}}</h4>
-        {% for post in posts | where: 'year', year %}
+        {% assign year-filter = year.name %}
+        {% assign posts-in-year = posts | where: 'year', year-filter %}
+        {% for post in posts-in-year %}
         <div class="row" style="text-align: left; padding: 1rem 0;">
             <div class="col col-4 col-t-6">
                 <div class="article__meta">
