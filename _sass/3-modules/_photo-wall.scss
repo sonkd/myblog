@@ -1,6 +1,9 @@
 /* Photo wall */
 
 /* center the grid in the viewport */
+.photo-wall {
+    display: none
+}
 @media #{$desktop} {
 .photo-wall {
     margin: 20px 0;
