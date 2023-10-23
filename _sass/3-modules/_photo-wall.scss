@@ -11,12 +11,16 @@
     margin-left: -50vw;
     margin-right: -50vw;
 
-    display: flex;
+    display: none;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: hsl(0, 0%, 100%);
     background-color: $dark;
+	
+	@media #{$mobile}{
+    	display: flex:
+    }
 }
 
 .photo-wall main {
