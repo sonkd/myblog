@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Research
 permalink: /research/
 image:
@@ -8,8 +8,11 @@ order: 4
 ---
 
 <div class="container-full">
-    {% include tag-cloud.html %}
-    <div class="row" data-pagebreak="15" data-pagebreak-url="./:num/">
+    {% include gallery-background.html %}
+    <div style="backdrop-filter: blur(10px); padding: 0;">
+        <h1>{{ page.title | escape }}</h1>
+    </div>
+    <div class="row" data-pagebreak="15" data-pagebreak-url="./:num/" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% if site.research.size > 0 %}
         {% assign c = "c-research-card" %}
         {% for post in site.research %}

@@ -1,0 +1,7 @@
+<div class="photo-wall">
+  <main>
+    {% for image in site.data.photo-wall %}
+    <a href="#"><img src="{{image.url}}" alt="{{image.alt}}"></a>
+  {% endfor %}
+  </main>
+</div>
