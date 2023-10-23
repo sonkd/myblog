@@ -1,6 +1,7 @@
 /* Photo wall */
 
 /* center the grid in the viewport */
+@media #{$desktop} {
 .photo-wall {
     margin: 20px 0;
 
@@ -11,16 +12,12 @@
     margin-left: -50vw;
     margin-right: -50vw;
 
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: hsl(0, 0%, 100%);
     background-color: $dark;
-	
-	@media #{$tablet}{
-    	display: flex:
-    }
 }
 
 .photo-wall main {
@@ -75,4 +72,5 @@
         transform: scale(1.1);
         filter: brightness(1);
     }
+}
 }
