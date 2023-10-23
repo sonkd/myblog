@@ -18,7 +18,7 @@
     color: hsl(0, 0%, 100%);
     background-color: $dark;
 	
-	@media #{$mobile}{
+	@media #{$tablet}{
     	display: flex:
     }
 }
