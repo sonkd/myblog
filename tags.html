@@ -10,6 +10,7 @@ permalink: /tags/
 <section class="tag-list row">
     <div class="col col-8 col-d-6 col-t-12">
         {% for TAG in alltags  %}
+        <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
         <h4 id="{{ TAG.name | slugify }}" class="linked-section">
             #{{ TAG.name }}&nbsp;({{ TAG.size }})
         </h4>
@@ -31,7 +32,7 @@ permalink: /tags/
             {% endif %}
             {% endfor %}
         </ul>
-        
+        </div>
         {% endfor %}
     </div>
     <!-- Cloud tags -->
