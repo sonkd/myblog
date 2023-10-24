@@ -11,7 +11,7 @@
     {% for image in list %}
     <div class="mySlides fade">
         <div class="numbertext">{{count}} / {{list.size}}</div>
-        <img src="{{image}}" style="width:100%">
+        <img src="{{image}}" style="width:100%" alt="Screen shot">
         <!-- <div class="text">Caption Text</div> -->
     </div>
     {% assign count = count | plus: 1 %}
