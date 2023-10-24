@@ -23,7 +23,7 @@ isMainPage: true
         </a>
         {% else %}
         <a href="{{ post.url | prepend: site.baseurl }}" class="{{c}}__image">>
-          <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png">
+          <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png" alt="{{post.title}}">
         </a>
         {% endif %}
         <div class="{{c}}__info">
