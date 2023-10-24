@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Archieve
-permalink: /archieve-stories/
+title: Activites
+permalink: /activity-stories/
 image:
 isMainPage: false
 ---

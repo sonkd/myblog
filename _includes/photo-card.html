@@ -1,8 +1,8 @@
 <div class="row" id ="my-activities" data-pagebreak="20" data-pagebreak-url="./:num/">
-    {% if site.data.archieve-list.size == 0 %}
+    {% if site.data.archive-list.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 	{% else %}
-    {% assign posts = site.data.archieve-list | sort: 'date' | reverse %}
+    {% assign posts = site.data.archive-list | sort: 'date' | reverse %}
     {% assign posts_by_year = posts | group_by:"year" %}
     <div class="year-side-bar col col-3 col-t-3 col-m-12" style="text-align: left;">
         <div class="sticky-info">
@@ -32,17 +32,17 @@
                     <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
                     site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                     }}</time></span>
-                    <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
-                        <p style="font-weight: 700;width: 100%;padding-top:0.5rem">{{post.title}}</p>
+                    <a class="archive-story" href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
+                        <p>{{post.title}}</p>
                     </a>
                     <p>{{post.description}}</p>
                 </div>
             </div>
             <div class="col col-8 col-t-12">
-                <div class="archieve-image">
+                <div class="archive-image">
                     <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
                         <img class="image-zoom" alt="{{post.description}}" src="{{post.image}}" />
-                        <!-- <div class="archieve-overlay" href="{{post.url}}">{{post.description}}</div> -->
+                        <!-- <div class="archive-overlay" href="{{post.url}}">{{post.description}}</div> -->
                     </a>
                 </div>
             </div>
