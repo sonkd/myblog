@@ -28,10 +28,10 @@ project-04:
 project-05:
   name: People counting solution
   images:
-  - /assets/img/project/internal-app/01.png
-  - /assets/img/project/internal-app/02.png
+    - /assets/img/project/internal-app/01.png
+    - /assets/img/project/internal-app/02.png
 project-06:
   name: Dota 2 trivia game
   images:
-  - /assets/img/project/dota2-trivia/01.png
-  - /assets/img/project/dota2-trivia/02.png
+    - /assets/img/project/dota2-trivia/01.png
+    - /assets/img/project/dota2-trivia/02.png
