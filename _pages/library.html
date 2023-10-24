@@ -26,7 +26,7 @@ order: 4
                 </div>
                 {% else %}
                 <div class="{{c}}__image-wrap">
-                    <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"></a>
+                    <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)" alt="{{ post.title }}"></a>
                 </div>
                 {% endif %}
        
