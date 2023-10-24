@@ -108,5 +108,15 @@
   .dupe-cloud>.show-cloud {
     visibility: hidden;
   }
-
 }
+
+.show-cloud {
+  a {
+    text-decoration-line: none !important;
+    color: $gray;
+    &hover {
+      color: $primary-color !important
+    }
+  }
+}
+

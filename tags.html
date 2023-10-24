@@ -40,7 +40,7 @@ permalink: /tags/
         <div class="sticky-cloud">
             <div class="show-cloud">
             {% for tag in alltags %}
-                <a href="#{{ tag.name | slugify }}"  style="color:gray; text-decoration-line: none !important ; font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}px;">
+                <a href="#{{ tag.name | slugify }}" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
                 {{ tag.name }}({{ tag.size }})
                 </a>
             {% endfor %}
@@ -49,7 +49,7 @@ permalink: /tags/
         <div class="dupe-cloud">
             <div class="show-cloud">
             {% for tag in alltags %}
-            <a href="#{{ tag.name | slugify }}"  style="color:gray; text-decoration-line: none !important ;font-size: {{ tag.size | times: 4 | plus: 80 }}%; padding: {{ tag.size | divided_by: 10 }}px; ">
+            <a href="#{{ tag.name | slugify }}" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px; ">
                 {{ tag.name }}({{ tag.size }})
             </a>
             {% endfor %}
