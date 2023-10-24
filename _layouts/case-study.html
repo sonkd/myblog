@@ -7,7 +7,7 @@ layout: default
   <article class="project">
     <div class="row project__head project__extended-content-container" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       {% if page.company %}
-      <div class="project__company col col-3 col-t-4 col-m-12">
+      <div class="project__company col col-2 col-t-4 col-m-12">
         <div class="sticky-info">
           <div class="show-comp">
             <h4>COMPANY/ORG.</h4>
@@ -22,11 +22,12 @@ layout: default
         </div>
       </div>
       {% endif %}
-      <div class="col col-9 col-t-8 col-m-12">
+      <div class="col col-10 col-t-8 col-m-12">
         <div class="row">
           <div class="project__info col col-4 col-t-12 col-m-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
             <h4>SUMMARY</h4>
-            <p>{{ page.title | escape }}</p>
+            <p>{{ page.title | escape }}.</p>
+            <p>{{ page.summary | escape }}</p>
             <span>Date: <time datetime="{{ page.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ page.project-date | date: date_format }}</time></span>
           </div>
 

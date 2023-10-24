@@ -18,3 +18,20 @@ project-03:
   name: Music app concept
   images:
     - /assets/img/infinity.png
+project-04:
+  name: People counting solution
+  images:
+    - https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/80cc3d72223765.5be4240f3af12.png
+    - https://mir-s3-cdn-cf.behance.net/project_modules/1400/c1a35172223765.5be32b925eba4.png
+    - https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
+    - https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bb5ff72223765.5be4372f89d52.png
+project-05:
+  name: People counting solution
+  images:
+  - /assets/img/project/internal-app/01.png
+  - /assets/img/project/internal-app/02.png
+project-06:
+  name: Dota 2 trivia game
+  images:
+  - /assets/img/project/dota2-trivia/01.png
+  - /assets/img/project/dota2-trivia/02.png
