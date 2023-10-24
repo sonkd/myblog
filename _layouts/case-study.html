@@ -53,9 +53,9 @@ layout: default
     
           <div class="col col-4 col-t-12 col-m-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="200" data-aos-duration="700">
             {% if page.image %}
-            <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+            <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})" aria-label="{{page.title}}"></div>
             {% else %}
-            <div class="post-image img-blur" style="background-image: url(/assets/img/infinity.png)"></div>
+            <div class="post-image img-blur" style="background-image: url(/assets/img/infinity.png)" aria-label="{{page.title}}"></div>
             {% endif %}
           </div>
 
