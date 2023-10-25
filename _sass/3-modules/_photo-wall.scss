@@ -1,11 +1,22 @@
 /* Photo wall */
 
 /* center the grid in the viewport */
-.photo-wall {
+.photo-wall--only-desktop {
     display: none
 }
+
+.photo-wall--all-screen {
+    display: flex;
+}
+
 @media #{$desktop} {
-.photo-wall {
+    .photo-wall--only-desktop {
+        display: flex;
+    }
+}
+
+.photo-wall--only-desktop, .photo-wall--all-screen {
+
     margin: 20px 0;
 
     width: 100vw;
@@ -15,7 +26,7 @@
     margin-left: -50vw;
     margin-right: -50vw;
 
-    display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -23,7 +34,7 @@
     background-color: $dark;
 }
 
-.photo-wall main {
+.photo-wall--only-desktop main, .photo-wall--all-screen main {
     max-width: 100vw;
     /*width: 90vw;*/
     /* display the anchor links in a grid */
@@ -80,5 +91,4 @@
         transform: scale(1.3);
         filter: brightness(1);
     }
-}
 }

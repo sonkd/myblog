@@ -1,6 +1,6 @@
-<div class="photo-wall">
+<div class="photo-wall--only-desktop">
   <main>
-    {% for image in site.data.photo-wall %}
+    {% for image in list-image %}
     <a href="#"><img src="{{image.url}}" alt="{{image.alt}}"></a>
   {% endfor %}
   </main>

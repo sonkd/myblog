@@ -22,7 +22,6 @@
     height: 93vh;
     position: relative;
 	text-align: center;
-	padding: 0 2em;
     h1 {
         font-size: 1.5rem;
         margin: 0;
@@ -40,18 +39,20 @@
 }
 
 .et-hero-tabs-container {
-    display: flex;
-    flex-direction: row;
     position: absolute;
     top: 87vh;
     width: 100%;
-    height: 8vh;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     background: white;
     z-index: 1000;
     &--top {
         position: fixed;
         top: 0;
+    }
+    .hero-tab {
+        display: flex;
+        flex-direction: row;
+        height: 7vh;
     }
 }
 

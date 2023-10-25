@@ -8,7 +8,10 @@ order: 4
 ---
 
 <div class="container-full">
+    <!-- start add photo wall from data -->
+    {% assign list-image = site.data.photo-wall %}
     {% include gallery-background.html %}
+    <!-- end -->
     <div style="backdrop-filter: blur(10px); padding: 0;">
         <h1>{{ page.title | escape }}</h1>
     </div>
@@ -37,15 +40,6 @@ order: 4
 
                     <div class="{{c}}__meta">
                         <div class="{{c}}__author-name">{{site.author.name}}</div>
-                        <!--
-                        <div class="{{c}}__author-image">
-                            <img alt="{{author.name}}" data-cms-original-src="{{author.image}}" loading="lazy" src="/assets/img/profile.jpg">
-                        </div>
-                        <div class="{{c}}__info">
-                            <div class="{{c}}__author-name">{{site.author.name}}</div>
-                            <span class="{{c}}__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time></span>
-                        </div>
-                        -->
                     </div>
 
                     <p class="{{c}}__excerpt">
