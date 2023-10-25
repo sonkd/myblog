@@ -1,15 +1,3 @@
-- title: Avatar game concept
-  url: /assets/img/archieve/img01.jpg
-  year: 2014
-  date: 2014-11-24
-  description: blah blah blah
-  image: /assets/img/archieve/img01.jpg
-- title: Game design board
-  url: /assets/img/archieve/img02.jpg
-  year: 2014
-  date: 2014-05-24
-  description: blah blah blah
-  image: /assets/img/archieve/img02.jpg
 - title: Starstruck
   url: https://github.com/users/sonkd/achievements/starstruck
   year: 2017
@@ -28,12 +16,6 @@
   date: 2015-04-28
   description: Cửa sổ
   image: https://live.staticflickr.com/8742/17170024769_b512db929b_b.jpg
-- title: SVNCKH201515
-  url: https://flic.kr/p/sDPahm
-  year: 2015
-  date: 2015-05-15
-  description: Sinh viên Nghiên cứu Khoa học viện SoICT
-  image: https://live.staticflickr.com/8781/17493187808_3413eb05d8_b.jpg
 - title: UCD framework
   url: https://flic.kr/p/rWcmV6
   year: 2015

@@ -44,3 +44,9 @@ project-08:
   images:
     - /assets/img/project/dota2-trivia/01.png
     - /assets/img/project/dota2-trivia/02.png
+project-09:
+  name: Trivia game
+  images:
+    - /assets/img/project/trivia-game/01.png
+    - /assets/img/project/trivia-game/02.png
+    - /assets/img/project/trivia-game/03.png
