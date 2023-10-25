@@ -91,9 +91,23 @@
 			content: "";
 			display: table;
 			padding-top: 110%;
-		}
+		}	
 	}
 
+	&__small-title {
+		position: absolute;
+		bottom: 8px;
+		left: 4px;
+		padding: 8px;
+		margin: 0 4px;
+		color: white;
+		background-color: #00000080;
+		border-radius: 12px;
+		&hover {
+			display: none
+		}
+	}
+	
 	&__info {
 		z-index: 1;
 		width: 100%;

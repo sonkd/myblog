@@ -15,7 +15,7 @@ roles:
 - Product Design
 
 tag: [Digital, Retail, AI]
-image: https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bb5ff72223765.5be4372f89d52.png
+image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
 showcase-code: project-04 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
