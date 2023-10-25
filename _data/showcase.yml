@@ -1,21 +1,20 @@
 project-01:
   name: TCB Bill payment
   images:
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img02.jpg
-    - /assets/img/project/project-cover-TCB-bill-payment.png
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
-    - /assets/img/archieve/img01.jpg
+    - /assets/img/project/bill-payment/01.png
+    - /assets/img/project/bill-payment/02.png
+    - /assets/img/project/bill-payment/03.png
+    - /assets/img/project/bill-payment/04.png
+    - /assets/img/project/bill-payment/detected-bills.png
 project-02:
   name: Music app concept
   images:
-    - /assets/img/project/music-app-playlist.png
-    - /assets/img/project/music-app-discover.png
-    - /assets/img/project/music-app-library.png
-    - /assets/img/project/music-app-home-flow.png
+    - /assets/img/project/music-app/playlist.png
+    - /assets/img/project/music-app/discover.png
+    - /assets/img/project/music-app/library.png
+    - /assets/img/project/music-app/home-flow.png
 project-03:
-  name: Music app concept
+  name: Credit card instalment
   images:
     - /assets/img/infinity.png
 project-04:
@@ -32,6 +31,16 @@ project-05:
     - /assets/img/project/internal-app/02.png
 project-06:
   name: Dota 2 trivia game
+  images:
+    - /assets/img/project/dota2-trivia/01.png
+    - /assets/img/project/dota2-trivia/02.png
+project-07:
+  name: Lì xì - Red envelope
+  images:
+    - /assets/img/project/dota2-trivia/01.png
+    - /assets/img/project/dota2-trivia/02.png
+project-08:
+  name: Techombank Rewind 2022
   images:
     - /assets/img/project/dota2-trivia/01.png
     - /assets/img/project/dota2-trivia/02.png

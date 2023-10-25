@@ -1,15 +1,21 @@
 ---
+layout: case-study
 title: "Techombank Rewind 2022"
-layout: post
 date: 2022-12-20 12:56:34
-tag: [Digital Banking, Mobile, Rewind, Data]
-image:
-headerImage: true
-projects: true
+
+company: Techcombank
+project-date: 2022-12-20
+challenges:
+- Keeping things simple. Reduce salience of form and amount while still supporting customers to feel controlled.
+roles:
+- UX Design
+- UI interaction
+
+tag: [Digital Banking, Mobile, Rewind]
+image: 
+showcase-code: project-08 # update in data/showcase
+
 hidden: true # don't count this post in blog pagination
-description: ""
-category: project
-author: sonohyeah
 externalLink: false
 ---
 

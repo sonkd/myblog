@@ -1,15 +1,21 @@
 ---
-title: "Li xi - Red envelope"
-layout: post
+layout: case-study
+title: "Lì Xì - Red envelope"
 date: 2022-11-20 12:56:34
+
+company: Techcombank
+project-date: 2022-11-20
+challenges:
+- Keeping things simple. Reduce salience of form and amount while still supporting customers to feel controlled.
+roles:
+- UX Design
+- UI interaction
+
 tag: [Digital Banking, Mobile, Red Envelope]
-image:
-headerImage: true
-projects: true
+image: 
+showcase-code: project-07 # update in data/showcase
+
 hidden: true # don't count this post in blog pagination
-description: ""
-category: project
-author: sonohyeah
 externalLink: false
 ---
 
