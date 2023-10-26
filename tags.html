@@ -12,7 +12,7 @@ permalink: /tags/
         {% for TAG in alltags  %}
         <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
         <h4 id="{{ TAG.name | slugify }}" class="linked-section">
-            #{{ TAG.name }}&nbsp;({{ TAG.size }})
+            #{{ TAG.name | upcase }}&nbsp;({{ TAG.size }})
         </h4>
     
         {% assign alldocs = site.documents %}
