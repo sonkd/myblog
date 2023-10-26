@@ -50,7 +50,7 @@ permalink: /tags/
             <div class="show-cloud">
             {% for tag in alltags %}
             <a href="#{{ tag.name | slugify }}" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px; ">
-                {{ tag.name }}({{ tag.size }})
+                {{ tag.name | upcase }}({{ tag.size }})
             </a>
             {% endfor %}
             </div>
