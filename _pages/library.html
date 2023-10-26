@@ -10,6 +10,7 @@ order: 4
 <div class="container-full">
     <!-- start add photo wall from data -->
     {% assign list-image = site.data.photo-wall %}
+    {% assign show-option = 'photo-wall--only-desktop' %}
     {% include gallery-background.html %}
     <!-- end -->
     <div style="backdrop-filter: blur(10px); padding: 0;">

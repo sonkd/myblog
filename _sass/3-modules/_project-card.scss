@@ -61,6 +61,10 @@
 			img {
 				transform: scale(1.05);
 			}
+
+			&__content {
+				display: none
+			}
 		}
 	}
 
@@ -103,9 +107,6 @@
 		color: white;
 		background-color: #00000080;
 		border-radius: 12px;
-		&hover {
-			display: none
-		}
 	}
 	
 	&__info {

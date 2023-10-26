@@ -7,8 +7,8 @@ company: Elcom Corp
 summary: Dựa trên kho dữ liệu câu hỏi kiến thức phong phú, mọi người từ mọi lứa tuổi, công việc đều có thể tham gia giải trí với nhiều chủ đề hấp dẫn và hot trend. Đồng thời họ có thể rèn luyện kiến thức học được qua từng chủ đề câu hỏi và giải trí thi đấu với bạn bè.
 project-date: 2018-04-01
 challenges:
-- Các gameshow giải trí truyền hình đa phần hấp dẫn thu hút khán giả đều có chung một motif là Người dẫn chương trình sẽ hỏi trắc nghiệm người chơi các câu hỏi kiến thức đời sống
-- 
+- Các gameshow giải trí truyền hình đa phần hấp dẫn thu hút khán giả đều có chung một motif là Người dẫn chương trình sẽ hỏi trắc nghiệm người chơi các câu hỏi kiến thức đời sống.
+- Làm thế nào tạo ra một sân chơi bổ ích giúp người dùng "Học mà Chơi, Chơi mà Học" thoải mái và không bị bỏ lỡ kiến thức sống hằng ngày cũng như các kiến thức khoa học chuyên môn khác?
 roles:
 - UX Design
 - Product lead

@@ -1,52 +1,78 @@
-project-01:
-  name: TCB Bill payment
+project-11:
+  name: Footy
   images:
-    - /assets/img/project/bill-payment/01.png
-    - /assets/img/project/bill-payment/02.png
-    - /assets/img/project/bill-payment/03.png
-    - /assets/img/project/bill-payment/04.png
-    - /assets/img/project/bill-payment/detected-bills.png
-project-02:
-  name: Music app concept
+    - url: /assets/img/project/footy1.jpg
+      alt: footy
+    - url: /assets/img/project/footy-background.jpg
+      alt: footy
+project-10:
+  name: Ứng dụng hồ sơ sức khoẻ
   images:
-    - /assets/img/project/music-app/playlist.png
-    - /assets/img/project/music-app/discover.png
-    - /assets/img/project/music-app/library.png
-    - /assets/img/project/music-app/home-flow.png
-project-03:
-  name: Credit card instalment
-  images:
-    - /assets/img/infinity.png
-project-04:
-  name: People counting solution
-  images:
-    - https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/80cc3d72223765.5be4240f3af12.png
-    - https://mir-s3-cdn-cf.behance.net/project_modules/1400/c1a35172223765.5be32b925eba4.png
-    - https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
-    - https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bb5ff72223765.5be4372f89d52.png
-project-05:
-  name: People counting solution
-  images:
-    - /assets/img/project/internal-app/01.png
-    - /assets/img/project/internal-app/02.png
-project-06:
-  name: Dota 2 trivia game
-  images:
-    - /assets/img/project/dota2-trivia/01.png
-    - /assets/img/project/dota2-trivia/02.png
-project-07:
-  name: Lì xì - Red envelope
-  images:
-    - /assets/img/project/dota2-trivia/01.png
-    - /assets/img/project/dota2-trivia/02.png
-project-08:
-  name: Techombank Rewind 2022
-  images:
-    - /assets/img/project/dota2-trivia/01.png
-    - /assets/img/project/dota2-trivia/02.png
+    - url: /assets/img/project/project-cover-ihealth.png
+      alt: ihealth
 project-09:
   name: Trivia game
   images:
-    - /assets/img/project/trivia-game/01.png
-    - /assets/img/project/trivia-game/02.png
-    - /assets/img/project/trivia-game/03.png
+    - url: /assets/img/project/trivia-game/01.png
+    - url: /assets/img/project/trivia-game/02.png
+    - url: /assets/img/project/trivia-game/03.png
+project-08:
+  name: Techombank Rewind 2022
+  images:
+    - url: /assets/img/project/dota2-trivia/01.png
+    - url: /assets/img/project/dota2-trivia/02.png
+project-07:
+  name: Lì xì - Red envelope
+  images:
+    - url: /assets/img/project/dota2-trivia/01.png
+    - url: /assets/img/project/dota2-trivia/02.png
+project-06:
+  name: Dota 2 trivia game
+  images:
+    - url: /assets/img/project/dota2-trivia/01.png
+    - url: /assets/img/project/dota2-trivia/02.png
+project-05:
+  name: People counting solution
+  images:
+    - url: /assets/img/project/internal-app/01.png
+    - url: /assets/img/project/internal-app/02.png
+project-04:
+  name: People counting solution
+  images:
+    - url: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/80cc3d72223765.5be4240f3af12.png
+    - url: https://mir-s3-cdn-cf.behance.net/project_modules/1400/c1a35172223765.5be32b925eba4.png
+    - url: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
+    - url: https://mir-s3-cdn-cf.behance.net/project_modules/1400/1bb5ff72223765.5be4372f89d52.png
+project-03:
+  name: Credit card instalment
+  images:
+    - url: /assets/img/infinity.png
+project-02:
+  name: Music app concept
+  images:
+    - url: /assets/img/project/music-app/playlist.png
+    - url: /assets/img/project/music-app/discover.png
+    - url: /assets/img/project/music-app/library.png
+    - url: /assets/img/project/music-app/home-flow.png
+project-01:
+  name: TCB Bill payment
+  images:
+    - url: /assets/img/project/bill-payment/01.png
+    - url: /assets/img/project/bill-payment/02.png
+    - url: /assets/img/project/bill-payment/03.png
+    - url: /assets/img/project/bill-payment/04.png
+    - url: /assets/img/project/bill-payment/detected-bills.png
+project-0:
+  name: Game design
+  images:
+    - url: /assets/img/project/game-design/float-land.jpg
+    - url: /assets/img/project/game-design/3worlds.jpg
+    - url: /assets/img/project/game-design/hai-tac.jpg
+    - url: /assets/img/project/game-design/ui-avatar.jpg
+    - url: /assets/img/project/game-design/free-spin.png
+  images-02:
+    - url: /assets/img/project/sketch-board.jpg
+    - url: /assets/img/project/game-design/catch-fish.jpg
+    - url: /assets/img/project/game-design/avatar.jpg
+    - url: /assets/img/project/game-design/free-spin.png
+    - url: /assets/img/project/game-design/jumping.jpg

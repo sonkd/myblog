@@ -65,9 +65,10 @@ layout: default
             {% endif %}
           </div>
 
-          <div class="project__content col col-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="500" data-aos-duration="700">
+          <div class="col col-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="500" data-aos-duration="700" style="text-align: left;">
+            <div class="project__content">
             {{ content }}
-      
+            </div>
             {% if page.tags.size >= 1 %}
             <div class="post-tags">
               {% for tag in page.tags %}
