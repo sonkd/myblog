@@ -7,7 +7,7 @@ url: "https://sonkd.github.io" # the base hostname & protocol for your site, e.g
 
 # Author Settings
 author:
-  name: Kevin Son
+  name: Kevin Kim
   image: '/assets/img/profile.jpg'
   job: Product Designer
   bio: I'm a Product Designer love food and living in Hanoi, Vietnam
@@ -25,7 +25,7 @@ contact:
   - name: Linkedin
     link: https://www.linkedin.com/in/kevinsonkd/
   - name: Github
-    link: https://github.com/son-oh-yeah
+    link: https://github.com/sonkd
 
 
 # Comment Section (Disqus)
