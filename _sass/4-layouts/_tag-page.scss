@@ -114,8 +114,8 @@
   a {
     text-decoration-line: none !important;
     margin-right: 8px;
+    color: $primary-color !important;
     &hover {
-      color: $primary-color !important;
       text-decoration-line: underline
     }
   }
