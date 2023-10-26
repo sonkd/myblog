@@ -94,7 +94,7 @@
 
   .sticky-cloud {
     position: sticky;
-    top: 30%;
+    top: 0;
     z-index: 999;
 
     height: 0;
@@ -113,7 +113,8 @@
 .show-cloud {
   a {
     text-decoration-line: none !important;
-    color: $gray;
+    color: $primay-color;
+    margin-right: 8px;
     &hover {
       color: $primary-color !important
     }
