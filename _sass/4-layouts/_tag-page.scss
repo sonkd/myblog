@@ -94,7 +94,7 @@
 
   .sticky-cloud {
     position: sticky;
-    top: 0;
+    top: 0px;
     z-index: 999;
 
     height: 0;
@@ -113,10 +113,10 @@
 .show-cloud {
   a {
     text-decoration-line: none !important;
-    color: $primay-color;
     margin-right: 8px;
     &hover {
-      color: $primary-color !important
+      color: $primary-color !important;
+      text-decoration-line: underline
     }
   }
 }
