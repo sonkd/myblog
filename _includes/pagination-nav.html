@@ -1,20 +1,16 @@
-<nav class="pagination">
-  <div class="container">
-    <div class="pagination__inner">
 
-      <div class="pagination__list">
-               
-        <a class="pagination__prev" href="" data-pagebreak-control="prev"><i class="ion ion-ios-arrow-back"></i>Previous</a>
-        <div class="pagination__count">
-        Page 
-        <span data-pagebreak-label="current">1</span>
-        of
-        <span data-pagebreak-label="total">1</span>
-        </div>
-        <a class="pagination__next" href="" data-pagebreak-control="next">Next<i class="ion ion-ios-arrow-forward"></i></a>
-        
-      </div>
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="pagination__prev"><i class="lni lni-angle-double-left"></i>Previous</a>
+  {% else %}
+  <span class="pagination__prev hidden"><i class="lni lni-angle-double-left"></i> Previous</span>
+  {% endif %}
 
-    </div>
-  </div>
-</nav>
+  <span class="pagination__count">page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+  <a href="{{ site.url }}{{ paginator.next_page_path }}" class="pagination__next">Next<i class="lni lni-angle-double-right"></i></a>
+  {% else %}
+  <span class="pagination__next hidden">Next<i class="lni lni-angle-double-right"></i></span>
+  {% endif %}
+</div>

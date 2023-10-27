@@ -3,7 +3,8 @@ gem "bundler"
 gem "jekyll"
 gem "jekyll-admin"
 gem "jekyll-sitemap"
-gem "jekyll-pagebreak"
+gem "jekyll-paginate"
+gem "jekyll-paginate-multiple"
 gem "jemoji"
 gem 'jekyll-seo-tag'
 gem 'jekyll-tagging'

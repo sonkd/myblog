@@ -4,7 +4,7 @@ title: 📚Library
 permalink: /library/
 image:
 isMainPage: true
-order: 4
+order: 3
 ---
 
 <div class="container-full">
@@ -16,7 +16,7 @@ order: 4
     <div style="backdrop-filter: blur(10px); padding: 0;">
         <h1>{{ page.title | escape }}</h1>
     </div>
-    <div class="row" data-pagebreak="15" data-pagebreak-url="./:num/" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+    <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% if site.research.size > 0 %}
         {% assign c = "c-research-card" %}
         {% for post in site.research %}
@@ -61,4 +61,3 @@ order: 4
     </div>  
     {% endif %}
 </div>
-{% include pagination-nav.html %}

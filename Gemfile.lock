@@ -55,8 +55,10 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
-    jekyll-pagebreak (0.9.2)
-      jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
+    jekyll-paginate-multiple (0.1.0)
+      jekyll (>= 2.5)
+      jekyll-paginate (~> 1.1)
     jekyll-sass-converter (3.0.0)
       sass-embedded (~> 1.54)
     jekyll-seo-tag (2.8.0)
@@ -135,7 +137,8 @@ DEPENDENCIES
   bundler
   jekyll
   jekyll-admin
-  jekyll-pagebreak
+  jekyll-paginate
+  jekyll-paginate-multiple
   jekyll-seo-tag
   jekyll-sitemap
   jekyll-tagging

@@ -1,12 +1,13 @@
 /* Pagination */
-.pagination__inner {
-  margin: 40px 0 44px;
-}
 
-.pagination__list {
+.pagination {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  .hidden {
+    visibility: hidden
+  }
 }
 
 .pagination__prev,
@@ -27,7 +28,7 @@
 
 .pagination__prev,
 .pagination__next {
-  font-size: 14px;
+  font-size: $body-size;
   text-decoration-line: none;
   color: $primary-color;
   will-change: transform;
@@ -72,7 +73,7 @@
 
 .pagination__count {
   margin: 0 6px;
-  font-size: 15px;
+  font-size: $body-size;
   font-weight: 600;
   color: rgba($gray, 0.7);
   background-color: $background-color-3;
