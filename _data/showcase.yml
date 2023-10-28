@@ -57,9 +57,6 @@ project-02:
 project-01:
   name: TCB Bill payment
   images:
-    - url: /assets/img/project/bill-payment/01.png
-    - url: /assets/img/project/bill-payment/02.png
-    - url: /assets/img/project/bill-payment/03.png
     - url: /assets/img/project/bill-payment/04.png
     - url: /assets/img/project/bill-payment/detected-bills.png
 project-0:

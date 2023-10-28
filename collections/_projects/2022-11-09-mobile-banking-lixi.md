@@ -4,6 +4,7 @@ title: "Lì Xì - Red envelope"
 date: 2022-11-20 12:56:34
 
 company: Techcombank
+summary: Designed UX for first digital red envelope feature 🧧 Li xi, an innovative solution for customers with traditional and digital experiences seamlessly.
 project-date: 2022-11-20
 challenges:
 - Keeping things simple. Reduce salience of form and amount while still supporting customers to feel controlled.
@@ -19,4 +20,8 @@ hidden: true # don't count this post in blog pagination
 externalLink: false
 ---
 
-Designed UX for first digital red envelope feature 🧧 [Li xi](https://l.facebook.com/l.php?u=https%3A%2F%2Ftcbmobile.onelink.me%2FTBS9%2F0yw0mx2l&h=AT0PlUi8gFkagSMjPWdoBShIGgY89h_5zkyt9FJwy_apO3_XdGBl7ffx8ZNAm8ty0ILYuNITV_0Lq7zF3uTbQN3K0Vq92cYRkah3OHDT7_0W8MKF0nGUUx367v8epYvgjmwpU2XMoTkHYGM&s=1), an innovative solution for customers with traditional and digital experiences seamlessly.
+### Solutions
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FxJPOUIil9B3cidxccrGpPs%2FTCB-Bill-payment%3Ftype%3Ddesign%26node-id%3D1-4%26t%3Dg5w4u5Jgah3RPLCE-1%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A4%26mode%3Ddesign" allowfullscreen></iframe>
+
+### Results

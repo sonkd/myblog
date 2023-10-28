@@ -4,6 +4,7 @@ title: "Bill & Payment experience"
 date: 2021-04-20 12:56:34
 
 company: Techcombank
+summary: Design experience for Bill & Payment services, serving millions of people in Vietnam.
 project-date: 2021-04-20
 challenges:
 - Keeping things simple. Reduce salience of form and amount while still supporting customers to feel controlled.
@@ -23,22 +24,13 @@ externalLink: false
 ---
 
 ### Solution
-Design experience for Bill & Payment services in [Techcombank](https://techcombank.com/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile), serving millions of people in Vietnam.
 
 #### Reduce pain of payment
 - Shifting [the pain of payment](https://en.wikipedia.org/wiki/Pain_of_paying) by paying sooner
 - Autopay direct debit from the bank account
 - Create payment cycles for 2-3 large bills during the year that fit with customers' lifestyles and cash flow
-#### Nothing to worry about the bill
-![Shifting the pain - pay sooner and right time](/assets/img/project/bill-payment/01.png)
 
-![Auto detect bills from history](/assets/img/project/bill-payment/detected-bills.png)
-
-#### Quick & Easy
-![Mannually and automatically payment](/assets/img/project/bill-payment/02.png)
-
-#### Never miss a bill
-![Prepare for the future bills](/assets/img/project/bill-payment/03.png)
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="600" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fzq91Bkr4ba4Ln4iRM29aB2%2FTechcombank-Bill-payment%3Ftype%3Ddesign%26node-id%3D1-4%26t%3DTEwv4oagEMNLhQ4h-1%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D1%253A4%26mode%3Ddesign" allowfullscreen></iframe>
 
 ---
 #### Prototype
