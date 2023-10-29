@@ -53,6 +53,8 @@ isMainPage: true
           <div class="{{c}}__heading">
             {% if project.company %}
               <div class="{{c}}__company">{{ project.company }}</div>
+            {% else %}
+            <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
             {% endif %}
             <div class="{{c}}__big-title">{{ project.title }}</div>
           </div>
@@ -63,6 +65,8 @@ isMainPage: true
           <div class="{{c}}__heading">
             {% if project.company %}
               <div class="{{c}}__company">{{ project.company }}</div>
+            {% else %}
+              <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
             {% endif %}
             <div class="{{c}}__big-title">{{ project.title }}</div>
           </div>

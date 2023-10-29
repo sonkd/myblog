@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "Dota 2 trivia game"
+title: "🎮 Dota 2 trivia game"
 date: 2018-11-13 09:45:45
 
 company: Concept design

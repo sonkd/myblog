@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "Lì Xì - Red envelope"
+title: "🧧 Lì Xì - Digital Red envelope"
 date: 2022-11-20 12:56:34
 
 company: Techcombank

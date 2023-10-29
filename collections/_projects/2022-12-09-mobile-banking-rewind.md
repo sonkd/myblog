@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "Techombank Rewind 2022"
+title: "⏪ Techombank Rewind 2022"
 date: 2022-12-20 12:56:34
 
 company: Techcombank

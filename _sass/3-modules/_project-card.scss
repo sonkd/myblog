@@ -109,6 +109,10 @@
 		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 		overflow: hidden;
 
+		a {
+			color: $dark;
+		}
+
 		@media #{$tablet} {
 			&::after {
 				padding-top: 100%;
@@ -151,12 +155,9 @@
 
 	&__big-title {
 		font-size: 20px;
+		width: 80%;
 		font-family: $primary-font-2;
 		font-weight: 600;
-
-		&:hover {
-			color: $dark;
-		}
 	}
 
 	&__small-title {

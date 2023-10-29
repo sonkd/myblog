@@ -12,6 +12,8 @@
       <div class="{{c}}__heading">
         {% if project.company %}
           <div class="{{c}}__company">{{ project.company }}</div>
+        {% else %}
+          <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
         {% endif %}
         <div class="{{c}}__big-title">{{ project.title }}</div>
       </div>
@@ -22,6 +24,8 @@
       <div class="{{c}}__heading">
         {% if project.company %}
           <div class="{{c}}__company">{{ project.company }}</div>
+        {% else %}
+          <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
         {% endif %}
         <div class="{{c}}__big-title">{{ project.title }}</div>
       </div>
@@ -32,7 +36,7 @@
 {% endfor %}
 </div>
 
-<div style="text-align: center;padding-top: 10px;">
+<div style="text-align: center;padding-top: 40px;">
     <a href="{{site.baseurl}}/projects/" class="works-button c-button c-button--secondary c-button--small">See more works</a>
 </div>
 {% endif %}

@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "Bill & Payment experience"
+title: "🧾 Online bill & payment experience"
 date: 2021-04-20 12:56:34
 
 company: Techcombank

@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "People counting solution for the retailers"
+title: "🚶‍♂️People counting solution for the retailers"
 date: 2018-11-08 12:56:34
 
 company: Elcom Corp

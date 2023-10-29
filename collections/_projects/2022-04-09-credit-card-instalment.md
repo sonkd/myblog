@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "Credit card instalment"
+title: "💳 Online credit card instalment"
 date: 2022-04-20 12:56:34
 
 company: Techcombank
