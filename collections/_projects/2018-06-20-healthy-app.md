@@ -1,6 +1,6 @@
 ---
 layout: case-study
-title: "🩷 Ứng dụng quản lý hồ sơ sức khoẻ"
+title: "❤️ Ứng dụng quản lý hồ sơ sức khoẻ"
 date: 2018-06-20 12:30:45
 
 company: Elcom Corp

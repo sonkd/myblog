@@ -68,6 +68,34 @@
 		}
 	}
 
+	&__image-2 {
+		position: absolute;
+		display: block;
+		width: 100%;
+		height: 100%;
+		user-select: none;
+		background-color: $background-color-3;
+
+		img {
+			position: relative;
+			width: 100%;
+			height: calc(100% - 7rem);
+			object-fit: cover;
+			border-radius: 16px 16px 0 0;
+			background-color: $background-color-3;
+			pointer-events: none;
+			transition: all .4s ease 0s;
+			will-change: transform;
+		}
+
+		&:hover {
+
+			img {
+				transform: scale(1.05);
+			}
+		}
+	}
+
 	&__content {
 		position: relative;
 		display: flex;
@@ -76,7 +104,9 @@
 		min-height: 280px;
 		border-radius: 16px;
 		transform: translate(0);
-		box-shadow: 0px 0px 30px rgba($primary-color, 0.1);
+		background-color: white;
+		/*box-shadow: 0px 0px 30px rgba($primary-color, 0.1);*/
+		box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 		overflow: hidden;
 
 		@media #{$tablet} {
@@ -98,14 +128,44 @@
 		}	
 	}
 
+	&__heading {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		height: 7rem;
+		width: 100%;
+		padding: 16px;
+		text-align: left;
+		text-decoration-line: none !important;
+	}
+
+	&__company {
+		font-size: 13px;
+		text-transform: uppercase;
+		color: $sub-text-color;
+		padding: 4px 0;
+		margin: 4px 0;
+		width: fit-content;
+		border: 4px;
+	}
+
+	&__big-title {
+		font-size: 20px;
+		font-family: $primary-font-2;
+		font-weight: 600;
+
+		&:hover {
+			color: $dark;
+		}
+	}
+
 	&__small-title {
 		position: absolute;
 		bottom: 8px;
 		left: 8px;
 		padding: 8px;
 		margin: 4px 8px 4px 4px;
-		color: white;
-		background-color: #00000080;
+		color: $dark;
 		border-radius: 12px;
 	}
 	
