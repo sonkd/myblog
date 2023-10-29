@@ -32,7 +32,7 @@ project-06:
     - url: /assets/img/project/dota2-trivia/01.png
     - url: /assets/img/project/dota2-trivia/02.png
 project-05:
-  name: People counting solution
+  name: Internal app
   images:
     - url: /assets/img/project/internal-app/01.png
     - url: /assets/img/project/internal-app/02.png

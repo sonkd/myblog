@@ -40,8 +40,8 @@ permalink: /tags/
         <div class="sticky-cloud">
             <div class="show-cloud">
             {% for tag in alltags %}
-                <span>
-                <a href="#{{ tag.name | slugify }}" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
+                <span style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
+                <a href="#{{ tag.name | slugify }}">
                     {{ tag.name | upcase }}
                 </a>({{ tag.size }})
                 </span>
@@ -51,8 +51,8 @@ permalink: /tags/
         <div class="dupe-cloud">
             <div class="show-cloud">
             {% for tag in alltags %}
-                <span>
-                <a href="#{{ tag.name | slugify }}" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
+                <span style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
+                <a href="#{{ tag.name | slugify }}">
                     {{ tag.name | upcase }}
                 </a>({{ tag.size }})
                 </span>

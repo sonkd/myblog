@@ -1,6 +1,6 @@
 ---
-layout: page
-title: 🚀Projects
+layout: default
+title: 🧠✏️Work
 permalink: /projects/
 image: 
 order: 1
@@ -8,15 +8,21 @@ show: true
 isMainPage: true
 ---
 
-<section class="animate">
+<section class="container-full" style="text-align: center;">
+  <h1>{{ page.title | escape }}.Think.Play.Work</h1>
+  <p>80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people love.</p>
+</section>
+<br>
+<section class="animate container-full">
 {% if site.projects.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
 {% else %}
   <div class="row">
   {% assign c = "c-project-card" %}
   {% if paginator.total_pages > 1  %}
+    {% assign delay-time = 600 %}
     {% for project in paginator.posts %}
-      <article class="{{c}} col col-4 col-d-6 col-t-12">
+      <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="{{delay-time}}">
         <div class="{{c}}__content">
           {% if project.image %}
           <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image">
@@ -41,11 +47,13 @@ isMainPage: true
           </div>
         </div>
       </article>
+      {% assign delay-time = delay-time | plus: 150 %}
     {% endfor %}
     {% include pagination-nav.html %}
   {% else %}
+    {% assign delay-time = 600 %}
     {% for project in site.projects reversed %} 
-    <article class="{{c}} col col-4 col-d-6 col-t-12">
+    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="{{delay-time}}">
       <div class="{{c}}__content">
         {% if project.image %}
         <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image-2">
@@ -74,6 +82,7 @@ isMainPage: true
         {% endif %}
       </div>
     </article>
+    {% assign delay-time = delay-time | plus: 150 %}
     {% endfor %}
   {% endif %}
   </div>

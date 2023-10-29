@@ -3,8 +3,9 @@
 <div class="row">
 {% assign c = "c-project-card" %}
 {% assign projects = site.projects | reverse %}
+{% assign delay-time = 600 %}
 {% for project in projects | limit : 6 %}
-<article class="{{c}} col col-4 col-d-6 col-t-12">
+<article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="{{delay-time}}">
   <div class="{{c}}__content">
     {% if project.image %}
     <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image-2">
@@ -33,6 +34,7 @@
     {% endif %}
   </div>
 </article>
+{% assign delay-time = delay-time | plus: 150 %}
 {% endfor %}
 </div>
 
