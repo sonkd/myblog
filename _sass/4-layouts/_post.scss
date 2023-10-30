@@ -44,7 +44,7 @@
   margin-bottom: 45px;
   p {
     font-size: $body-size;
-    line-height: calc($body-line_height + 0rem);
+    line-height: calc($body-line_height + .25rem);
     letter-spacing: 0.3px;
     color: $dark;
     img {
@@ -55,6 +55,10 @@
   ol li {
     margin-bottom: 15px;
   }
+}
+
+.post__content blockquote p {
+  font-size: $h4-size
 }
 
 /* Post Navigation */

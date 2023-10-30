@@ -44,10 +44,10 @@
 
 .nav__item {
   display: inline-block;
-  margin-left: 1rem;
   .nav__link {
     color: $dark;
     text-decoration: none;
+    padding-left: 1rem
   }
 }
 
