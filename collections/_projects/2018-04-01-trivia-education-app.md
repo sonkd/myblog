@@ -14,7 +14,7 @@ roles:
 - Product lead
 
 tag: [Trivia, Mobile, Application, UX, Education]
-image: /assets/img/project/project-cover-giaido.png
+image: /assets/img/project/trivia-game/project-cover.png
 showcase-code: project-09 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

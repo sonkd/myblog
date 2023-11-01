@@ -1,3 +1,12 @@
+project-12:
+  name: Game Platform
+  images:
+    - url: /assets/img/project/game-platform/slide-2.png
+      alt: Game Platform
+    - url: /assets/img/project/game-platform/slide-3.png
+      alt: Game Platform
+    - url: /assets/img/project/game-platform/project-cover-game-platform.png
+      alt: Game Platform
 project-11:
   name: Footy
   images:
@@ -14,19 +23,27 @@ project-09:
   name: Trivia game
   images:
     - url: /assets/img/project/trivia-game/01.png
+      alt: Trivia game
     - url: /assets/img/project/trivia-game/02.png
+      alt: Trivia game
     - url: /assets/img/project/trivia-game/03.png
+      alt: Trivia game
 project-08:
   name: Techombank Rewind 2022
   images:
     - url: /assets/img/project/tcb-rewind/slide-1.png
+      alt: Techombank Rewind 2022
     - url: /assets/img/project/tcb-rewind/slide-2.png
+      alt: Techombank Rewind 2022
     - url: /assets/img/project/tcb-rewind/badge.jpg
+      alt: Techombank Rewind 2022
 project-07:
   name: Lì xì - Red envelope
   images:
     - url: /assets/img/project/tcb-lixi/project-cover.png
+      alt: Lì xì - Red envelope
     - url: /assets/img/project/tcb-lixi/slide-1.png
+      alt: Lì xì - Red envelope
 project-06:
   name: Dota 2 trivia game
   images:
@@ -47,7 +64,8 @@ project-04:
 project-03:
   name: Credit card instalment
   images:
-    - url: /assets/img/infinity.png
+    - url: /assets/img/project/tcb-instalment/slide-1.png
+    - url: /assets/img/project/tcb-instalment/project-cover.png
 project-02:
   name: Music app concept
   images:
@@ -70,7 +88,9 @@ project-0:
     - url: /assets/img/project/game-design/free-spin.png
   images-02:
     - url: /assets/img/project/sketch-board.jpg
-    - url: /assets/img/project/game-design/catch-fish.jpg
+    - url: /assets/img/project/game-design/catch-fish.jpeg
     - url: /assets/img/project/game-design/avatar.jpg
-    - url: /assets/img/project/game-design/free-spin.png
     - url: /assets/img/project/game-design/jumping.jpg
+    - url: /assets/img/project/game-design/chess.jpeg
+    - url: /assets/img/project/game-design/ailens-dancing.png
+    - url: /assets/img/project/game-design/3-bonus.png
