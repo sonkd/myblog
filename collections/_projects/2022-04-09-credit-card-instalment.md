@@ -7,10 +7,9 @@ company: Techcombank
 summary: Designed UX for Instalment Online 💳 and kept Product team stays focused on the omnichannel services experience, increased more 800% of new users and gained > $40m revenue.
 project-date: 2021-04-20
 challenges:
-- blah blah blah
-- blah blah blah
-- blah blah blah
-roles: UX Design, UI interaction
+- The Prisoner's Dilemma for Transactors and Revolvers impacts to business strategies and customer journey. Expand more debt or Clear all?
+- The key is timing the proper user context (shopping use cases) rather than advising them when needed
+roles: [UX Design]
 
 tag: [Digital Banking, Mobile, Payment, Credit Card]
 image: 

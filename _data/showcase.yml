@@ -21,11 +21,12 @@ project-08:
   images:
     - url: /assets/img/project/tcb-rewind/slide-1.png
     - url: /assets/img/project/tcb-rewind/slide-2.png
+    - url: /assets/img/project/tcb-rewind/badge.jpg
 project-07:
   name: Lì xì - Red envelope
   images:
-    - url: /assets/img/project/dota2-trivia/01.png
-    - url: /assets/img/project/dota2-trivia/02.png
+    - url: /assets/img/project/tcb-lixi/project-cover.png
+    - url: /assets/img/project/tcb-lixi/slide-1.png
 project-06:
   name: Dota 2 trivia game
   images:
