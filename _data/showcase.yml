@@ -52,8 +52,8 @@ project-06:
 project-05:
   name: Internal app
   images:
-    - url: /assets/img/project/internal-app/01.png
-    - url: /assets/img/project/internal-app/02.png
+    - url: /assets/img/project/internal-app/01.jpg
+    - url: /assets/img/project/internal-app/02.jpg
 project-04:
   name: People counting solution
   images:
