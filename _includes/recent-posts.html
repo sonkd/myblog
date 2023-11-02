@@ -1,6 +1,7 @@
-{% if site.blog.size > 0 %}
+{% assign posts = site.blog | reverse %}
+{% if posts.size > 0 %}
 <h2 style="text-align: center;">Recent posts</h2>
-{% for post in site.blog limit: 5 %}
+{% for post in posts limit: 5 %}
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
     <div class="article__content">
         <h3 class="article__title">

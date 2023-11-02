@@ -8,10 +8,6 @@ headerImage: false
 tag:
 - Life
 
-star: false
-blog: true
-hidden: false
-
 ---
 
 ❤ Amazing day ❤. My most beautiful princess has been born.

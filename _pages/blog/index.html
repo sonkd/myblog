@@ -10,7 +10,8 @@ isMainPage: true
 <div class="container">
 <p style="text-align: center;">I share my thoughts about product development, user behaviors, productivity, tips, inspiration, strategies, so on.</p>
 <hr>
-{% if site.blog.size > 0 %}
+{% assign posts = site.blog | reverse %}
+{% if posts.size > 0 %}
     {% if paginator.total_pages > 1  %}
         {% for post in paginator.posts %}
         <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
@@ -51,7 +52,7 @@ isMainPage: true
         {% endfor %}
         {% include pagination-nav.html %}
     {% else %}
-        {% for post in site.blog %}
+        {% for post in posts %}
         <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
             <div class="article__content">
                 <h3 class="article__title">
