@@ -42,5 +42,5 @@ Các chức năng chính:
 **Appstore**:
 [Link](https://apps.apple.com/vn/app/myelcom/id1637843634)
 
-<img style="width: 375px" alt="Screen shot" src="/assets/img/project/internal-app/01.png">
-<img style="width: 375px" alt="Screen shot" src="/assets/img/project/internal-app/02.png">
+<img style="width: 375px" alt="Screen shot" src="/assets/img/project/internal-app/01.jpg">
+<img style="width: 375px" alt="Screen shot" src="/assets/img/project/internal-app/02.jpg">
