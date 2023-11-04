@@ -77,7 +77,7 @@ order: 3
                 <main>
                 {% assign posts = site.data.interactions | sort:"category" | reverse %}
                 {% for post in posts %}
-                    <a href="#"><img src="{{post.source}}" alt="{{post.title}}"></a>
+                    <a><img src="{{post.source}}" alt="{{post.title}}"></a>
                 {% endfor %}
                 </main>
             </div>
