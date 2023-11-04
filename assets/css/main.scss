@@ -37,6 +37,7 @@
 /* ============== :: 2 Base Styles ============== */
 @import '2-base/base';
 @import '2-base/button';
+@import '2-base/tab';
 @import '2-base/image';
 
 
@@ -71,6 +72,8 @@
 @import '3-modules/slideshow';
 /* :: 3.15 Photo wall */
 @import '3-modules/photo-wall';
+/* :: 3.15 Grid wall */
+@import '3-modules/grid-wall';
 
 
 /* ============== :: 4 Layouts ============== */

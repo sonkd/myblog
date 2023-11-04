@@ -1,0 +1,94 @@
+/* tab */
+
+@media all {
+  .c-tabs__bar {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .library-tab {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-width: 18px;
+    font-size: $body-size;
+    border-radius: 50%;
+  }
+}
+
+@media #{$tablet} {
+  .c-tabs__bar {
+    margin-top: 32px
+  }
+}
+
+@media #{$mobile} {
+
+  .c-tabs__bar .cta-tab,
+  .c-tabs__bar .works-tab {
+    font-size: $h5-size;
+  }
+}
+
+.c-tab {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 8px;
+
+  font-weight: 600;
+  text-decoration-line: none;
+  border-radius: 24px;
+
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+
+  &--active {
+    color: $primary-color;
+    text-decoration: none;
+    background: $background-color-4
+  }
+
+  &--inactive {
+    color: $dark;
+    text-decoration: none;
+    background: none;
+
+    &:hover {
+      border-style: solid;
+      border-width: 1px
+    }
+  }
+
+  &--small {
+    padding: 12px 16px;
+    font-size: $body-size
+  }
+
+  &--large {
+    padding: 24px 44px;
+    font-size: $h5-size
+  }
+}
+
+.tab-content {
+  [data-tab-info] {
+    display: none;
+  }
+
+  .active[data-tab-info] {
+    display: block;
+  }
+}
+
+.c-tab__last-one {
+  margin-right: 0 !important
+}

@@ -1,4 +1,52 @@
 /* Button */
+
+@media all {
+  .c-hero__btn {
+      display: flex;
+      align-items: center;
+      margin-top: 40px
+  }
+
+  .c-hero__btn .cta-button {
+      margin-right: 8px
+  }
+
+  .c-hero__btn .works-button:hover .circle-bg {
+      transition: all .2s cubic-bezier(.215,.61,.355,1);
+      transform: scale(.94)
+  }
+
+  .c-hero__btn .works-button .circle-bg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 18px;
+      height: 18px;
+      margin-right: 8px;
+      font-size: 14px;
+      border-radius: 50%;
+      will-change: transform;
+      background: linear-gradient(90deg,$primary-color 0%, $secondary-color 167%);
+      transition: all .2s cubic-bezier(.215,.61,.355,1)
+  }
+
+  .c-hero__btn .works-button .button-arrow {
+      color: #fff
+  }
+}
+
+@media #{$tablet} {
+  .c-hero__btn {
+      margin-top:32px
+  }
+}
+
+@media #{$mobile} {
+  .c-hero__btn .cta-button,.c-hero__btn .works-button {
+      font-size:15px
+  }
+}
+
 .c-button {
     position: relative;
     z-index: 1;
