@@ -1,5 +1,5 @@
 ---
-title: "Flow - Dòng chảy trong phát triển sản phẩm"
+title: "Flow - Dòng chảy phát triển sản phẩm"
 layout: post
 date: 2023-11-02 12:24:00
 author: sonkd
@@ -26,17 +26,25 @@ Bạn thấy đấy, vấn đề không phải nằm ở việc còn điều gì
         <figcaption class="caption">Nguồn: <a href="https://www.ibm.com/garage/method/practices/learn/practice_hypothesis_driven_development/">IBM</a></figcaption>
     </div>
     <div class="toright">
-        Trong thế giới đầy biến động của kinh doanh hiện đại, các nhà phát triển phần mềm phải đối mặt với nhiều thách thức, nhưng có hai thế lực nổi bật đặc biệt:
+        Trong thế giới đầy biến động của kinh doanh hiện đại, hai thế lực nổi bật "thách thức" chính đối với các nhà phát triển sản phẩm:
         <br><br>
-        - Các nhà phát triển phải cung cấp các chức năng mới cho khách hàng trong khung thời gian ngày càng ngắn hơn vì thế giới đang chuyển động nhanh hơn bao giờ hết, được hỗ trợ bởi công nghệ mới và cách làm việc mới.
+        - Phải cung cấp các chức năng mới cho khách hàng trong khung thời gian ngày càng ngắn hơn vì thế giới đang chuyển động nhanh hơn bao giờ hết, được hỗ trợ bởi công nghệ mới và cách làm việc mới.
         <br><br>
-        - Các nhà phát triển cũng phải cung cấp cho cơ sở khách hàng đang phát triển nhanh chóng và ngày càng chọn lọc, đòi hỏi trải nghiệm tốt hơn về mọi mặt. Nếu bạn là nhà phát triển xây dựng cho người dùng công cộng, bạn sẽ cạnh tranh với các đối thủ cạnh tranh, những người luôn nỗ lực hết mình và chỉ những sản phẩm tốt nhất mới tồn tại được. Ngay cả khi bạn xây dựng các ứng dụng hoàn toàn cho mục đích nội bộ, bạn vẫn có thể thấy rằng mọi người mong đợi nhiều hơn khi họ trải nghiệm những thú vui trên nền tảng di động và web, cả trong và ngoài nơi làm việc.
+        - Chỉ những sản phẩm tốt nhất về mọi mặt mới tồn tại được. Khi nằm ngoài "thương trường" đầy cạnh tranh-sản phẩm của bạn sẵn sàng bị thanh thế bởi đối thủ không những về tính năng, hiệu suất mà còn là những điểm cốt lõi trong trải nghiệm.
     </div>
 </div>
 
-### Framework
+**Tối ưu hóa cho những điều nhỏ nhất**
 
+Đây là cuộc chơi về Tốc độ và Chất lượng, sự thật là không hề có yếu tố "FUN" nào ở đây. Bạn phải quyết định nhanh hơn và hiệu quả hơn.
 
+![Prioritization matrix](https://www.ibm.com/design/thinking/static/prioritization-4-197b008afe461550b6e77fb9ace7ddcf.jpg)
+<figcaption>Prioritization Matrix. Công cụ hiệu quả mà tôi thường vận dụng trong team, nhờ đó nhanh chóng phân loai ưu tiên các hạng mục cần giải quyết.</figcaption>
+<br>
+Trong blog [The ultimate goal - Mục tiêu tối thượng](/blog/2021-03-07-the-ultimate-goal) tôi có đề cập đến cuốn sách "Think Fast and Flow" nói về 2 Con người trong tâm trí chúng ta tác động đến khả năng ra quyết định. Với những hoàn cảnh như trên, tôi tin rằng hầu hết chúng ta có xu hướng dùng Con người 1-*Tư duy nhanh và dùng trực giác theo bản năng* để đưa ra kết luận. Điều đó dễ dàng hợp lý mọi tình huống khi áp lực thời gian luôn đè nặng. Tuy vậy, nếu lựa chọn sự "may mắn" và hy vọng tốc độ bù chất lượng, hoặc với một lối suy nghĩ "ngụy biện" là "Không thành công thì cũng thành nhân", "Just do it and go ahead" có thực sự đem đến hiệu quả không chỉ trong ngắn hạn mà còn ở dài hạn (?). Thậm chí, trong nhiều tình huống "họ" phải tự trấn an điều đó bằng cách sử dụng các số liệu định lượng một cách cố ý, điều này minh họa tiêu biểu cho vấn đề [Confirmation Bias](https://en.wikipedia.org/wiki/Confirmation_bias) và [Framing bias](https://en.wikipedia.org/wiki/Framing_effect_(psychology)).
+
+### Flow - Dòng chảy phát triển sản phẩm
+![Flow](/assets/img/under-sea.gif)
 
 ### Xây dựng văn hoá ra quyết định dựa trên giả thuyết
 

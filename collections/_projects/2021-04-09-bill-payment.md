@@ -35,7 +35,9 @@ externalLink: false
 ---
 #### Prototype
 
-<video src="/assets/img/project/bill-payment/demo-bill-flow.mp4" width="100%" height="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
+<video src="/assets/img/project/bill-payment/clip_1.mp4" width="100%" height="100%" style ="margin: auto; background-color: white" controls autoplay loop muted></video>
+<br>
+<video src="/assets/img/project/bill-payment/clip_2.mp4" width="100%" height="100%" style ="margin: auto; background-color: white" controls autoplay loop muted></video>
 <br>
 
 [Learn more at Techcombank](https://techcombank.com/en/personal/digital-services/digital-banking/techcombank-mobile)
