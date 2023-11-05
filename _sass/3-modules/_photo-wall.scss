@@ -15,9 +15,10 @@
     }
 }
 
-.photo-wall--only-desktop, .photo-wall--all-screen {
+.photo-wall--only-desktop,
+.photo-wall--all-screen {
 
-    margin: 20px 0;
+    margin-bottom: 40px;
 
     width: 100vw;
     position: relative;
@@ -31,16 +32,16 @@
     justify-content: center;
     align-items: center;
     color: hsl(0, 0%, 100%);
-    background-color: $dark;
 }
 
 .photo-wall--all-screen {
     main {
-        grid-auto-rows: 200px !important;  
+        grid-auto-rows: 200px !important;
     }
 }
 
-.photo-wall--only-desktop main, .photo-wall--all-screen main {
+.photo-wall--only-desktop main,
+.photo-wall--all-screen main {
     max-width: 100vw;
     /*width: 90vw;*/
     /* display the anchor links in a grid */
@@ -55,6 +56,8 @@
     /* remove overflow to give the impression of a zoom when scaling the image up */
     a {
         overflow: hidden;
+        margin: .25rem;
+        border-radius: 8px;
     }
 
     /* update the size of a few selected cells */
@@ -88,6 +91,8 @@
         height: 100%;
         /* transition the scale and brightness of the image when hover/focus-ing on the anchor link */
         filter: brightness(0.6);
+        filter: grayscale(1);
+        opacity: .85;
         transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
         transform: scale(1);
     }
@@ -96,5 +101,71 @@
     a:hover img {
         transform: scale(1.3);
         filter: brightness(1);
+        filter: grayscale(0);
+        opacity: 1;
     }
+}
+
+/* stretch the overlay to cover the available viewport */
+.view-photo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* center te image horizontally & vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: hsla(0, 0%, 0%, 0.6);
+    backdrop-filter: blur(5px);
+    /* transition the opacity and visibility when the class of .overlay is added on the div container */
+    transition: all 0.5s ease-in-out;
+    opacity: 0;
+    visibility: hidden;
+}
+
+/* slight delay as the class is added and the overlay is meant to be shown */
+.overlay {
+    transition-delay: 0.2s;
+    z-index: 3000;
+    opacity: 1;
+    visibility: visible;
+}
+
+/* size the image according to both the width and height of the viewport */
+.view-photo img {
+    height: 90vh;
+    width: 85vw;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+/* absolute position the button in the top right corner of the overlay */
+.view-photo button {
+    color: inherit;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    outline-color: currentColor;
+    /* transition the opacity on hover/focus */
+    opacity: 0.5;
+    transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+}
+
+.view-photo button:hover,
+.view-photo button:focus {
+    opacity: 1;
+}
+
+.view-photo button svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+    pointer-events: none;
 }

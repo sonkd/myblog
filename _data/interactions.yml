@@ -1,12 +1,12 @@
 - title: Clip 1
   date: 2018-11-26
   category: WEB
-  source: /assets/img/archieve/interactions/clip_1.gif
+  image: /assets/img/archieve/interactions/clip_1.gif
 - title: Clip 2
   date: 2022-11-26
   category: WEB
-  source: /assets/img/archieve/interactions/clip_2.gif
+  image: /assets/img/archieve/interactions/clip_2.gif
 - title: Clip 3
   date: 2017-11-26
   category: WEB
-  source: /assets/img/archieve/interactions/clip_3.gif
+  clip: /assets/img/archieve/interactions/clip_3.mp4

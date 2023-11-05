@@ -12,7 +12,13 @@ isMainPage: true
   <h1>{{ page.title | escape }}.Think.Play.Work</h1>
   <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people love.</p>
 </section>
-<br>
+
+<!-- start add photo wall from data -->
+{% assign list-image = site.data.photo-wall %}
+{% assign show-option = 'photo-wall--only-desktop' %}
+{% include gallery-background.html %}
+<!-- end -->
+
 <section class="animate container-full">
 {% if site.projects.size == 0 %}
 	<p class="text-center">Nothing published yet!</p>
