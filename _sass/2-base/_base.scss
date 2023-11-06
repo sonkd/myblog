@@ -157,11 +157,11 @@ hr {
 
 figcaption {
   position: relative;
-  top: 1rem;
+  top: -1rem;
   left: 0;
   right: 0;
   margin: 0 auto;
-  width: 100%;
+  width: 80%;
   text-align: center;
   font-size: calc($body-size * 0.75);
   color: $sub-text-color;

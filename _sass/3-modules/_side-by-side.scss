@@ -1,7 +1,7 @@
 .side-by-side {
     @media #{$above} {
         width: 130%;
-        margin: 6rem 0 6rem -15%;
+        margin: 2rem 0 2rem -15%;
     }
 
     @media #{$below} {
@@ -13,6 +13,10 @@
         display: inline-block;
         width: 47.5%;
         line-height: 24px;
+
+        figcaption {
+            top: 1rem !important
+        }
 
         @media #{$below} {
             img {
