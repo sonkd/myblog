@@ -128,10 +128,10 @@
 @media all {
   .c-research-card__excerpt {
       display: -webkit-box;
-      font-size: 15px;
-      line-height: 1.6;
+      font-size: $body-size;
+      line-height: $body-line_height;
       margin-bottom: 20px;
-      color: #110e38;
+      color: $gray;
       overflow-y: hidden;
       -webkit-line-clamp: 3;
       -webkit-box-orient: vertical

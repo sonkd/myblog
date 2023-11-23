@@ -99,6 +99,9 @@ kbd,
 samp {
   font-family: monospace, monospace; /* 1 */
   font-size: 1em; /* 2 */
+  color: $gray;
+  letter-spacing: 0.15;
+  line-height: 1.5
 }
 
 /**

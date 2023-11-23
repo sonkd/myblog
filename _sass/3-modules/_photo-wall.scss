@@ -92,7 +92,7 @@
         /* transition the scale and brightness of the image when hover/focus-ing on the anchor link */
         filter: brightness(0.6);
         filter: grayscale(1);
-        opacity: .85;
+        opacity: .75;
         transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
         transform: scale(1);
     }

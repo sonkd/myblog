@@ -70,7 +70,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 ***
 
 ### [Now](#now)
-<div class="article__excerpt" style="position: relative; top: -20px;">This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
+<div style="position: relative; top: -20px;">This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.</div>
 
 #### Building [My Blog]({{ site.url }}/blog)
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.

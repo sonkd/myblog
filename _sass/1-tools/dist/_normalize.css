@@ -97,6 +97,8 @@ samp {
   /* 1 */
   font-size: 1em;
   /* 2 */
+  letter-spacing: 0.15;
+  line-height: 1.5;
 }
 
 /**
