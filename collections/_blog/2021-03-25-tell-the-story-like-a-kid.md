@@ -3,7 +3,7 @@ title: "Storytelling - Kể chuyện như một đứa trẻ"
 layout: post
 date: 2021-03-25 23:54:34
 author: sonohyeah
-image: /assets/img/blog/Normans-Three-Levels-of-Design.jpeg
+image: 
 headerImage: false
 tag:
 - Design
@@ -29,11 +29,10 @@ Ví dụ một câu chuyện gần đây con bé kể với tôi là,
     - (Tôi cười).
 {% endhighlight %}
 
-Điều gì khiến cho một câu chuyện của con bé lại thú vị? 
+- Tại sao tôi lại thấy câu chuyện này thú vị? 
+- Một câu chuyện đơn giản của trẻ con gồm những gì?
 
-Một câu chuyện đơn giản của trẻ con gồm những gì?
-
-Tôi cũng chưa muốn đi tìm câu trả lời những câu hỏi đó vào lúc này. Nhưng tôi chợt liên tưởng ngay đến yếu tố kể chuyện (**Storytelling**) trong thiết kế trải nghiệm người dùng, thứ mà hàng ngày tôi vẫn thường làm và cần đến nó. Chợt nghĩ. Công thức chung cho mọi câu chuyện "thành công" mà tôi hình dung trước đây liệu có xuất phát như là câu chuyện kể trên hay không.
+Tôi chợt liên tưởng ngay đến yếu tố kể chuyện (**Storytelling**) trong thiết kế trải nghiệm người dùng, thứ mà hàng ngày tôi vẫn thường làm và cần đến nó. Chợt nghĩ,công thức chung cho mọi câu chuyện "thành công" mà tôi hình dung trước đây liệu có xuất phát như là câu chuyện kể trên hay không.
 
 # Người dùng cũng yêu thích những câu chuyện
 
@@ -42,6 +41,7 @@ Tôi cũng chưa muốn đi tìm câu trả lời những câu hỏi đó vào l
 <div class="side-by-side">
         <div class="toleft">
             <img class="image" src="/assets/img/blog/Normans-Three-Levels-of-Design.jpeg" alt="Norman's Three Levels of Design">
+            <figcaption class="caption">Nguồn: <a href="https://www.interaction-design.org/literature/topics/emotional-design">www.interaction-design.org</a></figcaption>
         </div>
         <div class="toright">
             Chúng ta sẽ nhớ lâu những câu chuyện, bài thơ hay một ca khúc hơn là ghi nhớ những kiến thức khô khan được liệt kê trong một cuốn từ điển. Những thứ có tiết tấu và nhịp điệu sẽ giúp não bộ ghi nhớ một cách vô thức dễ dàng hơn, chẳng hạn một bài thơ.<br>
@@ -51,17 +51,7 @@ Tôi cũng chưa muốn đi tìm câu trả lời những câu hỏi đó vào l
 
 ## Các nhân tố trong kể chuyện
 
-Theo những gì tôi tìm hiểu [Aristotle’s 7 Elements of Good Storytelling](https://www.interaction-design.org/literature/topics/storytelling), một câu chuyện tốt đầy đủ sẽ gồm 7 yếu tố:
-
-1. Plot – What are users trying to achieve/overcome?
-2. Character – Who are the users: not just demographically, but what insights do you need to understand what they (and their needs) are truly like?
-3. Theme – How can you establish a trustworthy presence to them and still set yourself apart from competitors? How will you reflect the overall obstacles users must overcome?
-4. Dialogue/Diction – What will your design say to users and how? Does a formal/informal tone match their expectations? How much text is appropriate?
-5. Melody – How will the overall design pattern appear pleasant and predictable to users, moving them emotionally?
-6. Décor – How will you present everything so the graphics match the setting the users can sense? Would a classic design or stylized, niche layout meet their expectations?
-7. Spectacle – How can you make your design outstanding so users will remember it?
-
-Tuy nhiên, trong UX, tôi thường áp dụng các bước 6 một cách ngắn gọn và đơn giản.
+Tương tự kĩ thuật kể chuyện của [Aristotle](https://www.interaction-design.org/literature/topics/storytelling), có 6 bước để xây dựng một câu chuyện về trải nghiệm người dùng như sau:
 1. Reason for your story
 2. Main character (hero)
 3. **Start with a conflict**

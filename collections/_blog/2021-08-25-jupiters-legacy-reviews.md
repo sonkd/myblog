@@ -54,17 +54,17 @@ Giấc mơ là khởi đầu của cuộc hành trình không có đích đến.
 
 # Ba yếu tố chính giúp duy trì một cuộc hành trình
 
-## Nắm bắt cơ hội
+## 1. Nắm bắt cơ hội
 Nếu như George không khơi gợi lại "niềm tin" của Sheldon, thì chắc chắn hành trình đi đến "*Hòn đảo huyền bí*" sẽ không diễn ra, Sheldon sẽ quay lại về cuộc sống cũ, cuốn theo số phận. Cũng chính George là người "chốt đơn" (thuyết phục) giúp việc kết nạp các thành viên cũng như lo liệu những vấn đề về "ngoại giao", khiến mọi nút thắt được mở và chuyển tiếp hành trình. Dù là gã hay luyên thuyên nhiều điều, nhưng trong mọi cuộc tranh luận, George luôn chỉ ra được những điểm sáng tích cực (dù trông có vẻ chẳng có giá trị gì). Chính những khoảnh khắc ấy, như là những cột mốc giúp team nhìn lại, đánh giá vấn đề và đưa ra quyết định tới những thử thách tiếp theo. Đó chính là cơ hội, cơ hội giúp mở ra chặng đường mới, thử thách mới và kết quả mới.
 
 ![Picture 2](/assets/img/blog/george-jupiter-legacy.png)
 
-## Người thực tế
+## 2. Người thực tế
 Walter là một người anh rất yêu thương em trai, nên luôn bao quát mọi thứ và suy nghĩ logic, vì vậy, trong mọi quyết định của mình, Walter luôn là người thực tế nhất. Và cho đến tận phút giây cuối cùng khi cả team được trao sức mạnh, Walter mới thừa nhận thành quả cuối cùng từ giấc mỡ hão huyền kia. Nếu như George là người chỉ ra cơ hội, thì Walter là người chứng minh và khẳng định những cơ hội ấy là khả thi. Lời nói của Walter có trọng lượng rất lớn và đều có tác động trực tiếp đến những quyết định của Sheldon.
 
 ![Picture 3](/assets/img/blog/walter-jupiter-legacy.png)
 
-## Duy trì động lực
+## 3. Duy trì động lực
 Trên hành trình đến Hòn đảo huyền bí, hầu hết các thành viên của team mới là người phát hiện và tìm ra được giải pháp tháo gỡ, thế nhưng, quyết định thực hiện lại hầu hết bởi Sheldon. Trong khi các thành viên mải cãi lộn với những ý kiến cá nhân, những mục tiêu của riêng mình, có lúc tưởng chừng muốn bỏ cuộc thì sự kiên trì của Sheldon lại giúp mở khoá những rắc rối, những khó khăn được gỡ bỏ. Sheldon kiên định với mục tiêu duy nhất của mình, giữ vững mục tiêu và là điểm neo của mọi thành viên còn lại, cho dù vẫn còn những bất đồng. Có sự hối thúc vô hình, "Just do it", đến từ Sheldon, thậm chí khi anh ta còn chẳng đưa ra ý kiến gì, nhưng cứ nhìn vào con người ấy thì mọi câu chuyện đều dừng lại và đi tiếp vì "mục tiêu chung".
 
 ![Picture 4](/assets/img/blog/sheldon-jupiter-legacy.png)
@@ -89,6 +89,4 @@ Và khi cơ hội đến rồi, ta sẽ rất "đau đầu" với việc ra quy�
 
 ![A journey](/assets/img/blog/a_journey.png)
 
-Tại mỗi thời điểm, sẽ có những người giúp bạn nắm lấy những cơ hội, có những người giúp bạn có cái nhìn thực tế khi ra quyết định hành động. Hay trân trọng tất cả những điều đó, quan trọng hơn cả là phải kiên định với giấc mơ của mình. Bạn không thể đi lên mà cứ đắn đo mãi về yếu tố thực tế, cơ hội sẽ mở ra chân trời mới, góc nhìn rộng mở hơn và xa hơn để thấy rõ ràng giấc mơ của mình hơn. Đồng thời ngược lại, bạn được trao nhiều cơ hội nhưng bản thân chưa chín muồi thì có nghĩa rằng cần nâng cấp mình để xứng đáng đạt đến tầm cao đó.
-
-Cuối cùng, trong bản thân mỗi chũng ta sẽ luôn luôn có 2 con người: người thực tế và người nắm cơ hội, chỉ có điều hãy để sự xuất hiện của mỗi con người đó đúng lúc, đúng chỗ. Rất có thể bạn là người mang đến cơ hội cho ai đó và cũng có thể bạn là người giúp ai đó thực tế hơn.
+Tại mỗi thời điểm, sẽ có những người giúp bạn nắm lấy những cơ hội, có những người giúp bạn có cái nhìn thực tế khi ra quyết định hành động. Hãy trân trọng tất cả những điều đó, quan trọng hơn cả là phải kiên định với giấc mơ của mình. Bạn không thể đi lên mà cứ đắn đo mãi về yếu tố thực tế, cơ hội sẽ mở ra chân trời mới, góc nhìn rộng mở hơn và xa hơn để thấy rõ ràng giấc mơ của mình hơn. Ngược lại, bạn được trao nhiều cơ hội nhưng bản thân chưa chín muồi thì có nghĩa rằng cần nâng cấp mình để xứng đáng đạt đến tầm cao đó.
