@@ -77,7 +77,7 @@ Trong trò chơi ra quyết định, cần sự tỉnh táo và sáng suốt, v�
 ![50 Cognitive Biases in the Modern World](https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png)
 <figcaption>50 Cognitive Biases in the Modern World</figcaption>
 
-### Xây dựng các nhịp làm việc và văn hoá chia sẻ phản hồi
+### Xây dựng các nhịp làm việc và văn hoá nội bộ
 Làm thế nào để nuôi dưỡng và tạo điều kiện phát triển cho một team product với các năng lực kể trên? Lưu ý rằng, mục tiêu và kế hoạch chuẩn bị cho một trận đấu sẽ khác với một cuộc chiến dài hơi. Việc bạn có nhân lực và vật lực tốt là chưa đủ, chỉ khi có sự cộng hưởng từ yếu tố "tinh thần" thì sự vượt trội mới được hình thành.
 
 > “Culture eats strategy for breakfast". Peter Drucker
