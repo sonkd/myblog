@@ -15,7 +15,7 @@ tag:
 
 Điều gì là thách thức lớn nhất đối với một **Product manager** trong quá trình phát triển một sản phẩm digital hiện nay? Hàng tá các hạng mục cần sắp xếp và giải quyết luôn chờ đợi họ mỗi ngày. Những giấc ngủ hàng đêm luôn trăn trở *"Ngày mai sẽ làm gì nhỉ"*. Điều này còn "kinh khủng" hơn là *"Mình còn công việc nào chưa hoàn thành?"*.
 
-Trải qua hơn 2 năm làm ở vị trí Product lead cho start-up [Ready](https://ready.io), tôi có một số chiêm nghiệm cũng như một đúc kết này nhằm hạn chế "đêm dài lắm mộng".
+Trải qua hơn 2 năm trong vai trò Tư vấn sản phẩm cho start-up [Ready](https://ready.io), tôi có một số chiêm nghiệm cũng như một đúc kết này nhằm hạn chế "đêm dài lắm mộng".
 
 # Trò chơi ra quyết định
 
@@ -27,7 +27,7 @@ Trong phát triển sản phẩm, đúng hay sai luôn có tính tương đối,
         <figcaption class="caption">Decision-making game</figcaption>
     </div>
     <div class="toright">
-        Trong xu hướng phát triển với tốc độ như hiện nay, có 2 "thách thức" nổi bật chính đối với các nhà phát triển sản phẩm:
+        Với xu hướng phát triển với tốc độ như hiện nay, có 2 "thách thức" nổi bật chính đối với các nhà phát triển sản phẩm:
         <br><br>
         - Phải cung cấp các chức năng mới cho khách hàng trong khung thời gian ngày càng ngắn hơn vì thế giới đang chuyển động nhanh hơn bao giờ hết, được hỗ trợ bởi công nghệ mới và cách làm việc mới.
         <br><br>
@@ -91,10 +91,10 @@ Bạn không cần phải quá lo lắng, thực ra cơ hội cho mọi bên đ�
 ![Hypothesis-driven development](https://www.ibm.com/cloud/architecture/images/practices/hdd-diagram.png)
 <figcaption>Nguồn: <a href="https://www.ibm.com/garage/method/practices/learn/practice_hypothesis_driven_development/">IBM</a></figcaption>
 
-Vì vậy, chú trọng xây dựng [văn hoá team là chìa khoá chính](https://www.greatplacetowork.ca/en/articles/inertia-product-development-culture-is-key-to-operational-excellence) cho mọi thứ. Không phải team của bạn sẽ làm được những gì mà team của bạn có văn hoá "mạnh mẽ" như thế nào. Văn hoá được hình thành từ những nhịp làm việc từ nhỏ đến lớn (hàng), yếu tố môi trường xanh-sáng tạo-hạnh phúc. Nguyên lý cộng tác phát triển phổ biến hiện nay là Lean, Agile và bộ công cụ Tư duy Thiết kế là một kim chỉ nam hữu ích. Tuy nhiên cần xây dựng và phát triển dựa theo quy tắc "may đo", đừng nên áp dụng các nguyên lý trên như việc sắm một chiếc áo và cố gắng mặc nó quanh năm. Mọi thứ phải điều chỉnh linh hoạt liên tục theo tình hình và quy mô team của bạn. 
+Vì vậy, chú trọng xây dựng [văn hoá team là chìa khoá chính](https://www.greatplacetowork.ca/en/articles/inertia-product-development-culture-is-key-to-operational-excellence) cho mọi thứ. Không phải team của bạn sẽ làm được những gì mà team của bạn có văn hoá "mạnh mẽ" như thế nào. Văn hoá được hình thành từ những nhịp tương tác/giao tiếp trong công việc hàng giờ/ngày/tháng/quý, bên cạnh yếu tố môi trường làm việc văn minh-sáng tạo-xanh-hạnh phúc. Bộ ba nguyên lý cộng tác phát triển phổ biến hiện nay gồm Lean, Agile và bộ công cụ Tư duy Thiết kế được coi là kim chỉ nam hữu ích. Tuy nhiên cần xây dựng và phát triển dựa theo quy tắc "may đo", đừng nên áp dụng chúng như là sắm một chiếc áo và cố gắng mặc nó quanh năm. Mọi thứ cần có điều chỉnh linh hoạt liên tục theo tình hình và quy mô team của bạn. 
 
 ### Điều chỉnh liên tục cho đến khi mọi thứ trôi chảy
 ![Infinity](/assets/img/infinity.png)
 <figcaption>Dòng chảy phát triển sản phẩm "vô hạn"</figcaption>
 
-Chúng ta bắt đầu bằng những giả thuyết, dưới tác động và thúc đẩy của "Flow"-Dòng chảy dẫn đến những ý tưởng, giải pháp và các kết quả mong muốn. Flow được duy trì không ngừng là biểu hiện cho sự đúng đắn cũng như tính hiệu quả trong quá trình phát triển sản phẩm của team. Flow lớn mạnh được là nhờ sự tồn tại của văn hoá xây dựng phát triển team, nó âm thầm và lặng lẽ dưới mặt nước, đến lúc nào đó sẽ giúp team của bạn tạo ra những cơn sóng, thậm chí là "sóng thần"-minh chứng cho thành quả từ những giải pháp đột phá đem lại. Đây chính là niềm tin và động lực giúp team của tôi cùng nhau đi qua những milestone trong quá trình phát triển sản phẩm.
+Chúng ta bắt đầu bằng những giả thuyết, dưới tác động và thúc đẩy của "Flow"-Dòng chảy dẫn đến những ý tưởng, giải pháp và các kết quả mong muốn. Flow được duy trì không ngừng là biểu hiện cho sự đúng đắn cũng như tính hiệu quả trong quá trình phát triển sản phẩm của team. Flow lớn mạnh được là nhờ sự tồn tại của văn hoá xây dựng phát triển team, nó âm thầm và lặng lẽ dưới mặt nước, đến lúc nào đó sẽ giúp team của bạn tạo ra những cơn sóng (thậm chí là "sóng thần")-minh chứng cho thành quả từ những giải pháp đột phá đem lại. Đây chính là niềm tin và động lực giúp team của tôi cùng nhau đi qua những milestone trong quá trình phát triển sản phẩm.
