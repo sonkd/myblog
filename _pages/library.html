@@ -23,34 +23,35 @@ order: 3
     <div class="tab-content">
         <div class="tabs__tab active" id="tab_1" data-tab-info>
             <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-                {% if site.research.size > 0 %}
+                {% assign research-list = site.data.research | reverse %}
+                {% if research-list.size > 0 %}
                     {% assign c = "c-research-card" %}
-                    {% for post in site.research %}
+                    {% for post in research-list %}
                     <div class="{{c}} col col-4 col-d-6 col-t-12">
                         <div class="{{c}}__inner">    
-                            {% if post.image %}
+                            {% if post.thumb-img %}
                             <div class="{{c}}__image-wrap">
-                                <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image">
-                                    <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
+                                <a href="{{ post.url l}}" class="{{c}}__image">
+                                    <img loading="lazy" src="{{ post.thumb-img }}" alt="{{ post.title }}">
                                 </a>
                             </div>
                             {% else %}
                             <div class="{{c}}__image-wrap">
-                                <a href="{{post.url | prepend: site.baseurl}}" class="{{c}}__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)" alt="{{ post.title }}"></a>
+                                <a href="{{ post.url }}" class="{{c}}__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)" alt="{{ post.title }}"></a>
                             </div>
                             {% endif %}
                    
                             <div class="{{c}}__content">                   
                                 <h2 class="{{c}}__title">
-                                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                                    <a href="{{ post.url }}">{{post.title}}</a>
                                 </h2>
             
                                 <div class="{{c}}__meta">
-                                    <div class="{{c}}__author-name">{{site.author.name}}</div>
+                                    <div class="{{c}}__author-name">{{post.author}}</div>
                                 </div>
             
                                 <p class="{{c}}__excerpt">
-                                    {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
+                                    {% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
                                 </p>
             
                                 {% if post.tags.size >= 1 %}
