@@ -23,6 +23,7 @@
 @media all {
   .c-research-card__inner {
       border-radius: 16px;
+      padding-bottom: 12px;
       overflow: hidden;
       transform: translate(0);
       box-shadow: 0 0 2px #00000025;
@@ -53,10 +54,14 @@
   .c-research-card__content {
       position: relative;
       z-index: 1;
-      padding: 16px;
+      /*padding: 16px;*/
       margin-top: -20px;
       border-radius: 16px 16px 0 0;
-      background: white
+      background: white;
+
+      .post-tags {
+        padding: 0 16px;
+      }
   }
 
   .c-research-card__tags-box {
@@ -121,7 +126,8 @@
 
 @media #{$mobile} {
   .c-research-card__title {
-      font-size: $h4-size
+      font-size: $h4-size;
+      padding: 16px 16px 0 16px
   }
 }
 
@@ -130,7 +136,8 @@
       display: -webkit-box;
       font-size: $body-size;
       line-height: $body-line_height;
-      margin-bottom: 20px;
+      padding: 0 16px;
+      /*margin-bottom: 20px;*/
       color: $gray;
       overflow-y: hidden;
       -webkit-line-clamp: 3;
@@ -140,6 +147,7 @@
   .c-research-card__meta {
       display: flex;
       align-items: center;
+      padding: 0 16px;
       flex-wrap: wrap
   }
 

@@ -237,11 +237,13 @@
 
 /* Post Tags */
 .post-tags {
-  margin-bottom: 1rem;
   text-transform: uppercase;
 }
 
 .post-tags__tag {
+  display: inline-block;
+  min-width: 40px;
+  text-align: center;
   font-family: $fontMonospace;
   font-size: $caption-size;
   line-height: $caption-line_height*1.75;
@@ -250,11 +252,11 @@
   text-decoration-line: none;
   color: $tertiary-color;
 
-  margin-right: 4px;
+  margin: 0 4px 8px 0;
   outline:  1px solid $gray-300;
-  outline-offset: 2px;
+  /* outline-offset: 2px; */
   border-radius: 8px;
-  padding: 4px 8px;
+  padding: 0 8px;
   /* Do not show "," after a tag
   &:after {
     content: ',';
@@ -269,6 +271,7 @@
   */
   &:hover {
     background-color: $background-color-4;
+    outline: none;
   }
 }
 
