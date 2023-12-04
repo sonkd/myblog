@@ -16,3 +16,9 @@
   desc: Trong product design có thuật ngữ Design Debt ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế không có tính bền vững và chỉ chăm chăm giải quyết vấn đề trước mắt.
   tags: [Planning, Design, Product Development, UX]
   url: https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140
+- title: About Design token in Design system
+  author: Kim Dinh Son
+  thumb-img: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*bhleayOVqn3q4L1E.png
+  desc: Talking about Design systems, there is not much to discuss the hottest topic today with anyone working on digital products. When embarking on building a Design system, with many efforts to separate and clear each part of it, we always face problems ranging from abstract to concrete.
+  tags: [Design System, UX Design, Product Development, Design Token]
+  url: https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4

@@ -76,7 +76,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
 
 #### 2023 (In progress)
-- Head of Product at [Ready.io](https://ready.io)
+- Product Advisor at [Ready.io](https://ready.io)
 - Research about HCI and Cognitive load
 - ✅ Design a Banking service for Household merchants in Vietnam
 
