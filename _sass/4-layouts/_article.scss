@@ -1,11 +1,13 @@
 /* Article */
 .article {
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   &:hover {
     outline: 1px solid $background-color-4;
-    outline-offset: 1rem;
-    border-radius: .5rem;
+    outline-offset: calc(1.5rem - 8px);
+    outline-offset: -webkit-calc(1.5rem - 8px);
+    outline-offset: -moz-calc(1.5rem - 8px);
+    border-radius: 1rem;
   }
 }
 
