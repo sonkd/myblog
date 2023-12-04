@@ -39,24 +39,12 @@ permalink: /tags/
     <div class="cloud-item col col-4 col-d-6 col-t-12">
         <div class="sticky-cloud">
             <div class="show-cloud">
-            {% for tag in alltags %}
-                <span style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
-                <a href="#{{ tag.name | slugify }}">
-                    {{ tag.name | upcase }}
-                </a>({{ tag.size }})
-                </span>
-            {% endfor %}
+            {% include tag-cloud.html %}
             </div>
         </div>
         <div class="dupe-cloud">
             <div class="show-cloud">
-            {% for tag in alltags %}
-                <span style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
-                <a href="#{{ tag.name | slugify }}">
-                    {{ tag.name | upcase }}
-                </a>({{ tag.size }})
-                </span>
-            {% endfor %}
+            {% include tag-cloud.html %}
             </div>
         </div>
     </div>
