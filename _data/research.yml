@@ -22,3 +22,9 @@
   desc: Talking about Design systems, there is not much to discuss the hottest topic today with anyone working on digital products. When embarking on building a Design system, with many efforts to separate and clear each part of it, we always face problems ranging from abstract to concrete.
   tags: [Design System, UX Design, Product Development, Design Token]
   url: https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4
+- title: Five-Second Testing: Taking A Closer Look At First Impressions (Case Study)
+  author: Kim Dinh Son
+  thumb-img: https://files.smashing.media/articles/five-second-testing-case-study/2-working-memory.png
+  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
+  tags: [Testing, Usability, User Research]
+  url: https://www.smashingmagazine.com/2023/12/five-second-testing-case-study/?fbclid=IwAR1HBkQmA2vGNtwTdD90i5hKpqrkLeFamhaH5YiQpPxoDgT4qywoOypgdIU_aem_AdwnVsNQ6JWG9K-_2fqStQghqI3Axcw7JfyOZEEusR0OjlUtUk6jPNxYsL7yeIEqIlY
