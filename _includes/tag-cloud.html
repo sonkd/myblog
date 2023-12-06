@@ -1,5 +1,5 @@
 {% for tag in alltags %}
-    <span style="display: inline-block; font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: {{ tag.size | divided_by: 10 }}px;">
+    <span style="display: inline-block; font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: calc({{ tag.size }}px / 5);">
         <a href="#{{ tag.name | slugify }}">
             {{ tag.name | upcase }}
         </a>({{ tag.size }})
