@@ -56,7 +56,6 @@
         z-index: 1;
         /*padding: 16px;*/
         margin-top: -20px;
-        border-radius: 16px 16px 0 0;
         background: white;
 
         .post-tags {
@@ -179,8 +178,8 @@
 
     .c-research-card__author-name {
         margin-bottom: 6px;
-        font-size: $body-size;
-        line-height: 1;
+        font-size: $caption-size;
+        line-height: $caption-line_height;
         font-weight: 600
     }
 

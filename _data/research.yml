@@ -10,6 +10,12 @@
   desc: In general, digital products are developing in a way that improves user experience and engages more users. A trend that's on the rise is gamification. 
   tags: [Gamification, Fintech, Banking, UX, Game]
   url: https://hackernoon.com/designing-gamification-features-in-fintech-products
+- title: THE PSYCHOLOGY OF GAMES
+  author: MaxSchlutter
+  thumb-img: https://bizfest.files.wordpress.com/2013/01/picture-1.png
+  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
+  tags: [Game, Mental Models, Psychology]
+  url: https://bizfest.wordpress.com/2013/01/29/the-psychology-of-games/
 - title: Design Debt
   author: Kim Dinh Son
   thumb-img: https://miro.medium.com/v2/resize:fit:1200/format:webp/0*mD99RYfISBJf-3Cm.png
