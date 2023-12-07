@@ -10,27 +10,21 @@
   desc: In general, digital products are developing in a way that improves user experience and engages more users. A trend that's on the rise is gamification. 
   tags: [Gamification, Fintech, Banking, UX, Game]
   url: https://hackernoon.com/designing-gamification-features-in-fintech-products
-- title: THE PSYCHOLOGY OF GAMES
-  author: MaxSchlutter
-  thumb-img: https://bizfest.files.wordpress.com/2013/01/picture-1.png
-  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
-  tags: [Game, Mental Models, Psychology]
-  url: https://bizfest.wordpress.com/2013/01/29/the-psychology-of-games/
 - title: Design Debt
   author: Kim Dinh Son
   thumb-img: https://miro.medium.com/v2/resize:fit:1200/format:webp/0*mD99RYfISBJf-3Cm.png
   desc: Trong product design có thuật ngữ Design Debt ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế không có tính bền vững và chỉ chăm chăm giải quyết vấn đề trước mắt.
-  tags: [Planning, Design, Product Development, UX]
+  tags: [Planning, Design, Product Development]
   url: https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140
 - title: About Design token in Design system
   author: Kim Dinh Son
   thumb-img: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*bhleayOVqn3q4L1E.png
   desc: Talking about Design systems, there is not much to discuss the hottest topic today with anyone working on digital products. When embarking on building a Design system, with many efforts to separate and clear each part of it, we always face problems ranging from abstract to concrete.
-  tags: [Design System, UX Design, Product Development, Design Token]
+  tags: [Design System, Product Development, Design Token]
   url: https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4
-- title: Five-Second Testing - Taking A Closer Look At First Impressions
-  author: Eduard Kuric
-  thumb-img: https://files.smashing.media/articles/five-second-testing-case-study/2-working-memory.png
-  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
-  tags: [Testing, Usability, User Research]
-  url: https://www.smashingmagazine.com/2023/12/five-second-testing-case-study
+- title: Digital Product Library
+  author: Kim Dinh Son
+  thumb-img: https://sonkd.notion.site/image/https%3A%2F%2Fst4.depositphotos.com%2F1026266%2F25999%2Fi%2F600%2Fdepositphotos_259999348-stock-photo-hand-typing-on-keyboard-with.jpg?table=block&id=afdf8732-4848-4731-aa0d-6c72263fe370&spaceId=41da8a7a-8235-44b4-ab73-535734f1253a&width=2000&userId=&cache=v2
+  desc: 
+  tags: [Product, Blueprint]
+  url: https://sonkd.notion.site/Digital-Product-afdf873248484731aa0d6c72263fe370?pvs=4

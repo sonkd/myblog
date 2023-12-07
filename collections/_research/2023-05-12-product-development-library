@@ -1,0 +1,21 @@
+---
+title: Product Development Library
+layout: post
+date: 2023-05-12 09:45:45
+tag: [Product]
+image: /assets/img/project/ScreenShot-of-VF-with-45k-vessels.jpg
+description: "Product "
+---
+
+- title: THE PSYCHOLOGY OF GAMES
+  author: MaxSchlutter
+  thumb-img: https://bizfest.files.wordpress.com/2013/01/picture-1.png
+  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
+  tags: [Game, Mental Models, Psychology]
+  url: https://bizfest.wordpress.com/2013/01/29/the-psychology-of-games/
+- title: Five-Second Testing - Taking A Closer Look At First Impressions
+  author: Eduard Kuric
+  thumb-img: https://files.smashing.media/articles/five-second-testing-case-study/2-working-memory.png
+  desc: Five-second testing is a popular method of usability research used in the industry. It is a quick and effective way to test concepts of visual designs, yet in essence, its core belief boils down to virtually a superstition. A notion barely backed up by concrete evidence, yet often taken at face value, that somehow five seconds are just the right time to gauge first impressions. In this article, Eduard Kuric looks under the hood of how first impressions are affected by time, the test participant’s cognitive abilities and the visual complexity of the tested picture, and how UX researchers and product owners can ensure that the user’s first steps can get off on the right foot.
+  tags: [Testing, Usability, User Research]
+  url: https://www.smashingmagazine.com/2023/12/five-second-testing-case-study
