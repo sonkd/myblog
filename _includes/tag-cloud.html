@@ -1,5 +1,5 @@
 {% for tag in alltags %}
-    <span class="cloud-item" style="font-size: {{ tag.size | times: 4 | plus: 80 }}%; margin: calc({{ tag.size }}px / 2);">
+    <span data-weight="{{ tag.size }}" class="cloud-item">
         <a href="#{{ tag.name | slugify }}">
             {{ tag.name | upcase }}
         </a>({{ tag.size }})

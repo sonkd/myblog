@@ -22,6 +22,7 @@
 
 @media all {
     .c-research-card__inner {
+        background-color: white;
         border-radius: 16px;
         padding-bottom: 12px;
         overflow: hidden;
@@ -40,6 +41,7 @@
         height: 0;
         padding-bottom: 71.25%;
         background: $background-color-2;
+        background-size: cover;
         overflow: hidden
     }
 

@@ -8,7 +8,7 @@
   author: Kim Dinh Son
   thumb-img: https://hackernoon.imgix.net/images/kC2g9chWzTT1fQTckBpo5fIihJ82-rhe3o8h.jpeg?w=1200&q=75&auto=format
   desc: In general, digital products are developing in a way that improves user experience and engages more users. A trend that's on the rise is gamification. 
-  tags: [Gamification, Fintech, Banking, UX, Game]
+  tags: [Gamification, Fintech, Banking, Game]
   url: https://hackernoon.com/designing-gamification-features-in-fintech-products
 - title: Design Debt
   author: Kim Dinh Son
@@ -20,11 +20,17 @@
   author: Kim Dinh Son
   thumb-img: https://miro.medium.com/v2/resize:fit:2000/format:webp/0*bhleayOVqn3q4L1E.png
   desc: Talking about Design systems, there is not much to discuss the hottest topic today with anyone working on digital products. When embarking on building a Design system, with many efforts to separate and clear each part of it, we always face problems ranging from abstract to concrete.
-  tags: [Design System, Product Development, Design Token]
+  tags: [Design System, Design Token]
   url: https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4
+- title: Design Library
+  author: Kim Dinh Son
+  thumb-img: 
+  desc: Summary of the good articles and stories for building and growing the product
+  tags: [Product, Blueprint]
+  url: /research/2023-05-12-design-library
 - title: Digital Product Library
   author: Kim Dinh Son
   thumb-img: https://sonkd.notion.site/image/https%3A%2F%2Fst4.depositphotos.com%2F1026266%2F25999%2Fi%2F600%2Fdepositphotos_259999348-stock-photo-hand-typing-on-keyboard-with.jpg?table=block&id=afdf8732-4848-4731-aa0d-6c72263fe370&spaceId=41da8a7a-8235-44b4-ab73-535734f1253a&width=2000&userId=&cache=v2
-  desc: 
-  tags: [Product, Blueprint]
+  desc: Summary of the good articles and stories for product design such as DesignOps, UX Research, ...
+  tags: [Product Design]
   url: https://sonkd.notion.site/Digital-Product-afdf873248484731aa0d6c72263fe370?pvs=4
