@@ -117,10 +117,10 @@
 
   a {
     text-decoration-line: none !important;
-    color: $primary-color !important;
+    color: $primary-color;
     &hover {
       text-decoration-line: underline;
-      color: white
+      color: white !important
     }
   }
 }
