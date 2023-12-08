@@ -57,7 +57,7 @@ permalink: /tags/
     let weight
     tags.forEach(tag => {
         weight = tag.getAttribute('data-weight');
-        tag.style["font-size"] = (weight * 4 + 80)+"%";
+        tag.style["font-size"] = (weight * 4 + 80)/2+"%";
         tag.style["margin"] = weight / 2 +"px";
     })
 </script>
