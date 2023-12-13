@@ -6,6 +6,9 @@ permalink: /tags/
 
 <div class="container-full">
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
+{% for doc in site.data.research %}
+    {% assign alltags = alldocs | concat: doc.tags %}
+{% endfor %}
 
 <section class="tag-list row">
     <div class="col col-8 col-d-6 col-t-12">
@@ -16,6 +19,11 @@ permalink: /tags/
         </h4>
     
         {% assign alldocs = site.documents %}
+
+        {% for doc in site.data.research %}
+            {% assign alldocs = alldocs | concat: doc.tags %}
+        {% endfor %}
+
         <ul class="list">
             {% for doc in alldocs %}
             {% if doc.tags contains TAG.name %}
