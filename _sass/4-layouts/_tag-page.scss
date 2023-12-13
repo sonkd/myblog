@@ -118,16 +118,15 @@
   a {
     text-decoration-line: none !important;
     color: $primary-color;
-    &hover {
-      text-decoration-line: underline;
-      color: white !important
-    }
   }
 }
 
 .cloud-item:hover {
   box-shadow: inset 0 -1.3em 0 0 $primary-color;
-  color: white
+  color: white;
+  a {
+    color: white
+  }
 }
 
 .show-cloud {
