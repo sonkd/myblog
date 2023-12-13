@@ -8,9 +8,6 @@ permalink: /tags/
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 {% assign alldocs = site.documents %}
 
-{% for doc in site.data.research %}
-    {% assign alltags = alltags | concat: doc.tags %}
-{% endfor %}
 {% assign alldocs = alldocs | concat: site.data.research %}
 
 <section class="tag-list row">
