@@ -7,7 +7,7 @@ permalink: /tags/
 <div class="container-full">
 {% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 {% for doc in site.data.research %}
-    {% assign alltags = alltags | concat: doc.tags %}
+    {% assign alltags = alltags | concat: doc.tags | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 {% endfor %}
 
 <section class="tag-list row">
