@@ -3,7 +3,7 @@ title: Conversational Design for Digital Product
 layout: post
 date: 2023-12-14 09:45:45
 tag: [Conversational Design, HCI, Interaction Design]
-image: /research/image-4.png
+image: /assets/img/research/image-4.png
 description: "Design that works for human"
 ---
 
@@ -68,16 +68,16 @@ description: "Design that works for human"
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/research/image-human2human.png" alt="Human-to-Human interaction">
+        <img class="image" src="/assets/img/research/image-human2human.png" alt="Human-to-Human interaction">
         <figcaption class="caption">Human-to-Human interaction</figcaption>
     </div>
     <div class="toright">
-        <img class="image" src="/research/image-human2computer.png" alt="Human-to-Computer interaction">
+        <img class="image" src="/assets/img/research/image-human2computer.png" alt="Human-to-Computer interaction">
         <figcaption class="caption">Human-to-Computer interaction</figcaption>
     </div>
 </div>
 
-![Mobile HCI: Most interactions on mobile app related to Vision (exclude Sound and Haptic)](/research/image-mobile-hci.png)
+![Mobile HCI: Most interactions on mobile app related to Vision (exclude Sound and Haptic)](/assets/img/research/image-mobile-hci.png)
 
 <figcaption>Mobile HCI: Most interactions on mobile app related to Vision (exclude Sound and Haptic)</figcaption>
 
