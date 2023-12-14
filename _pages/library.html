@@ -53,7 +53,7 @@ order: 3
                             </div>
 
                             <p class="{{c}}__excerpt">
-                                {% if post.desc %}{{ post.desc }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
+                                {% if post.description %}{{ post.description }}{% else %}{{ post.content | strip_html | truncate: 130 }}{% endif %}
                             </p>
 
                             {% if post.tags.size >= 1 %}

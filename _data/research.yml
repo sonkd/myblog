@@ -1,30 +1,36 @@
 - title: Enterprise Design Thinking and Toolkits
   author: Kim Dinh Son
   thumb-img: https://system-concepts.com/wp-content/uploads/2021/04/Week-1-Loop-image.png
-  desc: A little bit tips and templates for prompting with MJ
+  description: A little bit tips and templates for prompting with MJ
   tags: [Desision Making, Design Thinking]
   url: /research/2023-12-13-design-thinking-toolkits
 - title: Cognitive Bias
   author: Kim Dinh Son
   thumb-img: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.jpg/1200px-Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.jpg
-  desc: Summary of the popular cognitive bias in product development and design
+  description: Summary of the popular cognitive bias in product development and design
   tags: [Desision, Psychology]
   url: /research/2023-12-13-bias
+- title: Conversational Design
+  author: Kim Dinh Son
+  thumb-img: /research/image-4.png
+  description: Design that works for human
+  tags: [Conversational Design, HCI, Interaction Design]
+  url: /research/2023-12-14-conversational-design
 - title: Design Library
   author: Kim Dinh Son
   thumb-img: 
-  desc: Summary of the good articles and stories for building and growing the product
+  description: Summary of the good articles and stories for building and growing the product
   tags: [Product, Blueprint]
   url: /research/2023-05-12-design-library
 - title: Digital Product Library
   author: Kim Dinh Son
   thumb-img: https://sonkd.notion.site/image/https%3A%2F%2Fst4.depositphotos.com%2F1026266%2F25999%2Fi%2F600%2Fdepositphotos_259999348-stock-photo-hand-typing-on-keyboard-with.jpg?table=block&id=afdf8732-4848-4731-aa0d-6c72263fe370&spaceId=41da8a7a-8235-44b4-ab73-535734f1253a&width=2000&userId=&cache=v2
-  desc: Summary of the good articles and stories for product design such as DesignOps, UX Research, ...
+  description: Summary of the good articles and stories for product design such as DesignOps, UX Research, ...
   tags: [Product Design]
   url: https://sonkd.notion.site/Digital-Product-afdf873248484731aa0d6c72263fe370?pvs=4
 - title: Midjourney AI prompts
   author: Kim Dinh Son
   thumb-img: https://upload.wikimedia.org/wikipedia/commons/3/30/Midjourney_Emblem_%E2%80%94_June.png
-  desc: A little bit tips and templates for prompting with MJ
+  description: A little bit tips and templates for prompting with MJ
   tags: [AI, Prompt]
   url: /research/2023-12-05-MJ-prompts

@@ -5,10 +5,10 @@ permalink: /tags/
 ---
 
 <div class="container-full">
-{% assign alltags = site.documents | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 {% assign alldocs = site.documents %}
 
 {% assign alldocs = alldocs | concat: site.data.research %}
+{% assign alltags = alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
 
 <section class="tag-list row">
     <div class="col col-8 col-d-6 col-t-12">

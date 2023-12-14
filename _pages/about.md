@@ -19,7 +19,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 <p style="font-weight:bold"><a href="#now">What I'm working on now ↓</a></p>
 </div>
 <section class="row">
-    <div class="col col-3 col-6 col-t-12">
+    <div class="col col-4 col-6 col-t-12">
     <div class="cv-card">
         <div class="title">My experiences</div>
         <ul style="color: $gray-blue;">
@@ -29,7 +29,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
         </ul>
     </div>
     </div>
-    <div class="col col-3 col-6 col-t-12">
+    <div class="col col-4 col-6 col-t-12">
     <div class="cv-card">
         <div class="title">Methodologies</div>
         <ul>
@@ -39,7 +39,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
         </ul>
     </div>
     </div>
-    <div class="col col-3 col-6 col-t-12">
+    <div class="col col-4 col-6 col-t-12">
     <div class="cv-card">
         <div class="title">Knowledge & Practices</div>
         <ul>
@@ -53,7 +53,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
         </ul>
     </div>
     </div>
-    <div class="col col-3 col-6 col-t-12">
+    <div class="col col-4 col-6 col-t-12">
     <div class="cv-card">
         <div class="title">Tools</div>
         <ul>
