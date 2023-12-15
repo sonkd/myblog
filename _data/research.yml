@@ -1,9 +1,15 @@
 - title: Enterprise Design Thinking and Toolkits
-  author: Kim Dinh Son
+  author: 
   thumb-img: https://system-concepts.com/wp-content/uploads/2021/04/Week-1-Loop-image.png
   description: A little bit tips and templates for prompting with MJ
   tags: [Desision Making, Design Thinking]
   url: /research/2023-12-13-design-thinking-toolkits
+- title: Product and UX Designers Competencies
+  author: Artiom Dashinsky
+  thumb-img: https://miro.medium.com/v2/resize:fit:1400/0*Y_HAbh9WFB08sPIE.png
+  description: Competency matrix are structured guidelines that outline the skills, knowledge, and behaviours required for employees to perform effectively within an organization.
+  tags: [Competencies, Product Design]
+  url: /research/2023-12-14-product-design-competencies
 - title: Cognitive Bias
   author: Kim Dinh Son
   thumb-img: https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.jpg/1200px-Cognitive_Bias_Codex_-_180%2B_biases%2C_designed_by_John_Manoogian_III_%28jm3%29.jpg
@@ -12,7 +18,7 @@
   url: /research/2023-12-13-bias
 - title: Conversational Design
   author: Kim Dinh Son
-  thumb-img: /research/image-4.png
+  thumb-img: /assets/img/research/image-4.png
   description: Design that works for human
   tags: [Conversational Design, HCI, Interaction Design]
   url: /research/2023-12-14-conversational-design
