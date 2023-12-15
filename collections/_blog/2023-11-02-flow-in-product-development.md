@@ -74,8 +74,8 @@ Trong trò chơi ra quyết định, cần sự tỉnh táo và sáng suốt, v�
 - Experience Bias
 - Framing Bias
 
-![50 Cognitive Biases in the Modern World](https://www.visualcapitalist.com/wp-content/uploads/2020/02/50-cognitive-biases-2.png)
-<figcaption>50 Cognitive Biases in the Modern World</figcaption>
+
+[See more Cognitive Bias](/research/2023-12-13-bias)
 
 Rất khó để kiểm soát và khắc phục những "điểm yếu" mang tính thâm căn cố đế như vậy. Nhưng chúng ta có thể giảm thiểu cũng như khống chế những điều đó xảy ra bằng cách xây dựng một môi trường có tính mở cho tất cả mọi người. Đưa ra những quan điểm mở (open-ended) thay cho những quan điểm đóng khung/quy chụp (close-ended). Khuyến khích và xây dựng các hoạt **Phản hồi-Lắng nghe** không chỉ trong công việc nội bộ mà cả trong việc xây dựng mối quan hệ sản phẩm với khách hàng, đối tác, ... Những thay đổi nhỏ lặp đi lặp lại sẽ mang lại hiệu quả vô cùng to lớn, đó cũng là giá trị của Flow "tốt" đem lại và ngược lại với Flow "tệ".
 
