@@ -44,9 +44,7 @@
   margin-bottom: 45px;
   p {
     font-size: $body-size;
-    line-height: calc($body-line_height + .25rem);
-    line-height: -webkit-calc($body-line_height + .25rem);
-    line-height: -moz-calc($body-line_height + .25rem);
+    line-height: 140%;
     letter-spacing: 0.3px;
     color: $dark;
     img {
