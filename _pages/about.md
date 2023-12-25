@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: About me
 permalink: /about/
 image: '/assets/img/profile.jpg'
