@@ -4,7 +4,6 @@ description: A Designer love food.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sonkd.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
-
 # Author Settings
 author:
   name: Kevin Kim
@@ -12,7 +11,6 @@ author:
   job: Product Designer
   bio: I'm a Product Designer love food and living in Hanoi, Vietnam
   email: sonkdbk@gmail.com
-
 
 # Contact links
 contact:
@@ -27,10 +25,8 @@ contact:
   - name: Github
     link: https://github.com/sonkd
 
-
 # Comment Section (Disqus)
 disqus-identifier: kimdinhson # add your shortname for Disqus Comment. For example mr-brown
-
 
 # Google Analytics
 google-analytics: G-Q7TE8E3445 # add your identifier. For example UA-99631805-1.
@@ -87,7 +83,6 @@ future: true
 sass:
   sass_dir: _sass
   style: compressed
-
 
 # Exclude from processing.
 exclude:

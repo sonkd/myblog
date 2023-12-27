@@ -4,7 +4,6 @@ title: Tags
 permalink: /tags/
 ---
 
-<div class="container-full">
 {% assign alldocs = site.documents %}
 
 {% assign alldocs = alldocs | concat: site.data.research %}
@@ -53,7 +52,6 @@ permalink: /tags/
 </section>
 {% assign alldocs = nil %}
 {% assign alltags = nil %}
-</div>
 <script type="text/javascript">
     const tags = document.querySelectorAll(".cloud-item")
     let weight
