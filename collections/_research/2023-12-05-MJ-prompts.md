@@ -9,10 +9,10 @@ description: "How to prompts with MJ"
 
 # MJ Overview
 tbd
-![Styles in Midjourney](image-3.png)
+![Styles in Midjourney](/assets/img/research/image-3.png)
 # Understand tool
 tbd
-![MJ cheat sheet (v5)](image-2.png)
+![MJ cheat sheet (v5)](/assets/img/research/image-2.png)
 # Practice
 tbd
 # Other sources of prompts
