@@ -235,14 +235,15 @@
 
 /* Post Tags */
 .post-tags {
-  text-transform: uppercase;
+  text-transform: none;
 }
 
 .post-tags__tag {
+  /*min-width: 3rem;*/
   display: inline-block;
-  min-width: 40px;
   text-align: center;
-  font-family: $fontMonospace;
+  font-family: $fontSansSerif;
+  font-style: italic;
   font-size: $caption-size;
   line-height: $caption-line_height*1.75;
   line-height: -webkit-calc($caption-line_height*1.75);
@@ -250,26 +251,31 @@
   text-decoration-line: none;
   color: $tertiary-color;
 
+  /* 
   margin: 0 4px 8px 0;
   outline:  1px solid $gray-300;
-  /* outline-offset: 2px; */
+  outline-offset: 2px;
   border-radius: 8px;
   padding: 0 8px;
-  /* Do not show "," after a tag
+  */
+  /* Do not show "," after a tag */
   &:after {
     content: ',';
+    color: $tertiary-color;
     display: inline-block;
   }
   &:last-child {
     &:after {
       content: '';
+      color: $tertiary-color;
       display: inline-block;
     }
   }
-  */
+  
   &:hover {
+    color: $primary-color;
     background-color: $background-color-4;
-    outline: none;
+    outline: none
   }
 }
 

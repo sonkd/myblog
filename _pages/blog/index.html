@@ -15,14 +15,14 @@ isMainPage: true
         {% for post in paginator.posts %}
         <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
             <div class="article__content">
-                <h3 class="article__title">
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                </h3>
                 <div class="article__meta">
                     <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
                         site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                         }}</time></span>
                 </div>
+                <h3 class="article__title">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                </h3>
 
                 <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
                 strip_html | truncate: 130 }}{% endif %}</p>
@@ -54,14 +54,14 @@ isMainPage: true
         {% for post in posts %}
         <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
             <div class="article__content">
-                <h3 class="article__title">
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                </h3>
                 <div class="article__meta">
                     <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
                         site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                         }}</time></span>
                 </div>
+                <h3 class="article__title">
+                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                </h3>
 
                 <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
                 strip_html | truncate: 130 }}{% endif %}</p>
