@@ -1,18 +1,42 @@
 - title: Starstruck
-  url: https://github.com/users/sonkd/achievements/starstruck
   year: 2017
   date: 2017-11-26
   description: An achievement form Github
   image: https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png
+  alt: Starstruck badge from Github
+  url: https://github.com/users/sonkd/achievements/starstruck
 - title: UCD framework
-  url: https://flic.kr/p/rWcmV6
   year: 2015
   date: 2015-04-03
   description: User Centered Design (Vietnamese version)
   image: https://live.staticflickr.com/8741/17022226575_7050b5d46a_h.jpg
+  alt: UCD framework
+  url: https://flic.kr/p/rWcmV6
 - title: G2E
-  url: https://www.instagram.com/p/BUJiDQ6jvsx/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==
   year: 2017
   date: 2017-05-16
   description: User Centered Design (Vietnamese version)
   image: /assets/img/archieve/g2e.jpg
+  alt: G2E
+  url: https://www.instagram.com/p/BUJiDQ6jvsx/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==
+- title: Kusatsu, Japan
+  year: 2023
+  date: 2023-11-10
+  description: User Centered Design (Vietnamese version)
+  images:
+    - url: /assets/img/archieve/kusatsu-japan/Kusatsu_1.jpg
+      alt: Kusatsu
+    - url: /assets/img/archieve/kusatsu-japan/Kusatsu_2.jpg
+      alt: Kusatsu_1
+    - url: /assets/img/archieve/kusatsu-japan/Yubatake_1.jpg
+      alt: Yubatake Lake
+    - url: /assets/img/archieve/kusatsu-japan/Yubatake_2.jpg
+      alt: Yubatake Lake
+    - url: /assets/img/archieve/kusatsu-japan/Yubatake_3.jpg
+      alt: Yubatake Lake
+    - url: /assets/img/archieve/kusatsu-japan/Kosenji_temple_1.jpg
+      alt: Kosenji temple
+    - url: /assets/img/archieve/kusatsu-japan/Kosenji_temple_2.jpg
+      alt: Kosenji temple
+    - url: /assets/img/archieve/kusatsu-japan/onsen__garden.jpg
+      alt: Onsen garden
