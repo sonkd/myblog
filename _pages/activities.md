@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Activites
+title: My stories
 permalink: /activity-stories/
 image:
 isMainPage: false

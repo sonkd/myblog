@@ -41,7 +41,7 @@
             <div class="col col-8 col-t-12">
                 <div class="archive-image">
                     {% if post.images %}
-                        {% assign code = post %}
+                        {% assign list = post %}
                         {% include gallery.html %}
                     {% else %}
                     <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
@@ -57,4 +57,4 @@
     </div>
     {% endif %}
 </div>
-{% include pagination-nav.html %}
+<!-- {% include pagination-nav.html %} -->
