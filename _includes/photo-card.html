@@ -41,7 +41,7 @@
             <div class="col col-8 col-t-12">
                 <div class="archive-image">
                     {% if post.images %}
-                        {% assign list = post %}
+                        {% assign list = post.images %}
                         {% include gallery.html %}
                     {% else %}
                     <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
