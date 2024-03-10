@@ -16,22 +16,22 @@ collections:
     fields: # The fields for each document, usually in front matter
       - label: "Blog"
         name: blog
-          - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Tags", name: "tag", widget: "list" }
-          - {
-              label: "Cover Image",
-              name: "image",
-              widget: "image"
-            }
-          - {
-              label: "Author",
-              name: "author",
-              widget: "string",
-              default: "sonkd"
-            }
-          - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Tags", name: "tag", widget: "list" }
+        - {
+            label: "Cover Image",
+            name: "image",
+            widget: "image"
+          }
+        - {
+            label: "Author",
+            name: "author",
+            widget: "string",
+            default: "sonkd"
+          }
+        - { label: "Body", name: "body", widget: "markdown" }
   - name: "project"
     label: "Project"
     folder: "_projects/"
@@ -42,27 +42,27 @@ collections:
     fields: # The fields for each document, usually in front matter
       - label: "Project"
         name: project
-          - { label: "Layout", name: "layout", widget: "hidden", default: "case-study" }
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Publish Date", name: "date", widget: "datetime" }
-          - { label: "Tags", name: "tag", widget: "list" }
-          - {
-              label: "Cover Image",
-              name: "image",
-              widget: "image"
-            }
-          - {
-              label: "Project code",
-              name: "showcase-code",
-              widget: "string",
-              default: "project-00"
-            }
-          - { label: "Company", name: "company", widget: "text" }
-          - { label: "Summary", name: "summary", widget: "string" }
-          - { label: "Release Date", name: "project-date", widget: "datetime" }
-          - { label: "Challenges description", name: "challenges", widget: "text" }
-          - { label: "Role", name: "roles", widget: "list", default: ["Product Design"] }
-          - { label: "Body", name: "body", widget: "markdown" }
+        - { label: "Layout", name: "layout", widget: "hidden", default: "case-study" }
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Tags", name: "tag", widget: "list" }
+        - {
+            label: "Cover Image",
+            name: "image",
+            widget: "image"
+          }
+        - {
+            label: "Project code",
+            name: "showcase-code",
+            widget: "string",
+            default: "project-00"
+          }
+        - { label: "Company", name: "company", widget: "text" }
+        - { label: "Summary", name: "summary", widget: "string" }
+        - { label: "Release Date", name: "project-date", widget: "datetime" }
+        - { label: "Challenges description", name: "challenges", widget: "text" }
+        - { label: "Role", name: "roles", widget: "list", default: ["Product Design"] }
+        - { label: "Body", name: "body", widget: "markdown" }
   - name: "page"
     label: "Pages"
     files:
