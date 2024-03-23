@@ -17,7 +17,7 @@ tag:
 
 Trải qua hơn 2 năm trong vai trò Tư vấn sản phẩm cho start-up [Ready](https://ready.io), tôi có một số chiêm nghiệm cũng như một đúc kết này nhằm hạn chế "đêm dài lắm mộng".
 
-# Trò chơi ra quyết định
+## Trò chơi ra quyết định
 
 Trong phát triển sản phẩm, đúng hay sai luôn có tính tương đối, chỉ có sự phù hợp và hiệu quả. Bên cạnh đó, nguồn lực cũng như chiến lược ban đầu không cho phép bạn lựa chọn và chờ đợi, bạn phải ra quyết định: sớm nhất, tốt nhất và hiệu quả nhất.
 
@@ -44,7 +44,7 @@ Trong blog [The ultimate goal - Mục tiêu tối thượng](/blog/2021-03-07-th
 
 Bạn có thể "gieo đồng xu", sử dụng phương pháp "chuyên gia", so sánh đối thủ và chọn ra điểm khác biệt. Rốt cuộc cũng đều nhằm thuyết phục với các stakholder đâu là yếu tố tiềm năng, cơ hội cũng như "phần thưởng" xứng đáng nếu team bỏ công sức để giải quyết vấn đề đó-cho dù chỉ đơn giản là sửa từng câu chữ nhỏ nhặt. Công đoạn này cứ lặp đi lặp lại nếu thuyết phục được các stakeholder. Và tôi gọi đó là **Flow trong phát triển sản phẩm**. Một flow tốt không chỉ work trong ngắn hạn mà phải thực sự work trong dài hạn, nếu không sẽ rất dễ dẫn đến hiện tượng "Boiling the frog".
 
-# Flow - Dòng chảy phát triển sản phẩm
+## Flow - Dòng chảy phát triển sản phẩm
 ![Flow](/assets/img/under-sea.gif)
 Cũng như mọi mục tiêu của các [framework](https://fourweekmba.com/product-development-frameworks/) phát triển sản phẩm, mọi hành động và suy nghĩ đều hướng đến những thành quả trong dài hạn mà doanh nghiệp mong muốn.
 
@@ -54,7 +54,7 @@ Cũng như mọi mục tiêu của các [framework](https://fourweekmba.com/prod
 - Thích ứng trong mọi tình huống biến động và thay đổi nhanh
 - Nội tại của team được phát triển về kiến thức, năng lực phù hợp cho công việc cũng như sự nghiệp cá nhân. Điều đó làm đòn bẩy cho những ý tưởng đột phá và tính hiệu quả thay vì các yếu tố năng suất, nhân lực cũng như vật lực.
 
-# Xây dựng văn hoá ra quyết định dựa trên giả thuyết
+## Xây dựng văn hoá ra quyết định dựa trên giả thuyết
 Trong cuốn **The Lean Startup** của tác giả Eric Ries có định nghĩa về một công ty hay một ý tưởng cũng như một mô hình kinh doanh khởi nghiệp thực sự phải được xây dựng trên một nền tảng **không chắc chắn**. Bạn không cần quá ngạc nhiên nếu thực sự đọc kĩ các phân tích và biện luận từ cuốn sách. Ví dụ, nếu bạn muốn mở một tiệm cafe ở một con phố nhiều tiệm "cafe" (đối thủ cạnh tranh của bạn) mà ở đó bạn tập trung bán cafe để thu lợi nhuận, thì đó không phải là Startup mà chỉ đơn thuần là kinh doanh. Bởi đơn giản business model đó rất phổ biến, nó dễ dàng được đóng khung về cách tính chi phí, năng lực kinh doanh cũng như quy mô khai thác. Thành công của bạn luôn bị giới hạn hoặc tăng trưởng một cách tuyến tính. Trong khi đó, đường cong giá trị thành công từ những ý tưởng đột phá luôn theo [quy luật hàm mũ](https://inniches.com/startup-studios-research).
 
 Lưu ý, không nên nhầm lẫn "không chắc chắn" với yếu tố "may mắn", đó cũng là nguyên nhân dẫn đến rất nhiều startup đổ tiền đầu tư và phát triển như đánh bạc ([hơn 90% các startup đều thất bại sau 2-3 năm](https://www.failory.com/blog/startup-failure-rate)). Vì bắt đầu với sự "không chắc chắn" nên mọi quyết định từ team phát triển hiển nhiên đều là những giả định thiếu chắc chắn. Tuy nhiên team hoàn toàn có thể tự tin chứng thực điều đó nếu nghiêm túc xây dựng các công cụ đo lường và giám sát kết quả, điều chỉnh và kịp thời thay vì chờ đợi sự hoàn hảo của một "cái kết thất bại".

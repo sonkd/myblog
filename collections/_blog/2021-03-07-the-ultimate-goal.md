@@ -24,7 +24,7 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 * WHAT?
 * WOW?
 
-# Hay nói về "How" hơn là nói về 3Ws
+## Hay nói về "How" hơn là nói về 3Ws
 Những chủ đề mà chúng tôi hay bàn luận và gặp phải là:
 
 {% highlight html %}
@@ -57,7 +57,7 @@ Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2?
 
 Lặp lại việc hỏi Tại sao theo cac câu trả lời đó nhiều lần sẽ giúp chúng ta dẫn đến ý đồ cuối cùng - the ultimate goal.
 
-# Ultimate goal - sợi dây liên kết những bộ não
+## Ultimate goal - sợi dây liên kết những bộ não
 
 Đằng sau mỗi hành động đều có một mục đích để làm động lực thôi thúc. Nếu không thể xác định được mục đích thực sự là gì thì những hành động của chúng ta chỉ đơn giản là thói quen, bản năng và trực giác, thiếu sở cứ chắc chắn khi muốn đào sâu và phân tích vấn để.
 
@@ -83,6 +83,6 @@ Vì vậy, ý kiến của tôi là chúng ta nên làm những điều này:
 
 Trình tự đúng, theo tôi nên là: Trao đổi sâu và thống nhất về việc phân rã các mục tiêu trước để trả lời 3Ws, cuối cùng mới thảo luận về “How”
 
-# Wise listeners - Người lắng nghe thông thái
+## Wise listeners - Người lắng nghe thông thái
 
 Cần kiên nhẫn, lắng nghe để chia sẻ, nhờ đó các bộ não mới liên kết được với nhau. Tôi nghĩ việc đi trực tiếp vào hỏi “How” và trình bày “What” khi các bộ não chưa được liên kết sẽ khiến chúng ta nảy sinh xung đột, làm việc mà không có chung mục đích, làm theo sự chỉ bảo, cho xong việc. It’s not my way!

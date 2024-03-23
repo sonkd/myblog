@@ -16,7 +16,7 @@ blog: true
 hidden: false
 
 ---
-# What is the simplicity
+## What is the simplicity
 
 My two favorite quotes by **Leonardo Da Vinci**: 
 > Simplicity is the ultimate sophistication.
@@ -36,7 +36,7 @@ A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Su
 
 When you have experienced and understood, the mastery of understanding the nature of an object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulties- get the adapted approach yourself.
 
-# Practice-Based Learning
+## Practice-Based Learning
 
 I am not saying to learn the theory and then go to work, but we should use the knowledge and experience of our predecessors imparted to us.
 

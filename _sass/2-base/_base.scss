@@ -1,4 +1,6 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
@@ -9,12 +11,16 @@ body {
   background-color: $global-bg-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  input, textarea {
+
+  input,
+  textarea {
     border: 1px solid #f9f9f9;
     outline: none;
+
     &:focus:required:invalid {
       border-color: #e02f40;
     }
+
     &:required:valid {
       border-color: #34a74e;
     }
@@ -22,7 +28,7 @@ body {
 }
 
 ::placeholder {
-	color: $gray;
+  color: $gray;
 }
 
 *::selection {
@@ -128,6 +134,7 @@ img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
+
   &+em {
     text-align: center;
     display: block;
@@ -140,19 +147,21 @@ img {
 }
 
 a {
-    /*text-decoration: none;*/
-    /*color: $primary-color;*/
-    color: $dark;
-    text-decoration-line: underline;
-    text-decoration-color: $primary-color;
-    transition: color 200ms;
+  /*text-decoration: none;*/
+  /*color: $primary-color;*/
+  color: $dark;
+  text-decoration-line: underline;
+  text-decoration-color: $primary-color;
+  text-decoration-thickness: 2.25px;
+  transition: color 200ms;
 
-    &:hover {
-        color: $primary-color;
-    }
+  &:hover {
+    color: $primary-color;
+  }
 }
 
 hr {
+  /*
   display: block;
   width: 6px;
   height: 6px;
@@ -160,6 +169,36 @@ hr {
   border-radius: 50%;
   border: 0;
   background: $secondary-color;
+  */
+  counter-increment: hr;
+  text-align: center;
+  position: relative;
+  background: none;
+  margin: 3em 1em;
+  border: 0;
+  border-top: dashed 1px #dddddd;
+
+  &:before {
+    background: white;
+    width: 50%;
+    margin-left: -25%;
+    height: 30px;
+    line-height: 30px;
+    margin-top: -15px;
+    position: absolute;
+    color: lighten(black, 20%);
+  }
+
+  &:after {
+    @include animation(spin 25s infinite linear);
+    position: absolute;
+    margin-left: -71px;
+    margin-top: -71px;
+    opacity: 0.05;
+    line-height: 0;
+
+    content: url('/assets/img/3-wise-monkeys.png')
+  }
 }
 
 figcaption {

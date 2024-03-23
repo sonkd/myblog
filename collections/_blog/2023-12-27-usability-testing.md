@@ -11,7 +11,7 @@ tag:
 
 ---
 
-# Build the Right Thing
+## Build the Right Thing
 
 Trong xu hướng phát triển sản phẩm hiện nay, việc kiểm tra và ngăn ngừa các vấn đề về chất lượng sản phẩm trước khi release là một trong những khâu tiên quyết bắt buộc phải có ở mọi quy trình. Đặc biệt là việc [Kiểm thử khả năng sử dụng (Usability Testing)](https://www.nngroup.com/articles/usability-testing-101/) ở ngay những bước Design trước khi team quyết định có thực hiện phát triển tính năng đó hay không.
 
@@ -26,7 +26,7 @@ Khác với UI Designer hay UX Copywriter, UX Researcher, họ cần quan sát t
 
 Các kết quả UT sẽ cho thấy trước khả năng hoạt động hiệu quả của thiết kế ngay trước khi nó được bắt đầu được phát triển. Từ đó team sẽ tiết kiệm được rất nhiều chi phí maintain và improve các vấn đề về lỗi trải nghiệm người dùng cũng như không phải xây dựng những tính năng không có "giá trị" về dài hạn.
 
-# Mục đích của Usability Testing (UT)
+## Mục đích của Usability Testing (UT)
 
 Là một dạng của phương pháp [Black box testing](https://en.wikipedia.org/wiki/Black-box_testing) trong khâu Design, mục đích UT không chỉ dừng ở việc ngăn ngừa "lỗi thiết kế", mà còn giúp designer hiểu và nhìn thấy được cách nó hoạt động-phần chìm của tảng băng.
 
@@ -35,7 +35,7 @@ Steve Jobs
 
 Làm thế nào để kiểm tra được một thiết kế là hoạt động được với khách hàng tiềm năng trong môi trường thực tế và đúng ngữ cảnh của họ?
 
-# Think - Make - Check
+## Think - Make - Check
 
 Lean UX là một cách tiếp cận dựa trên "nhóm" để xây dựng các sản phẩm tốt hơn bằng cách tập trung ít hơn vào thiết kế lý tưởng về mặt lý thuyết mà tập trung nhiều hơn vào việc học tập lặp đi lặp lại, trải nghiệm người dùng tổng thể và kết quả của khách hàng. Vì vậy việc chấp nhận sai và sửa sai là một phương châm căn bản khi theo hướng tiếp cận này.
 
@@ -53,7 +53,7 @@ Lean UX là một cách tiếp cận dựa trên "nhóm" để xây dựng các 
     </div>
 </div>
 
-# Bốn khía cạnh chính của prototype (Human-Computer Interaction)
+## Bốn khía cạnh chính của prototype (Human-Computer Interaction)
 ![Prioritization matrix](/assets/img/blog/4-principles-of-prototype.png)
  <figcaption class="caption">What do Prototypes Prototype?. <a href="https://hci.stanford.edu/courses/cs294h/2006/readings/houde-prototypes-97.pdf">Nguồn</a></figcaption>
 
@@ -65,7 +65,7 @@ Lean UX là một cách tiếp cận dựa trên "nhóm" để xây dựng các 
 
 Vì vậy, chúng ta sẽ cố gắng tạo ra nguyên mẫu có khả năng sát với “mô trường thực tế” nhất có thể, nhờ đó các kết quả thử nghiệm thu được sẽ hữu ích và có giá trị.
 
-# Các mục tiêu thực hiện UT
+## Các mục tiêu thực hiện UT
 - **Test concept thiết kế**: tập trung vào wireframe (low-fidelity prototype) => người tham gia không bị noise bởi các yếu tố vật lý như visual graphic/âm thanh/rung động, khi đó họ sẽ tập trung vào các task chính được giao (Role) với mục đích tìm hiểu cách user flow hoạt động.
 - **Test thiết kế tương tác (interaction design)**: tạo các yếu tố liên kết về mặt tương tác vật lý như nghe/nhìn/chạm để đánh giá khía cạnh “look and feel". VD: gắn các hiệu ứng về visual như transition/animation/timing/sound/...
 - **Test performance của một giải pháp**: ví dụ test luồng eKYC với ứng dụng mobile app, độ trễ về sự phản hồi cũng như tỷ lệ xử lý thất bại về mặt công nghệ sẽ ảnh hưởng trực tiếp đến khả năng hoàn thành “task” của người dùng. Điều này không thể kiểm tra được thông qua các prototype design. Trường hợp này tương đương với phương pháp User Acceptance Testing (UAT).
@@ -82,7 +82,7 @@ Vì vậy, chúng ta sẽ cố gắng tạo ra nguyên mẫu có khả năng sá
 5. **Orientation**: Người dùng có thể tìm đường đi xung quanh ứng dụng, tới đó và quay lại không? Họ có xác định được họ đang ở đâu tại các điểm chính trên web không?
 6. **Satisfaction**: Người dùng có cảm thấy tự tin rằng nhiệm vụ đã được hoàn thành một cách hiệu quả mà không cần phải kiểm tra lại không?
 
-# Phương pháp thực hiện UT
+## Phương pháp thực hiện UT
 
 Có nhiều hình thức thực hiện test UT linh hoạt trong nhiều điều kiện và môi trường khác nhau. Đối với các thiết kế ứng dụng mobile, điển hình nhất là 2 hình thức Giám sát từ xa hoặc trực tiếp (Remote hoặc In-person moderated).
 
@@ -104,6 +104,6 @@ Tuy nhiên, một số tình huống cần test rộng hơn nhằm tìm hiểu t
 - Đừng nên test với những ứng viên là đồng nghiệp cùng làm trong dự án hoặc cùng chuyên ngành/lĩnh vực sản phẩm (trừ khi họ là những khách hàng mục tiêu), hay những người dùng tech-savy. Đây là những nhóm người dùng có thể dễ dàng hoàn thành nhiệm vụ do có sẵn kiến thức hoặc am hiểu về tính chất sản phẩm. Khi đó người quan sát có ít thông tin để khai thác về hành vi và cách design thực sự làm việc với số đông người dùng.
 - Accessible Design: Một thiết kế tốt là ngay cả khi những người khiếm khuyết (disablers) cũng có thể dễ dàng sử dụng. Điều đó đem đến rất nhiều [lợi ích](https://www.interaction-design.org/literature/article/3-reasons-why-accessible-design-is-good-for-all) về mặt business (tiếp cận được số đông-ít năng lực sử dụng và hiểu biết công nghệ), về mặt legal sẽ tiếp cận được người dùng ở một số quốc gia có tiêu chuẩn cao (ví dụ thoả mãn tiêu chuẩn [W3C](https://www.w3.org/standards/about/) hay các tiêu chuẩn người khuyết tật).
 
-# Tổng kết
+## Tổng kết
 
 Để "build the right thing", chúng ta cần hiểu sâu về cách mà thiết kế của sản phẩm đó hoạt động. Việc thực hiện UT ngay ở những bước design concept cho phép team giảm lược và loại bỏ được các tính năng không có giá trị lâu dài, ngăn ngừa các lỗi về tương tác hành vi (HCI), khai thác các cơ hội tiềm năng nếu cải tiến hoặc thực hiện các design mới phù hợp với hành vi người dùng.

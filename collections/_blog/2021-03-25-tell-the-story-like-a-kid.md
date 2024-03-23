@@ -15,7 +15,7 @@ hidden: false
 
 ---
 
-# Chuyện của một đứa trẻ
+## Chuyện của một đứa trẻ
 
 Tôi có một đứa cháu lên 5 ở cái tuổi hay nghịch và thích "nói". Chuyện khá bình thường và không có gì đáng bàn. Thi thoảng tôi có để ý đến những câu chuyện mà con bé kể, phát hiện ra có điều gì đó khiến mọi người xung quanh cảm thấy thú vị và điều đó làm tôi liên tưởng đến nhiều điều.
 
@@ -34,7 +34,7 @@ Ví dụ một câu chuyện gần đây con bé kể với tôi là,
 
 Tôi chợt liên tưởng ngay đến yếu tố kể chuyện (**Storytelling**) trong thiết kế trải nghiệm người dùng, thứ mà hàng ngày tôi vẫn thường làm và cần đến nó. Chợt nghĩ,công thức chung cho mọi câu chuyện "thành công" mà tôi hình dung trước đây liệu có xuất phát như là câu chuyện kể trên hay không.
 
-# Người dùng cũng yêu thích những câu chuyện
+## Người dùng cũng yêu thích những câu chuyện
 
 > Stories are how we remember. We tend to forget bullet points ([Robert McKee on HBR](https://hbr.org/2003/06/storytelling-that-moves-people)).
 
@@ -49,7 +49,7 @@ Tôi chợt liên tưởng ngay đến yếu tố kể chuyện (**Storytelling*
         </div>
     </div>
 
-## Các nhân tố trong kể chuyện
+### Các nhân tố trong kể chuyện
 
 Tương tự kĩ thuật kể chuyện của [Aristotle](https://www.interaction-design.org/literature/topics/storytelling), có 6 bước để xây dựng một câu chuyện về trải nghiệm người dùng như sau:
 1. Reason for your story
@@ -65,7 +65,7 @@ Mấu chốt của mọi câu chuyện chính là những điểm *mâu thuẫn*
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/YSp-AXzPaHc?controls=0&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-# Kể chuyện như một đứa trẻ
+## Kể chuyện như một đứa trẻ
 
 Tôi rất ấn tượng với một câu nói rất thú vị trong phim [*Glass*](https://www.imdb.com/title/tt6823368/)
 
