@@ -190,7 +190,6 @@ hr {
   }
 
   &:after {
-    @include animation(spin 25s infinite linear);
     position: absolute;
     margin-left: -71px;
     margin-top: -71px;
