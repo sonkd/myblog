@@ -18,7 +18,7 @@ body {
     &:required:valid {
       border-color: #34a74e;
     }
-    }
+  }
 }
 
 ::placeholder {
@@ -144,6 +144,7 @@ a {
     /*color: $primary-color;*/
     color: $dark;
     text-decoration-line: underline;
+    text-decoration-color: $primary-color;
     transition: color 200ms;
 
     &:hover {

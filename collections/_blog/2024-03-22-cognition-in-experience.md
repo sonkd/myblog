@@ -25,7 +25,7 @@ Các trang web hoặc ứng dụng mobile đều phải dẫn dắt và đưa ng
 Ngày nay, các sản phẩm có xu hướng "[super app](https://www.adjust.com/blog/the-state-of-super-apps-2022-statistics-and-trends/)", do đó những vấn đề này càng trở nên thách thức với các nhà thiết kế trải nghiệm. Làm thế nào để cân bằng được mục tiêu và mong muốn kinh doanh mà vẫn giúp người dùng có được khả năng ra quyết định nhanh chóng và thoải mái.
 
 # Tải nhận thức (Cognition load)
-Con người sẽ tư duy dựa trên 2 hệ thống ([Xem thêm "Think Fast and Slow"](https://www.goodreads.com/en/book/show/11468377)): Tiềm thức và Có ý thức. Việc đánh đổi tính xác lấy tốc độ phản hồi của nhận thức giúp con người tiết kiệm được nhiều năng lượng cho việc xử lý thông tin của bộ não, giúp chúng ta trở nên thoải mái và tự tin hơn trong việc thực hiện các hành động, miễn là nằm trong ngưỡng chấp nhận được.
+Con người sẽ tư duy dựa trên 2 hệ thống ([Xem thêm "Think Fast and Slow"](https://www.goodreads.com/en/book/show/11468377)): Tiềm thức và Có ý thức. Việc đánh đổi tính chính xác lấy tốc độ phản hồi của nhận thức giúp con người tiết kiệm được nhiều năng lượng cho việc xử lý thông tin của bộ não, giúp chúng ta trở nên thoải mái và tự tin hơn trong việc thực hiện các hành động, miễn là nằm trong ngưỡng chấp nhận được.
 
 ![Fast & Slow thinking, Daniel Kahneman](https://modelthinkers.com/storage/app/public/model_image/bizgdZntGFFXRJgwPmFgUkrXttLbVSD7bqlvzMyW.png)
 
@@ -72,10 +72,10 @@ Trong thiết kế sản phẩm, việc giảm tải nhận thức (Reduce cogni
 Hầu hết các nguyên nhân dẫn đến sự gia tăng tải nhận thức nằm ở:
 - Quá nhiều lựa chọn (Hick’s Law)
 - Yêu cầu suy nghĩ quá nhiều (Chunking effect)
-- Thiếu tính rõ ràng: "Less is more" giúp giản lược yêu cầu xử lý thông tin nhưng nếu lạm dụng quá mức sẽ tăng độ khó về mặt nhận thức.
+- Thiếu tính rõ ràng: không quá nhiều và quá ít thông tin, cần vừa đủ để dễ hiểu.
 
 ![LESS is MORE](/assets/img/blog/less-is-more.png)
-<figcaption class="caption">Bớt nút bấm giúp bạn dễ thao tác nhanh hơn khi xem Tivi nhưng đôi khi lại bối rối vì việc "di chuyển" đến các tính năng phụ gặp khó khăn.</figcaption>
+<figcaption class="caption">"Less is more". Bớt nút bấm giúp bạn dễ thao tác nhanh hơn khi xem Tivi nhưng đôi khi lại bối rối vì việc "di chuyển" đến các tính năng phụ gặp khó khăn.</figcaption>
 
 Tối thiểu hoá về *Tải nhận thức* sẽ giúp Tối đa hoá về *Khả năng sử dụng*. Các cách để giảm tải nhận thức trong thiết kế.
 - Tránh sự lộn xộn và phân cấp thị giác không hợp lý: affordance cần đủ, rõ ràng và dễ hiểu đồng thời phân cấp phù hợp với hành vi được kì vọng của người dùng.
