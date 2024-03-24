@@ -152,7 +152,8 @@ a {
   color: $dark;
   text-decoration-line: underline;
   text-decoration-color: $primary-color;
-  text-decoration-thickness: 2.25px;
+  text-underline-offset: 4px;
+  text-decoration-thickness: 1.5px;
   transition: color 200ms;
 
   &:hover {
@@ -195,8 +196,6 @@ hr {
     margin-top: -71px;
     opacity: 0.05;
     line-height: 0;
-
-    content: url('/assets/img/3-wise-monkeys.png')
   }
 }
 

@@ -1,91 +1,202 @@
 ---
 layout: page
-title: 🖋️Blog
+title: 🧠✏️Blog
 permalink: /blog/
 order: 2
 show: true
 isMainPage: true
 ---
 <div class="container">
-<p style="text-align: center; color:#757575">I share my thoughts about product development, user behaviors, productivity, tips, inspiration, strategies, so on.</p>
-<hr>
-{% assign posts = site.blog | reverse %}
-{% if posts.size > 0 %}
-    {% if paginator.total_pages > 1  %}
-        {% for post in paginator.posts %}
-        <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-            <div class="article__content">
-                <div class="article__meta">
-                    <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
-                        site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
-                        }}</time></span>
-                </div>
-                <h3 class="article__title">
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                </h3>
+    <p style="text-align: center; color:#757575">I share my thoughts about product development, user behaviors,
+        productivity, tips, inspiration, strategies, so on.</p>
+    <hr>
 
-                <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
-                strip_html | truncate: 130 }}{% endif %}</p>
-                <div class="article__meta">
-                {% if post.tags.size >= 1 %}
-                    <div class="post-tags" style="margin-bottom: 0px !important;">
-                    {% for tag in post.tags %}
-                        <a href="{{ site.baseurl }}/tags#{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
-                    {% endfor %}
+    <!-- tabs -->
+    <div class="tabs c-tabs__bar library-tab" style="justify-content:center !important">
+        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">🙉Micro</a>
+        <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">🙊Thoughts</a>
+        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🙈Reading</a>
+    </div>
+    <!-- end tabs -->
+    <div class="tab-content">
+        <!-- TAB 1 -->
+        <div class="tabs__tab active" id="tab_1" data-tab-info>
+            <p style="text-align: center;">Short as I am saying.</p>
+            {% assign stories = site.micro | reverse %}
+            {% if stories.size > 0 %}
+            {% if paginator.total_pages > 1 %}
+            {% for post in paginator.stories %}
+            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+                <div class="article__content">
+                    <div class="article__meta">
+                        <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
+                                date_format =
+                                site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
+                                }}</time></span>
                     </div>
-                    {% endif %}
+                    <h3 class="article__title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                    </h3>
+
+                    <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
+                        |
+                        strip_html | truncate: 400 }}{% endif %}</p>
+                </div>
+
+            </div>
+            {% endfor %}
+            {% include pagination-nav.html %}
+            {% else %}
+            {% for post in stories %}
+            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+                <div class="article__content">
+                    <div class="article__meta">
+                        <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
+                                date_format =
+                                site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
+                                }}</time></span>
+                    </div>
+                    <h3 class="article__title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                    </h3>
+
+                    <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
+                        |
+                        strip_html | truncate: 400 }}{% endif %}</p>
                 </div>
             </div>
-
-            {% if post.image %}
-            <div class="article__image-box">
-                <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
-            </div>
-            {% else %}
-            <div class="article__image-box">
-                <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)" aria-label="{{post.title}}"></a>
-            </div>
+            {% endfor %}
+            {% endif %}
             {% endif %}
         </div>
-        {% endfor %}
-        {% include pagination-nav.html %}
-    {% else %}
-        {% for post in posts %}
-        <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-            <div class="article__content">
-                <div class="article__meta">
-                    <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
-                        site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
-                        }}</time></span>
-                </div>
-                <h3 class="article__title">
-                    <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                </h3>
+        <!-- TAB 2 -->
+        <div class="tabs__tab" id="tab_2" data-tab-info>
+            <p style="text-align: center;">Calm.Writing.Reflection</p>
+            {% assign posts = site.blog | reverse %}
+            {% if posts.size > 0 %}
+            {% if paginator.total_pages > 1 %}
+            {% for post in paginator.posts %}
+            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+                <div class="article__content">
+                    <div class="article__meta">
+                        <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
+                                date_format =
+                                site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
+                                }}</time></span>
+                    </div>
+                    <h3 class="article__title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                    </h3>
 
-                <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
-                strip_html | truncate: 130 }}{% endif %}</p>
-                {% if post.tags.size >= 1 %}
-                <div class="post-tags" style="margin-bottom: 0px !important;">
-                    {% for tag in post.tags %}
-                    <a href="{{ site.baseurl }}/tags#{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
-                    {% endfor %}
+                    <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
+                        |
+                        strip_html | truncate: 130 }}{% endif %}</p>
+                    <div class="article__meta">
+                        {% if post.tags.size >= 1 %}
+                        <div class="post-tags" style="margin-bottom: 0px !important;">
+                            {% for tag in post.tags %}
+                            <a href="{{ site.baseurl }}/tags#{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+
+                {% if post.image %}
+                <div class="article__image-box">
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+                        style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
+                </div>
+                {% else %}
+                <div class="article__image-box">
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+                        style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"
+                        aria-label="{{post.title}}"></a>
                 </div>
                 {% endif %}
             </div>
-
-            {% if post.image %}
-            <div class="article__image-box">
-                <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
-            </div>
+            {% endfor %}
+            {% include pagination-nav.html %}
             {% else %}
-            <div class="article__image-box">
-                <a href="{{post.url | prepend: site.baseurl}}" class="article__image" style="background-image: url({{site.baseurl}}/assets/img/infinity.png)" aria-label="{{post.title}}"></a>
+            {% for post in posts %}
+            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+                <div class="article__content">
+                    <div class="article__meta">
+                        <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
+                                date_format =
+                                site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
+                                }}</time></span>
+                    </div>
+                    <h3 class="article__title">
+                        <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
+                    </h3>
+
+                    <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
+                        |
+                        strip_html | truncate: 130 }}{% endif %}</p>
+                    {% if post.tags.size >= 1 %}
+                    <div class="post-tags" style="margin-bottom: 0px !important;">
+                        {% for tag in post.tags %}
+                        <a href="{{ site.baseurl }}/tags#{{ tag | downcase }}" class="post-tags__tag">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+
+                {% if post.image %}
+                <div class="article__image-box">
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+                        style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
+                </div>
+                {% else %}
+                <div class="article__image-box">
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
+                        style="background-image: url({{site.baseurl}}/assets/img/infinity.png)"
+                        aria-label="{{post.title}}"></a>
+                </div>
+                {% endif %}
             </div>
+            {% endfor %}
+            {% endif %}
             {% endif %}
         </div>
-        {% endfor %}
-    {% endif %}
-{% endif %}
+        <!-- TAB 3 -->
+        <div class="tabs__tab" id="tab_3" data-tab-info>
+            <p style="text-align: center;">Explore.Experience.Dream</p>
+            <div class="photo-wall--all-screen">
+                <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green"
+                    frameborder="0" onmousewheel="" width="100%" height="1200px"
+                    style="background: transparent; border: 1px solid #ccc;"></iframe>
+            </div>
+        </div>
+    </div>
 </div>
+
+<script type="text/javascript">
+    // function to get each tab details
+    const tabs = document.querySelectorAll('[data-tab-value]')
+    const tabInfos = document.querySelectorAll('[data-tab-info]')
+    let current_tab
+
+    tabs.forEach(tab => {
+        if (tab.classList.contains("c-tab--active")) {
+            current_tab = tab
+        }
+    })
+
+    tabs.forEach(tab => {
+        tab.addEventListener('click', () => {
+            const target = document.querySelector(tab.dataset.tabValue);
+            tabInfos.forEach(tabInfo => {
+                tabInfo.classList.remove('active');
+            })
+            target.classList.add('active');
+
+            current_tab.classList.add('c-tab--inactive');
+            current_tab.classList.remove('c-tab--active');
+            tab.classList.add('c-tab--active');
+            tab.classList.remove("c-tab--inactive");
+            current_tab = tab
+        })
+    })
+</script>

@@ -7,81 +7,64 @@ order: 5
 isMainPage: true
 ---
 
-Hi, my name is Kevin Kim, and I have been a Product designer in the gaming, IT software services, and digital banking industry since 2016.
+Hi, my name is Kevin Kim, and I have been a Product designer in the **gaming**, **IT software services**, and **digital banking industry** since 2016.
 
 As [a practitioner of the Design Thinking method](https://www.credly.com/badges/d7ba6db5-ff1a-42e8-b854-ae6d3e8028a8), my tagline is to pursue minimalism to understand myself and people deeply from intrinsic. The innovation outcomes always come from a simple foundation.
 
 > _"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions"_--Albert Einstein.
 
-<hr>
-
-<div class="text-left">
-<p style="font-weight:bold"><a href="#now">What I'm working on now ↓</a></p>
-</div>
-<section class="row">
-    <div class="col col-4 col-6 col-t-12">
-    <div class="cv-card">
-        <div class="title">My experiences</div>
-        <ul style="color: $gray-blue;">
-            <li>Bank/Fintech</li>
-            <li>AI and enterprise software</li>
-            <li>Game</li>
-        </ul>
-    </div>
-    </div>
-    <div class="col col-4 col-6 col-t-12">
-    <div class="cv-card">
-        <div class="title">Methodologies</div>
-        <ul>
-            <li>Agile</li>
-            <li>Lean, Lean UX</li>
-            <li>Design Thinking</li>
-        </ul>
-    </div>
-    </div>
-    <div class="col col-4 col-6 col-t-12">
-    <div class="cv-card">
-        <div class="title">Knowledge & Practices</div>
-        <ul>
-            <li>HTML, CSS, JS</li>
-            <li>Flex-box, Responsive</li>
-            <li>Conduct user research (IDI, survey, empathy mapping, storyboard)</li>
-            <li>Information Architecture, Prototyping, Interaction Design, Pitching</li>
-            <li>User testing (usability testing, 5s, guerrilla testing)</li>
-            <li>Design System, Version management control, Design strategy</li>
-            <li>Product management</li>          
-        </ul>
-    </div>
-    </div>
-    <div class="col col-4 col-6 col-t-12">
-    <div class="cv-card">
-        <div class="title">Tools</div>
-        <ul>
-            <li>Confluence, Jira, Notion</li>
-            <li><b>Figma</b>, Sketch, Adobe XD, Invison, Zeplin</li>
-            <li><b>Axure RP</b>, <b>Balsamiq</b>, Whimsical, Visio, Digital hand drawing</li>
-            <li><b>Photoshop</b>>, Illustrator, After Effects, Lottie</li>
-            <li>Optimal workshop</li>     
-        </ul>
-    </div>
-    </div>
+<section style="margin: 20px 0">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="kevinsonkd" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/kevinsonkd?trk=profile-badge"></a></div>
 </section>
+
+**My dream and career**
+
+In high school, I was fascinated by the beauty of elementary mathematics (especially Geometry and Combinatorics) and wished to become a mathematician in the future.
+
+I majored in computer science at university, dreaming of making great products like Facebook, Google, or Apple 🫠.
+
+I started as a mobile app game designer for three years. Thanks to that, I had access to the fields of **user experience design** and analytical perspectives on customer psychology and behavior. That intrigued me and made me curious to explore further. In recent years, I have worked in the field of Digital Product Design in the finance/banking industry and consulted for several blockchain projects.
+
+I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can help me answer <a style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">"Who am I?"</a>.
+
+
+**Building [My Blog]({{ site.url }}/blog)**
+
+I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
 
 ***
 
-### [Now](#now)
-This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on February 10, 2023, from Hanoi, Vietnam.
+## [Now](#now)
+This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on March 20, 2024, from Hanoi, Vietnam.
 
-#### Building [My Blog]({{ site.url }}/blog)
-I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
+### 2024
+- My next chapter is about being a product designer at a digital banking company in Vietnam. 
+- Build my first project by sharing about financial behavior when product designing.
 
-#### 2024 (In progress)
-- Product Advisor at [Ready.io](https://ready.io)
-- Research about HCI and Cognitive load
+<span><a href="{{site.baseurl}}/projects" style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">See more my works</a></span>
 
-[See more my works]({{site.baseurl}}/projects)
+### 2023
+**Traveling**
 
-#### Studied about Product & Design
+**Works**
+- [Ready.io](https://ready.io) project lauched.
+- Research about HCI and Cognitive load.
+- Design a Banking service for Household merchants in Vietnam.
+
+
+
+### 2022
+- Head of Design at [Ready.io](https://ready.io), led team to build a mobile app and we achieved #6 Day-rank on Produc Hunt, [see detail](https://twitter.com/goreadyio/status/1614975003426004995?s=61&t=yUPsxF7rg_NPgVMM0pMJbQ).
+- Design experience for Bill & Payment services in [Techcombank](https://techcombank.com/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile), serving millions of people in Vietnam.
+- Designed UX for Instalment Online 💳 and kept Product team stays focused on the omnichannel services experience, increased more 800% of new users and gained > $40m revenue.
+- Defined Data modeling and Designed UX for Techcombank rewind feature-based data insights ⏪ [Rewind 2022](https://www.facebook.com/Techcombank/videos/1502775000222838/), tell customers about their financial life in a year.
+- Designed UX for first digital red envelope feature 🧧 [Li xi](https://l.facebook.com/l.php?u=https%3A%2F%2Ftcbmobile.onelink.me%2FTBS9%2F0yw0mx2l&h=AT0PlUi8gFkagSMjPWdoBShIGgY89h_5zkyt9FJwy_apO3_XdGBl7ffx8ZNAm8ty0ILYuNITV_0Lq7zF3uTbQN3K0Vq92cYRkah3OHDT7_0W8MKF0nGUUx367v8epYvgjmwpU2XMoTkHYGM&s=1), an innovative solution for customers with traditional and digital experiences seamlessly.
+- Built a lab to conduct UX Research with Design team, conducted Usability Testing sessions with a hundred participants, and the IDI interviewing sessions.
+
+---
+
+### Studied about Product & Design
 <span style="color: #6b69fa">#Design-system</span>
 - [Apply OOAD in the building design system (Part 1)](https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083).
 - [Apply OOAD in the building design system (Part 2)](https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063).
@@ -96,7 +79,8 @@ I'd like to share and archive the knowledge of design in life, and what things I
 <span style="color: #6b69fa">#Blockchain #Web3.0</span>
 - [Personal or Social Identity](https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son)
 
-[See more](https://www.notion.so/sonkd/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c)
+
+<span><a href="https://sonkd.notion.site/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c" style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">See more</a></span>
 
 ---
 
