@@ -1,7 +1,7 @@
 {% assign posts = site.blog | reverse %}
 {% if posts.size > 0 %}
-<h2 style="text-align: center;">Recent posts</h2>
-{% for post in posts limit: 5 %}
+<h2 style="text-align: center;">Recent writings</h2>
+{% for post in posts limit: 3 %}
 <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
     <div class="article__content">
         <div class="article__meta">
@@ -36,6 +36,6 @@
 </div>
 {% endfor %}
 <div style="text-align: center;">
-    <a href="{{site.baseurl}}/blog/" class="works-button c-button c-button--secondary c-button--small">See more stories</a>
+    <a href="{{site.baseurl}}/blog/" class="works-button c-button c-button--secondary c-button--small">More stories</a>
 </div>
 {% endif %}
