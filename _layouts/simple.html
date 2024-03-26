@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div class="container">
+  <!-- begin post -->
+  <article class="post">
+    <div class="post__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+      {% if page.image %}
+      <div class="post-image img-blur" style="background-image: url({{site.baseurl}}{{page.image}})"></div>
+      {% endif %}
+      <h1 class="post__title">{{ page.title | escape }}</h1>
+    </div>
+
+    <div class="post__content" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100" data-aos-duration="700">
+      {{ content }}
+    </div>
+  </article>
+  <!-- end post -->
+</div>

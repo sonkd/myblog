@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: simple
 title: About me
 permalink: /about/
 image: '/assets/img/profile.jpg'
@@ -18,6 +18,9 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
     <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="kevinsonkd" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/kevinsonkd?trk=profile-badge"></a></div>
 </section>
 
+[See my "Now"⬇️](#now).
+
+
 **My dream and career**
 
 In high school, I was fascinated by the beauty of elementary mathematics (especially Geometry and Combinatorics) and wished to become a mathematician.
@@ -29,9 +32,9 @@ I started as a mobile app game designer for three years. Thanks to that, I know 
 In recent years, I have worked in the field of Digital Product Design in the finance/banking industry and consulted for several blockchain projects. I have been viewing financial pictures from the micro to the macro, gradually understanding how our world operates and the things that affect the behavior and decisions of each person, group of people, or country. It's too BIG 😂. 
 Now, I'm studying psychology behavior to understand how customers buy and make decisions. My most interested topic is [Bias in Product Design](/research/2023-12-13-bias).
 
-I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can help me answer <a style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">"Who am I?"</a>.
+I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can help me answer <a style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">"Who am I?"</a>question.
 
-**Building [My Blog]({{ site.url }}/blog)**
+**Building my blog**
 
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
 
@@ -50,7 +53,7 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 - My next chapter is about being a product designer at a digital banking company in Vietnam. 
 - Build my first project by sharing about financial behavior when product designing.
 
-<span><a href="{{site.baseurl}}/projects" style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">See more my works</a></span>
+<span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
 
 ### 2023
 **Traveling**
