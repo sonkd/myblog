@@ -34,7 +34,7 @@ Now, I'm studying psychology behavior to understand how customers buy and make d
 
 I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can help me answer <a style="text-decoration: underline;text-underline-offset: 0.6ex;text-decoration-style: wavy;text-decoration-color: #6b69fa">"Who am I?"</a>question.
 
-**Building my blog**
+**Build my blog**
 
 I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
 
@@ -49,26 +49,35 @@ My musical flavor leans a bit toward the alternative rock genre of Coldplay, The
 ## [Now](#now)
 This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. Updated on March 20, 2024, from Hanoi, Vietnam.
 
-### 2024
-- My next chapter is about being a product designer at a digital banking company in Vietnam. 
-- Build my first project by sharing about financial behavior when product designing.
+### Reading
 
-<span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
+Start read ["The making of a Manager"](https://www.juliezhuo.com/book/manager.html)--Julie Zhuo. I will write summary about this book when finish.
 
-### 2023
-**Traveling**
+### Traveling
 
 I visited Japan in November 2023 to join Coldplay's Liveshow ["Music of the Spheres World Tour"](https://www.instagram.com/p/CzdpDekxlcL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==)-they're my favorite band. I felt and enjoyed that moment, so great, and Oh Yeahhh 🙌.
 
 Everything in Japan is as peaceful and beautiful as people say and through the media. I am genuinely impressed by the neatness and strategic planning of traffic and the architecture of the buildings. Everything has logic and an artistic connection. I also impressed by the payment services, The synchronization of service systems makes everything convenient; self-service machines are always available and very smart.
 However, I felt slightly sad (may be boring) in Tokyo and the places I visited. I guess there need more some colours.
 
-**Works**
+### Aspirations for 2024
+- Build a channel for sharing about designing digital products in the financial industry.
+- Read more books about Art and Product management.
+- Travel more with my family. Drive my little princess to explore more places.
+
+### Works
+#### 2024
+- My next chapter is about being a product designer at a digital banking company in Vietnam. 
+- Build my first project by sharing about financial behavior when product designing.
+
+<span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
+
+#### 2023
 - [Ready.io](https://ready.io) project lauched.
 - Research about HCI and Cognitive load.
 - Design a Banking service for Household merchants in Vietnam.
 
-### 2022
+#### 2022
 - Head of Design at [Ready.io](https://ready.io), led team to build a mobile app and we achieved #6 Day-rank on Produc Hunt, [see detail](https://twitter.com/goreadyio/status/1614975003426004995?s=61&t=yUPsxF7rg_NPgVMM0pMJbQ).
 - Design experience for Bill & Payment services in [Techcombank](https://techcombank.com/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile), serving millions of people in Vietnam.
 - Designed UX for Instalment Online 💳 and kept Product team stays focused on the omnichannel services experience, increased more 800% of new users and gained > $40m revenue.
