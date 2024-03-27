@@ -36,7 +36,7 @@ I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can hel
 
 **Build my blog**
 
-I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more articles on Medium to reflect and improve myself about the experiences, perceptions, and discovered things.
+I'd like to share and archive the knowledge of design in life, and what things I observed and enlightened. Write more to reflect and improve myself about the experiences, perceptions, and discovered things.
 
 **Music for life**
 

@@ -27,7 +27,7 @@ isMainPage: true
             {% if paginator.total_pages > 1 %}
             {% for post in paginator.stories %}
             <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-                <div class="article__content">
+                <div>
                     <a href="{{ post.url | prepend: site.baseurl }}" style="text-decoration-line: none;"><h3 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
                         date_format =
                         site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
