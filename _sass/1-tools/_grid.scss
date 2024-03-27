@@ -12,9 +12,3 @@
   padding-left: 20px;
   padding-right: 20px;
 }
-
-@media #{$mobile} {
-  .container {
-    padding: 0 !important;
-  }
-}
