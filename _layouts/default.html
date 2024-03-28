@@ -6,7 +6,7 @@
 <body>
 
   {% if site.google-analytics %}
-    {% include google-analytics.html %}
+  {% include google-analytics.html %}
   {% endif %}
 
   {% include header.html %}
@@ -26,10 +26,13 @@
   <script src="{{ site.baseurl }}/assets/js/vendors/aos.js"></script>
   <script src="{{ site.baseurl }}/assets/js/vendors/jquery.fitvids.js"></script>
   <script src="{{ site.baseurl }}/assets/js/common.js"></script>
-  
+
   <script>
     let slideIndex = 1;
-    showSlides(slideIndex);
+    
+    if ($(".mySlides")[0]){
+      showSlides(slideIndex);
+    }
 
     // Next/previous controls
     function plusSlides(n) {
@@ -45,23 +48,27 @@
       let i;
       let slides = document.getElementsByClassName("mySlides");
       let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
+      if (n > slides.length) {
+        slideIndex = 1
+      }
+      if (n < 1) {
+        slideIndex = slides.length
+      }
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
       for (i = 0; i < dots.length; i++) {
         dots[i].className = dots[i].className.replace(" active", "");
       }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
     }
   </script>
   <script>
     // target the anchor links and div container
     const links = document.querySelectorAll("main.gallery > a");
     const overlay = document.querySelector("div.view-photo");
-    
+
     // following a click event on the links show the overlay
     function showOverlay() {
       // use the src & alt attribute of the selected image in the overlay
@@ -69,15 +76,15 @@
       const alt = this.querySelector('img').getAttribute('alt');
       overlay.querySelector('img').setAttribute('src', src);
       overlay.querySelector('img').setAttribute('alt', alt);
-    
+
       overlay.classList.add('overlay');
-    
+
       // to remove the anchor links from reach set the tabindex attribute to a negative value
       links.forEach(link => link.setAttribute('tabindex', -1));
     }
-    
+
     links.forEach(link => link.addEventListener('click', showOverlay));
-    
+
     // following a click event on the overlay, consider if the click was registered on the button
     // if so hide the overlay back
     function hideOverlay(e) {
@@ -86,16 +93,18 @@
         // restore the default value of the anchor links
         links.forEach(link => link.setAttribute('tabindex', 0));
       }
-      if (e.target.contains(overlay) && e.target !== overlay){
+      if (e.target.contains(overlay) && e.target !== overlay) {
         overlay.classList.remove('overlay');
         // restore the default value of the anchor links
         links.forEach(link => link.setAttribute('tabindex', 0));
       }
     }
-    
-    overlay.addEventListener('click', hideOverlay);
 
-    </script>
+    if ($(".view-photo")[0]){
+      overlay.addEventListener('click', hideOverlay);
+    }
+ 
+  </script>
   <!-- end js -->
 </body>
 

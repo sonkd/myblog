@@ -1,5 +1,5 @@
 ---
-title: "A explanation of the roles in product design."
+title: "An explanation of the roles in product design."
 layout: post
 date: 2022-06-09 10:55:00
 author: sonohyeah
