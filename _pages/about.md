@@ -13,11 +13,6 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 
 > _"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions"_--Albert Einstein.
 
-<section style="margin: 20px 0">
-    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
-    <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="light" data-type="VERTICAL" data-vanity="kevinsonkd" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://vn.linkedin.com/in/kevinsonkd?trk=profile-badge"></a></div>
-</section>
-
 [See my "Now"⬇️](#now).
 
 
