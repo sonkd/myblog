@@ -30,9 +30,7 @@ When I am thinking about simplicity, I always associate it with complication.
 ---
 A pretty good quote mentioned in [this article](https://spiderum.com/bai-dang/Suy-nghi-don-gian-khong-giup-cuoc-song-cua-ban-don-gian-8w0) that I liked.
 
-> “Life is difficult. This is a great truth, one of the greatest truths. It is a great truth because once we truly see this truth, we transcend it. Once we truly know that life is difficult-once we truly understand and accept it-then life is no longer difficult. Because once it is accepted, the fact that life is difficult no longer matters.”
-> 
-> ― M. Scott Peck, The Road Less Traveled: A New Psychology of Love, Traditional Values and Spiritual Growth
+> “Life is difficult. This is a great truth, one of the greatest truths. It is a great truth because once we truly see this truth, we transcend it. Once we truly know that life is difficult-once we truly understand and accept it-then life is no longer difficult. Because once it is accepted, the fact that life is difficult no longer matters.” ― M. Scott Peck, The Road Less Traveled: A New Psychology of Love, Traditional Values and Spiritual Growth
 
 When you have experienced and understood, the mastery of understanding the nature of an object leads to simplicity. That means, when we explain the nature of objects carefully, we can see that it is simple, instead of simplifying the problem yourself to avoid the difficulties- get the adapted approach yourself.
 

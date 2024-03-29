@@ -38,16 +38,8 @@ Tôi chợt liên tưởng ngay đến yếu tố kể chuyện (**Storytelling*
 
 > Stories are how we remember. We tend to forget bullet points ([Robert McKee on HBR](https://hbr.org/2003/06/storytelling-that-moves-people)).
 
-<div class="side-by-side">
-        <div class="toleft">
-            <img class="image" src="/assets/img/blog/Normans-Three-Levels-of-Design.jpeg" alt="Norman's Three Levels of Design">
-            <figcaption class="caption">Nguồn: <a href="https://www.interaction-design.org/literature/topics/emotional-design">www.interaction-design.org</a></figcaption>
-        </div>
-        <div class="toright">
-            Chúng ta sẽ nhớ lâu những câu chuyện, bài thơ hay một ca khúc hơn là ghi nhớ những kiến thức khô khan được liệt kê trong một cuốn từ điển. Những thứ có tiết tấu và nhịp điệu sẽ giúp não bộ ghi nhớ một cách vô thức dễ dàng hơn, chẳng hạn một bài thơ.<br>
-            <span>Một người dùng sẽ tiếp nhận và phản chiếu một nguồn thông tin, họ sẽ giải nghĩa chúng và nhận thức lại sự vật/sự việc (chuyển thành tri thức nội tại-vô thức).</span>
-        </div>
-    </div>
+Chúng ta sẽ nhớ lâu những câu chuyện, bài thơ hay một ca khúc hơn là ghi nhớ những kiến thức khô khan được liệt kê trong một cuốn từ điển. Những thứ có tiết tấu và nhịp điệu sẽ giúp não bộ ghi nhớ một cách vô thức dễ dàng hơn, chẳng hạn một bài thơ.
+Một người dùng sẽ tiếp nhận và phản chiếu một nguồn thông tin, họ sẽ giải nghĩa chúng và nhận thức lại sự vật/sự việc (chuyển thành tri thức nội tại-vô thức).
 
 ### Các nhân tố trong kể chuyện
 
