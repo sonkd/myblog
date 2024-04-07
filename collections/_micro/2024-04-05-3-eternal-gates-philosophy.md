@@ -40,9 +40,9 @@ Các thách thức về nhận thức của người làm sản phẩm:
 - Đánh giá nguồn lực và "Chọn điểm rơi" hiệu quả cho việc phát triển và release sản phẩm.
 
 Sau cùng, vì vạn vật đều vô vi nên sản phẩm được làm ra sẽ biến đổi muôn hình vạn trạng theo thời gian nên cần liên tục quan sát dữ liệu đo lường sản phẩm để hiểu bản chất sản phẩm đang biến chuyển như nào (vận dụng Vô tác), từ đó có định hình/chiến lược sản phẩm phù hợp theo từng giai đoạn.
-Bạn hãy nhìn cách mà Facebook, Instagram thay đổi từng ngày để cảm nhận từ góc nhìn của triết lý này.
+Bạn hãy nhìn cách mà [Facebook](https://www.officetimeline.com/blog/facebook-history-timeline), [Instagram](https://www.big3.sg/blog/a-brief-history-of-instagram-and-its-rise-to-popularity) thay đổi từng ngày để cảm nhận từ góc nhìn của triết lý này.
 
 > The Three Gates of Speech (by Rumi)
-> “Is it true?  
+> Is it true?  
 > Is it necessary?  
-> Is it kind?”
+> Is it kind?
