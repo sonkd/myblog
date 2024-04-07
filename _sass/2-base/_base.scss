@@ -190,15 +190,15 @@ figcaption {
   margin: 0 auto;
   width: 80%;
   text-align: center;
-  font-size: calc($body-size * 0.75);
-  font-size: -webkit-calc($body-size * 0.75);
-  font-size: -moz-calc($body-size * 0.75);
+  font-size: calc(1rem * 0.75);
+  font-size: -webkit-calc(1rem * 0.75);
+  font-size: -moz-calc(1rem * 0.75);
   color: $sub-text-color;
   font-weight: 300;
 
   @media #{$mobile} {
-    font-size: calc($body-size * 0.5);
-    font-size: -webkit-calc($body-size * 0.5);
-    font-size: -moz-calc($body-size * 0.5);
+    font-size: calc(1rem * 0.5);
+    font-size: -webkit-calc(1rem * 0.5);
+    font-size: -moz-calc(1rem * 0.5);
   }
 }

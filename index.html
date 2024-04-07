@@ -5,90 +5,106 @@ title: Home
 
 <!-- Author -->
 <section class="container-full">
-  <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-      <div class="author__inner">
-          <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
-          <h1 class="author__job">{{ site.author.name }}</h1>
-          <p class="author__bio">{{ site.author.bio }}</p>
-          <div class="hidden-links">
-              {% include social-link.html %}
-          </div>
-          <div class="author__more">
-              <a href="{{site.baseurl}}/about/#now" class="say-hello">Know more</a>
-              <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a>
-          </div>
-      </div>
-      {% include nav-home.html %}
-  </div>
+    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+        <div class="author__inner">
+            <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+            <h1 class="author__job">{{ site.author.name }}</h1>
+            <p class="author__bio">{{ site.author.bio }}</p>
+            <div class="hidden-links">
+                {% include social-link.html %}
+            </div>
+            <div class="author__more">
+                <a href="{{site.baseurl}}/about/#now" class="say-hello">Know more</a>
+                <!-- <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a> -->
+            </div>
+        </div>
+        {% include nav-home.html %}
+    </div>
 </section>
 
 <!-- Writings -->
 <section class="container">
-  {% include recent-posts.html %}
+    {% include recent-posts.html %}
 </section>
 
 <!-- Musics -->
 <section class="container">
-  <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-    <h2 style="text-align: center;">My everyday music made by Spotify</h2>
-    <iframe style="border-radius:12px"
-      src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0" width="100%"
-      height="352" frameBorder="0" allowfullscreen=""
-      allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-  </div>
+    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+        <h2 style="text-align: center;">My everyday music made by Spotify</h2>
+        <iframe style="border-radius:12px"
+                src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0" width="100%"
+                height="352" frameBorder="0" allowfullscreen=""
+                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    </div>
 </section>
 
 <!-- Projects -->
 <section class="container-full">
-  <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-    {% include latest-works.html %}
-  </div>
+    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+        {% include latest-works.html %}
+    </div>
 </section>
 
 <!-- Articles -->
 <section class="container">
-  <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-    <h2 style="text-align: center;"> Published about Product & Design </h2>
-    <span style="color: gray">#Design-system</span>
-    <ul>
-      <li><a
-          href="https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083">Apply
-          OOAD in the building design system (Part 1)</a></li>
-      <li><a
-          href="https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063">Apply
-          OOAD in the building design system (Part 2)</a></li>
-      <li><a href="https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4">Design Token</a></li>
-    </ul>
+    <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+        <h2 style="text-align: center;"> Published about Product & Design </h2>
+        <span style="color: gray">#Design-system</span>
+        <ul>
+            <li>
+                <a href="https://medium.com/@sonkd/apply-ooad-in-the-building-design-system-with-figma-part-1-b31e64936083">
+                    Apply
+                    OOAD in the building design system (Part 1)
+                </a>
+            </li>
+            <li>
+                <a href="https://sonkd.medium.com/apply-ooad-in-the-building-design-system-with-figma-part-2-3a9fdf506063">
+                    Apply
+                    OOAD in the building design system (Part 2)
+                </a>
+            </li>
+            <li><a href="https://sonkd.medium.com/about-design-token-in-design-system-5c2a87c31ae4">Design Token</a></li>
+        </ul>
 
-    <span style="color: gray">#Product #Design #Management</span>
-    <ul>
-      <li><a href="https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140">Design
-          Debt</a>
-      </li>
-    </ul>
+        <span style="color: gray">#Product #Design #Management</span>
+        <ul>
+            <li>
+                <a href="https://sonkd.medium.com/n%E1%BB%A3-thi%E1%BA%BFt-k%E1%BA%BF-design-debt-64571d837140">
+                    Design
+                    Debt
+                </a>
+            </li>
+        </ul>
 
-    <span style="color: gray">#Gamification</span>
-    <ul>
-      <li><a href="https://hackernoon.com/designing-gamification-features-in-fintech-products">Designing gamification
-          features in fintech products</a></li>
-    </ul>
+        <span style="color: gray">#Gamification</span>
+        <ul>
+            <li>
+                <a href="https://hackernoon.com/designing-gamification-features-in-fintech-products">
+                    Designing gamification
+                    features in fintech products
+                </a>
+            </li>
+        </ul>
 
-    <span style="color: gray">#Blockchain #Web3.0</span>
-    <ul>
-      <li><a
-          href="https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son">Personal
-          or Social Identity</a></li>
-    </ul>
+        <span style="color: gray">#Blockchain #Web3.0</span>
+        <ul>
+            <li>
+                <a href="https://www.linkedin.com/pulse/personal-social-identity-why-you-should-own-blockchain-kim-dinh-son">
+                    Personal
+                    or Social Identity
+                </a>
+            </li>
+        </ul>
 
-    <div style="text-align: center;padding-top: 2rem;">
-      <a href="https://sonkd.notion.site/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c"
-        class="works-button c-button c-button--secondary c-button--small">More articles</a>
+        <div style="text-align: center;padding-top: 2rem;">
+            <a href="https://sonkd.notion.site/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c"
+               class="works-button c-button c-button--secondary c-button--small">More articles</a>
+        </div>
     </div>
-  </div>
 </section>
 
 <section class="container">
-  <div style="text-align: center;margin: 2rem 0;">
-    👋 <a href="{{site.baseurl}}/about" style="text-decoration-style: wavy">About me.</a>
-  </div>
+    <div style="text-align: center;margin: 2rem 0;">
+        👋 <a href="{{site.baseurl}}/about" style="text-decoration-style: wavy">About me.</a>
+    </div>
 </section>
