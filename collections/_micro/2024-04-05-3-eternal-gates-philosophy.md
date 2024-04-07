@@ -43,6 +43,6 @@ Sau cùng, vì vạn vật đều vô vi nên sản phẩm được làm ra sẽ
 Bạn hãy nhìn cách mà Facebook, Instagram thay đổi từng ngày để cảm nhận từ góc nhìn của triết lý này.
 
 > The Three Gates of Speech (by Rumi)
-“Is it true?  
-Is it necessary?  
-Is it kind?”
+> “Is it true?  
+> Is it necessary?  
+> Is it kind?”
