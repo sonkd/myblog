@@ -112,10 +112,10 @@
     }
 
     .nav__list {
-        /* position: absolute; */
+        position: absolute;
         top: 50%;
         left: 50%;
-        /* transform: translate(-50%, -50%); */
+        transform: translate(-50%, -50%);
         max-height: 80vh;
         overflow: auto;
 
@@ -140,6 +140,17 @@
                         margin: .5rem !important
                     }
                 }
+            }
+        }
+    }
+
+    .nav-home .nav__list {
+        position: sticky !important;
+        transform: none !important;
+
+        .nav__item {
+            .nav__link {
+                padding-left: 0
             }
         }
     }

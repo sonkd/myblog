@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\collections",
-    "\\collections\\_blog"
+    "\\collections\\_blog",
+    "\\_sass",
+    "\\_sass\\2-base"
   ],
-  "SelectedNode": "\\collections\\_blog\\2023-08-25-ways-of-working-on-figma.md",
+  "SelectedNode": "\\_sass\\2-base\\_base.scss",
   "PreviewInSolutionExplorer": false
 }
