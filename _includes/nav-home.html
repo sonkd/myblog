@@ -1,0 +1,21 @@
+<nav class="nav-home">
+      <ul class="nav__list list-reset">
+        {% if page.title != "Home" %}
+        <li class="nav__item">
+            <a class="nav__link" href="{{ site.url }}/">🏠Home</a>
+        </li>
+        {% endif %}
+        
+        {% assign nav_list = site.pages | sort: 'order' %} 
+        {% assign current_page = page.title %}
+        {% for page in nav_list %}
+          {% unless page.name == 'tags.html' or page.name == '404.html' %}
+          {% if page.isMainPage and page.title != current_page and page.title %}
+          <li class="nav__item">
+            <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+          </li>
+          {% endif %}
+          {% endunless %}
+        {% endfor %}
+      </ul>
+</nav>

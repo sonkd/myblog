@@ -6,15 +6,19 @@ title: Home
 <!-- Author -->
 <section class="container-full">
   <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-    <div class="author__inner">
-      <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
-      <h1 class="author__job">{{ site.author.job }}</h1>
-      <p class="author__bio">{{ site.author.bio }}</p>
-      <div class="author__more">
-        <a href="{{site.baseurl}}/about/#now" class="say-hello">Know more</a>
-        <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a>
+      <div class="author__inner">
+          <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
+          <h1 class="author__job">{{ site.author.name }}</h1>
+          <p class="author__bio">{{ site.author.bio }}</p>
+          <div class="hidden-links">
+              {% include social-link.html %}
+          </div>
+          <div class="author__more">
+              <a href="{{site.baseurl}}/about/#now" class="say-hello">Know more</a>
+              <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a>
+          </div>
       </div>
-    </div>
+      {% include nav-home.html %}
   </div>
 </section>
 
