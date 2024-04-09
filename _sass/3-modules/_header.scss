@@ -53,7 +53,7 @@
 }
 
 .nav-home {
-    margin-top: 40px;
+    margin-top: 1rem;
     text-align: center
 }
 
@@ -143,15 +143,17 @@
             }
         }
     }
+}
 
-    .nav-home .nav__list {
-        position: sticky !important;
-        transform: none !important;
+.nav-home .nav__list {
+    position: sticky !important;
+    transform: none !important;
 
-        .nav__item {
-            .nav__link {
-                padding-left: 0
-            }
+    .nav__item {
+        margin: 1rem .5rem;
+
+        .nav__link {
+            padding-left: 0
         }
     }
 }

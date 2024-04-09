@@ -1,11 +1,11 @@
 /* Author */
 .author {
-  margin: 80px 0;
-  padding-bottom: 70px;
+  margin: 4rem 0;
+  padding-bottom: 4rem;
   border-bottom: 1px solid $border-1-color;
   @media #{$mobile} {
-    margin: 50px 0;
-    padding-bottom: 50px;
+    margin: 2rem 0;
+    padding-bottom: 2rem;
   }
 }
 
@@ -15,7 +15,7 @@
   height: auto;
   max-width: 130px;
   max-height: 130px;
-  margin: 0 auto 30px;
+  margin: 0 auto 2rem;
   border-radius: 50%;
   background-color: $background-color-2;
   transition: opacity 100ms ease;
@@ -27,7 +27,7 @@
 }
 
 .author__job {
-  margin-bottom: 15px;
+  margin-bottom: 0;
   font-size: 4rem;
   text-align: center;
   color: $primary-text-color;
@@ -35,9 +35,9 @@
 
 .author__bio {
   max-width: 450px;
-  margin: 0 auto 30px;
-  font-size: 16px;
-  line-height: 27px;
+  margin: 0 auto 2rem;
+  font-size: 1rem;
+  line-height: $body-line_height;
   text-align: center;
   color: $sub-text-color;
 }
@@ -48,8 +48,8 @@
 
 a.say-hello {
   display: inline-block;
-  padding: 15px 30px;
-  font-size: 13px;
+  padding: 1rem 2rem;
+  font-size: 1rem;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -65,7 +65,7 @@ a.say-hello {
 
 a.know-more {
   margin-left: 25px;
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: 700;
   color: $dark;
   text-decoration: underline;
