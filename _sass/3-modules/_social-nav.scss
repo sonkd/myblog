@@ -11,16 +11,13 @@
 }
 
 .social__list {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: nowrap;
+  display: inline-block;
+  margin: 1rem
 }
 
 .social .social__item {
   display: inline-block;
 
-  /* margin: 0 2px; */
   a {
     color: $dark;
   }

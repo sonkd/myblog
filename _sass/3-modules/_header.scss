@@ -112,7 +112,7 @@
     }
 
     .nav__list {
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -122,24 +122,17 @@
         .nav__item {
             display: block;
             margin-left: 0;
-            margin-bottom: 30px;
-            padding-left: 0 !important;
+            margin-bottom: 2rem;
             font-size: $h3-size;
-            line-height: 33px;
+            line-height: 2rem;
             text-align: center;
 
             .hidden-links {
                 display: inline-block;
+            }
 
-                .social {
-                    ul {
-                        padding-left: 0 !important
-                    }
-
-                    .social__item {
-                        margin: .5rem !important
-                    }
-                }
+            .nav__link {
+                padding-left: 0;
             }
         }
     }
