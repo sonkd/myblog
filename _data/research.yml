@@ -1,4 +1,4 @@
-- title: Enterprise Design Thinking and Toolkits
+- title: Design Thinking and Toolkits
   author: 
   thumb-img: https://system-concepts.com/wp-content/uploads/2021/04/Week-1-Loop-image.png
   description: Tools for Design thinking practices
@@ -25,8 +25,8 @@
 - title: Design Library
   author: Kim Dinh Son
   thumb-img: 
-  description: Summary of the good articles and stories for building and growing the product
-  tags: [Product, Blueprint]
+  description: Helpful resources for the problems solving and solutions in design
+  tags: [UX, UI]
   url: /research/2023-05-12-design-library
 - title: Digital Product Library
   author: Kim Dinh Son
