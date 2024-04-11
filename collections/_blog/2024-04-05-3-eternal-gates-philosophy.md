@@ -3,14 +3,13 @@ title: "3 Eternal Gates Philosophy"
 layout: post
 date: 2024-04-05 16:25:00
 author: sonohyeah
-image: 
+image: /assets/img/micro/3-eternal-gates.jpg
 headerImage: false
 tag:
 - Philosophy
 - Product Design
 
 ---
-![3 Eternal Gates](/assets/img/micro/3-eternal-gates.jpg)
 Có 3 góc nhìn trong đạo học phương Đông khi xem xét vấn đề:
 - *Thế giới quan*: thể hiện suy nghĩ, nhận thức, quan điểm của một người về cuộc sống. Cuộc sống ở đây bao gồm thế giới xung quanh và sự liên kết giữa con người với thế giới.
 - *Giá trị quan*: thể hiện sự nhìn nhận và đánh giá tổng thể của con người về ý nghĩa của một sự vật, sự việc nào đó xung quanh mình.

@@ -7,7 +7,7 @@ order: 5
 isMainPage: true
 ---
 
-Hi 👋, my name is Kevin Kim, and I have been a Product designer in the **gaming**, **IT software services**, and **digital banking industry** since 2016.
+Hi 👋, my name is Kevin Kim, and I have been a Product designer in the *gaming*, *IT software services*, and *digital banking industry* since 2016.
 
 As [a practitioner of the Design Thinking method](https://www.credly.com/badges/d7ba6db5-ff1a-42e8-b854-ae6d3e8028a8), my tagline is to pursue minimalism to understand myself and people deeply from intrinsic. The innovation outcomes always come from a simple foundation.
 
@@ -15,6 +15,7 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 
 [See my "Now"⬇️](#now).
 
+***
 
 **My dream and career**
 

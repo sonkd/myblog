@@ -22,7 +22,7 @@
 
 @media #{$tablet} {
   .c-tabs__bar {
-    margin-top: 32px
+    margin-top: 1.5rem
   }
 }
 
@@ -39,7 +39,7 @@
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  margin-right: 8px;
+  margin-right: .5rem;
 
   font-weight: 600;
   text-decoration-line: none;
@@ -69,12 +69,14 @@
   }
 
   &--small {
-    padding: 12px 16px;
+    padding: .75rem 1rem;
+    margin-bottom: .5rem;
     font-size: $body-size
   }
 
   &--large {
-    padding: 24px 44px;
+    padding: 1.25rem 2.5rem;
+    margin-bottom: .5rem;
     font-size: $h5-size
   }
 }
