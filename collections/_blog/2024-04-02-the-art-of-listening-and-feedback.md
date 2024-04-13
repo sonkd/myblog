@@ -30,5 +30,5 @@ Dù cho những ý kiến phản hồi đó là "tốt" đi chăng nữa, tấm 
 
 #### Hãy là người phản hồi ân cần và thấu đáo
 - Không phán xét quan điểm đối phương.
-- Tập trung quá mức vào tiểu tiết hay bắt bẻ câu chữ với sự liên quan không đáng kể đến quan điểm đối phương.
+- Tránh tập trung quá mức vào tiểu tiết hay bắt bẻ câu chữ với sự liên quan không đáng kể đến quan điểm đối phương.
 - Phản hổi để tìm kiếm sự quan tâm và mục tiêu chung thay vì chỉ là sự đánh giá cá nhân, giãi bày cảm xúc hiện tại hoặc thể hiện kiến thức.

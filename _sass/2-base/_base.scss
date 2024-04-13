@@ -27,6 +27,19 @@ body {
   }
 }
 
+@media (hover: hover) and (pointer: fine){
+  html:hover {
+    cursor: $cursorDefault;
+  }
+
+  a:hover {
+    cursor: $cursorPointer;
+  }
+  h1,h2,h3,h4,h5,h6,ul,li,p:hover {
+    cursor: $cursorText;
+  }
+}
+
 ::placeholder {
   color: $gray;
 }

@@ -2,7 +2,7 @@
 layout: default
 title: ♟️Work
 permalink: /projects/
-image: 
+image:
 order: 1
 show: true
 isMainPage: true
@@ -10,63 +10,68 @@ isMainPage: true
 
 <section class="container-full" style="text-align: center">
   <h1>{{ page.title | escape }}.Think.Play</h1>
-  <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people love.</p>
+  <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people
+    love.</p>
 </section>
 
 <!-- start add photo wall from data -->
-{% assign list-image = site.data.photo-wall %}
-{% assign show-option = 'photo-wall--only-desktop' %}
-{% include gallery-background.html %}
+<section id="mywall">
+  {% assign list-image = site.data.photo-wall %}
+  {% assign show-option = 'photo-wall--only-desktop' %}
+  {% include gallery-background.html %}
+</section>
 <!-- end -->
 
 <section class="animate container-full">
-{% if site.projects.size == 0 %}
-	<p class="text-center">Nothing published yet!</p>
-{% else %}
+  {% if site.projects.size == 0 %}
+  <p class="text-center">Nothing published yet!</p>
+  {% else %}
   <div class="row">
-  {% assign c = "c-project-card" %}
-  {% if paginator.total_pages > 1  %}
+    {% assign c = "c-project-card" %}
+    {% if paginator.total_pages > 1 %}
     {% assign delay-time = 600 %}
     {% for project in paginator.posts %}
-      <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="{{delay-time}}">
-        <div class="{{c}}__content">
-          {% if project.image %}
-          <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image">
-            <img loading="lazy" src="{{ project.image }}" alt="{{ project.title }}">
-          </a>
+    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
+      data-aos-duration="{{delay-time}}">
+      <div class="{{c}}__content">
+        {% if project.image %}
+        <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image">
+          <img loading="lazy" src="{{ project.image }}" alt="{{ project.title }}">
+        </a>
         <div class="{{c}}__small-title">{{ project.title }}</div>
-          {% else %}
-          <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image">>
-            <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png" alt="{{project.title}}">
-          </a>
-          <div class="{{c}}__small-title">{{ project.title }}</div>
-          {% endif %}
-          <div class="{{c}}__info">
-            <div class="{{c}}__info-wrap">
-              <h3 class="{{c}}__title">{{ project.title }}</h3>
-            </div>
-            <div class="{{c}}__info-wrap">
+        {% else %}
+        <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image">>
+          <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png" alt="{{project.title}}">
+        </a>
+        <div class="{{c}}__small-title">{{ project.title }}</div>
+        {% endif %}
+        <div class="{{c}}__info">
+          <div class="{{c}}__info-wrap">
+            <h3 class="{{c}}__title">{{ project.title }}</h3>
+          </div>
+          <div class="{{c}}__info-wrap">
             {% if project.description %}
             <div class="{{c}}__subtitle">{{ project.description }}</div>
             {% endif %}
-            </div>
           </div>
         </div>
-      </article>
-      {% assign delay-time = delay-time | plus: 150 %}
+      </div>
+    </article>
+    {% assign delay-time = delay-time | plus: 150 %}
     {% endfor %}
     {% include pagination-nav.html %}
-  {% else %}
+    {% else %}
     {% assign delay-time = 600 %}
-    {% for project in site.projects reversed %} 
-    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="{{delay-time}}">
+    {% for project in site.projects reversed %}
+    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
+      data-aos-duration="{{delay-time}}">
       <div class="{{c}}__content">
         {% if project.image %}
         <a href="{{ project.url | prepend: site.baseurl }}" class="{{c}}__image-2">
           <img loading="lazy" src="{{ project.image }}" alt="{{ project.title }}">
           <div class="{{c}}__heading">
             {% if project.company %}
-              <div class="{{c}}__company">{{ project.company }}</div>
+            <div class="{{c}}__company">{{ project.company }}</div>
             {% else %}
             <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
             {% endif %}
@@ -78,9 +83,9 @@ isMainPage: true
           <img loading="lazy" src="{{site.baseurl}}/assets/img/infinity.png" alt="{{ project.title }}">
           <div class="{{c}}__heading">
             {% if project.company %}
-              <div class="{{c}}__company">{{ project.company }}</div>
+            <div class="{{c}}__company">{{ project.company }}</div>
             {% else %}
-              <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
+            <div class="{{c}}__company">{{ project.tag[0] }}, {{ project.tag[1] }}</div>
             {% endif %}
             <div class="{{c}}__big-title">{{ project.title }}</div>
           </div>
@@ -90,7 +95,7 @@ isMainPage: true
     </article>
     {% assign delay-time = delay-time | plus: 150 %}
     {% endfor %}
-  {% endif %}
+    {% endif %}
   </div>
-{% endif %}
+  {% endif %}
 </section>
