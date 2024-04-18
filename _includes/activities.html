@@ -4,7 +4,7 @@
 	{% else %}
     {% assign posts = site.data.archive-list | sort: 'date' | reverse %}
     {% assign posts_by_year = posts | group_by:"year" %}
-    <div class="year-side-bar col col-1 col-t-2 col-m-12" style="text-align: left;">
+    <div class="year-side-bar col col-1 col-t-2 col-m-2" style="text-align: left;">
         <div class="sticky-info">
             <div class="show-date years-list">
                 {% for year in posts_by_year %}
@@ -20,7 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="col col-11 col-t-8 col-m-12">
+    <div class="col col-11 col-t-8 col-m-10">
     {% for year in posts_by_year %}
         <h4 id="{{year.name}}" style="margin-top: 0;">🗓️ {{year.name}}</h4>
         {% assign year-filter = year.name %}
@@ -32,9 +32,11 @@
                     <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign date_format =
                     site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                     }}</time></span>
-                    <a class="archive-story" href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
-                        <p>{{post.title}}</p>
-                    </a>
+                    <p>
+                        <a class="archive-story" href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
+                        {{post.title}}
+                        </a>
+                    </p>
                     <p>{{post.description}}</p>
                 </div>
             </div>

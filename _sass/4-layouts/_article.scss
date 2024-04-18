@@ -63,22 +63,19 @@
   margin-bottom: .5rem;
   font-family: $fontMonospace;
   font-size: $caption-size;
-  line-height: $caption-line_height;
   text-transform: uppercase;
   color: $tertiary-color;
 }
 
 .article__excerpt {
   margin-bottom: 0 !important;
-  font-size: $body-size;
-  line-height: $caption-line_height;
+  font-size: 1rem;
   color: $gray
 }
 
 .read-more {
   font-weight: 700;
-  font-size: $body-size;
-  line-height: $body-line_height;
+  font-size: 1rem;
   color: $primary-color;
   text-decoration: none;
   &:hover {
