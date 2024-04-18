@@ -37,6 +37,7 @@ description: "Summary of the good articles and stories for product design such a
 - [IDEO Design Thinking](https://designthinking.ideo.com/)*
 - [Enterprise Design Thinking](https://www.ibm.com/design/thinking/)*
 - [gamestorming.com](https://gamestorming.com/)
+- [checklist.design](https://www.checklist.design/)
 
 ## Inspirations
 - [uxlibrary.org](https://www.uxlibrary.org/explore/ui-design/ui-patterns-and-inspiration)
@@ -73,3 +74,6 @@ description: "Summary of the good articles and stories for product design such a
 - [usertesting.com](https://usertesting.com)
 - [lookback.com](https://lookback.com)*
 - [usabilityhub.com](https://usabilityhub.com)
+
+## Others
+- [Toools.design](https://www.toools.design/)

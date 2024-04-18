@@ -16,6 +16,10 @@
         color: $primary-color;
     }
   }
+
+  @media #{$mobile} {
+    padding: 1rem 0;
+  }
 }
 
 .article__image-box {

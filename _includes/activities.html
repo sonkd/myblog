@@ -4,23 +4,23 @@
 	{% else %}
     {% assign posts = site.data.archive-list | sort: 'date' | reverse %}
     {% assign posts_by_year = posts | group_by:"year" %}
-    <div class="year-side-bar col col-2 col-t-3 col-m-12" style="text-align: left;">
+    <div class="year-side-bar col col-1 col-t-2 col-m-12" style="text-align: left;">
         <div class="sticky-info">
-            <div class="show-date">
+            <div class="show-date years-list">
                 {% for year in posts_by_year %}
-                <a href="#{{year.name}}" style="text-decoration-line: none;"><p>{{year.name}}</p></a>
+                <a href="#{{year.name}}" class="year-tab">{{year.name}}</a>
                 {% endfor %}
             </div>
         </div>
         <div class="dupe-info">
-            <div class="show-date">
+            <div class="show-date years-list">
                 {% for year in posts_by_year %}
-                <a href="#{{year.name}}"><p>{{year.name}}</p></a>
+                <a href="#{{year.name}}">{{year.name}}</a>
                 {% endfor %}
             </div>
         </div>
     </div>
-    <div class="col col-10 col-t-9 col-m-12">
+    <div class="col col-11 col-t-8 col-m-12">
     {% for year in posts_by_year %}
         <h4 id="{{year.name}}" style="margin-top: 0;">🗓️ {{year.name}}</h4>
         {% assign year-filter = year.name %}

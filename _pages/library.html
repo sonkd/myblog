@@ -14,10 +14,10 @@ order: 3
 
     <!-- tabs -->
     <div class="tabs c-tabs__bar library-tab">
-        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">📑 Resources</a>
-        <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">👆 Interactions</a>
-        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab--inactive c-tab--small">📸 Activities</a>
-        <a href="#" data-tab-value="#tab_4" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">😋 Culinary
+        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">📑Resources</a>
+        <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">👆Interactions</a>
+        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab--inactive c-tab--small">📸Activities</a>
+        <a href="#" data-tab-value="#tab_4" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">😋Culinary
             Diary</a>
     </div>
     <!-- end tabs -->
@@ -91,43 +91,10 @@ order: 3
             </div>
         </div>
         <div class="tabs__tab" id="tab_3" data-tab-info>
-            <div class="grid-wall--all-screen">
-                <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="100"
-                    data-aos-duration="700">
-                    {% assign story_list = site.data.archive-list | sort: 'date' | reverse | limit: 6 %}
-                    {% for post in story_list %}
-                    <div class="col col-4 col-d-6 col-t-12" style="text-align: center;">
-                        <div class="archive-image">
-                            {% if post.images %}
-                            {% assign list = post.images %}
-                            {% include gallery.html %}
-                            {% else %}
-                            <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
-                                <img class="image-zoom" alt="{{post.description}}" src="{{post.image}}" />
-                                <div class="archive-overlay" href="{{post.url}}">{{post.description}}</div>
-                            </a>
-                            {% endif %}
-                        </div>
-                        <div class="article__meta">
-                            <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
-                                    date_format =
-                                    site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
-                                    }}</time></span>
-                            <a href="{{post.url}}" data-pswp-width="1875" data-pswp-height="2500" target="_blank">
-                                <p style="width: 100%;padding-top:0.5rem">{{post.title}}</p>
-                            </a>
-                        </div>
-                    </div>
-                    {% endfor %}
-                </div>
-                <div style="text-align: center; padding: 1rem;">
-                    <a href="/activity-stories/" class="works-button c-button c-button--secondary c-button--small">See
-                        more</a>
-                </div>
-            </div>
+            {% include activities.html %}
         </div>
         <div class="tabs__tab" id="tab_4" data-tab-info>
-            <h3>#yummy food photos.</h3>
+            <h3 style="text-align: center;">#yummy food photos.</h3>
             <div class="grid-wall--all-screen">
                 <iframe src='https://widget-cdfa61b7a8bb43aca8a81e0a42251778.elfsig.ht' width="100%" height="1300px"
                     frameborder="0"></iframe>

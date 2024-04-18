@@ -1,0 +1,12 @@
+.years-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    margin-bottom: 3rem;
+}
+
+.year-tab{
+    text-decoration-line: none;
+    padding-bottom: .75rem;
+}
