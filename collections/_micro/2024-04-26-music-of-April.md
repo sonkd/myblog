@@ -12,7 +12,6 @@ tag:
 
 A message about "Less is More". An abundance of material possessions characterizes modern life, yet this surplus often leaves us feeling unfulfilled and disconnected from the natural world.
 
-I'm listening listening 🎵 "Sit Down"--James
+I'm listening 🎵 "Sit Down"--James
 
-<iframe width="300" height="380" src="https://www.youtube.com/embed/zPNw_2h0CnU" title="James - Sit Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
+<iframe width="300" height="300" src="https://www.youtube.com/embed/zPNw_2h0CnU" title="James - Sit Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

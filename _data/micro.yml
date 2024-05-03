@@ -1,11 +1,16 @@
 micro-01:
   name: Music of Spheres
   images:
-    - url: /assets/img/micro/tokyo01.jpg
+    - url: /assets/img/micro/2023-11-11/tokyo01.jpg
       alt: Music of Spheres
-    - url: /assets/img/micro/tokyo02.jpg
+    - url: /assets/img/micro/2023-11-11/tokyo02.jpg
       alt: Music of Spheres
-    - url: /assets/img/micro/tokyo03.jpg
+    - url: /assets/img/micro/2023-11-11/tokyo03.jpg
       alt: Music of Spheres
-    - url: /assets/img/micro/tokyo04.jpg
+    - url: /assets/img/micro/2023-11-11/tokyo04.jpg
+      alt: Music of Spheres
+micro-02:
+  name: Japan flowers
+  images:
+    - url: /assets/img/micro/2023-11-11/tokyo01.jpg
       alt: Music of Spheres

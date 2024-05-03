@@ -3,7 +3,7 @@ title: "Ways of working on Figma-DesignOps"
 layout: post
 date: 2023-08-25 14:51:00
 author: sonkd
-image: /assets/img/blog/design-collaboration-levels.png
+image: /assets/img/blog/2023-08-25/design-collaboration-levels.png
 tag:
 - Design Ops
 - Design management
@@ -20,7 +20,7 @@ Khi đặt dưới môi trường làm việc đội nhóm đòi hỏi tính tư
 
 👉 Tổ chức/sắp xếp các công việc theo cách nhằm cải thiện **khả năng và năng lực cộng tác** giữa các designer với nhau, đồng thời **tăng được tốc độ và chất lượng khi hand-off các nguyên liệu thiết kế** đến các developers.
 
-![Visibility and Speed](/assets/img/blog/visibility-speed.png)
+![Visibility and Speed](/assets/img/blog/2023-08-25/visibility-speed.png)
 <figcaption>DesignOps challenges. Apply the 80-20 rule to balance speed and visibility.</figcaption>
 
 ## 5 collaboration principles
@@ -39,7 +39,7 @@ Tôi đã vận dụng phương pháp của [Spotify](https://spotify.design/art
 
 <div class="side-by-side">
     <div class="toleft">
-        <img class="image" src="/assets/img/blog/design-collaboration-levels.png" alt="Design Collaboration Levels" style="height: 300px">
+        <img class="image" src="/assets/img/blog/2023-08-25/design-collaboration-levels.png" alt="Design Collaboration Levels" style="height: 300px">
         <br>
         <b>Framework:</b><br>
         - Teams: Giao tiếp ở cấp độ Global gồm các file library dùng chung ở layer Foundation và OS version (mobile/web)<br>
@@ -47,18 +47,18 @@ Tôi đã vận dụng phương pháp của [Spotify](https://spotify.design/art
         - Specs: Giao tiếp chi tiết và tài liệu hoá để hand-off cho Dev<br>
     </div>
     <div class="toright">
-        <img class="image" src="/assets/img/blog/design-single-source-of-true.png" alt="Design Single Source of True" style="height: 300px">
+        <img class="image" src="/assets/img/blog/2023-08-25/design-single-source-of-true.png" alt="Design Single Source of True" style="height: 300px">
         <br>
         <b>Single source of True</b><br>
-        - Provides design assets, code, and documentation<br>
-        - Builds on the other systems<br>
-        - Is actively maintained by a dedicated team<br>
-        - Has a defined interface for engineers to work with<br>
+        - Cung cấp các tài nguyên design, code, and documentation<br>
+        - Xây dựng cho các hệ thống sản phẩm/dịch vụ khác nhau<br>
+        - Được bảo trì kĩ càng một cách chủ động bởi team<br>
+        - Có một giao diện trực quan để các kĩ sữ phát triển dễ dàng làm việc<br>
     </div>
 </div>
 
 **Vấn đề quản lý file thiết kế**
-![Figma files](/assets/img/blog/figma-files.png)
+![Figma files](/assets/img/blog/2023-08-25/figma-files.png)
 <figcaption>Figma files.</figcaption>
 - File tôi cần đâu nhỉ?
 - Cái này đã có chưa để mình tạo mới nhỉ?
@@ -79,7 +79,7 @@ Tôi đã vận dụng phương pháp của [Spotify](https://spotify.design/art
 
 Design process với 3 bước
 
-![Design process](/assets/img/blog/ready-design-process.png)
+![Design process](/assets/img/blog/2023-08-25/ready-design-process.png)
 
 Hỗ trợ các designer và developer có thể dễ dàng truy cập và tìm kiếm các thiết kế nhanh chóng và chính xác:
 
@@ -89,25 +89,25 @@ Hỗ trợ các designer và developer có thể dễ dàng truy cập và tìm 
 <div class="side-by-side">
     <div class="toleft">
         Quy hoạch mới các Project trên Figma 
-        <img class="image" src="/assets/img/blog/figma-files-structure.png" alt="Quy hoạch mới các Project trên Figma">
+        <img class="image" src="/assets/img/blog/2023-08-25/figma-files-structure.png" alt="Quy hoạch mới các Project trên Figma">
         <br>
     </div>
     <div class="toright">
         Cấu trúc của một file thiết kế Journey <br>
-        <img class="image" src="/assets/img/blog/journey-file-structure.png" alt="Cấu trúc của một file thiết kế Journey" style="height: 300px">
+        <img class="image" src="/assets/img/blog/2023-08-25/journey-file-structure.png" alt="Cấu trúc của một file thiết kế Journey" style="height: 300px">
     </div>
 </div>
 
 
 ## Specs
 
-A team should have one project to store all of their specs. That means the source of truth won't live in the same file as your explorations and sketches.
+Từng team nên có một project để lưu trữ tất cả thông số kĩ thuật (specs), có nghĩa là "Nguồn sự thật" sẽ không nằm trong cùng một file dùng để khám phá hoặc phác thảo.  
 
-There are three drivers behind this decision:
+Có 3 động lực chính cho những quyết định như vậy:
 
-1. It makes it easier for us to identify existing solutions and patterns within a product.
-2. It encourages us to align with other features as much as possible before we start building.
-3. People will always know where to find the source of truth.
+1. Giúp chúng tôi dễ dàng xác định các giải pháp và pattern hiện có trong sản phẩm
+2. Khuyến khích chúng tôi điều chỉnh và đồng nhất trải nghiệm các tính năng khác nhau với nhau trước khi được bắt đầu đưa vào xây dựng.
+3. Mọi người sẽ luôn biết nguồn gốc của sự thất ở chỗ nào khi cần.
 
-![A Spec file](/assets/img/blog/specs-file.png)
+![A Spec file](/assets/img/blog/2023-08-25/specs-file.png)
 <figcaption>Mỗi flow nên đặt thêm bên cạnh trạng thái thiết kế của bản trước đó (nếu có) để tiện dễ dàng cho Developer và những Designer khác đối chiếu.</figcaption>

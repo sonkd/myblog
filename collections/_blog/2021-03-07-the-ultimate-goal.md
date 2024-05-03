@@ -3,7 +3,7 @@ title: "The ultimate goal - Mục tiêu tối thượng"
 layout: post
 date: 2021-03-07 14:22:20
 author: sonohyeah
-image: /assets/img/blog/3868C946-3849-4B8F-8952-6FA76B93546C.png
+image: /assets/img/blog/goal-levels.png
 headerImage: false
 tag:
 - Design
@@ -28,11 +28,15 @@ Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [
 Những chủ đề mà chúng tôi hay bàn luận và gặp phải là:
 
 {% highlight html %}
-    - Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
-    - Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
-    - Chuyên gia A tư vấn là làm như thế này, không làm như thế kia.
-    - Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả.
-    - ...
+👉 Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
+
+👉 Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
+
+👉 Chuyên gia A tư vấn là làm như thế này, không làm như thế kia.
+
+👉 Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả.
+
+...
 {% endhighlight %}
 
 Kinh nghiệm xương máu của tôi khi đối diện những tình huống này là, ngừng lại 5 giây, tự hỏi mình: *“Việc này đem lại cái gì nhỉ? Mục đích thực sự của ý này là gì?”*. Khi làm sản phẩm, để hiểu rõ vấn đề, câu hỏi **WHY** vô cùng quan trọng, thế nhưng đặt câu hỏi như nào lại là một vấn đề.
@@ -56,7 +60,7 @@ Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2? L�
 
 Đằng sau mỗi hành động đều có một mục đích để làm động lực thôi thúc. Nếu không thể xác định được mục đích thực sự là gì thì những hành động của chúng ta chỉ đơn giản là thói quen, bản năng và trực giác, thiếu sở cứ chắc chắn khi muốn đào sâu và phân tích vấn để.
 
-![Goal levels](/assets/img/blog/3868C946-3849-4B8F-8952-6FA76B93546C.png)
+![Goal levels](/assets/img/blog/goal-levels.png)
 <figcaption class="caption">Visualize your goal setting as a hierarchy with multiple levels. <a href="https://www.meetconstance.com/blog/grit-ch-4">Source</a></figcaption>
 
 Nếu chúng ta có cùng tầm nhìn, dù chúng ta mỗi người một công một việc, đều sẽ cùng nhau lèo lái con thuyền tiến đến đích. Có thể nói đơn giản như sau, mục tiêu của chúng ta sẽ được chia nhỏ dần theo “độ dài” của tầm nhìn, hay ta thường chia thành 2 loại long-term và short-term (ngắn và dài hạn). Mục tiêu “xa nhất” chính là the ultimate goal-mục tiêu tối thượng. Vì vậy nếu những bộ não đang trong cùng “vùng quan sát” nếu cùng “tầm nhìn” thì sẽ kết nối được với nhau mà ta hay gọi là cùng chí hướng, cùng mục tiêu.
@@ -65,10 +69,15 @@ Tìm hiểu thêm về [XY problem](https://xyproblem.info/).
 
 Vì vậy, ý kiến của tôi là chúng ta không nên làm những điều sau:
 
-- ~~Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?~~
-- ~~Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn~~.
-- ~~Chuyên gia A tư vấn là làm như thế này, không làm như thế kia~~.
-- ~~Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả~~.
+{% highlight html %}
+❌ Cái này các bước giải quyết là gì? Hỏi ai, nhờ ai (người đã từng gặp một vấn đề "tương tự") hướng dẫn?
+
+❌ Cách làm này "work" được với ví dụ này, chúng ta nên áp dụng luôn.
+
+❌ Chuyên gia A tư vấn là làm như thế này, không làm như thế kia.
+
+❌ Ý tưởng này của tôi đơn giản hơn mà cũng cho ra được kết quả.
+{% endhighlight %}
 
 Chúng ta cần giải quyết vấn đề X, dùng 5 whys để tìm ra mục tiêu tối thượng là A, để giải quyết nó chúng ta phân rã thành các vấn đề nhỏ hơn A1, A2, A3, ... Những mục tiêu nào thì hỏi chuyên gia tư vấn, mục tiêu nào tham khảo được các giải pháp tương tự.
 
