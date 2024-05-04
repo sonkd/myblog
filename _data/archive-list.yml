@@ -5,6 +5,7 @@
   image: https://github.githubassets.com/images/modules/profile/achievements/starstruck-default.png
   alt: Starstruck badge from Github
   url: https://github.com/users/sonkd/achievements/starstruck
+
 - title: UCD framework
   year: 2015
   date: 2015-04-03
@@ -12,6 +13,7 @@
   image: https://live.staticflickr.com/8741/17022226575_7050b5d46a_h.jpg
   alt: UCD framework
   url: https://flic.kr/p/rWcmV6
+
 - title: G2E
   year: 2017
   date: 2017-05-16
@@ -19,6 +21,7 @@
   image: /assets/img/archieve/g2e.jpg
   alt: G2E
   url: https://www.instagram.com/p/BUJiDQ6jvsx/?utm_source=ig_web_button_share_sheet&igshid=MzRlODBiNWFlZA==
+
 - title: Kusatsu, Japan
   year: 2023
   date: 2023-11-10
@@ -40,6 +43,7 @@
       alt: Kosenji temple
     - url: /assets/img/archieve/kusatsu-japan/onsen_garden.jpg
       alt: Onsen garden
+
 - title: Spring Flowers, Japan trip
   year: 2024
   date: 2024-04-01
@@ -71,6 +75,7 @@
       alt: Osaka Castle Park
     - url: /assets/img/archieve/japan-flowers/japan2024-46.png
       alt: Osaka Castle Park
+
 - title: Stranger things in Osaka
   year: 2024
   date: 2024-04-03
