@@ -60,8 +60,9 @@
 
   <script>
     let slideIndex = 1;
-    
-    if ($(".mySlides")[0]){
+    let slideshows;
+
+    if ($(".slideshow-container")[0]) {
       showSlides(slideIndex);
     }
 
@@ -76,25 +77,30 @@
     }
 
     function showSlides(n) {
-      let i;
-      let slides = document.getElementsByClassName("mySlides");
-      let dots = document.getElementsByClassName("dot");
-      if (n > slides.length) {
-        slideIndex = 1
+      let i,j;
+      slideshows = document.getElementsByClassName("slideshow-container");
+      
+      for (j = 0; j < slideshows.length; j++) {
+        let children = slideshows[j].querySelectorAll('.mySlides');
+        let dots = slideshows[j].querySelectorAll('.dot');
+        if (n > children.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = children.length
+        }
+        for (i = 0; i < children.length; i++) {
+          children[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        children[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
       }
-      if (n < 1) {
-        slideIndex = slides.length
-      }
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex - 1].style.display = "block";
-      dots[slideIndex - 1].className += " active";
     }
   </script>
+
   <script>
     // target the anchor links and div container
     const links = document.querySelectorAll("main.gallery > a");
@@ -138,5 +144,4 @@
   </script>
   <!-- end js -->
 </body>
-
 </html>

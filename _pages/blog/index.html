@@ -31,7 +31,7 @@ isMainPage: true
                     <h4 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
                             date_format =
                             site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
-                            }} #</time></h4>
+                            }}</time><a href="{{ post.url | prepend: site.baseurl }}"> # </a></h4>
 
                     <b>{{post.title}}</b><br>
                     {{ post.content }}
@@ -43,11 +43,8 @@ isMainPage: true
             {% for post in stories %}
             <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
                 <div>
-                    <h4 class="article__date" style="margin: 0 0 1rem 0 !important;"><time datetime="{{ post.date | date_to_xmlschema }}"
-                            href="{{ post.url | prepend: site.baseurl }}">{% assign
-                            date_format =
-                            site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
-                            }} #</time></h4>
+                    <h4 class="article__date" style="margin: 0 0 1rem 0 !important;"><time datetime="{{ post.date | date_to_xmlschema }}">
+                        {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format }}</time><a href="{{ post.url | prepend: site.baseurl }}"> # </a></h4>
                     <b>{{post.title}}</b><br>
                     {{ post.content }}
                 </div>

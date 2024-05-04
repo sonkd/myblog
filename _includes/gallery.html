@@ -1,4 +1,4 @@
-<div class="slideshow-container">
+<div id="{{ gallery-id }}" class="slideshow-container">
   <!-- Full-width images with number and caption text -->
   {% if list.size == 0 %}
   <p class="text-center">No image</p>
@@ -8,7 +8,7 @@
   <div class="mySlides fade">
     <div class="numbertext">{{count}} / {{list.size}}</div>
     <img src="{{image.url}}" style="width:100%" alt="{{image.alt}}">
-    <!-- <div class="text">Caption Text</div> -->
+    <!-- <div class="text">{{image.alt}}</div> -->
   </div>
   {% assign count = count | plus: 1 %}
   {% endfor %}
@@ -27,5 +27,4 @@
     {% endfor %}
   </div>
   {% endif%}
-  {% assign list = '' %}
 </div>
