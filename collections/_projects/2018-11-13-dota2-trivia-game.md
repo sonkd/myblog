@@ -19,7 +19,7 @@ roles:
 
 tag: [Game, Mobile, UI]
 image: /assets/img/project/dota2-trivia/dota2-trivia-cover.png
-showcase-code: project-06 # update in data/showcase
+showcase-code: project06 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

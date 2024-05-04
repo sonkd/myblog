@@ -16,7 +16,7 @@ roles:
 
 tag: [Digital, Retail, AI]
 image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
-showcase-code: project-04 # update in data/showcase
+showcase-code: project04 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

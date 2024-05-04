@@ -13,7 +13,7 @@ roles: [UX Design]
 
 tag: [Digital Banking, Mobile, Payment, Credit Card]
 image: /assets/img/project/tcb-instalment/project-cover.png
-showcase-code: project-03 # update in data/showcase
+showcase-code: project03 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

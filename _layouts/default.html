@@ -60,44 +60,44 @@
 
   <script>
     let slideIndex = 1;
-    let slideshows;
+    let slideshows = document.getElementsByClassName("slideshow-container");
 
     if ($(".slideshow-container")[0]) {
-      showSlides(slideIndex);
+      let j;
+      for (j = 0; j < slideshows.length; j++) {
+        showSlides(slideIndex, slideshows[j]);
+      }
     }
 
     // Next/previous controls
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
+    function plusSlides(n, albumID) {
+      showSlides(slideIndex += n, albumID.valueOf());
     }
 
     // Thumbnail image controls
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
+    function currentSlide(n, albumID) {
+      showSlides(slideIndex = n, albumID.valueOf());
     }
 
-    function showSlides(n) {
-      let i,j;
-      slideshows = document.getElementsByClassName("slideshow-container");
-      
-      for (j = 0; j < slideshows.length; j++) {
-        let children = slideshows[j].querySelectorAll('.mySlides');
-        let dots = slideshows[j].querySelectorAll('.dot');
-        if (n > children.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = children.length
-        }
-        for (i = 0; i < children.length; i++) {
-          children[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        children[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
+    function showSlides(n, album) {
+      let i;
+      let children = album.querySelectorAll('.mySlides');
+      let dots = album.querySelectorAll('.dot');
+
+      if (n > children.length) {
+        slideIndex = 1
       }
+      if (n < 1) {
+        slideIndex = children.length
+      }
+      for (i = 0; i < children.length; i++) {
+        children[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      children[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
     }
   </script>
 

@@ -16,7 +16,7 @@ roles:
 
 tag: [Enterprise, Mobile, Application, UX, Tools]
 image: /assets/img/project/internal-app/03.png
-showcase-code: project-05 # update in data/showcase
+showcase-code: project05 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

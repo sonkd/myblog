@@ -14,7 +14,7 @@ roles:
 
 tag: [Healthy, Mobile, Application, UX, Design]
 image: /assets/img/project/project-cover-ihealth.png
-showcase-code: project-10 # update in data/showcase
+showcase-code: project10 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

@@ -16,7 +16,7 @@ roles:
 
 tag: [Digital Banking, Mobile, Rewind]
 image: /assets/img/project/tcb-rewind/rewind-project-cover.png
-showcase-code: project-08 # update in data/showcase
+showcase-code: project08 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

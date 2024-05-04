@@ -17,7 +17,7 @@ roles:
 
 tag: [Digital Banking, Mobile, Payment]
 image: /assets/img/project/bill-payment/cover.png
-showcase-code: project-01 # update in data/showcase
+showcase-code: project01 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

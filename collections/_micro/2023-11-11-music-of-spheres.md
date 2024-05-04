@@ -17,6 +17,7 @@ A great show at Tokyo Dom. I fulfilled one of my first wishes: to attend a live 
 I actually howled and hugged and sang together. Music is wonderful, it's really beautiful if we enjoy it together.
 
 <!-- start add photo wall from data -->
-{% assign list = site.data.micro.micro-01.images %}
+{% assign list = site.data.micro.micro1.images %}
+{% assign galleryID = site.data.micro.micro1.id %}
 {% include gallery.html %}
 <!-- end -->

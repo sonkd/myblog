@@ -71,6 +71,7 @@ layout: default
             data-aos-delay="300" data-aos-duration="700">
             {% if page.showcase-code %}
             {% assign code = page.showcase-code %}
+            {% assign galleryID = page.showcase-code %}
             {% assign list = site.data.showcase.[code].images %}
             {% include gallery.html %}
             {% endif %}

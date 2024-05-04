@@ -47,7 +47,7 @@
             <div class="col col-9 col-t-12">
                 <div class="archive-image">
                     {% if post.images %}
-                        {% assign gallery-id = post.id %}
+                        {% assign galleryID = post.id %}
                         {% assign list = post.images %}
                         {% include gallery.html %}
                     {% else %}

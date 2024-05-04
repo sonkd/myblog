@@ -14,7 +14,7 @@ roles:
 
 tag: [Digital Banking, Mobile, Red Envelope]
 image: /assets/img/project/tcb-lixi/project-cover.png
-showcase-code: project-07 # update in data/showcase
+showcase-code: project07 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

@@ -15,7 +15,7 @@ roles:
 
 tag: [Trivia, Mobile, Application, UX, Education]
 image: /assets/img/project/trivia-game/project-cover.png
-showcase-code: project-09 # update in data/showcase
+showcase-code: project09 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
 externalLink: false

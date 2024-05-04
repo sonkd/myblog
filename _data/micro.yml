@@ -1,4 +1,5 @@
-micro-01:
+micro1:
+  id: m1
   name: Music of Spheres
   images:
     - url: /assets/img/micro/2023-11-11/tokyo01.jpg
