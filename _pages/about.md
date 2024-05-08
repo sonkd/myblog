@@ -9,6 +9,7 @@ isMainPage: true
 
 Hi 👋, my name is Kevin Kim, and I have been a Product designer in the *gaming*, *IT software services*, and *digital banking industry* since 2016.
 
+
 As [a practitioner of the Design Thinking method](https://www.credly.com/badges/d7ba6db5-ff1a-42e8-b854-ae6d3e8028a8), my tagline is to pursue minimalism to understand myself and people deeply from intrinsic. The innovation outcomes always come from a simple foundation.
 
 > _"If I had an hour to solve a problem, I'd spend 55 minutes thinking about the problem and 5 minutes thinking about solutions"_--Albert Einstein.
@@ -16,6 +17,12 @@ As [a practitioner of the Design Thinking method](https://www.credly.com/badges/
 [See my "Now"⬇️](#now).
 
 ***
+
+**My Work**
+
+- Product Advisor as Head of Product at [Ready](https//ready.io)--Crypto Wallet & Chat App for everyone.
+
+- Product Design for a digital bank in Vietnam. I'm responsible for the whole onboarding experience of customers.
 
 **My dream and career**
 
