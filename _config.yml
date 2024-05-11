@@ -16,14 +16,12 @@ author:
 contact:
   - name: Twitter
     link: https://twitter.com/TieuNuiDesign
-  - name: Instagram
-    link: https://www.instagram.com/kimdinhson/
   - name: Medium
     link: https://medium.com/@sonkd
-  - name: Linkedin
-    link: https://www.linkedin.com/in/kevinsonkd/
   - name: Github
     link: https://github.com/sonkd
+  - name: Linkedin
+    link: https://www.linkedin.com/in/kevinsonkd/
 
 # Comment Section (Disqus)
 disqus-identifier: kimdinhson # add your shortname for Disqus Comment. For example mr-brown
