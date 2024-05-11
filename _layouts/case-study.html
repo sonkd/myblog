@@ -67,12 +67,12 @@ layout: default
             {% endif %}
           </div>
 
-          <div class="col col-8 col-t-12 col-m-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
-            data-aos-delay="300" data-aos-duration="700">
+          <div class="col col-8 col-t-12 col-m-12" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-delay="300"
+            data-aos-duration="700">
             {% if page.showcase-code %}
             {% assign code = page.showcase-code %}
             {% assign galleryID = page.showcase-code %}
-            {% assign list = site.data.showcase.[code].images %}
+            {% assign list = site.data.showcase[code].images %}
             {% include gallery.html %}
             {% endif %}
           </div>

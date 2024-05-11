@@ -1,16 +1,19 @@
 ---
-title: COLOR - MÀU SẮC
+title: Color Theory & Practices
 layout: post
-date: 2020-10-09 11:06
+date: 2020-10-09 11:06:45
 tag:
 - Color Theory
 - Design
 - Art
-image:
-description: "6 phần nội dung chia sẻ về Màu sắc từ anh [HungDelnary](https://www.behance.net/HungDelnary/)"
+image: 
+description: "6 phần nội dung chia sẻ về Màu sắc từ anh @HungDelnary"
 ---
 
 Tác giả: [HungDelnary](https://www.behance.net/HungDelnary/)
+<div>
+    <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHungDelnary%2Fposts%2F3561288690657739&width=500&show_text=true&appId=413574502081589&height=689" width="100%" height="689" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+</div>
 
 #### [Table of content](#table-of-content)
 - [Part 01 - TẠI SAO TA THẤY MÀU SẮC KHÔNG ĐƠN GIẢN?](#part-01)
@@ -22,25 +25,20 @@ Tác giả: [HungDelnary](https://www.behance.net/HungDelnary/)
 
 ### [Part 01]
 
-<div class="side-by-side">
-    <div class="toleft">
-        <iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FHungDelnary%2Fposts%2F3561288690657739&width=500&show_text=true&appId=413574502081589&height=689" width="500" height="689" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div>
-    <div class="toright">
-        <h3>TẠI SAO TA THẤY MÀU SẮC KHÔNG ĐƠN GIẢN?</h3>
-        <p>Từ khi sinh ra, cuộc sống của ta đã được bao quanh bởi màu sắc. Đó có thể là màu da của mẹ, màu tóc của bố. Từ màu của những tia nắng mặt trời, cho tới những chiếc nôi rực rỡ đầy đồ chơi.<br><br>
-        Lớn hơn một chút, đó là màu sắc từ những cuốn truyện tranh, những bộ phim trên màn hình, những món đồ chơi người máy, búp bê, đất nặn,... Những cây sáp màu.
-        Rồi tới màu sắc của những sản phẩm, những nhãn hàng, những thương hiệu,...
-        Thế nhưng không phải ai cũng sống trong một thực tại màu sắc giống nhau. Vì vậy không phải ai cũng dùng màu sắc một cách giống nhau.<br>
-        Có rất nhiều khúc mắc bối rối liên quan tới vấn đề màu sắc. Và với tư cách là một người nghệ sĩ hay nhà thiết kế, rất nhiều người trong số chúng ta đã luôn đi tìm câu trả lời cho vấn đề này, trong đó có mình.
-        <br><br>
-        Bạn có câu trả lời thỏa đáng chưa?
-        Nếu có xin hãy chia sẻ để cộng đồng chúng ta cùng phát triển, mình rất mong được học hỏi thêm và được giải đáp khúc mắc.
-        Theo mình, nếu muốn tìm ra cách chữa bệnh hiệu quả, trước tiên cần bắt được bệnh là gì. Đấy cũng là lí do mình viết về vấn đề này đầu tiên trong part 01 của series về MÀU SẮC, nếu bạn cũng gặp các vấn đề tương tự dưới đây, stay tuned và đón chờ các số tiếp theo trong tương lai nhé!<br>
-        Ok, let's go!!!
-        </p>
-    </div>
-</div>
+#### TẠI SAO TA THẤY MÀU SẮC KHÔNG ĐƠN GIẢN?
+
+Từ khi sinh ra, cuộc sống của ta đã được bao quanh bởi màu sắc. Đó có thể là màu da của mẹ, màu tóc của bố. Từ màu của những tia nắng mặt trời, cho tới những chiếc nôi rực rỡ đầy đồ chơi.
+
+Lớn hơn một chút, đó là màu sắc từ những cuốn truyện tranh, những bộ phim trên màn hình, những món đồ chơi người máy, búp bê, đất nặn,... Những cây sáp màu.
+Rồi tới màu sắc của những sản phẩm, những nhãn hàng, những thương hiệu,...
+Thế nhưng không phải ai cũng sống trong một thực tại màu sắc giống nhau. Vì vậy không phải ai cũng dùng màu sắc một cách giống nhau.
+
+Có rất nhiều khúc mắc bối rối liên quan tới vấn đề màu sắc. Và với tư cách là một người nghệ sĩ hay nhà thiết kế, rất nhiều người trong số chúng ta đã luôn đi tìm câu trả lời cho vấn đề này, trong đó có mình.
+        
+Bạn có câu trả lời thỏa đáng chưa?
+Nếu có xin hãy chia sẻ để cộng đồng chúng ta cùng phát triển, mình rất mong được học hỏi thêm và được giải đáp khúc mắc.Theo mình, nếu muốn tìm ra cách chữa bệnh hiệu quả, trước tiên cần bắt được bệnh là gì. Đấy cũng là lí do mình viết về vấn đề này đầu tiên trong part 01 của series về MÀU SẮC, nếu bạn cũng gặp các vấn đề tương tự dưới đây, stay tuned và đón chờ các số tiếp theo trong tương lai nhé!
+
+Ok, let's go!!!
 
 ## 10 lí do làm ta thấy màu sắc không đơn giản:
 **Lí do #1**: Màu sắc có nhiều khía cạnh tiếp nhận.
@@ -108,6 +106,7 @@ Qua ví dụ về màu Đỏ bên trên, ta đã có thể thấy được giớ
 
 Với số lượng khoảng mười triệu màu mà con người có thể nhận thức, thì việc miêu tả màu sắc bằng ngôn ngữ trở nên gần như bất khả thi và cực kỳ kém hiệu quả.
 Fun fact: Trong Tiếng Việt, nếu tính cả đen-trắng-xám, ta sẽ có khoảng 12 từ cụ thể để chỉ về các sắc và màu khác nhau:
+
 {% highlight html %}
 1. Đỏ
 2. Vàng
@@ -273,6 +272,7 @@ Tất cả nguồn tri thức bạn thu thập được trong cuộc sống này
 
 Ở số trước ta đã bàn về bản chất tự nhiên của màu sắc với các sinh vật sống, là để **GIAO TIẾP**.
 Qua đó, cụ thể các mục đích của việc sử dụng màu sắc để giao tiếp bao gồm có:
+
 {% highlight html %}
 1. Orientation - Định hướng
 2. Warning - Cảnh báo
@@ -336,10 +336,12 @@ Ví dụ như “ba, mẹ, táo, lê,...
 Trong giai đoạn 30 - 36 tháng, khoảng 90% những gì trẻ nói là đúng ngữ pháp.
 
 Trẻ đã bắt đầu phân biệt được cách xưng hô, biết mình xưng con và phải gọi ba mẹ. Trong độ tuổi này, vốn từ vựng của bé không ngừng phát triển và mở rộng. Bé có thể nối các danh từ và động từ vào với nhau để tạo nên cấu trúc câu đơn giản.
+
 {% highlight html %}
 Ví dụ: Con muốn “x”
 Trong đó “x” có thể thay bằng các từ ngữ khác nhau như “ăn”, “uống”, “chơi”,...
 {% endhighlight %}
+
 Đây là một ngữ pháp (hay quy luật) cơ bản.
 8. **Giai đoạn từ 3 tuổi trở lên**
 Trong khi lớn dần lên, trẻ tiếp tục mở rộng vốn từ vựng và phát triển ngôn ngữ phức tạp hơn. Tuy nhiên cách sử dụng ngôn ngữ của chúng không hoàn toàn giống với ngôn ngữ của người lớn cho đến khi khoảng mười một tuổi.
@@ -349,6 +351,7 @@ Trong thời gian ta lớn lên, các cấu trúc ngữ pháp (quy luật) đơn
 Và khi ta không muốn cách nói của mình lặp đi lặp lại, đó là khi các quy luật có thể bị phá bỏ.
 
 Ví dụ với cùng một thông điệp mời người khác đi ăn cơm, ta có thể bắt đầu giao tiếp theo rất nhiều cách khác nhau:
+
 {% highlight html %}
     - Đi ăn cơm cùng mình nhé.
     - Cơm không? (Em ăn cơm chưa?)
@@ -356,6 +359,7 @@ Ví dụ với cùng một thông điệp mời người khác đi ăn cơm, ta 
     - Ê đói không?
     - Hôm nay mà có ai đó đi ăn cùng thì hay hehe
 {% endhighlight %}
+
 Đến đây bạn nhận thấy gì từ quá trình một em bé học ngôn ngữ?
 
 ## LỘ TRÌNH HỌC MÀU SẮC
@@ -380,6 +384,7 @@ Nếu bạn thấy mình thường xuyên sử dụng Color Schemes như Triadic
 4. Ngữ pháp nâng cao và phá luật:
 
 Tương tự trong ví dụ trên, khi ta bày tỏ ý định mời người khác đi ăn cơm với rất nhiều cách diễn đạt khác nhau:
+
 {% highlight html %}
     - Đi ăn cơm cùng mình nhé.
     - Cơm không? (Em ăn cơm chưa?)
@@ -387,6 +392,7 @@ Tương tự trong ví dụ trên, khi ta bày tỏ ý định mời người kh
     - Ê đói không?
     - Hôm nay mà có ai đó đi ăn cùng thì hay hehe
 {% endhighlight %}
+
 Khi hiểu thông điệp mình muốn truyền tải là gì, và không muốn lặp đi lặp lại bản thân duy nhất một cách diễn đạt, đây là lúc ta có thể phá luật.
 Phá luật là khi ta tìm thấy cách ta diễn đạt cho thông điệp của mình, qua đó phản ánh bản thân mình gần nhất.
 
