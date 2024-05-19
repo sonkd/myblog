@@ -57,6 +57,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
       sinatra (>= 1.4)
       sinatra-contrib (>= 1.4)
+    jekyll-feed (0.17.0)
+      jekyll (>= 3.7, < 5.0)
     jekyll-paginate (1.1.0)
     jekyll-paginate-multiple (0.1.0)
       jekyll (>= 2.5)
@@ -145,6 +147,7 @@ DEPENDENCIES
   bundler
   jekyll
   jekyll-admin
+  jekyll-feed
   jekyll-paginate
   jekyll-paginate-multiple
   jekyll-seo-tag

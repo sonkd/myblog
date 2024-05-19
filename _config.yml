@@ -40,6 +40,7 @@ plugins:
   - jekyll-paginate-multiple
   - jekyll-seo-tag
   - jekyll/tagging
+  - jekyll-feed
 
 collections_dir: collections
 collections:
