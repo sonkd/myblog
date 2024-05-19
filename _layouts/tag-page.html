@@ -2,10 +2,8 @@
 layout: default
 ---
 
-<div class="container">
-
-  <section class="tag">
-
+<section class="container">
+  <div class="tag">
     <div class="tag__head" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
       <h1 class="tag__title">{{ page.tag }}</h1>
     </div>
@@ -31,6 +29,9 @@ layout: default
     </div>
     <!-- end article -->
     {% endfor %}
-  </section>
+  </div>
+</section>
 
+<div id="tag-cloud">
+  {{ site | tag_cloud }}
 </div>

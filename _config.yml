@@ -76,9 +76,9 @@ include:
   - _pages
 
 # Tags
-tag_page_dir:         tag
-tag_page_layout:      tag-page
-tag_permalink_style:  pretty
+tag_page_dir: tag
+tag_page_layout: tag-page
+tag_permalink_style: pretty
 
 future: true
 
