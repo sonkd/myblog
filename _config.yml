@@ -24,7 +24,8 @@ contact:
     link: https://www.linkedin.com/in/kevinsonkd/
 
 # Comment Section (Disqus)
-disqus-identifier: kimdinhson # add your shortname for Disqus Comment. For example mr-brown
+disqus:
+  shortname: kimdinhson
 
 # Google Analytics
 google-analytics: G-Q7TE8E3445 # add your identifier. For example UA-99631805-1.
