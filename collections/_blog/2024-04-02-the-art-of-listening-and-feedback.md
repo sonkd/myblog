@@ -8,6 +8,11 @@ headerImage: false
 tag:
 - Psychology
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 Trong giao tiếp đời sống hằng ngày cũng như công việc, phản hồi và lắng nghe là một hoạt động không thể thiếu để truyền đạt thông điệp lẫn nhau. Kĩ năng phản hồi và lắng nghe hiệu quả là vấn đề của mọi mối quan hệ, mọi kết quả tích cực hay tiêu cực đều nảy sinh từ đây. [Attachment Theory](https://www.psychologytoday.com/us/basics/attachment) đã giúp chúng ta hiểu rằng nhu cầu cảm xúc cơ bản nhất của con người bao gồm nhu cầu được lắng nghe và nhu cầu cảm thấy mình quan trọng đối với đối phương (Johnson, 2008).
 

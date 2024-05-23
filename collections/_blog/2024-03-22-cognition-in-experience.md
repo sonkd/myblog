@@ -11,6 +11,11 @@ tag:
 - Cognition
 - Behaviour
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 
 Hãy tưởng tượng thời điểm bạn đang lựa chọn một chai nước mắm trên kệ trong siêu thị, bạn phải mất bao lâu để thực sự đặt 1 chai vào giỏ? Tương tự khi mua ở một cửa hàng tạp hoá nhỏ, bạn có bao giờ tự hỏi tại sao cùng mua loại chai nước mắm đó, thời gian ra quyết định của bạn lại nhanh hơn khi mua ở siêu thị không? Đó chính là một dạng của **Vấn đề của Sự lựa chọn**.

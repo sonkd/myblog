@@ -9,6 +9,11 @@ tag:
 - Philosophy
 - Product Design
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 Có 3 góc nhìn trong đạo học phương Đông khi xem xét vấn đề:
 - *Thế giới quan*: thể hiện suy nghĩ, nhận thức, quan điểm của một người về cuộc sống. Cuộc sống ở đây bao gồm thế giới xung quanh và sự liên kết giữa con người với thế giới.

@@ -14,6 +14,7 @@ tag:
 star: false
 blog: true
 hidden: false
+comments: true
 
 ---
 

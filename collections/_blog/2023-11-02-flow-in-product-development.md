@@ -11,6 +11,11 @@ tag:
 - Customer Centric
 - Data
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 
 Điều gì là thách thức lớn nhất đối với một **Product manager** trong quá trình phát triển một sản phẩm digital hiện nay? Hàng tá các hạng mục cần sắp xếp và giải quyết luôn chờ đợi họ mỗi ngày. Những giấc ngủ hàng đêm luôn trăn trở *"Ngày mai sẽ làm gì nhỉ"*. Điều này còn "kinh khủng" hơn là *"Mình còn công việc nào chưa hoàn thành?"*.

@@ -9,6 +9,11 @@ tag:
 - UX Research
 - Usability Testing
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 
 ## Build the Right Thing

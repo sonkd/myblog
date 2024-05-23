@@ -8,6 +8,11 @@ tag:
 - Design Ops
 - Design management
 
+star: false
+blog: true
+hidden: false
+comments: true
+
 ---
 
 ## Các vấn đề của DesignOps
