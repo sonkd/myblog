@@ -73,6 +73,9 @@ defaults:
     values:
       permalink: /:basename:output_ext
 
+feed:
+  path: /collections/
+
 include:
   - _pages
 
