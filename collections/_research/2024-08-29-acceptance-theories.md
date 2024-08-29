@@ -2,10 +2,9 @@
 title: 🥽 Acceptance theories
 layout: post
 date: 2024-08-29 11:59:45
-tag:
-- Research, Behaviour, Methodoglogy, Psychology, Sociology
+tag: [Research, Behaviour, Methodoglogy, Psychology, Sociology]
 image: 
-description: "Start with fun and enjoy your all-day."
+description: There are helpful theories for UX and UI Research. Every design needs to evaluate the outcome and performance of the concepts.
 ---
 
 ## Acceptance Research
