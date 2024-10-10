@@ -1,7 +1,8 @@
 {% for tag in alltags %}
     <span data-weight="{{ tag.size }}" class="cloud-item">
-        <a href="#{{ tag.name | slugify }}">
+        <a href="#{{ tag.name | slugify }}" style="font-size: {{ rel_tag_size }}rem;">
             {{ tag.name | upcase }}
-        </a>({{ tag.size }})
+        </a>
+        <sup>{{ tag.size }}</sup>
     </span>
 {% endfor %}

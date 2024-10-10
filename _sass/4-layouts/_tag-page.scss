@@ -109,13 +109,17 @@
 }
 
 .cloud-item {
-  font-family: $primary-font-2;
+  font-family: $primary-font-1;
   display: inline-block;
   padding: .2rem;
 
   a {
     text-decoration-line: none !important;
     color: $primary-color;
+  }
+
+  sup {
+    vertical-align: super;
   }
 }
 

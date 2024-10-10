@@ -147,7 +147,7 @@ DEPENDENCIES
   bundler
   jekyll
   jekyll-admin
-  jekyll-feed
+  jekyll-feed (~> 0.17)
   jekyll-paginate
   jekyll-paginate-multiple
   jekyll-seo-tag

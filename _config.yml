@@ -74,7 +74,11 @@ defaults:
       permalink: /:basename:output_ext
 
 feed:
-  path: /collections/
+  collections:
+    - blog
+    - micro
+    - projects
+    - research
 
 include:
   - _pages

@@ -37,6 +37,11 @@ permalink: /tags/
         {% endfor %}
     </div>
     <!-- Cloud tags -->
+    {% assign total_tag_count = 0 %}
+    {% for tag in alltags %}
+        {% assign total_tag_count = total_tag_count | plus: site.tags[tag].size %}
+    {% endfor %}
+    {% assign rel_tag_size = site.tags[tag].size | times: 2.0 | divided_by: total_tag_count | plus: 1 %}
     <div class="tags-cloud col col-4 col-d-6 col-t-12">
         <div class="sticky-cloud">
             <div class="show-cloud">
@@ -52,6 +57,7 @@ permalink: /tags/
 </section>
 {% assign alldocs = nil %}
 {% assign alltags = nil %}
+<!--
 <script type="text/javascript">
     const tags = document.querySelectorAll(".cloud-item")
     let weight
@@ -61,6 +67,7 @@ permalink: /tags/
         tag.style["margin"] = weight / 2 +"px";
     })
 </script>
+-->
 
 <script>
     $(document).ready(function () {
