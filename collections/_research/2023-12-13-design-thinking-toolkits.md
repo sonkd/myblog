@@ -3,7 +3,7 @@ title: Design Thinking Toolkits
 layout: post
 date: 2023-12-13 09:45:45
 tag: [Product Design]
-image: 
+image: https://system-concepts.com/wp-content/uploads/2021/04/Week-1-Loop-image.png
 description: "Toolkits for Design Thinking practices"
 ---
 

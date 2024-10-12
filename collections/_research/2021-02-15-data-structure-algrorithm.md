@@ -7,7 +7,7 @@ tag:
 - Data Structure
 - Big Data
 - Computer Science
-image:
+image: https://miro.medium.com/v2/resize:fit:1400/1*Dyu63sMUVL-gYEZISOE2BQ.jpeg
 description: "Tổng hợp và chia sẻ những kiến thức liên quan tới giải thuật nói chung và lý thuyết khoa học máy tính nói riêng."
 ---
 

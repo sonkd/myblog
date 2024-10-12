@@ -25,17 +25,16 @@ order: 3
     <!-- Tab content -->
     <div class="tab-content">
         <div class="tabs__tab active" id="tab_1" data-tab-info>
-            <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-                {% assign research-list = site.data.research | reverse %}
+            <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">                
                 {% assign c = "c-research-card" %}
-                {% if research-list.size > 0 %}
-                {% for post in research-list %}
+                {% if site.research.size > 0 %}
+                {% for post in site.research reversed %}
                 <div class="{{c}} col col-4 col-d-6 col-t-12">
                     <div class="{{c}}__inner">
-                        {% if post.thumb-img %}
+                        {% if post.image %}
                         <div class="{{c}}__image-wrap">
                             <a href="{{ post.url }}" class="{{c}}__image">
-                                <img loading="lazy" src="{{ post.thumb-img }}" alt="{{ post.title }}">
+                                <img loading="lazy" src="{{ post.image }}" alt="{{ post.title }}">
                             </a>
                         </div>
                         {% else %}
