@@ -3,7 +3,7 @@ title: "Music-healling for soul"
 layout: post
 date: 2021-09-10 12:00:01
 author: sonohyeah
-image: https://img.freepik.com/premium-photo/generative-ai-illustration-music-notes-flowing-from-wireless-headphones-against-city-street-clouds_501669-25375.jpg
+image: 
 headerImage: false
 description: ""
 tag:

@@ -37,8 +37,8 @@ Japan truly lives up to its reputation for peace and beauty—just like you see 
 - Design a Banking service for Household merchants in Vietnam.
 
 #### 2022
-- Head of Design at [Ready.io](https://ready.io), led team to build a mobile app and we achieved #6 Day-rank on Produc Hunt, [see detail](https://twitter.com/goreadyio/status/1614975003426004995?s=61&t=yUPsxF7rg_NPgVMM0pMJbQ).
-- [Techcombank Mobile - Good Design Award 2022](https://www.good-designawards.com/award-details.html?award=49960). Proud to be a part of this achievement
+- Head of Design at [Ready.io](https://ready.io), led team to build a mobile app and we achieved **#6** Day-rank on Produc Hunt, [see detail](https://twitter.com/goreadyio/status/1614975003426004995?s=61&t=yUPsxF7rg_NPgVMM0pMJbQ).
+- [Techcombank Mobile - Good Design Award 2022 🏅](https://www.good-designawards.com/award-details.html?award=49960). Proud to be a part of this achievement
 - Design experience for Bill & Payment services in [Techcombank](https://techcombank.com/khach-hang-ca-nhan/ngan-hang-truc-tuyen/ngan-hang-so/techcombank-mobile), serving millions of people in Vietnam.
 - Designed UX for Instalment Online 💳 and kept Product team stays focused on the omnichannel services experience, increased more 800% of new users and gained > $40m revenue.
 - Defined Data modeling and Designed UX for Techcombank rewind feature-based data insights ⏪ [Rewind 2022](https://www.facebook.com/Techcombank/videos/1502775000222838/), tell customers about their financial life in a year.
