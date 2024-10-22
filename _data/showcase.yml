@@ -1,3 +1,10 @@
+project13:
+  name: Ready Crypto Wallet
+  images:
+    - url: https://ready.io/_nuxt/img/Group-199-x3.bfc32f5.png
+      alt: Crypto wallet
+    - url: /assets/img/project/ready-wallet/ready-journey.png
+      alt: Ready Journey
 project12:
   name: Game Platform
   images:
