@@ -43,6 +43,8 @@ description: "Summary of the good articles and stories for product design such a
 - [uxlibrary.org](https://www.uxlibrary.org/explore/ui-design/ui-patterns-and-inspiration)
 - [mobbin.com](https://mobbin.com/)
 - [bentogrids](https://bentogrids.com/)
+- [chamjo](https://chamjo.design)
+- [curated.design](https://www.curated.design)
 
 ## Design Systems
 - [ant.design](https://)*
