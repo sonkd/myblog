@@ -5,6 +5,8 @@ project13:
       alt: Crypto wallet
     - url: /assets/img/project/ready-wallet/ready-journey.png
       alt: Ready Journey
+    - url: https://cloudfront.goonus.io/wp-content/uploads/2024/08/23154510/tao-vi-moi.png
+      alt: Ready x ONUS
 project12:
   name: Game Platform
   images:
