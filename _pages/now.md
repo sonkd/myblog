@@ -41,7 +41,7 @@ Back to Japan secondary. It truly lives up to its reputation for peace and beaut
 <h4> 2023 </h4>
 <h5>Traveling</h5>
 I visited Japan in November 2023 to join Coldplay's Liveshow <a href="https://www.instagram.com/p/CzdpDekxlcL/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" target="blank">Music of the Spheres World Tour</a> - they're my favorite band. I felt and enjoyed that moment, so great, and Oh Yeahhh 🙌.
-<h5>Works</b></h5>
+<h5>Works</h5>
 <ul>
     <li><a href="https://ready.io" target="blank">Ready.io</a> project lauched.</li>
     <li>Design a Banking service for Household merchants in Vietnam.</li>
