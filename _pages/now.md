@@ -25,7 +25,7 @@ Back to Japan secondary. It truly lives up to its reputation for peace and beaut
 - Read more [books]({{ site.url }}/blog) about Art and Product management.
 - Travel more with my family. Drive my little princess to explore more places.
 
-#### Works
+### Works
 
 - I moved to a new role as a product designer at a digital bank in Vietnam.
 - Creating my first project to show the invisible things in psychology and understanding how the brain works.
