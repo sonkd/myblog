@@ -9,7 +9,7 @@ description: "Start with fun and enjoy your all-day."
 ---
 
 ## Finding your style is like putting puzzle pieces together
-Inspired by [puzzelpal.com](https://puzzlepal.com/45-cool-puzzle-quotes-to-start-your-day-with/)
+Inspired by [puzzelpal.com](https://puzzlepal.com/45-cool-puzzle-quotes-to-start-your-day-with/){:target="_blank"}
 
 > Just play. Have fun. Enjoy the game. Michael Jordan
 

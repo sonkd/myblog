@@ -154,15 +154,21 @@ img {
 a {
   /*text-decoration: none;*/
   /*color: $primary-color;*/
-  color: $dark;
-  text-decoration-line: underline;
-  text-decoration-color: rgba($color: $primary-color, $alpha: 0.5);
-  text-underline-offset: 4px;
-  text-decoration-thickness: 1px;
+  color: $primary-text-color;
+  text-decoration: none;
   transition: color 200ms;
 
   &:hover {
-    color: $primary-color;
+    color: $active-text-color;
+  }
+
+  &[target="_blank"]::after {
+    content: " \2197";
+    font-size: $tiny-font-size;
+    line-height: 0;
+    position: relative;
+    bottom: 5px;
+    vertical-align: baseline;
   }
 }
 

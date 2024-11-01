@@ -30,7 +30,7 @@ Khi đặt dưới môi trường làm việc đội nhóm đòi hỏi tính tư
 
 ## 5 collaboration principles
 
-Tôi đã vận dụng phương pháp của [Spotify](https://spotify.design/article/how-spotify-organises-work-in-figma-to-improve-collaboration) giải quyết những vấn đề này. 5 nguyên lý cộng tác để cân bằng **SPEED** và **VISIBILITY** nhằm giúp tăng tốc workflow của designers và “show-off” với những designer/stakeholder khác trong các cross-projects.
+Tôi đã vận dụng phương pháp của [Spotify](https://spotify.design/article/how-spotify-organises-work-in-figma-to-improve-collaboration){:target="_blank"} giải quyết những vấn đề này. 5 nguyên lý cộng tác để cân bằng **SPEED** và **VISIBILITY** nhằm giúp tăng tốc workflow của designers và “show-off” với những designer/stakeholder khác trong các cross-projects.
 
 ![DesignOps collaboration's principle](/assets/img/blog/designops-principles.png)
 - Thiết kế này đã bám theo design guideline chưa? Có đồng nhất với các thiết kế khác trong hoàn cảnh tương tự không?

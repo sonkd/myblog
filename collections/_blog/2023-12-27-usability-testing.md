@@ -18,13 +18,13 @@ comments: true
 
 ## Build the Right Thing
 
-Trong xu hướng phát triển sản phẩm hiện nay, việc kiểm tra và ngăn ngừa các vấn đề về chất lượng sản phẩm trước khi release là một trong những khâu tiên quyết bắt buộc phải có ở mọi quy trình. Đặc biệt là việc [Kiểm thử khả năng sử dụng (Usability Testing)](https://www.nngroup.com/articles/usability-testing-101/) ở ngay những bước Design trước khi team quyết định có thực hiện phát triển tính năng đó hay không.
+Trong xu hướng phát triển sản phẩm hiện nay, việc kiểm tra và ngăn ngừa các vấn đề về chất lượng sản phẩm trước khi release là một trong những khâu tiên quyết bắt buộc phải có ở mọi quy trình. Đặc biệt là việc [Kiểm thử khả năng sử dụng (Usability Testing)](https://www.nngroup.com/articles/usability-testing-101/){:target="_blank"} ở ngay những bước Design trước khi team quyết định có thực hiện phát triển tính năng đó hay không.
 
 Khác với UI Designer hay UX Copywriter, UX Researcher, họ cần quan sát thực tiễn để trả lời những câu hỏi *"Thiết kế/Từ ngữ này có hoạt động hiệu quả với người dùng mục tiêu hay không?"*, *"Thiết kế/Từ ngữ này có thể làm tốt hơn ở điều gì không?"* hoặc *Hành vi của người dùng khi tương tác với thiết kế/từ ngữ thực tế ra sao?*.
 
 > Build The Right Thing and Build The Thing Right
 
-Đối với team phát triển sản phẩm dựa trên nền tảng **Customer Centric**, việc thực hiện Usability Testing sẽ giúp team tránh được [Bẫy căn chỉnh](https://sloanreview.mit.edu/article/avoiding-the-alignment-trap-in-it/). Mục tiêu quan trọng nhất và đầu tiên là "Build the Right Thing". Điều này được hiểu rằng team nên dành công sức để phát triển và tối ưu những thứ thực sự có giá trị và tiềm năng tăng trưởng, thay vì làm những thứ tưởng chừng rất phù hợp kèm ít nỗ lực thực thi.
+Đối với team phát triển sản phẩm dựa trên nền tảng **Customer Centric**, việc thực hiện Usability Testing sẽ giúp team tránh được [Bẫy căn chỉnh](https://sloanreview.mit.edu/article/avoiding-the-alignment-trap-in-it/){:target="_blank"}. Mục tiêu quan trọng nhất và đầu tiên là "Build the Right Thing". Điều này được hiểu rằng team nên dành công sức để phát triển và tối ưu những thứ thực sự có giá trị và tiềm năng tăng trưởng, thay vì làm những thứ tưởng chừng rất phù hợp kèm ít nỗ lực thực thi.
 
 ![Crash testing](https://www.thoughtco.com/thmb/zUrqtdatkRyw40uwI6ORHVw5lIs=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/GettyImages-104574305-5b5b7e6cc9e77c0050acfb52.jpg)
 <figcaption class="caption">Nguồn: <a href="https://www.thoughtco.com/history-of-crash-test-dummies-1992406">https://www.thoughtco.com/history-of-crash-test-dummies-1992406</a></figcaption>
@@ -33,7 +33,7 @@ Các kết quả UT sẽ cho thấy trước khả năng hoạt động hiệu q
 
 ## Mục đích của Usability Testing (UT)
 
-Là một dạng của phương pháp [Black box testing](https://en.wikipedia.org/wiki/Black-box_testing) trong khâu Design, mục đích UT không chỉ dừng ở việc ngăn ngừa "lỗi thiết kế", mà còn giúp designer hiểu và nhìn thấy được cách nó hoạt động-phần chìm của tảng băng.
+Là một dạng của phương pháp [Black box testing](https://en.wikipedia.org/wiki/Black-box_testing){:target="_blank"} trong khâu Design, mục đích UT không chỉ dừng ở việc ngăn ngừa "lỗi thiết kế", mà còn giúp designer hiểu và nhìn thấy được cách nó hoạt động-phần chìm của tảng băng.
 
 > ”Most people make the mistake of thinking design is what it looks like,” ”People think it’s this veneer — that the designers are handed this box and told, ‘Make it look good!’ That’s not what we think design is. It’s not just what it looks like and feels like. Design is how it works.”
 Steve Jobs
@@ -60,7 +60,7 @@ Lean UX là một cách tiếp cận dựa trên "nhóm" để xây dựng các 
 
 ## Bốn khía cạnh chính của prototype (Human-Computer Interaction)
 ![Prioritization matrix](/assets/img/blog/4-principles-of-prototype.png)
- <figcaption class="caption">What do Prototypes Prototype?. <a href="https://hci.stanford.edu/courses/cs294h/2006/readings/houde-prototypes-97.pdf">Nguồn</a></figcaption>
+ <figcaption class="caption">What do Prototypes Prototype?. <a href="https://hci.stanford.edu/courses/cs294h/2006/readings/houde-prototypes-97.pdf" target="_blank">Nguồn</a></figcaption>
 
 Để hiểu về vài trò và chức năng của nguyên mẫu, cần dựa theo 4 nguyên lý sau:
 - **Role**: facilitator tập trung mô tả chức năng người dùng có thể hưởng lợi từ đó mà không cần quan tâm nhiều đến hình thức và cảm nhận của hiện vật hoặc cách thức hoạt động của nó. (người tham gia chỉ tập trung thực hiện các task được giao và hiểu rằng đây là bản mockup, không chính thức bất cứ đâu)
@@ -102,12 +102,12 @@ Có nhiều hình thức thực hiện test UT linh hoạt trong nhiều điều
     </div>
 </div>
 
-Để thực hiện test UT cho mỗi bản prototype, chúng ta chỉ cần test với khoảng [5-7 ứng viên là vừa đủ](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/) các dữ kiện quan sát.
+Để thực hiện test UT cho mỗi bản prototype, chúng ta chỉ cần test với khoảng [5-7 ứng viên là vừa đủ](https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/){:target="_blank"} các dữ kiện quan sát.
 
 Tuy nhiên, một số tình huống cần test rộng hơn nhằm tìm hiểu tính hiệu quả theo hành vi của mỗi nhóm người dùng khác nhau (customer segments). Trong những trường hợp như vậy, việc tuyển chọn ứng viên thoả mãn các tiêu chí cần kĩ lưỡng nhằm tránh các kết quả sai lệch không như mong muốn.
 
 - Đừng nên test với những ứng viên là đồng nghiệp cùng làm trong dự án hoặc cùng chuyên ngành/lĩnh vực sản phẩm (trừ khi họ là những khách hàng mục tiêu), hay những người dùng tech-savy. Đây là những nhóm người dùng có thể dễ dàng hoàn thành nhiệm vụ do có sẵn kiến thức hoặc am hiểu về tính chất sản phẩm. Khi đó người quan sát có ít thông tin để khai thác về hành vi và cách design thực sự làm việc với số đông người dùng.
-- Accessible Design: Một thiết kế tốt là ngay cả khi những người khiếm khuyết (disablers) cũng có thể dễ dàng sử dụng. Điều đó đem đến rất nhiều [lợi ích](https://www.interaction-design.org/literature/article/3-reasons-why-accessible-design-is-good-for-all) về mặt business (tiếp cận được số đông-ít năng lực sử dụng và hiểu biết công nghệ), về mặt legal sẽ tiếp cận được người dùng ở một số quốc gia có tiêu chuẩn cao (ví dụ thoả mãn tiêu chuẩn [W3C](https://www.w3.org/standards/about/) hay các tiêu chuẩn người khuyết tật).
+- Accessible Design: Một thiết kế tốt là ngay cả khi những người khiếm khuyết (disablers) cũng có thể dễ dàng sử dụng. Điều đó đem đến rất nhiều [lợi ích](https://www.interaction-design.org/literature/article/3-reasons-why-accessible-design-is-good-for-all){:target="_blank"} về mặt business (tiếp cận được số đông-ít năng lực sử dụng và hiểu biết công nghệ), về mặt legal sẽ tiếp cận được người dùng ở một số quốc gia có tiêu chuẩn cao (ví dụ thoả mãn tiêu chuẩn [W3C](https://www.w3.org/standards/about/){:target="_blank"} hay các tiêu chuẩn người khuyết tật).
 
 ## Tổng kết
 

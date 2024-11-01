@@ -8,74 +8,74 @@ description: "Summary of the good articles and stories for product design such a
 ---
 
 ## Behaviour Science & Psychology
-- [growth.design](https://growth.design/psychology)*
-- [Moneythor.com - Behavioural science](https://www.moneythor.com/analysis-opinions/behavioural-science/)
-- [verywellmind.com](https://www.verywellmind.com/)
-- [Wikipedia - List of psychological effects](https://en.m.wikipedia.org/wiki/List_of_psychological_effects)
+- [growth.design](https://growth.design/psychology){:target="_blank"}*
+- [Moneythor.com - Behavioural science](https://www.moneythor.com/analysis-opinions/behavioural-science/){:target="_blank"}
+- [verywellmind.com](https://www.verywellmind.com/){:target="_blank"}
+- [Wikipedia - List of psychological effects](https://en.m.wikipedia.org/wiki/List_of_psychological_effects){:target="_blank"}
 
 ## Usability
-- [Five-Second Testing: Taking A Closer Look At First Impressions](https://www.smashingmagazine.com/2023/12/five-second-testing-case-study) - Eduard Kuric
+- [Five-Second Testing: Taking A Closer Look At First Impressions](https://www.smashingmagazine.com/2023/12/five-second-testing-case-study){:target="_blank"} - Eduard Kuric
 
 ## Ethical Design
-- [humanebydesign.com](https://humanebydesign.com)
-- [darkpatterns.org](https://darkpatterns.org)
-- [ethical.net](https://ethical.net)
-- [designethically.com](https://designethically.com)
+- [humanebydesign.com](https://humanebydesign.com){:target="_blank"}
+- [darkpatterns.org](https://darkpatterns.org){:target="_blank"}
+- [ethical.net](https://ethical.net){:target="_blank"}
+- [designethically.com](https://designethically.com){:target="_blank"}
 
 ## Learning UX + UI Design
-- [lawsofux.com](https://lawsofux.com)*
-- [nngroup.com](https://nngroup.com)*
-- [Google UX Design](https://www.coursera.org/professional-certificates/google-ux-design)*
-- [smashingmagazine.com](https://smashingmagazine.com)
-- [uxdesign.cc](https://uxdesign.cc)
-- [uxplanet.org](https://uxplanet.org)
-- [buildformars.com](https://builtformars.com/)*
-- [Design for a Better World](https://dbw.jnd.org)
+- [lawsofux.com](https://lawsofux.com){:target="_blank"}*
+- [nngroup.com](https://nngroup.com){:target="_blank"}*
+- [Google UX Design](https://www.coursera.org/professional-certificates/google-ux-design){:target="_blank"}*
+- [smashingmagazine.com](https://smashingmagazine.com){:target="_blank"}
+- [uxdesign.cc](https://uxdesign.cc){:target="_blank"}
+- [uxplanet.org](https://uxplanet.org){:target="_blank"}
+- [buildformars.com](https://builtformars.com/){:target="_blank"}*
+- [Design for a Better World](https://dbw.jnd.org){:target="_blank"}
 
 ## Design practices
-- [Designkit.org](https://www.designkit.org/methods.html)*
-- [IDEO Design Thinking](https://designthinking.ideo.com/)*
-- [Enterprise Design Thinking](https://www.ibm.com/design/thinking/)*
-- [gamestorming.com](https://gamestorming.com/)
-- [checklist.design](https://www.checklist.design/)
+- [Designkit.org](https://www.designkit.org/methods.html){:target="_blank"}*
+- [IDEO Design Thinking](https://designthinking.ideo.com/){:target="_blank"}*
+- [Enterprise Design Thinking](https://www.ibm.com/design/thinking/){:target="_blank"}*
+- [gamestorming.com](https://gamestorming.com/){:target="_blank"}
+- [checklist.design](https://www.checklist.design/){:target="_blank"}
 
 ## Inspirations
-- [uxlibrary.org](https://www.uxlibrary.org/explore/ui-design/ui-patterns-and-inspiration)
-- [mobbin.com](https://mobbin.com/)
-- [bentogrids](https://bentogrids.com/)
-- [chamjo](https://chamjo.design)
-- [curated.design](https://www.curated.design)
+- [uxlibrary.org](https://www.uxlibrary.org/explore/ui-design/ui-patterns-and-inspiration){:target="_blank"}
+- [mobbin.com](https://mobbin.com/){:target="_blank"}
+- [bentogrids](https://bentogrids.com/){:target="_blank"}
+- [chamjo](https://chamjo.design){:target="_blank"}
+- [curated.design](https://www.curated.design){:target="_blank"}
 
 ## Design Systems
-- [ant.design](https://)*
-- [Building a Visual Language](https://airbnb.design/building-a-visual-language/)*
-- [designsystems.com](https://designsystems.com)*
-- [atlassian.design](https://atlassian.design)
+- [ant.design](https://ant.design/)*
+- [Building a Visual Language](https://airbnb.design/building-a-visual-language/){:target="_blank"}*
+- [designsystems.com](https://designsystems.com){:target="_blank"}*
+- [atlassian.design](https://atlassian.design){:target="_blank"}
 - [polaris.shopify.com](https://polaris.shopify.com)*
-- [material.io/design](https://material.io/design)*
-- [developer.apple.com/design](https://developer.apple.com/design)*
-- [carbondesignsystem.com](https://carbondesignsystem.com)*
-- [vuetifyjs.com](https://uetifyjs.com)
-- [wise.com](https://wise.com)
+- [material.io/design](https://material.io/design){:target="_blank"}*
+- [developer.apple.com/design](https://developer.apple.com/design){:target="_blank"}*
+- [carbondesignsystem.com](https://carbondesignsystem.com){:target="_blank"}*
+- [vuetifyjs.com](https://uetifyjs.com){:target="_blank"}
+- [wise.com](https://wise.com){:target="_blank"}
 
 ## Speed up for Figma
-- [Content Reel](https://www.figma.com/community/plugin/731627216655469013)
-- [Styles Organizer](https://www.figma.com/community/plugin/816627069580757929)*
-- [LottieFiles](https://www.figma.com/community/plugin/809860933081065308)*
-- [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875)*
-- [AutoFlow](https://www.figma.com/community/plugin/733902567457592893/autoflow)
-- [Unsplash](https://www.figma.com/community/plugin/738454987945972471/Unsplash)*
-- [Google Sheets Sync](https://www.figma.com/community/plugin/735770583268406934/Google-Sheets-Sync)*
-- [Token Studio](https://tokens.studio/)*
-- [Chart](https://www.figma.com/community/plugin/734590934750866002/Chart)
-- [Color Shades](https://www.figma.com/community/plugin/929607085343688745/Color-Shades)
+- [Content Reel](https://www.figma.com/community/plugin/731627216655469013){:target="_blank"}
+- [Styles Organizer](https://www.figma.com/community/plugin/816627069580757929){:target="_blank"}*
+- [LottieFiles](https://www.figma.com/community/plugin/809860933081065308){:target="_blank"}*
+- [A11y - Color Contrast Checker](https://www.figma.com/community/plugin/733159460536249875){:target="_blank"}*
+- [AutoFlow](https://www.figma.com/community/plugin/733902567457592893/autoflow){:target="_blank"}
+- [Unsplash](https://www.figma.com/community/plugin/738454987945972471/Unsplash){:target="_blank"}*
+- [Google Sheets Sync](https://www.figma.com/community/plugin/735770583268406934/Google-Sheets-Sync){:target="_blank"}*
+- [Token Studio](https://tokens.studio/){:target="_blank"}*
+- [Chart](https://www.figma.com/community/plugin/734590934750866002/Chart){:target="_blank"}
+- [Color Shades](https://www.figma.com/community/plugin/929607085343688745/Color-Shades){:target="_blank"}
 
 ## UX Testing & Research Tools
-- [maze.co](https://maze.co)*
-- [hotjar.com](https://hotjar.com)*
-- [usertesting.com](https://usertesting.com)
-- [lookback.com](https://lookback.com)*
-- [usabilityhub.com](https://usabilityhub.com)
+- [maze.co](https://maze.co){:target="_blank"}*
+- [hotjar.com](https://hotjar.com){:target="_blank"}*
+- [usertesting.com](https://usertesting.com){:target="_blank"}
+- [lookback.com](https://lookback.com){:target="_blank"}*
+- [usabilityhub.com](https://usabilityhub.com){:target="_blank"}
 
 ## Others
-- [Toools.design](https://www.toools.design/)
+- [Toools.design](https://www.toools.design/){:target="_blank"}

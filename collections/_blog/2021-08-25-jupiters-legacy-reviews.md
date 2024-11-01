@@ -18,12 +18,12 @@ comments: true
 
 ---
 
-Tôi đã xem xong chuỗi tập phim Jupiter's Legacy (Di sản Mộc tinh) được vài tháng, nay hồi tưởng lại vẫn thấy còn nhiều điều thú vị đọng lại từ serie phim này. Link xem phim trên Netflix: [Jupiter's Legacy](https://www.netflix.com/vn-en/title/80244953).
+Tôi đã xem xong chuỗi tập phim Jupiter's Legacy (Di sản Mộc tinh) được vài tháng, nay hồi tưởng lại vẫn thấy còn nhiều điều thú vị đọng lại từ serie phim này. Link xem phim trên Netflix: [Jupiter's Legacy](https://www.netflix.com/vn-en/title/80244953){:target="_blank"}.
 
 
 
 ---
-Ở đây, tôi sẽ không review và chia sẻ những thứ liên quan đến giải trí, bạn có thể xem review dưới góc độ điện ảnh của [Phê Phim](https://youtu.be/Pq3HWXfHdXI). Tôi liên tưởng đến một vấn đề được đúc rút ra từ nó - **Con đường sự nghiệp** của mỗi người. 
+Ở đây, tôi sẽ không review và chia sẻ những thứ liên quan đến giải trí, bạn có thể xem review dưới góc độ điện ảnh của [Phê Phim](https://youtu.be/Pq3HWXfHdXI){:target="_blank"}. Tôi liên tưởng đến một vấn đề được đúc rút ra từ nó - **Con đường sự nghiệp** của mỗi người. 
 
 Phim kể 2 mạch truyện xen kẽ giữa quá khứ và hiện tại, và tôi cũng chỉ tập trung nói về câu chuyện thứ nhất. Đó là một hành trình khám phá và giải mã của The Union (first generation) ở trong qua khứ, theo cảm nhận của tôi khá cuốn, giống như đang theo dõi một bộ phim trinh thám bí ẩn.
 

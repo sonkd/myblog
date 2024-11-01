@@ -20,7 +20,7 @@ comments: true
 Công việc của tôi là thiết kế trải nghiệm người dùng (UX Design). Hằng ngày, tôi thường xuyên phải trao đổi, chia sẽ những ý tưởng và phân tích đánh giá những quan điểm của mình về hành vi, thói quen cũng như thấu cảm với suy nghĩ của khách hàng. Không giống với những công việc "to-do" (bạn có sẵn các danh mục công việc hàng ngày và lần lượt giải quyết chúng), công việc của tôi là một chuỗi công đoạn đi tìm và xử lý vấn đề: nhận định vấn đề, tìm ý tưởng giải quyết nó, lên kế hoạch để thực thi, thí nghiệm và kiểm tra, đo lường kết quả và cuối cùng là phát triển sản phẩm dựa trên những giả thuyết đó.
 ---
 
-Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [Design Thinking](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular) và [Lean UX](https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux). Nguyên tắc cơ bản dựa trên việc chúng tôi phải lời 3 câu hỏi (3Ws):
+Phương pháp mà tôi và các đồng nghiệp đang áp dụng dựa trên [Design Thinking](https://www.interaction-design.org/literature/article/what-is-design-thinking-and-why-is-it-so-popular){:target="_blank"} và [Lean UX](https://www.interaction-design.org/literature/article/a-simple-introduction-to-lean-ux){:target="_blank"}. Nguyên tắc cơ bản dựa trên việc chúng tôi phải lời 3 câu hỏi (3Ws):
 * WHO?
 * WHAT?
 * WOW?
@@ -51,7 +51,7 @@ Trong cuốn <span class="evidence">“Think fast and slow”</span> của Danie
 > 
 > Thông thường để thực hiện cách tư duy theo con người thứ 2, chúng ta thường mất thời gian và dùng não rất nhiều để xử lý thông tin hơn. Chính vì thế hầu hết chúng ta có xu hướng sử dụng Con Người 1.
 > 
-> [Bolat Duisenov](https://www.facebook.com/1463522007/posts/10222814927989451)
+> [Bolat Duisenov](https://www.facebook.com/1463522007/posts/10222814927989451){:target="_blank"}
 
 Tôi rất tâm đắc với ý này: Con người 1 có xu hướng dùng bản năng, kinh nghiệm và trực giác, hành động bằng vô thức (unconscious). Con người 2 dựa vào dữ liệu, sự thật tai nghe, mắt thấy. Vì để muốn mau chóng chúng ta thường tư duy theo kiểu con người 1, một cách vô thức để giải quyết vấn đề. Con người 2 thì đòi hỏi sự kiên nhẫn và tỉ mỉ, mất nhiều thời gian để suy xét, hành động bằng tiềm thức (conscious). Nghĩa rằng ta thường lựa chọn hoặc là dựa trên kinh nghiệm bản thân để suy đoán sớm, hoặc là “sao chép” từ những lời giải có sẵn, hoặc là đi tìm ngay sự tư vấn trực tiếp (nếu có).
 
@@ -66,7 +66,7 @@ Vậy khi nào thì dùng con người 1, khi nào thì dùng con người 2? L�
 
 Nếu chúng ta có cùng tầm nhìn, dù chúng ta mỗi người một công một việc, đều sẽ cùng nhau lèo lái con thuyền tiến đến đích. Có thể nói đơn giản như sau, mục tiêu của chúng ta sẽ được chia nhỏ dần theo “độ dài” của tầm nhìn, hay ta thường chia thành 2 loại long-term và short-term (ngắn và dài hạn). Mục tiêu “xa nhất” chính là the ultimate goal-mục tiêu tối thượng. Vì vậy nếu những bộ não đang trong cùng “vùng quan sát” nếu cùng “tầm nhìn” thì sẽ kết nối được với nhau mà ta hay gọi là cùng chí hướng, cùng mục tiêu.
 
-Tìm hiểu thêm về [XY problem](https://xyproblem.info/).
+Tìm hiểu thêm về [XY problem](https://xyproblem.info/){:target="_blank"}.
 
 Vì vậy, ý kiến của tôi là chúng ta không nên làm những điều sau:
 

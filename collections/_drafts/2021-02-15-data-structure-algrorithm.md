@@ -11,8 +11,6 @@ image: https://miro.medium.com/v2/resize:fit:1400/1*Dyu63sMUVL-gYEZISOE2BQ.jpeg
 description: "Tổng hợp và chia sẻ những kiến thức liên quan tới giải thuật nói chung và lý thuyết khoa học máy tính nói riêng."
 ---
 
-Nguồn: [giaithuatlaptrinh.com](https://www.giaithuatlaptrinh.com)
-
 ## Các kĩ thuật thiết kế thuật toán cơ bản
 1. [Phương pháp quay lui](http://www.giaithuatlaptrinh.com/?p=58)
 2. Chia để trị: [cơ bản](http://www.giaithuatlaptrinh.com/?p=48), [quick sort và merge sort](http://www.giaithuatlaptrinh.com/?p=41), [chọn median](http://www.giaithuatlaptrinh.com/?p=35).

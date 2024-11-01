@@ -25,7 +25,7 @@ Rõ ràng trong đời không có ai là muốn nợ nần (tiền bạc) cả. 
 
 ---
 
-Trong product design có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE) ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer. Và cũng có những kiểu: không thích nợ thiết kế, không thích nợ thiết kế nhưng vẫn nợ và luôn thích nợ.
+Trong product design có thuật ngữ [Design Debt](https://www.youtube.com/watch?v=pqeJFYwnkjE){:target="_blank"} ám chỉ việc thiết kế tập trung vào ngắn hạn mà gạt đi những ý tưởng tốt, có ích cho tương lai. Nói cách khác là những thiết kế tồi, không có tính bền vững, chỉ chăm chăm giải quyết vấn đề trước mắt. Điều này tôi thường thấy ở các beginner và intermediate designer. Và cũng có những kiểu: không thích nợ thiết kế, không thích nợ thiết kế nhưng vẫn nợ và luôn thích nợ.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/pqeJFYwnkjE?controls=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <br>
@@ -60,14 +60,14 @@ Lấy vài ví dụ đơn giản như sau:
 ## Ngăn ngừa Design Debt
 
 Trong bài viết này liệt kê một số ví dụ điển hình những lý do dẫn đến **Design Debt**
-[What is design debt and why you should treat it seriously](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89#2bf4)
+[What is design debt and why you should treat it seriously](https://uxdesign.cc/what-is-design-debt-and-why-you-should-treat-it-seriously-4366d33d3c89#2bf4){:target="_blank"}
 
 Phương pháp hữu hiệu nhất hiện này là chúng ta áp dụng **Design Thinking**, một phương pháp đi kèm với **Lean UX** giúp ngăn ngừa các designer thiết kế dựa trên assumption mà không kiểm chứng (nợ nần nhiều lâu dần thanh quen).
 
 ### Đối diện với sự thật và bỏ đi cái sĩ diện
 
 > “There’s no shame in a project having design debt.”
-> [Invsion, Insign Design](https://www.invisionapp.com/inside-design/tackle-design-debt/)
+> [Invsion, Insign Design](https://www.invisionapp.com/inside-design/tackle-design-debt/){:target="_blank"}
 
 > “Tackling design debt? 
 > Fix the most visible elements first.”
