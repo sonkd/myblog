@@ -31,6 +31,7 @@ description: "Summary of the good articles and stories for product design such a
 - [uxplanet.org](https://uxplanet.org){:target="_blank"}
 - [buildformars.com](https://builtformars.com/){:target="_blank"}*
 - [Design for a Better World](https://dbw.jnd.org){:target="_blank"}
+- [ui-patterns.com](https://ui-patterns.com/){:target="_blank"}
 
 ## Design practices
 - [Designkit.org](https://www.designkit.org/methods.html){:target="_blank"}*
