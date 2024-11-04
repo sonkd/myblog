@@ -2,7 +2,7 @@
 layout: post
 title: Now
 permalink: /now/
-order: 4
+order: 1
 show: true
 isMainPage: true
 ---
@@ -13,7 +13,7 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 
 - ["The making of a Manager"](https://www.juliezhuo.com/book/manager.html){:target="_blank"}--Julie Zhuo. I will write summary about this book when finish.
 - [Nexus: A Brief History of Information Networks from the Stone Age to AI](https://www.amazon.com/Nexus-Brief-History-Information-Networks/dp/059373422X){:target="_blank"}--Yuval Noah HarariY.
-- [Nudge: The Final Edition: Improving Decisions About Money, Health, and the Environment](https://www.amazon.com/Nudge-Final-Richard-H-Thaler/dp/014313700X/){:target="_blank"}--Richard H. Thaler and Cass R. Sunstein
+- [Nudge (The Final Edition)](https://www.amazon.com/Nudge-Final-Richard-H-Thaler/dp/014313700X/){:target="_blank"}--Richard H. Thaler and Cass R. Sunstein
 
 ### Traveling
 
