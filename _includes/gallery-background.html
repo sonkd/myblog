@@ -1,7 +1,7 @@
 <div class="{{show-option}}">
   <main class="gallery">
   {% for image in list-image %}
-    <a href="#"><img src="{{image.url}}" alt="{{image.alt}}"></a>
+    <a href="#"><img src="{{image.url}}" alt="{{image.alt}}" title="{{image.alt}}"></a>
   {% endfor %}
   </main>
 

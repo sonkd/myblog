@@ -17,7 +17,7 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 
 ### Traveling
 
-Back to Japan secondary. It truly lives up to its reputation for peace and beauty—just like in the media. I was blown away by the perfectly organized traffic, smartly designed buildings, and how everything seemed to flow with logic and artistry. The payment systems? Next level! Everything is so synchronized and convenient, with self-service machines that are super smart. But oddly enough, I felt a bit of sadness (or maybe boredom) in Tokyo and [the places]({{ site.url }}/library/#2023) I visited. It felt like they could use a bit more color to brighten things up!
+Back to Japan secondary. It truly lives up to its reputation for peace and beauty—just like in the media. I was blown away by the perfectly organized traffic, smartly designed buildings, and how everything seemed to flow with logic and artistry. The payment systems? Next level! Everything is so synchronized and convenient, with self-service machines that are super smart. But oddly enough, I felt a bit of sadness (or maybe boredom) in Tokyo and [the places]({{ site.url }}/archive#2023) I visited. It felt like they could use a bit more color to brighten things up!
 
 ### Aspirations for 2024
 

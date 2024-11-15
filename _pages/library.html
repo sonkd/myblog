@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 📚Library
-permalink: /library/
+title: 📚Archive
+permalink: /archive/
 image:
 isMainPage: true
 order: 4
@@ -14,9 +14,9 @@ order: 4
 
     <!-- tabs -->
     <div class="tabs c-tabs__bar library-tab">
-        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">📑Resources</a>
+        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">📸Moments</a>
         <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">👆Interactions</a>
-        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab--inactive c-tab--small">📸Activities</a>
+        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab--inactive c-tab--small">📑Resources</a>
         <a href="#" data-tab-value="#tab_4" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">😋Culinary
             Diary</a>
     </div>
@@ -25,6 +25,24 @@ order: 4
     <!-- Tab content -->
     <div class="tab-content">
         <div class="tabs__tab active" id="tab_1" data-tab-info>
+            {% include activities.html %}
+        </div>
+        <div class="tabs__tab" id="tab_2" data-tab-info>
+            <div class="grid-wall--all-screen">
+                <main>
+                    {% assign clips = site.data.interactions | sort:"category" | reverse %}
+                    {% for post in clips %}
+                    {% if post.image %}
+                    <a><img src="{{post.image}}" alt="{{post.title}}"></a>
+                    {% else if post.clip %}
+                    <a><video src="{{post.clip}}" width="100%" height="100%" autoplay muted playsinline
+                            loop></video></a>
+                    {% endif %}
+                    {% endfor %}
+                </main>
+            </div>
+        </div>
+        <div class="tabs__tab" id="tab_3" data-tab-info>
             <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">                
                 {% assign c = "c-research-card" %}
                 {% if site.research.size > 0 %}
@@ -73,24 +91,6 @@ order: 4
                 {% endfor %}
                 {% endif %}
             </div>
-        </div>
-        <div class="tabs__tab" id="tab_2" data-tab-info>
-            <div class="grid-wall--all-screen">
-                <main>
-                    {% assign clips = site.data.interactions | sort:"category" | reverse %}
-                    {% for post in clips %}
-                    {% if post.image %}
-                    <a><img src="{{post.image}}" alt="{{post.title}}"></a>
-                    {% else if post.clip %}
-                    <a><video src="{{post.clip}}" width="100%" height="100%" autoplay muted playsinline
-                            loop></video></a>
-                    {% endif %}
-                    {% endfor %}
-                </main>
-            </div>
-        </div>
-        <div class="tabs__tab" id="tab_3" data-tab-info>
-            {% include activities.html %}
         </div>
         <div class="tabs__tab" id="tab_4" data-tab-info>
             <h3 style="text-align: center;">#yummy food photos.</h3>
