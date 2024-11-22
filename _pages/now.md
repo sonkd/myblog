@@ -22,7 +22,7 @@ Back to Japan secondary. It truly lives up to its reputation for peace and beaut
 ### Aspirations for 2024
 
 - Build a channel for sharing about designing digital products in the financial industry.
-- Read more [books]({{ site.url }}/blog) about Art and Product management.
+- Read more [books]({{ site.url }}/blog#reading) about Art and Product management.
 - Travel more with my family. Drive my little princess to explore more places.
 
 ### Works

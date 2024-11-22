@@ -13,21 +13,21 @@ order: 4
     </div>
 
     <!-- tabs -->
-    <div class="tabs c-tabs__bar library-tab">
-        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">📸Moments</a>
-        <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">👆Interactions</a>
-        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab--inactive c-tab--small">📑Resources</a>
-        <a href="#" data-tab-value="#tab_4" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">😋Culinary
+    <div class="tabs c-tabs__bar library-tab" id="tab-list">
+        <a href="#" data-tab-value="#moments" class="c-tab c-tab--active c-tab--small">📸Moments</a>
+        <a href="#" data-tab-value="#interactions" class="c-tab c-tab--inactive c-tab--small">👆Interactions</a>
+        <a href="#" data-tab-value="#resources" class="c-tab c-tab--inactive c-tab--small">📑Resources</a>
+        <a href="#" data-tab-value="#culinary" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">😋Culinary
             Diary</a>
     </div>
     <!-- end tabs -->
 
     <!-- Tab content -->
     <div class="tab-content">
-        <div class="tabs__tab active" id="tab_1" data-tab-info>
+        <div class="tabs__tab active" id="moments" data-tab-info>
             {% include activities.html %}
         </div>
-        <div class="tabs__tab" id="tab_2" data-tab-info>
+        <div class="tabs__tab" id="interactions" data-tab-info>
             <div class="grid-wall--all-screen">
                 <main>
                     {% assign clips = site.data.interactions | sort:"category" | reverse %}
@@ -42,7 +42,7 @@ order: 4
                 </main>
             </div>
         </div>
-        <div class="tabs__tab" id="tab_3" data-tab-info>
+        <div class="tabs__tab" id="resources" data-tab-info>
             <div class="row" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">                
                 {% assign c = "c-research-card" %}
                 {% if site.research.size > 0 %}
@@ -92,7 +92,7 @@ order: 4
                 {% endif %}
             </div>
         </div>
-        <div class="tabs__tab" id="tab_4" data-tab-info>
+        <div class="tabs__tab" id="culinary" data-tab-info>
             <h3 style="text-align: center;">#yummy food photos.</h3>
             <div class="grid-wall--all-screen">
                 <iframe src='https://widget-cdfa61b7a8bb43aca8a81e0a42251778.elfsig.ht' width="100%" height="1300px"
@@ -107,30 +107,43 @@ order: 4
 </div>
 
 <script type="text/javascript">
-    // function to get each tab details
-    const tabs = document.querySelectorAll('[data-tab-value]')
-    const tabInfos = document.querySelectorAll('[data-tab-info]')
-    let current_tab
-
-    tabs.forEach(tab => {
-        if (tab.classList.contains("c-tab--active")) {
-            current_tab = tab
-        }
-    })
-
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
+    document.addEventListener("DOMContentLoaded", () => {
+        const tabs = document.querySelectorAll('[data-tab-value]');
+        const tabInfos = document.querySelectorAll('[data-tab-info]');
+        
+        // Helper function to activate a tab and its content
+        function activateTab(tab) {
             const target = document.querySelector(tab.dataset.tabValue);
-            tabInfos.forEach(tabInfo => {
-                tabInfo.classList.remove('active');
-            })
-            target.classList.add('active');
 
-            current_tab.classList.add('c-tab--inactive');
-            current_tab.classList.remove('c-tab--active');
-            tab.classList.add('c-tab--active');
-            tab.classList.remove("c-tab--inactive");
-            current_tab = tab
-        })
-    })
+            // Remove 'active' class from all tabs and tab contents
+            tabs.forEach(t => t.classList.replace('c-tab--active', 'c-tab--inactive'));
+            tabInfos.forEach(info => info.classList.remove('active'));
+
+            // Add 'active' class to the selected tab and content
+            tab.classList.replace('c-tab--inactive', 'c-tab--active');
+            target.classList.add('active');
+        }
+
+        // Set default tab based on URL hash or fallback to the first tab
+        const hash = window.location.hash;
+        const defaultTab = [...tabs].find(tab => tab.dataset.tabValue === hash) || tabs[0];
+        activateTab(defaultTab);
+
+        // Add click event listeners to tabs
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor behavior
+                activateTab(tab);
+
+                // Update URL hash
+                history.pushState(null, null, tab.dataset.tabValue);
+            });
+        });
+
+        // Handle browser back/forward navigation to update active tab
+        window.addEventListener('popstate', () => {
+            const hashTab = [...tabs].find(tab => tab.dataset.tabValue === window.location.hash) || tabs[0];
+            activateTab(hashTab);
+        });
+    });
 </script>

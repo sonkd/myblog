@@ -17,14 +17,14 @@ isMainPage: true
 
     <!-- tabs -->
     <div class="tabs c-tabs__bar library-tab" style="justify-content:center !important">
-        <a href="#" data-tab-value="#tab_1" class="c-tab c-tab--active c-tab--small">🙉Micro</a>
-        <a href="#" data-tab-value="#tab_2" class="c-tab c-tab--inactive c-tab--small">🙈Thoughts</a>
-        <a href="#" data-tab-value="#tab_3" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🙊Reading</a>
+        <a href="#" data-tab-value="#micro" class="c-tab c-tab--active c-tab--small">🙉Micro</a>
+        <a href="#" data-tab-value="#thought" class="c-tab c-tab--inactive c-tab--small">🙈Thoughts</a>
+        <a href="#" data-tab-value="#reading" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🙊Reading</a>
     </div>
     <!-- end tabs -->
     <div class="tab-content">
         <!-- TAB 1 -->
-        <div class="tabs__tab active" id="tab_1" data-tab-info>
+        <div class="tabs__tab active" id="micro" data-tab-info>
             <p style="text-align: center;">Short as I am saying.</p>
             {% assign stories = site.micro | reverse %}
             {% if stories.size > 0 %}
@@ -58,7 +58,7 @@ isMainPage: true
             {% endif %}
         </div>
         <!-- TAB 2 -->
-        <div class="tabs__tab" id="tab_2" data-tab-info>
+        <div class="tabs__tab" id="thought" data-tab-info>
             <p style="text-align: center;">Calm.Writing.Reflection</p>
             {% assign posts = site.blog | reverse %}
             {% if posts.size > 0 %}
@@ -149,7 +149,7 @@ isMainPage: true
             {% endif %}
         </div>
         <!-- TAB 3 -->
-        <div class="tabs__tab" id="tab_3" data-tab-info>
+        <div class="tabs__tab" id="reading" data-tab-info>
             <p style="text-align: center;">Explore.Experience.Dream</p>
             <div class="photo-wall--all-screen">
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green"
@@ -161,30 +161,43 @@ isMainPage: true
 </div>
 
 <script type="text/javascript">
-    // function to get each tab details
-    const tabs = document.querySelectorAll('[data-tab-value]')
-    const tabInfos = document.querySelectorAll('[data-tab-info]')
-    let current_tab
-
-    tabs.forEach(tab => {
-        if (tab.classList.contains("c-tab--active")) {
-            current_tab = tab
-        }
-    })
-
-    tabs.forEach(tab => {
-        tab.addEventListener('click', () => {
+    document.addEventListener("DOMContentLoaded", () => {
+        const tabs = document.querySelectorAll('[data-tab-value]');
+        const tabInfos = document.querySelectorAll('[data-tab-info]');
+        
+        // Helper function to activate a tab and its content
+        function activateTab(tab) {
             const target = document.querySelector(tab.dataset.tabValue);
-            tabInfos.forEach(tabInfo => {
-                tabInfo.classList.remove('active');
-            })
-            target.classList.add('active');
 
-            current_tab.classList.add('c-tab--inactive');
-            current_tab.classList.remove('c-tab--active');
-            tab.classList.add('c-tab--active');
-            tab.classList.remove("c-tab--inactive");
-            current_tab = tab
-        })
-    })
+            // Remove 'active' class from all tabs and tab contents
+            tabs.forEach(t => t.classList.replace('c-tab--active', 'c-tab--inactive'));
+            tabInfos.forEach(info => info.classList.remove('active'));
+
+            // Add 'active' class to the selected tab and content
+            tab.classList.replace('c-tab--inactive', 'c-tab--active');
+            target.classList.add('active');
+        }
+
+        // Set default tab based on URL hash or fallback to the first tab
+        const hash = window.location.hash;
+        const defaultTab = [...tabs].find(tab => tab.dataset.tabValue === hash) || tabs[0];
+        activateTab(defaultTab);
+
+        // Add click event listeners to tabs
+        tabs.forEach(tab => {
+            tab.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default anchor behavior
+                activateTab(tab);
+
+                // Update URL hash
+                history.pushState(null, null, tab.dataset.tabValue);
+            });
+        });
+
+        // Handle browser back/forward navigation to update active tab
+        window.addEventListener('popstate', () => {
+            const hashTab = [...tabs].find(tab => tab.dataset.tabValue === window.location.hash) || tabs[0];
+            activateTab(hashTab);
+        });
+    });
 </script>
