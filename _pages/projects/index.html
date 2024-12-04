@@ -9,7 +9,7 @@ isMainPage: true
 ---
 
 <section class="container-full" style="text-align: center">
-  <h1>{{ page.title | escape }}.Think.<a href="https://play.sonkd.com">Play</a></h1>
+  <h1>{{ page.title | escape }}.Think.Play</h1>
   <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people
     love.</p>
 </section>
@@ -28,6 +28,23 @@ isMainPage: true
   {% else %}
   <div class="row">
     {% assign c = "c-project-card" %}
+    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
+      data-aos-duration="{{delay-time}}">
+      <div class="{{c}}__content">
+        <a href="{{ site.author.play }}" class="{{c}}__image">>
+          <img loading="lazy" style="object-fit:unset" src="{{site.baseurl}}/assets/img/rick.webp" alt="Play Zone">
+        </a>
+        <div class="{{c}}__info">
+          <div class="{{c}}__info-wrap">
+            <h3 class="{{c}}__title">PLAY ZONE</h3>
+          </div>
+          <div class="{{c}}__info-wrap">
+            <div class="{{c}}__subtitle">Simple.Stupid.Fun</div>
+          </div>
+        </div>
+      </div>
+    </article>
+
     {% if paginator.total_pages > 1 %}
     {% assign delay-time = 600 %}
     {% for project in paginator.posts %}
@@ -50,8 +67,8 @@ isMainPage: true
             <h3 class="{{c}}__title">{{ project.title }}</h3>
           </div>
           <div class="{{c}}__info-wrap">
-            {% if project.description %}
-            <div class="{{c}}__subtitle">{{ project.description }}</div>
+            {% if project.summary %}
+            <div class="{{c}}__subtitle">{{ project.summary }}</div>
             {% endif %}
           </div>
         </div>
