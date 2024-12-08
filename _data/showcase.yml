@@ -1,3 +1,14 @@
+project14:
+  name: SOICT Logo
+  images:
+    - url: /assets/img/project/soict-logo/soict-logo-1.png
+      alt: design concept
+    - url: /assets/img/project/soict-logo/soict-logo-2.png
+      alt: design concept
+    - url: /assets/img/project/soict-logo/soict-logo-3.png
+      alt: design concept
+    - url: /assets/img/project/soict-logo/soict-logo-4.png
+      alt: design concept
 project13:
   name: Ready Crypto Wallet
   images:
