@@ -16,13 +16,14 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 - Explore more places with my little princess.
 
 ### Works
-- Do somethings crazy and fun [here](https:///playp.sonkd.com)
+- Do somethings crazy and fun [here](https:///playp.sonkd.com).
+
 <span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
 
 ---
 
 <details>
-<summary><b>History</b></summary>
+<summary><b>Archive</b></summary>
 <h4> 2024 </h4>
 <h5>Traveling</h5>
 Back to Japan secondary. It truly lives up to its reputation for peace and beauty—just like in the media. I was blown away by the perfectly organized traffic, smartly designed buildings, and how everything seemed to flow with logic and artistry. The payment systems? Next level! Everything is so synchronized and convenient, with self-service machines that are super smart. But oddly enough, I felt a bit of sadness (or maybe boredom) in Tokyo and [the places]({{ site.url }}/archive#2023) I visited. It felt like they could use a bit more color to brighten things up!
