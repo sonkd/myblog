@@ -20,6 +20,9 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 
 <span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
 
+### Meet me in ADPList
+<section style="height: 496px; box-shadow: rgba(142, 151, 158, 0.15) 0px 4px 19px 0px; border-radius: 16px; overflow: hidden; width: 100%; max-width: 650px;"><iframe src="https://adplist.org/widgets/single-session?src=kim-dinh-son&amp;session=" title="" width="100%" height="100%" loading="lazy" style="border: 0px;"></iframe></section>
+
 ---
 
 <details>
