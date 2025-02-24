@@ -6,9 +6,8 @@ author: sonohyeah
 image: 
 headerImage: false
 tag:
-- Competency
 - Design
-- Career path
+- Career Path
 
 ---
 

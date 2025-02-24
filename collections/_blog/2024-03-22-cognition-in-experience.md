@@ -6,10 +6,9 @@ author: sonkd
 image: /assets/img/blog/fish-sauce.png
 tag:
 - UX Design
-- HCI
+- UX Psychology
 - Decision Making
-- Cognition
-- Behaviour
+- Customer Behaviour
 
 star: false
 blog: true

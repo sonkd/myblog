@@ -2,7 +2,7 @@
 title: Product and UX Designers Competencies
 layout: post
 date: 2023-12-14 09:45:45
-tag: [Competencies, Product Design]
+tag: [Career Path, Product Design]
 image: https://productdesigninterview.com/img/ux-competencies-matrix/Unacademy-63d7e3c2c2.png
 description: "Short overview by Artiom Dashinsky"
 ---

@@ -11,7 +11,7 @@ challenges:
 roles:
 - Graphic Design
 
-tag: [Logo , Design]
+tag: [Logo , Graphic Design]
 image: https://mir-s3-cdn-cf.behance.net/project_modules/fs/55b36723519075.5632459dc07da.jpg
 showcase-code: project14 # update in data/showcase
 

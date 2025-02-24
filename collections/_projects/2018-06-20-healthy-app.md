@@ -12,7 +12,7 @@ roles:
 - UX Design
 - Product lead
 
-tag: [Healthy, Mobile, Application, UX, Design]
+tag: [Healthy, UX Design]
 image: /assets/img/project/project-cover-ihealth.png
 showcase-code: project10 # update in data/showcase
 

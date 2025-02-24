@@ -6,8 +6,7 @@ author: sonohyeah
 image: /assets/img/blog/technical-debt-pentalog.png
 headerImage: false
 tag:
-- Design
-- Management
+- Design Ops
 
 star: false
 blog: true

@@ -11,7 +11,7 @@ challenges:
 - The key is timing the proper user context (shopping use cases) rather than advising them when needed
 roles: [UX Design]
 
-tag: [Digital Banking, Mobile, Payment, Credit Card]
+tag: [Digital Banking, UX Design, Payment]
 image: /assets/img/project/tcb-instalment/project-cover.png
 showcase-code: project03 # update in data/showcase
 

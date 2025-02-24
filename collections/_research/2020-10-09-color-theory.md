@@ -3,8 +3,7 @@ title: Color Theory & Practices
 layout: post
 date: 2020-10-09 11:06:45
 tag:
-- Color Theory
-- Design
+- UX/UI
 - Art
 image: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEJ806ge_oUbN5ew3fRABw0F7Tyn3Wm0VqMaGwa2R3qQ9bMe-DXSKtAg3iZUV_oC2QVHsR0ZwgJk3c2RpMVrw8evjrC7n0IBe8_k1jCYKG4edbG4MPQlbQqzEB99NmtULKQ74ayXI4OteA/s400/Theory+and+Practice+of+Color+Wheel.jpg
 description: "6 phần nội dung chia sẻ về Màu sắc từ anh @HungDelnary"

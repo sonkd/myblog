@@ -2,7 +2,7 @@
 title: Mid Journey AI prompts
 layout: post
 date: 2023-12-05 09:45:45
-tag: [AI, Prompts]
+tag: [AI]
 image: https://upload.wikimedia.org/wikipedia/commons/3/30/Midjourney_Emblem_%E2%80%94_June.png
 description: "How to prompts with MJ"
 ---

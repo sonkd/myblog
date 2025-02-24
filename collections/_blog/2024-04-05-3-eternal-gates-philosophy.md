@@ -7,7 +7,6 @@ image: /assets/img/micro/3-eternal-gates.jpg
 headerImage: false
 tag:
 - Philosophy
-- Product Design
 
 star: false
 blog: true

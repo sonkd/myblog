@@ -14,7 +14,7 @@ roles:
 - UX Design
 - Product lead
 
-tag: [Startup, Football, Product, UX, Design]
+tag: [Startup, Football, Product Developement, UX Design]
 image: /assets/img/project/footy-background.jpg
 showcase-code: project11 # update in data/showcase
 

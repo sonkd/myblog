@@ -6,10 +6,8 @@ author: sonohyeah
 image: 
 headerImage: false
 tag:
-- Design
+- Learning
 - Simplicity
-- Knowledge
-- Experience
 
 star: false
 blog: true

@@ -6,8 +6,7 @@ author: sonohyeah
 image: /assets/img/blog/2021-08-25/jupiters-legacy.jpeg
 headerImage: false
 tag:
-- Design
-- Product
+- Career Path
 - Movies
 - Storytelling
 

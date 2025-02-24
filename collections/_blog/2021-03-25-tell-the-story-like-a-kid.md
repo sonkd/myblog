@@ -6,7 +6,6 @@ author: sonohyeah
 image: 
 headerImage: false
 tag:
-- Design
 - Storytelling
 
 star: false

@@ -17,7 +17,7 @@ challenges:
 roles:
 - UI Design
 
-tag: [Game, Mobile, UI]
+tag: [Game Design, UX/UI]
 image: /assets/img/project/dota2-trivia/dota2-trivia-cover.png
 showcase-code: project06 # update in data/showcase
 

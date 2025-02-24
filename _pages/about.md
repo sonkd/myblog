@@ -24,6 +24,13 @@ See my ["Now"]({{ site.url }}/now/).
 
 - Product Design for a digital bank in Vietnam. I'm responsible for the whole onboarding experience of customers.
 
+<div class="post-tags">                  
+    <a href="{{ site.url }}/tags/#design-ops" class="post-tags__tag">DesignOps</a>
+    <a href="{{ site.url }}/tags/#product-design" class="post-tags__tag">Product Design</a>
+    <a href="{{ site.url }}/tags/#design-thinking" class="post-tags__tag">Design Thinking</a>
+    <a href="{{ site.url }}/tags/#ux-research" class="post-tags__tag">UX Research</a>
+</div>
+
 **My dream and career**
 
 In high school, I was fascinated by the beauty of elementary math, especially Geometry and Combinatorics, and dreamed of becoming a mathematician. Later, I majored in computer science at university, aspiring to create great products like Facebook, Google, or Apple 🫠.

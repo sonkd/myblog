@@ -7,7 +7,7 @@ image:
 headerImage: false
 tag:
 - Problem Solving
-- Design
+- UX Design
 
 ---
 

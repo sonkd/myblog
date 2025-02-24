@@ -6,9 +6,8 @@ author: sonohyeah
 image: /assets/img/blog/goal-levels.png
 headerImage: false
 tag:
-- Design
-- Planning
-- Thinking
+- Design Thinking
+- Product Development
 
 star: false
 blog: true

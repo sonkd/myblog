@@ -13,6 +13,7 @@ challenges:
 roles:
 - UX Design
 - Product Design
+- Retail
 
 tag: [Digital, Retail, AI]
 image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png

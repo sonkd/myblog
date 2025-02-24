@@ -2,7 +2,7 @@
 title: 🥽 Acceptance theories
 layout: post
 date: 2024-08-29 11:59:45
-tag: [Research, Behaviour, Methodoglogy, Psychology, Sociology]
+tag: [UX Research, Customer Behaviour, Methodoglogy, Psychology, Sociology]
 image: https://www.hulkapps.com/cdn/shop/articles/scaled_IMAGE-FILE-UPLOADS-understanding-the-unified-theory-of-acceptance-and-use-of-technology-utaut--665507_990x.jpg?v=1722262657
 description: There are helpful theories for UX and UI Research. Every design needs to evaluate the outcome and performance of the concepts.
 ---

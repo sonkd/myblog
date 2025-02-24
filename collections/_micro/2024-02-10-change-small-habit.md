@@ -7,7 +7,6 @@ image:
 headerImage: false
 tag:
 - Habit
-- Behavior
 
 ---
 

@@ -6,10 +6,7 @@ author: sonkd
 image: 
 tag:
 - Product Development
-- Product
-- Culture
-- Customer Centric
-- Data
+- Data driven
 
 star: false
 blog: true

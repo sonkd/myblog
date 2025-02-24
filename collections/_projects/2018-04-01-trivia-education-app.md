@@ -13,7 +13,7 @@ roles:
 - UX Design
 - Product lead
 
-tag: [Trivia, Mobile, Application, UX, Education]
+tag: [Trivia, Learning, UX Design, Game Design]
 image: /assets/img/project/trivia-game/project-cover.png
 showcase-code: project09 # update in data/showcase
 
