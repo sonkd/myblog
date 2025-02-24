@@ -58,6 +58,9 @@ permalink: /tags/
     tags.forEach(tag => {
         weight = tag.getAttribute('data-weight');
         tag.style["font-size"] = (weight * 4 + 60)+"%";
+        if (weight < 5) {
+            tag.style["opacity"] = .5+weigh/10;
+        }
     })
 </script>
 
