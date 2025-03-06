@@ -16,7 +16,7 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 - Explore more places with my little princess.
 
 ### Works
-- Do somethings crazy and fun [here](https:///playp.sonkd.com).
+- Do somethings crazy and fun [here](https:///play.sonkd.com).
 
 <span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
 

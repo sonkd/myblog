@@ -6,7 +6,7 @@ author: sonohyeah
 image: 
 headerImage: false
 tag:
-- Carrer Path
+- Career Path
 
 ---
 I shared my thought about my career at [here](https://www.linkedin.com/pulse/three-key-factors-help-sustain-journey-towards-your-dream-son/?trackingId=3lvB4RbW0cA3kgzo9KxD0Q%3D%3D).
