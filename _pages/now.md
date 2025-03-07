@@ -17,11 +17,10 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 
 ### Works
 - Do somethings crazy and fun [here](https:///play.sonkd.com).
+- Open Banking Project
+- Redesigning the new payment experience (mobile banking app)--embedded experience.
 
 <span><a href="{{site.baseurl}}/projects">See more my works.</a></span>
-
-### Meet me in ADPList
-<section style="height: 496px; box-shadow: rgba(142, 151, 158, 0.15) 0px 4px 19px 0px; border-radius: 16px; overflow: hidden; width: 100%; max-width: 650px;"><iframe src="https://adplist.org/widgets/single-session?src=kim-dinh-son&amp;session=" title="" width="100%" height="100%" loading="lazy" style="border: 0px;"></iframe></section>
 
 ---
 
@@ -29,7 +28,9 @@ This is a <a href="https://nownownow.com/about" class="evidence">now page</a>. U
 <summary><b>Archive</b></summary>
 <h4> 2024 </h4>
 <h5>Traveling</h5>
-Back to Japan secondary. It truly lives up to its reputation for peace and beauty—just like in the media. I was blown away by the perfectly organized traffic, smartly designed buildings, and how everything seemed to flow with logic and artistry. The payment systems? Next level! Everything is so synchronized and convenient, with self-service machines that are super smart. But oddly enough, I felt a bit of sadness (or maybe boredom) in Tokyo and [the places]({{ site.url }}/archive#2023) I visited. It felt like they could use a bit more color to brighten things up!
+
+Back to Japan secondary. It truly lives up to its reputation for peace and beauty—just like in the media. I was blown away by the perfectly organized traffic, smartly designed buildings, and how everything seemed to flow with logic and artistry. The payment systems? Next level! Everything is so synchronized and convenient, with self-service machines that are super smart. But oddly enough, I felt a bit of boredom in <a href="{{ site.url }}/archive/#2023">Tokyo</a> and the visited places. It felt like they could use a bit more color to brighten things up!
+
 <h5>Works</h5>
 <ul>
     <li>I moved to a new role as a product designer at a digital bank in Vietnam.</li>

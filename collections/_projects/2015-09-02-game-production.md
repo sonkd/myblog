@@ -2,7 +2,7 @@
 title: "🎮 Thiết kế game"
 layout: post
 date: 2017-09-15 04:30:15
-tag: [Game Design, Product Development, UX Design]
+tag: [Game Design, Product Development, UX/UI]
 image: /assets/img/project/sketch-board.jpg
 headerImage: true
 projects: true

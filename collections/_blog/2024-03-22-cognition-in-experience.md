@@ -6,7 +6,8 @@ author: sonkd
 image: /assets/img/blog/fish-sauce.png
 tag:
 - UX Design
-- UX Psychology
+- Psychology
+- Cognitive Bias
 - Decision Making
 - Customer Behaviour
 

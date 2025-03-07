@@ -7,6 +7,7 @@ image: /assets/img/blog/listen_and_feedback.png
 headerImage: false
 tag:
 - Psychology
+- Collaboration
 
 star: false
 blog: true

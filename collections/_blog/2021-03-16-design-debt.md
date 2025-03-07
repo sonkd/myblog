@@ -7,6 +7,7 @@ image: /assets/img/blog/technical-debt-pentalog.png
 headerImage: false
 tag:
 - Design Ops
+- Product Development
 
 star: false
 blog: true

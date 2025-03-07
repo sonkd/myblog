@@ -8,7 +8,6 @@ headerImage: false
 tag:
 - Art
 - Science
-- Design
 
 ---
 To me, art feels incomplete without the foundation of scientific principles. While the beauty of a design can captivate an audience, true appreciation lies in the ability to analyze and uncover the hidden layers of its creation. For those who seek to explore the invisible beauty beneath the surface, science becomes the lens through which art truly comes alive.

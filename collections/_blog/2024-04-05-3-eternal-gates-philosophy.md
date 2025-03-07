@@ -7,6 +7,7 @@ image: /assets/img/micro/3-eternal-gates.jpg
 headerImage: false
 tag:
 - Philosophy
+- Problem Solving
 
 star: false
 blog: true
