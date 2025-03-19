@@ -24,6 +24,7 @@ See my ["Now"]({{ site.url }}/now/).
 
 - Product Design for a digital bank in Vietnam. I'm responsible for the whole onboarding experience of customers.
 
+
 <div class="post-tags">                  
     <a href="{{ site.url }}/tags/#design-ops" class="post-tags__tag">DesignOps</a>
     <a href="{{ site.url }}/tags/#product-design" class="post-tags__tag">Product Design</a>
@@ -37,7 +38,7 @@ In high school, I was fascinated by the beauty of elementary math, especially Ge
 
 I began my career as a mobile app game designer for three years, where I developed skills in **user experience** and customer psychology. This sparked my curiosity to explore further. My favorite book, ["On the Way to Fun](https://www.amazon.com/Way-Fun-Emotion-Based-Approach-Successful/dp/1568815824){:target="_blank"}: An Emotion-Based Approach to Successful Game Design", taught me the key difference between buying and creating: to build with passion and mind, and to craft with skills and tools.
 
-In recent years, I have worked in the field of Digital Product Design in the finance/banking industry and consulted for several blockchain projects. This has given me a broad view of financial systems, from micro to macro, and how various factors influence decisions at individual, group, and national levels. It's too BIG 😂. Now, I'm studying psychology behavior to understand how customers buy and make decisions. My most interested topic is [Bias in Product Design](/research/2023-12-13-bias).
+In recent years, I have worked in the field of Digital Product Design in the finance/banking industry and consulted for several blockchain projects. This has given me a broad view of financial systems, from micro to macro, and how various factors influence decisions at individual, group, and national levels. It's too BIG 😂. Now, I'm studying psychology behavior to understand how customers buy and make decisions. My most interested topic is [Bias in Product Design](/research/2023-12-13-bias). Check my project [Stuffunseen.com](https://stuffunseen.com/)
 
 I still dreamed of my dream when I was a kid-an artist 🧑‍🎨. That can help me answer *"Who am I?"* question.
 

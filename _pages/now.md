@@ -34,7 +34,7 @@ Back to Japan secondary. It truly lives up to its reputation for peace and beaut
 <h5>Works</h5>
 <ul>
     <li>I moved to a new role as a product designer at a digital bank in Vietnam.</li>
-    <li>Creating my first project to show the invisible things in psychology and understanding how the brain works.</li>
+    <li>Creating my first project <a href="https://stuffunseen.com">stuffunseen.com</a> to show the invisible things in psychology and understanding how the brain works.</li>
     <li> As part of my responsibilities, I'm designing the Customer Experience (CX) for the onboarding journey, guiding users from the 'New' phase to the pre-loyalty stage.</li>
     <li> I'm working with our Data team to develop a recommendation platform based on the RFM (Recency, Frequency, Monetary) analysis framework, delivering customer personalization and user engagement solutions.</li>
 </ul>
