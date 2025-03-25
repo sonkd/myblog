@@ -15,4 +15,4 @@ We can't judge whether an insight is right or wrong (cause it's a piece of infor
 
 When observing to collect the raw customer data, we should keep an open-ended approach, avoid bias, and do anything that can impact "real" data from the customer's view. Good observations lead to good insights.
 
-![How can we define good insights?](/micro/good-insights.png)
+![How can we define good insights?](/good-insights.png)
