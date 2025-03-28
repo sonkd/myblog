@@ -1,4 +1,4 @@
-{% assign posts = site.blog | reverse %}
+{% assign posts = site.blog | where: 'hidden', "false" | reverse %}
 {% if posts.size > 0 %}
 <h2 style="text-align: center;">Recent writings</h2>
 {% for post in posts limit: 3 %}
