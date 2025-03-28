@@ -1,13 +1,11 @@
 ---
-title: "3 Eternal Gates Philosophy"
+title: "Chuẩn hóa quy trình thiết kế sản phẩm digital ở Doanh nghiệp"
 layout: post
 date: 2025-03-25 16:25:00
 author: sonohyeah
-image: /assets/img/micro/3-eternal-gates.jpg
+image: 
 headerImage: false
 tag:
-- UX Design
-- UX Research
 - Collaboration
 - UX/UI
 - Methodology

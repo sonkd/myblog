@@ -29,7 +29,7 @@ isMainPage: true
     <div class="tab-content">
         <!-- TAB 1 -->
         <div class="tabs__tab active" id="micro" data-tab-info>
-            <p style="text-align: center;">Short as I am saying.</p>
+            <p style="text-align: center;">Simple.Short.Story.</p>
             {% assign stories = site.micro | reverse %}
             {% if stories.size > 0 %}
             {% if paginator.total_pages > 1 %}
@@ -66,8 +66,8 @@ isMainPage: true
         </div>
         <!-- TAB 2 -->
         <div class="tabs__tab" id="thought" data-tab-info>
-            <p style="text-align: center;">Calm.Writing.Reflection</p>
-            {% assign posts = site.blog | reverse %}
+            <p style="text-align: center;">Research.Reflection.Rethink.</p>
+            {% assign posts = site.blog | where: 'hidden', "false" | reverse %}
             {% if posts.size > 0 %}
             {% if paginator.total_pages > 1 %}
             {% for post in paginator.posts %}
@@ -157,7 +157,7 @@ isMainPage: true
         </div>
         <!-- TAB 3 -->
         <div class="tabs__tab" id="reading" data-tab-info>
-            <p style="text-align: center;">Explore.Experience.Dream</p>
+            <p style="text-align: center;">Lifelong.Learning.Loop.</p>
             <div class="photo-wall--all-screen">
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green"
                     frameborder="0" onmousewheel="" width="100%" height="1200px"
