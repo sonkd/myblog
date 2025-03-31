@@ -25,7 +25,8 @@ See my ["Now"]({{ site.url }}/now/).
 - Product Design for a digital bank in Vietnam. I'm responsible for the whole onboarding experience of customers.
 
 
-<div class="post-tags">                  
+<div class="post-tags">
+    <a href="{{ site.url }}/tags/#game-design" class="post-tags__tag">Game Design</a>                 
     <a href="{{ site.url }}/tags/#design-ops" class="post-tags__tag">DesignOps</a>
     <a href="{{ site.url }}/tags/#product-design" class="post-tags__tag">Product Design</a>
     <a href="{{ site.url }}/tags/#design-thinking" class="post-tags__tag">Design Thinking</a>
