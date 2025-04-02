@@ -1,9 +1,10 @@
+@use "0-settings/variables";
 /* Post */
 .post {
   margin-top: 80px;
   margin-bottom: 80px;
 
-  @media #{$mobile} {
+  @media #{variables.$mobile} {
     margin-top: 50px;
     margin-bottom: 50px;
   }
@@ -15,16 +16,16 @@
 
 .post__title {
   margin-bottom: 10px;
-  font-size: $h1-size;
-  line-height: calc($h1-size * 1.25);
+  font-size: variables.$h1-size;
+  line-height: calc(variables.$h1-size * 1.25);
 }
 
 .post__date {
   margin-bottom: 30px;
-  font-family: $secondary-font;
+  font-family: variables.$secondary-font;
   font-size: 12px;
   text-transform: uppercase;
-  color: $sub-text-color;
+  color: variables.$sub-text-color;
 }
 
 .post-image {
@@ -33,7 +34,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: $background-color-3;
+  background-color: variables.$background-color-3;
   &:after {
     content: '';
     display: table;
@@ -44,10 +45,10 @@
 .post__content {
   margin-bottom: 45px;
   p {
-    font-size: $body-size;
+    font-size: variables.$body-size;
     line-height: 140%;
     letter-spacing: 0.3px;
-    color: $dark;
+    color: variables.$dark;
     img {
       margin: 1rem 10%;
       width: 80%;
@@ -64,7 +65,7 @@
   }
 
   a:hover {
-    color: $secondary-color
+    color: variables.$secondary-color
   }
 
   a::after {
@@ -77,28 +78,28 @@
     bottom: .25rem;
     left: 0;
     height: .5em;
-    background-color: rgba($secondary-color,.5);
+    background-color: rgba(variables.$secondary-color,.5);
     transform-origin: bottom;
     transition: transform 300ms;
   }
 
   a:focus::after,
   a:hover::after {
-    background-color: rgba($secondary-color,1);
+    background-color: rgba(variables.$secondary-color,1);
     bottom: 0;
     transform: scaleY(0.25)
   }
 }
 
 .post__content blockquote p {
-  font-size: $h4-size
+  font-size: variables.$h4-size
 }
 
 /* Post Navigation */
 .post__navigation {
   position: relative;
   z-index: 100;
-  @media #{$tablet} {
+  @media #{variables.$tablet} {
     display: none;
   }
 }
@@ -113,7 +114,7 @@
   align-items: center;
   width: 70px;
   height: 70px;
-  color: $dark;
+  color: variables.$dark;
   &:hover {
     .post__nav-wrapper {
       visibility: visible;
@@ -221,7 +222,7 @@
   min-height: 70px;
   visibility: hidden;
   opacity: 0;
-  background-color: $white;
+  background-color: variables.$white;
   transition: opacity 150ms ease-out, visibility 0ms 150ms linear, transform 100ms ease-out;
   pointer-events: auto;
   z-index: 100;
@@ -257,10 +258,10 @@
   vertical-align: middle;
   time {
     padding-right: 5px;
-    font-family: $fontMonospace;
+    font-family: variables.$font-monospace;
     font-size: 12px;
     text-transform: uppercase;
-    color: $sub-text-color;
+    color: variables.$sub-text-color;
   }
 }
 
@@ -273,18 +274,18 @@
   /*min-width: 3rem;*/
   display: inline-block;
   text-align: center;
-  font-family: $fontSansSerif;
+  font-family: variables.$font-sans-serif;
   font-style: italic;
-  font-size: $caption-size;
-  line-height: $caption-line_height;
-  line-height: -webkit-calc($caption-line_height*1.75);
-  line-height: -moz-calc($caption-line_height*1.75);
+  font-size: variables.$caption-size;
+  line-height: variables.$caption-line_height;
+  line-height: -webkit-calc(variables.$caption-line_height*1.75);
+  line-height: -moz-calc(variables.$caption-line_height*1.75);
   text-decoration-line: none;
-  color: $tertiary-color;
+  color: variables.$tertiary-color;
 
   /* 
   margin: 0 4px 8px 0;
-  outline:  1px solid $gray-300;
+  outline:  1px solid variables.$gray-300;
   outline-offset: 2px;
   border-radius: 8px;
   padding: 0 8px;
@@ -292,20 +293,20 @@
   /* Do not show "," after a tag */
   &:after {
     content: ',';
-    color: $tertiary-color;
+    color: variables.$tertiary-color;
     display: inline-block;
   }
   &:last-child {
     &:after {
       content: '';
-      color: $tertiary-color;
+      color: variables.$tertiary-color;
       display: inline-block;
     }
   }
   
   &:hover {
-    color: $primary-color;
-    background-color: $background-color-4;
+    color: variables.$primary-color;
+    background-color: variables.$background-color-4;
     outline: none
   }
 }
@@ -323,13 +324,13 @@
 .share__link svg {
   width: 21px;
   height: 21px;
-  fill: $dark;
+  fill: variables.$dark;
   transition: fill 200ms
 }
 
 .share__link:hover {
   svg {
-    fill: $primary-color
+    fill: variables.$primary-color
   }
 }
 
@@ -342,7 +343,7 @@
   font-weight: 700;
   border: none;
   outline: none;
-  color: $primary-color;
+  color: variables.$primary-color;
   background-color: transparent;
   cursor: pointer
 }
@@ -350,8 +351,8 @@
 /* CV cards */
 .cv-card {
   cursor: pointer;
-  background-color: $background-color-3;
-  color: $gray;
+  background-color: variables.$background-color-3;
+  color: variables.$gray;
   padding: 1rem;
   margin: .5rem 0;
   flex-shrink: 0;
@@ -364,12 +365,12 @@
   &:hover{
     box-shadow: 0 5px 46px 0 rgba(165,165,165,0.12), 0 7px 15px 0 rgba(165,165,165,0.20);
     -webkit-transform: translateY(-5px);
-    border-color: $border-3-color
+    border-color: variables.$border-3-color
   }
 }
 
 .cv-card .title{ 
-  color: $primary-text-color;
+  color: variables.$primary-text-color;
   font-size: 1rem;
   padding: 1rem 0;
   line-height: 1.25;

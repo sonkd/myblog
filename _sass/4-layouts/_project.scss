@@ -1,10 +1,11 @@
+@use "0-settings/variables";
 /* Project */
 .project {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 1rem;
 
-    @media #{$mobile} {
+    @media #{variables.$mobile} {
         margin-top: 50px;
         margin-bottom: 50px;
     }
@@ -42,10 +43,10 @@
     }
 
     p {
-        font-size: $body-size;
-        line-height: calc($body-line_height + 0rem);
+        font-size: variables.$body-size;
+        line-height: calc(variables.$body-line_height + 0rem);
         letter-spacing: 0.3px;
-        color: $dark;
+        color: variables.$dark;
     }
 }
 
@@ -60,10 +61,10 @@
     }
 
     p {
-        font-size: $body-size;
-        line-height: calc($body-line_height + 0rem);
+        font-size: variables.$body-size;
+        line-height: calc(variables.$body-line_height + 0rem);
         letter-spacing: 0.3px;
-        color: $dark;
+        color: variables.$dark;
     }
 }
 
@@ -82,10 +83,10 @@
 
 .project__date {
     margin-bottom: 30px;
-    font-family: $secondary-font;
+    font-family: variables.$secondary-font;
     font-size: 12px;
     text-transform: uppercase;
-    color: $sub-text-color;
+    color: variables.$sub-text-color;
 }
 
 .project-image {
@@ -93,7 +94,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-color: $background-color-3;
+    background-color: variables.$background-color-3;
 
     &:after {
         content: '';
@@ -107,10 +108,10 @@
     text-align: left;
 
     p {
-        font-size: $body-size;
-        line-height: calc($body-line_height + 0rem);
+        font-size: variables.$body-size;
+        line-height: calc(variables.$body-line_height + 0rem);
         letter-spacing: 0.3px;
-        color: $dark;
+        color: variables.$dark;
 
         img {
             margin: 30px 0;

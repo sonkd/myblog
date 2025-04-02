@@ -1,10 +1,11 @@
+@use "0-settings/variables";
 .side-by-side {
-    @media #{$above} {
+    @media #{variables.$above} {
         width: 130%;
         margin: 2rem 0 2rem -15%;
     }
 
-    @media #{$below} {
+    @media #{variables.$below} {
         width: 100%;
         margin: 4rem 0;
     }
@@ -18,7 +19,7 @@
             top: 1rem !important
         }
 
-        @media #{$below} {
+        @media #{variables.$below} {
             img {
                 text-align: center;
                 display: block;
@@ -28,23 +29,23 @@
     }
 
     .toleft {
-        @media #{$above} {
+        @media #{variables.$above} {
             margin-right: 2%;
         }
 
-        @media #{$below} {
+        @media #{variables.$below} {
             width: 100%;
             /*margin: 0 0 4rem 0;*/
         }
     }
 
     .toright {
-        @media #{$above} {
+        @media #{variables.$above} {
             margin-left: 2%;
             vertical-align: top;
         }
 
-        @media #{$below} {
+        @media #{variables.$below} {
             width: 100%;
             /*margin: 0 0 4rem 0;*/
         }
@@ -53,7 +54,7 @@
     .toleft.p, .toright.p {
         margin: 0 0 4rem 0;
 
-        @media #{$below} {
+        @media #{variables.$below} {
             margin: 0;
         }
     }

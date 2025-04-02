@@ -27,10 +27,11 @@ Help me code a web app for splitting bills of a group of friends; my basic idea 
 
 Can I improve this idea also which step I can build this app, help me code that.
 ```
+\
+Ở chế độ *Think*, Grok đã "tư duy" phân tích yêu cầu tỉ mỉ tương tự tính năng DeepThink của DeepSeek hay Reason của ChatGPT. Thật điên rồ, vượt hơn sự mong đợi, có thể nói kết quả tương đương như một bản proposal của một team phát triển sản phẩm (thông thường để ra outline như vậy sẽ mất khoản 1 tuần làm việc).
 
-Ở chế độ *Think* Grok đã "tư duy" phân tích yêu cầu tỉ mỉ tương tự tính năng DeepThink của DeepSeek hay Reason của ChatGPT. Thật điên rồ, vượt hơn sự mong đợi, có thể nói kết quả tương đương như một bản proposal của một team phát triển sản phẩm (thông thường để ra outline như vậy sẽ mất khoản 1 tuần làm việc).
+[See details (Thoughts by Grok3)](/micro/bill-splitter-thoughts-grok3.md)
 
-[See details (Thoughts by Grok3)](./bill-splitter-thoughts-grok3.md)
 Cấu trúc "sinh" của AI như sau:
 
 1. **Human-to-Machine**: Hiểu yêu cầu từ prompt (Understanding Your Requirements)
@@ -44,6 +45,7 @@ Nhận thấy cần đơn giản hơn một chút, tôi điều chỉnh.
 ```bash
 Hold on, Can I code only with Javascript, make it with a simple alternative version
 ```
+\
 Cơ chế phản hồi của Grok cũng tương tư như trên những có sự thay đổi ở bước 4.
 
 1. **Overview of the Simplified Version**

@@ -1,7 +1,8 @@
+@use "0-settings/variables";
 .archive-image {
     position:relative;
     width: 100%;
-    background-color: $dark;
+    background-color: variables.$dark;
     border-radius: 1.2rem;
     overflow: hidden;
     display:inline-block;

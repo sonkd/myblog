@@ -1,4 +1,5 @@
 /* tab */
+@use "0-settings/variables";
 
 @media all {
   .c-tabs__bar {
@@ -20,17 +21,17 @@
   }
 }
 
-@media #{$tablet} {
+@media #{variables.$tablet} {
   .c-tabs__bar {
     margin-top: 1.5rem
   }
 }
 
-@media #{$mobile} {
+@media #{variables.$mobile} {
 
   .c-tabs__bar .cta-tab,
   .c-tabs__bar .works-tab {
-    font-size: $h5-size;
+    font-size: variables.$h5-size;
   }
 }
 
@@ -52,13 +53,13 @@
   overflow: hidden;
 
   &--active {
-    color: $primary-color;
+    color: variables.$primary-color;
     text-decoration: none;
-    background: $background-color-4
+    background: variables.$background-color-4
   }
 
   &--inactive {
-    color: $dark;
+    color: variables.$dark;
     text-decoration: none;
     background: none;
 
@@ -71,13 +72,13 @@
   &--small {
     padding: .75rem 1rem;
     /* margin-bottom: .5rem; */
-    font-size: $body-size
+    font-size: variables.$body-size
   }
 
   &--large {
     padding: 1.25rem 2.5rem;
     /* margin-bottom: .5rem; */
-    font-size: $h5-size
+    font-size: variables.$h5-size
   }
 }
 

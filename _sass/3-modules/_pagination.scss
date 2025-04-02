@@ -1,3 +1,4 @@
+@use "0-settings/variables";
 /* Pagination */
 
 .pagination {
@@ -14,27 +15,27 @@
 .pagination__count,
 .pagination__next {
   padding: 16px 20px;
-  font-size: $body-size;
+  font-size: variables.$body-size;
   font-weight: 700;
-  line-height: calc($body-line_height - 8px);
+  line-height: calc(variables.$body-line_height - 8px);
   border-radius: 16px;
   box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.07);
-  background-color: $background-color-4;
+  background-color: variables.$background-color-4;
 
-  @media #{$mobile} {
+  @media #{variables.$mobile} {
     padding: 16px;
   }
 }
 
 .pagination__prev,
 .pagination__next {
-  font-size: $body-size;
+  font-size: variables.$body-size;
   text-decoration-line: none;
-  color: $primary-color;
+  color: variables.$primary-color;
   will-change: transform;
 
   &.disabled {
-    color: rgba($primary-color, 0.4);
+    color: rgba(variables.$primary-color, 0.4);
 
     &:hover {
       i {
@@ -73,8 +74,8 @@
 
 .pagination__count {
   margin: 0 6px;
-  font-size: $body-size;
+  font-size: variables.$body-size;
   font-weight: 600;
-  color: rgba($gray, 0.7);
-  background-color: $background-color-3;
+  color: rgba(variables.$gray, 0.7);
+  background-color: variables.$background-color-3;
 }

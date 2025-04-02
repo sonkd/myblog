@@ -1,3 +1,4 @@
+@use "0-settings/variables";
 /* grid wall */
 
 .grid-wall--all-screen {
@@ -12,7 +13,7 @@
     align-items: center;
 }
 
-@media #{$mobile} {
+@media #{variables.$mobile} {
     .grid-wall--all-screen main {
         width: 100%;
         /* display the anchor links in a grid */
@@ -41,7 +42,7 @@
             display: block;
             width: 100%;
             height: auto;
-            background-color: $background-color-4;
+            background-color: variables.$background-color-4;
             /* transition the scale and brightness of the image when hover/focus-ing on the anchor link */
             filter: brightness(0.8);
             transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -53,7 +54,7 @@
     }
 }
 
-@media #{$desktop} {
+@media #{variables.$desktop} {
 .grid-wall--all-screen main {
     width: 100%;
     /* display the anchor links in a grid */
@@ -90,7 +91,7 @@
         width: 100%;
         height: auto;
         max-height: 600px;
-        background-color: $background-color-4;
+        background-color: variables.$background-color-4;
         /* transition the scale and brightness of the image when hover/focus-ing on the anchor link */
         filter: brightness(0.8);
         transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);

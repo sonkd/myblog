@@ -1,3 +1,4 @@
+@use "0-settings/variables";
 * {
   box-sizing: border-box
 }
@@ -13,7 +14,7 @@
   /* Hide the images by default */
   .mySlides {
     display: none;
-    background-color: $dark;
+    background-color: variables.$dark;
 
     img {
       height: 400px;
@@ -55,7 +56,7 @@
 
   /* Caption text */
   .text {
-    color: $dark;
+    color: variables.$dark;
     font-size: 15px;
     padding: 8px 12px;
     position: absolute;

@@ -1,4 +1,5 @@
 
+@use "0-settings/variables";
 .et-hero-tabs {
     width: 100vw;
     position: relative;
@@ -61,14 +62,14 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    color: $dark;
+    color: variables.$dark;
     text-decoration-line: none !important;
     letter-spacing: 0.1rem;
 		transition: all 0.5s ease;
 		font-size: 0.8rem;
 	  &:hover {
 			color:white;
-      background: $primary-color;
+      background: variables.$primary-color;
 			transition: all 0.5s ease;
     }
 }
@@ -78,7 +79,7 @@
     bottom: 0;
     width: 0;
     height: 6px;
-    background: $primary-color;
+    background: variables.$primary-color;
     transition: left 0.3s ease;
 }
 

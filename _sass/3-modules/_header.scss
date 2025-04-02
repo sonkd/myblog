@@ -1,3 +1,4 @@
+@use "0-settings/variables";
 /* Header */
 .header {
     position: relative;
@@ -12,7 +13,7 @@
 .logo__link {
     font-size: 1rem;
     font-weight: 700;
-    color: $dark;
+    color: variables.$dark;
     text-decoration: none;
 }
 
@@ -32,7 +33,7 @@
 .id-social {
     display: none;
 
-    @media #{$desktop} {
+    @media #{variables.$desktop} {
         display: inline-block !important;
         padding-left: 0.5rem;
     }
@@ -46,7 +47,7 @@
     display: inline-block;
 
     .nav__link {
-        color: $gray;
+        color: variables.$gray;
         text-decoration: none;
         padding-left: 1rem
     }
@@ -72,7 +73,7 @@
     opacity: 0;
     cursor: pointer;
 
-    @media #{$mobile} {
+    @media #{variables.$mobile} {
         visibility: visible;
         opacity: 1;
     }
@@ -87,7 +88,7 @@
     cursor: pointer;
 }
 
-@media #{$mobile} {
+@media #{variables.$mobile} {
     .main-nav__box {
         position: fixed;
         top: 0;
@@ -97,7 +98,7 @@
         visibility: hidden;
         opacity: 0;
         z-index: 2000;
-        background-color: $white;
+        background-color: variables.$white;
         transition: 400ms ease-in-out;
 
         &.visible {
@@ -123,7 +124,7 @@
             display: block;
             margin-left: 0;
             margin-bottom: 2rem;
-            font-size: $h3-size;
+            font-size: variables.$h3-size;
             line-height: 2rem;
             text-align: center;
 

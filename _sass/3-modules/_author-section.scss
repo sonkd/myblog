@@ -1,9 +1,15 @@
+@use "0-settings/variables";
 /* Author */
 .author {
   margin: 4rem 0;
   padding-bottom: 4rem;
-  border-bottom: 1px solid $border-1-color;
-  @media #{$mobile} {
+  border-bottom: 1px solid variables.$border-1-color;
+  
+  a {
+    text-decoration: none;
+  }
+
+  @media #{variables.$mobile} {
     margin: 2rem 0;
     padding-bottom: 2rem;
   }
@@ -17,7 +23,7 @@
   max-height: 130px;
   margin: 0 auto 2rem;
   border-radius: 50%;
-  background-color: $background-color-2;
+  background-color: variables.$background-color-2;
   transition: opacity 100ms ease;
   &:hover {
     .avatar {
@@ -30,16 +36,16 @@
   margin-bottom: 0;
   font-size: 4rem;
   text-align: center;
-  color: $primary-text-color;
+  color: variables.$primary-text-color;
 }
 
 .author__bio {
   max-width: 450px;
   margin: 0 auto 2rem;
   font-size: 1rem;
-  line-height: $body-line_height;
+  line-height: variables.$body-line_height;
   text-align: center;
-  color: $sub-text-color;
+  color: variables.$sub-text-color;
 }
 
 .author__more {
@@ -55,7 +61,7 @@ a.say-hello {
   text-decoration: none;
   border-radius: 40px;
   color: white;
-  background-color: $primary-color;
+  background-color: variables.$primary-color;
   transition: all 150ms ease-in-out;
   &:hover {
     transform: translate(0px, -5px);
@@ -67,9 +73,9 @@ a.know-more {
   margin-left: 25px;
   font-size: 1rem;
   font-weight: 700;
-  color: $dark;
+  color: variables.$dark;
   text-decoration: underline;
   &:hover {
-    color: $primary-color;
+    color: variables.$primary-color;
   }
 }

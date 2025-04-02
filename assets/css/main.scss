@@ -8,84 +8,51 @@
 :: 1 Tools and Plugins
 :: 2 Base Styles
 :: 3 Modules
-    3.1 Wrapper
-    3.2 Header
-    3.3 Author Section
-    3.4 Footer
 :: 4 Layouts
-    4.1 Article
-    4.2 Post
-    4.3 Page
 <<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
+// Use the new @use syntax
+@use "0-settings/variables" as variables;
+@use "0-settings/mixins" as mixins;
+@use "0-settings/helpers" as helpers;
 
-@import '0-settings/variables';
-@import '0-settings/mixins';
-@import '0-settings/helpers';
-
-
-/* ==============  :: 1 Tools and Plugins ============== */
-@import '1-tools/normalize';
-@import '1-tools/reset';
-@import '1-tools/shared';
-@import '1-tools/syntax-highlighting';
-@import '1-tools/grid';
-@import '1-tools/aos';
-@import '1-tools/animate';
-
+/* ============== :: 1 Tools and Plugins ============== */
+@use '1-tools/normalize';
+@use '1-tools/reset';
+@use '1-tools/shared';
+@use '1-tools/syntax-highlighting';
+@use '1-tools/grid';
+@use '1-tools/aos';
+@use '1-tools/animate';
 
 /* ============== :: 2 Base Styles ============== */
-@import '2-base/base';
-@import '2-base/button';
-@import '2-base/tab';
-@import '2-base/image';
-
+@use '2-base/base';
+@use '2-base/button';
+@use '2-base/tab';
+@use '2-base/image';
 
 /* ============== :: 3 Modules ============== */
-/* :: 3.1 Wrapper */
-@import '3-modules/wrapper';
-/* :: 3.2 Header */
-@import '3-modules/header';
-/* :: 3.3 Author Section */
-@import '3-modules/author-section';
-/* :: 3.4 Footer */
-@import '3-modules/footer';
-/* :: 3.5 Scroll to top */
-@import '3-modules/scroll-button-top';
-/* :: 3.6 Pagingnation */
-@import '3-modules/pagination';
-/* :: 3.7 3D gallery photo */
-@import '3-modules/food-photo-card';
-/* :: 3.8 Archieve card */
-@import '3-modules/_archieve-card';
-/* :: 3.9 Project Card */
-@import '3-modules/projects';
-/* :: 3.10 Sticky Slider Navigation */
-@import '3-modules/sticky-slider-navigation';
-/* :: 3.11 Research content */
-@import '3-modules/research-content';
-/* :: 3.12 Side by side */
-@import '3-modules/side-by-side';
-/* :: 3.13 Social navigations */
-@import '3-modules/social-nav';
-/* :: 3.14 Slide show */
-@import '3-modules/slideshow';
-/* :: 3.15 Photo wall */
-@import '3-modules/photo-wall';
-/* :: 3.16 Grid wall */
-@import '3-modules/grid-wall';
-/* :: 3.17 Activities */
-@import '3-modules/activities';
-
+@use '3-modules/wrapper';                // Wrapper
+@use '3-modules/header';                 // Header
+@use '3-modules/author-section';         // Author Section
+@use '3-modules/footer';                 // Footer
+@use '3-modules/scroll-button-top';      // Scroll to Top
+@use '3-modules/pagination';             // Pagination
+@use '3-modules/food-photo-card';        // 3D Gallery Photo
+@use '3-modules/archieve-card';          // Archive Card
+@use '3-modules/projects';               // Project Card
+@use '3-modules/sticky-slider-navigation'; // Sticky Slider Navigation
+@use '3-modules/research-content';       // Research Content
+@use '3-modules/side-by-side';           // Side by Side
+@use '3-modules/social-nav';             // Social Navigations
+@use '3-modules/slideshow';              // Slide Show
+@use '3-modules/photo-wall';             // Photo Wall
+@use '3-modules/grid-wall';              // Grid Wall
+@use '3-modules/activities';             // Activities
 
 /* ============== :: 4 Layouts ============== */
-/* :: 4.1 Article */
-@import '4-layouts/article';
-/* :: 4.2 Post */
-@import '4-layouts/post';
-/* :: 4.3 Page */
-@import '4-layouts/page';
-/* :: 4.4 Tag Page */
-@import '4-layouts/tag-page';
-/* :: 4.5 Project */
-@import '4-layouts/project';
+@use '4-layouts/article';                // Article
+@use '4-layouts/post';                   // Post
+@use '4-layouts/page';                   // Page
+@use '4-layouts/tag-page';               // Tag Page
+@use '4-layouts/project';                // Project

@@ -1,3 +1,4 @@
+@use "0-settings/variables";
 /* Button */
 
 @media all {
@@ -26,7 +27,7 @@
       font-size: 14px;
       border-radius: 50%;
       will-change: transform;
-      background: linear-gradient(90deg,$primary-color 0%, $secondary-color 167%);
+      background: linear-gradient(90deg,variables.$primary-color 0%, variables.$secondary-color 167%);
       transition: all .2s cubic-bezier(.215,.61,.355,1)
   }
 
@@ -35,13 +36,13 @@
   }
 }
 
-@media #{$tablet} {
+@media #{variables.$tablet} {
   .c-hero__btn {
       margin-top:32px
   }
 }
 
-@media #{$mobile} {
+@media #{variables.$mobile} {
   .c-hero__btn .cta-button,.c-hero__btn .works-button {
       font-size:15px
   }
@@ -70,11 +71,11 @@
     }
   
     &--primary {
-      color: $white;
-      background: linear-gradient(90deg, $primary-color 0%, $secondary-color 167%);
+      color: variables.$white;
+      background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 167%);
   
       &:hover {
-        color: $white !important;
+        color: variables.$white !important;
   
         &:before {
           opacity: 1;
@@ -93,14 +94,14 @@
         opacity: 0;
         will-change: transform;
         transition: opacity 0.35s;
-        background: linear-gradient(90deg, $primary-color 0%, $secondary-color 107%);
+        background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 107%);
       }
     }
   
     &--secondary {
-      color: $primary-color;
+      color: variables.$primary-color;
       text-decoration: none;
-      background: $background-color-4;
+      background: variables.$background-color-4;
   
       &:hover {
         transform: translate(0, -3px);

@@ -1,7 +1,8 @@
+@use "0-settings/variables";
 .wrapper-page {
   margin-top: 50px;
   margin-bottom: 50px;
-  @media #{$mobile} {
+  @media #{variables.$mobile} {
     margin-top: 30px;
     margin-bottom: 30px;
   }

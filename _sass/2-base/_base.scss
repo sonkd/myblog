@@ -1,3 +1,5 @@
+@use "sass:color";
+@use "0-settings/variables";
 *,
 *::after,
 *::before {
@@ -5,10 +7,10 @@
 }
 
 body {
-  font-family: $primary-font-1;
-  font-size: $body-size;
-  color: $dark;
-  background-color: $global-bg-color;
+  font-family: variables.$primary-font-1;
+  font-size: variables.$body-size;
+  color: variables.$dark;
+  background-color: variables.$global-bg-color;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
@@ -29,24 +31,24 @@ body {
 
 @media (hover: hover) and (pointer: fine){
   html:hover {
-    cursor: $cursorDefault;
+    cursor: variables.$cursor-default;
   }
 
   a:hover {
-    cursor: $cursorPointer;
+    cursor: variables.$cursor-pointer;
   }
   h1,h2,h3,h4,h5,h6,ul,li,p:hover {
-    cursor: $cursorText;
+    cursor: variables.$cursor-text;
   }
 }
 
 ::placeholder {
-  color: $gray;
+  color: variables.$gray;
 }
 
 *::selection {
   color: white;
-  background-color: $primary-color;
+  background-color: variables.$primary-color;
 }
 
 h1,
@@ -56,14 +58,14 @@ h4,
 h5,
 h6 {
   margin: 2rem 0 1rem;
-  font-family: $primary-font-2;
+  font-family: variables.$primary-font-2;
   line-height: initial;
   font-weight: 400;
   letter-spacing: 0.2px;
 }
 
 h1 {
-  font-size: $h1-size;
+  font-size: variables.$h1-size;
 
   a {
     text-decoration-line: none 
@@ -71,7 +73,7 @@ h1 {
 }
 
 h2 {
-  font-size: $h2-size;
+  font-size: variables.$h2-size;
 
   a {
     text-decoration-line: none
@@ -79,7 +81,7 @@ h2 {
 }
 
 h3 {
-  font-size: $h3-size;
+  font-size: variables.$h3-size;
 
   a {
     text-decoration-line: none
@@ -87,7 +89,7 @@ h3 {
 }
 
 h4 {
-  font-size: $h4-size;
+  font-size: variables.$h4-size;
 
   a {
     text-decoration-line: none
@@ -95,7 +97,7 @@ h4 {
 }
 
 h5 {
-  font-size: $h5-size;
+  font-size: variables.$h5-size;
 
   a {
     text-decoration-line: none
@@ -103,7 +105,7 @@ h5 {
 }
 
 h6 {
-  font-size: $h6-size;
+  font-size: variables.$h6-size;
 
   a {
     text-decoration-line: none
@@ -112,16 +114,16 @@ h6 {
 
 blockquote {
   padding-left: 30px;
-  font-family: $primary-font-2;
+  font-family: variables.$primary-font-2;
   font-weight: 400;
   font-style: italic;
   font-size: 20px;
-  border-left: 1px solid $secondary-color;
+  border-left: 1px solid variables.$secondary-color;
 
   p {
-    line-height: $quote-line_height !important;
+    line-height: variables.$quote-line_height !important;
     letter-spacing: 0.3px;
-    color: $gray !important;
+    color: variables.$gray !important;
   }
 }
 
@@ -147,24 +149,23 @@ img {
     font-style: italic;
     font-weight: 400;
     font-size: 14px;
-    color: $gray;
+    color: variables.$gray;
   }
 }
 
 a {
-  /*text-decoration: none;*/
-  /*color: $primary-color;*/
-  color: $primary-text-color;
-  text-decoration: none;
+  color: variables.$primary-color;
+  color: variables.$primary-text-color;
+  // text-decoration: none;
   transition: color 200ms;
 
   &:hover {
-    color: $active-text-color;
+    color: variables.$active-text-color;
   }
 
   &[target="_blank"]::after {
     content: " \2197";
-    font-size: $tiny-font-size;
+    font-size: variables.$tiny-font-size;
     line-height: 0;
     position: relative;
     bottom: 5px;
@@ -189,7 +190,7 @@ hr {
     line-height: 30px;
     margin-top: -15px;
     position: absolute;
-    color: lighten(black, 20%);
+    color: color.adjust(black, variables.$lightness: 20%);
   }
 
   &:after {
@@ -212,10 +213,10 @@ figcaption {
   font-size: calc(1rem * 0.75);
   font-size: -webkit-calc(1rem * 0.75);
   font-size: -moz-calc(1rem * 0.75);
-  color: $sub-text-color;
+  color: variables.$sub-text-color;
   font-weight: 300;
 
-  @media #{$mobile} {
+  @media #{variables.$mobile} {
     font-size: calc(1rem * 0.5);
     font-size: -webkit-calc(1rem * 0.5);
     font-size: -moz-calc(1rem * 0.5);

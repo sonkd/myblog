@@ -1,3 +1,5 @@
+@use './mixins' as mixins;
+
 // Text Alignment
 .text-left {
 	text-align: left;
@@ -75,15 +77,15 @@
 
 // Lists Reset
 .list-reset {
-	@include list-reset();
+	@include mixins.list-reset;
 }
 
 // Clearfix
 .clearfix {
-  @include clearfix();
+	@include mixins.clearfix;
 }
 
 // Screen Reader
 .screen-reader-text {
-	@include screen-reader();
+	@include mixins.screen-reader;
 }
