@@ -11,10 +11,9 @@ challenges:
 - Lập lịch và xác nhận với đối tác còn khó khăn.
 - Không có công cụ chính để liên lạc và quản lý đội bóng hiệu quả.
 roles:
-- UX Design
-- Product lead
+- Product Design
 
-tag: [Startup, Football, Product Developement, UX/UI]
+tag: [Startup, Football, Product Development, UX/UI]
 image: /assets/img/project/footy-background.jpg
 showcase-code: project11 # update in data/showcase
 
