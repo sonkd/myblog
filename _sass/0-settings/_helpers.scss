@@ -82,10 +82,10 @@
 
 // Clearfix
 .clearfix {
-	@include mixins.clearfix;
+	@include mixins.clearfix();
 }
 
 // Screen Reader
 .screen-reader-text {
-	@include mixins.screen-reader;
+	@include mixins.screen-reader();
 }
