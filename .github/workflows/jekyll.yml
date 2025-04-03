@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 env:
-  RUBY_VERSION: '3.1'
+  RUBY_VERSION: '3.2'
   BUILD_DIR: _site
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
