@@ -20,4 +20,4 @@ Làm thế nào để tìm Insight và sử dụng đúng cách? Insight tốt l
 
 Xem thêm >> [How can we define good insights?](/micro/2024-06-21-good-insights)
 
-![Observation versus Insight](/observation-insight.png)
+![Observation versus Insight](/micro/observation-insight.png)

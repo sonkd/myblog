@@ -21,4 +21,4 @@ Từ câu chuyện Khổng Tử ngăn học trò tên Mỗ, tôi nhận ra rằn
 
 Điểm khác nhau giữa chia sẻ kiến thức ở nơi làm viêc (môi trường doanh nghiệp) với học ở trường/talk show hay những chương trình trainning/mentor ngắn hạn.
 
-![Knowledge Sharing Paradox](/knowledge-sharing-paradox.png)
+![Knowledge Sharing Paradox](/micro/knowledge-sharing-paradox.png)

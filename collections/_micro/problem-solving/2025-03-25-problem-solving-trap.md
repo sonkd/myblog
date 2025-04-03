@@ -20,4 +20,4 @@ Nếu bạn đề cập đến “vấn đề" từ một giải pháp hoặc t�
 
 > A problem well-stated is a problem half-solved. Charles Kettering.
 
-![Solve the real problem](/problem-solving.png)
+![Solve the real problem](/micro/problem-solving.png)
