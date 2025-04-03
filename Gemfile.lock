@@ -27,14 +27,29 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7)
+    ffi (1.17.1-aarch64-linux-gnu)
+    ffi (1.17.1-aarch64-linux-musl)
+    ffi (1.17.1-arm-linux-gnu)
+    ffi (1.17.1-arm-linux-musl)
     ffi (1.17.1-arm64-darwin)
     ffi (1.17.1-x86_64-darwin)
+    ffi (1.17.1-x86_64-linux-gnu)
+    ffi (1.17.1-x86_64-linux-musl)
     forwardable-extended (2.6.0)
     gemoji (4.1.0)
+    google-protobuf (4.30.2)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.30.2-aarch64-linux)
+      bigdecimal
+      rake (>= 13)
     google-protobuf (4.30.2-arm64-darwin)
       bigdecimal
       rake (>= 13)
     google-protobuf (4.30.2-x86_64-darwin)
+      bigdecimal
+      rake (>= 13)
+    google-protobuf (4.30.2-x86_64-linux)
       bigdecimal
       rake (>= 13)
     html-pipeline (2.14.3)
@@ -90,9 +105,21 @@ GEM
     logger (1.7.0)
     mercenary (0.4.0)
     minitest (5.25.5)
+    nokogiri (1.18.7-aarch64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-aarch64-linux-musl)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm-linux-musl)
+      racc (~> 1.4)
     nokogiri (1.18.7-arm64-darwin)
       racc (~> 1.4)
     nokogiri (1.18.7-x86_64-darwin)
+      racc (~> 1.4)
+    nokogiri (1.18.7-x86_64-linux-gnu)
+      racc (~> 1.4)
+    nokogiri (1.18.7-x86_64-linux-musl)
       racc (~> 1.4)
     nuggets (1.6.1)
     pathutil (0.16.2)
@@ -106,9 +133,21 @@ GEM
     rexml (3.4.1)
     rouge (4.5.1)
     safe_yaml (1.0.5)
+    sass-embedded (1.86.2-aarch64-linux-gnu)
+      google-protobuf (~> 4.30)
+    sass-embedded (1.86.2-aarch64-linux-musl)
+      google-protobuf (~> 4.30)
+    sass-embedded (1.86.2-arm-linux-gnueabihf)
+      google-protobuf (~> 4.30)
+    sass-embedded (1.86.2-arm-linux-musleabihf)
+      google-protobuf (~> 4.30)
     sass-embedded (1.86.2-arm64-darwin)
       google-protobuf (~> 4.30)
     sass-embedded (1.86.2-x86_64-darwin)
+      google-protobuf (~> 4.30)
+    sass-embedded (1.86.2-x86_64-linux-gnu)
+      google-protobuf (~> 4.30)
+    sass-embedded (1.86.2-x86_64-linux-musl)
       google-protobuf (~> 4.30)
     securerandom (0.4.1)
     terminal-table (3.0.2)
@@ -120,8 +159,18 @@ GEM
     webrick (1.9.1)
 
 PLATFORMS
+  aarch64-linux
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm-linux-gnueabihf
+  arm-linux-musl
+  arm-linux-musleabihf
   arm64-darwin
-  x86_64-darwin-21
+  x86_64-darwin
+  x86_64-linux
+  x86_64-linux-gnu
+  x86_64-linux-musl
 
 DEPENDENCIES
   jekyll (~> 4.3.4)
