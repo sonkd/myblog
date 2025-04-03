@@ -14,7 +14,7 @@ roles:
 - Head of Product
 - Researcher
 
-tag: [Web3, Blockchain, Product Development, UX Design]
+tags: [Web3, Blockchain, Product Development, UX Design]
 image: /assets/img/project/ready-wallet/cover.png
 showcase-code: project13 # update in data/showcase
 

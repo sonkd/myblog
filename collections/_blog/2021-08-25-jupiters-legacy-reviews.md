@@ -5,7 +5,7 @@ date: 2021-08-25 18:40:00
 author: sonohyeah
 image: /assets/img/blog/2021-08-25/jupiters-legacy.jpeg
 headerImage: false
-tag:
+tags:
 - Career Path
 - Movies
 - Storytelling

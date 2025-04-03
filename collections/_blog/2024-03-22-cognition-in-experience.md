@@ -4,7 +4,7 @@ layout: post
 date: 2024-03-22 14:29:00
 author: sonkd
 image: /assets/img/blog/fish-sauce.png
-tag:
+tags:
 - UX Design
 - Psychology
 - Cognitive Bias

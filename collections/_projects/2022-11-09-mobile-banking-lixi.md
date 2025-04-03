@@ -12,7 +12,7 @@ challenges:
 roles:
 - UX Design
 
-tag: [Digital Banking, UX Design]
+tags: [Digital Banking, UX Design]
 image: /assets/img/project/tcb-lixi/project-cover.png
 showcase-code: project07 # update in data/showcase
 

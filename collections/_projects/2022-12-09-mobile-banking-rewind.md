@@ -14,7 +14,7 @@ roles:
 - UX Design
 - Data Analysis and Modeling
 
-tag: [Digital Banking, UX Design, Data driven]
+tags: [Digital Banking, UX Design, Data driven]
 image: /assets/img/project/tcb-rewind/rewind-project-cover.png
 showcase-code: project08 # update in data/showcase
 

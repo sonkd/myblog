@@ -4,7 +4,7 @@ layout: post
 date: 2023-11-02 12:24:00
 author: sonkd
 image: 
-tag:
+tags:
 - Product Development
 - Data driven
 

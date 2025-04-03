@@ -5,7 +5,7 @@ date: 2024-06-05 12:40:00
 author: sonohyeah
 image: 
 headerImage: false
-tag:
+tags:
 - Career Path
 
 ---

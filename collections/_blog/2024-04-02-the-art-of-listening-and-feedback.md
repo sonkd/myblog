@@ -5,7 +5,7 @@ date: 2024-04-02 10:55:00
 author: sonohyeah
 image: /assets/img/blog/listen_and_feedback.png
 headerImage: false
-tag:
+tags:
 - Psychology
 - Collaboration
 

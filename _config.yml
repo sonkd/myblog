@@ -66,6 +66,18 @@ paginate_multiple:
     paginate_path: '/projects/page:num/'
     sub_dir: '/projects'
 
+# Tags
+tag_page_dir: tag
+tag_page_layout: tag-page
+tag_permalink_style: pretty
+
+tagging:
+  collections:
+    - blog
+    - projects
+    - micro
+    - research
+
 # Pages Path
 defaults:
   - scope:
@@ -82,11 +94,6 @@ feed:
 
 include:
   - _pages
-
-# Tags
-tag_page_dir: tag
-tag_page_layout: tag-page
-tag_permalink_style: pretty
 
 future: true
 

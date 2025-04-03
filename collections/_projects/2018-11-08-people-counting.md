@@ -15,7 +15,7 @@ roles:
 - Product Design
 - Retail
 
-tag: [UX Design, Product Design, Retail, AI]
+tags: [UX Design, Product Design, Retail, AI]
 image: https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/4e250f72223765.5be4320f9d478.png
 showcase-code: project04 # update in data/showcase
 

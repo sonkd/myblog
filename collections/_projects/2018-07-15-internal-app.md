@@ -14,7 +14,7 @@ roles:
 - UX Design
 - Product lead
 
-tag: [UX Design, ELP]
+tags: [UX Design, ELP]
 image: /assets/img/project/internal-app/03.png
 showcase-code: project05 # update in data/showcase
 

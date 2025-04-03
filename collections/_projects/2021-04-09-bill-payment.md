@@ -15,7 +15,7 @@ roles:
 - UX Design
 - UI interaction
 
-tag: [Digital Banking, UX Design, Payment]
+tags: [Digital Banking, UX Design, Payment]
 image: /assets/img/project/bill-payment/cover.png
 showcase-code: project01 # update in data/showcase
 

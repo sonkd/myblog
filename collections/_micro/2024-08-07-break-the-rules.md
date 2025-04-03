@@ -5,7 +5,7 @@ date: 2024-08-07 12:00:00
 author: sonohyeah
 image: 
 headerImage: false
-tag:
+tags:
 - Problem Solving
 - UX Design
 

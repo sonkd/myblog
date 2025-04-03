@@ -13,7 +13,7 @@ challenges:
 roles:
 - Product Design
 
-tag: [Startup, Football, Product Development, UX/UI]
+tags: [Startup, Football, Product Development, UX/UI]
 image: /assets/img/project/footy-background.jpg
 showcase-code: project11 # update in data/showcase
 

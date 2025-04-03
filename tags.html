@@ -4,84 +4,29 @@ title: Tags
 permalink: /tags/
 ---
 
-{% assign alldocs = site.documents %}
+{% assign alldocs = site.posts | concat: site.projects | concat: site.micro | concat: site.research %}
+{% assign alltags = alldocs | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
 
-{% assign alltags = alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag | sort: 'name' %}
-
-<section class="tag-list row">
-    <div class="col col-8 col-d-6 col-t-12">
-        {% for TAG in alltags  %}
-        <div data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
-        <h4 id="{{ TAG.name | slugify }}" class="linked-section">
-            #{{ TAG.name | upcase }}&nbsp;({{ TAG.size }})
-        </h4>
-
-        <ul class="list">
-            {% for doc in alldocs %}
-            {% if doc.tags contains TAG.name %}
-                {% if doc.title != null %}            
-                <li class="item">
-                    <a class="url" href="{% if doc.externalLink %}{{ doc.externalLink }}{% else %}{{ site.url }}{{ doc.url }}{% endif %}">
-                    <!-- <aside class="date"><time datetime="{{ doc.date | date:"%d-%m-%Y" }}">{{ doc.date | date: "%b %d %Y" }}</time></aside> -->
-                        <h5 style="margin: 0 !important;">{{ doc.title }}</h5>
-                    </a>
-                    <p class="article__excerpt" style="font-size: 12px; line-height: 18px; text-decoration-line: none !important;">{% if doc.description %}{{ doc.description }}{% else %}{{ doc.content |
-                        strip_html | truncate: 140 }}{% endif %}</p>
-                </li>
-                {% endif %}
-            {% endif %}
-            {% endfor %}
-        </ul>
+<section class="tag-list">
+    {% if alltags.size > 0 %}
+        {% for tag in alltags %}
+        {% if tag != '' %}
+        <div>
+            <!-- Count the number of documents for the current tag -->
+            {% assign tag_docs = alldocs | where_exp: "doc", "doc.tags contains tag" %}
+            <h2 id="{{ tag | slugify }}" class="mt-8 font-bold">{{ tag }} ({{ tag_docs.size }})</h2>
+            <ul class="ml-4">
+                {% for doc in tag_docs %}
+                    <li>
+                        <a href="{{ doc.url | relative_url }}" class="hover:underline text-red-500">{{ doc.title }}</a>
+                        <small>— {{ doc.date | date: "%Y-%m-%d" }}</small>
+                    </li>
+                {% endfor %}
+            </ul>
         </div>
+        {% endif %}
         {% endfor %}
-    </div>
-    <!-- Cloud tags -->
-    <div class="tags-cloud col col-4 col-d-6 col-t-12">
-        <div class="sticky-cloud">
-            <div class="show-cloud">
-            {% include tag-cloud.html %}
-            </div>
-        </div>
-        <div class="dupe-cloud">
-            <div class="show-cloud">
-            {% include tag-cloud.html %}
-            </div>
-        </div>
-    </div>
+    {% else %}
+        <p>No tags found.</p>
+    {% endif %}
 </section>
-{% assign alldocs = nil %}
-{% assign alltags = nil %}
-
-<script type="text/javascript">
-    const tags = document.querySelectorAll(".cloud-item")
-    let weight
-    tags.forEach(tag => {
-        weight = tag.getAttribute('data-weight');
-        tag.style["font-size"] = (weight * 4 + 60)+"%";
-    })
-</script>
-
-<script>
-    $(document).ready(function () {
-        if (!$('#myCanvas').tagcanvas({
-            //textColour: '#ff0000',
-            outlineColour: '#ff00ff',
-            reverse: true,
-            depth: 0.8,
-            maxSpeed: 0.05,
-            textFont: null,
-            textColour: null,
-            weightMode: 'both',
-            weight: true,
-            weightGradient: {
-                0: '#f00', // red
-                //0.33: '#ff0', // yellow
-                //0.66: '#0f0', // green
-                1: '#00f'  // blue
-            }
-        }, 'tags')) {
-            // something went wrong, hide the canvas container
-            $('#myCanvasContainer').hide();
-        }
-    });
-</script>

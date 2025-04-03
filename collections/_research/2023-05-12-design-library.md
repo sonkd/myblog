@@ -2,7 +2,7 @@
 title: Design Library 📗
 layout: post
 date: 2023-05-12 09:45:45
-tag: [Design System, Psychology, UX/UI, Learning, UX Research]
+tags: [Design System, Psychology, UX/UI, Learning, UX Research]
 image: https://sonkd.notion.site/image/https%3A%2F%2Fst4.depositphotos.com%2F1026266%2F25999%2Fi%2F600%2Fdepositphotos_259999348-stock-photo-hand-typing-on-keyboard-with.jpg?table=block&id=afdf8732-4848-4731-aa0d-6c72263fe370&spaceId=41da8a7a-8235-44b4-ab73-535734f1253a&width=2000&userId=&cache=v2
 description: "Summary of the good articles and stories for product design such as DesignOps, UX Research, ..."
 ---

@@ -5,7 +5,7 @@ date: 2024-04-05 16:25:00
 author: sonohyeah
 image: /assets/img/micro/3-eternal-gates.jpg
 headerImage: false
-tag:
+tags:
 - Philosophy
 - Problem Solving
 

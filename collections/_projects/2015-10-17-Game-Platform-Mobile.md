@@ -2,7 +2,7 @@
 title: "🎮 Game Platform on Mobile"
 layout: post
 date: 2015-10-17 22:10
-tag: [SaaS, Game Design]
+tags: [SaaS, Game Design]
 image: /assets/img/project/game-platform/project-cover-game-platform.png
 headerImage: true
 projects: true

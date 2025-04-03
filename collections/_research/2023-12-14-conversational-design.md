@@ -2,7 +2,7 @@
 title: Conversational Design for Digital Product
 layout: post
 date: 2023-12-14 09:45:45
-tag: [Conversational Design, HCI, Interaction Design]
+tags: [Conversational Design, HCI, Interaction Design]
 image: /assets/img/research/image-4.png
 description: "Design that works for human"
 ---

@@ -5,7 +5,7 @@ date: 2021-03-07 23:36:34
 author: sonohyeah
 image: 
 headerImage: false
-tag:
+tags:
 - Learning
 - Simplicity
 

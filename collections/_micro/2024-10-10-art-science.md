@@ -5,7 +5,7 @@ date: 2024-10-10 10:16:00
 author: sonohyeah
 image: 
 headerImage: false
-tag:
+tags:
 - Art
 - Science
 

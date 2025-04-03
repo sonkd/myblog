@@ -5,7 +5,7 @@ date: 2023-10-20 10:55:00
 author: sonohyeah
 image: 
 headerImage: false
-tag:
+tags:
 - Desision making
 - Habit
 
