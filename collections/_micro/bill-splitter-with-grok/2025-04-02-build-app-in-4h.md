@@ -56,7 +56,7 @@ Cơ chế phản hồi của Grok cũng tương tư như trên những có sự 
 5. **Try It Out**
 
 ---
-![Bill splitter app](https://cdn3d.iconscout.com/3d/premium/thumb/split-bill-3d-icon-download-in-png-blend-fbx-gltf-file-formats--share-cut-invoice-receipt-payment-pack-finance-icons-7943935.png?f=webp){:width="auto" height="150px"}
+![Bill splitter app](/micro/bill-splitter.png){:width="auto" height="150px"}
 
 Cuối cùng, sau một vài bước điều chỉnh và kết hợp dùng **Github Copilot** khi build, đây là kết quả sau 1 buổi sáng:
 [Bill Splitter with Grok](https://play.sonkd.com/split-bill/)

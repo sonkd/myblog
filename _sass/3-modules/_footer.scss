@@ -1,9 +1,11 @@
 @use "0-settings/variables";
+
 /* Footer */
 .footer {
   margin-top: 80px;
-  /*padding: 60px 0;*/
+  padding: 60px 0;
   border-top: 1px solid variables.$border-1-color;
+
   @media #{variables.$mobile} {
     margin-top: 50px;
     padding: 50px 0;
@@ -20,6 +22,7 @@
   font-family: 'IBM Plex Mono', monospace;
   line-height: 25px;
   color: variables.$gray;
+
   a {
     font-family: 'Lora', serif;
     color: variables.$dark;
@@ -29,6 +32,7 @@
 .contact__item {
   display: inline-block;
   margin-right: 15px;
+
   &:last-child {
     margin-right: 0;
   }
@@ -43,12 +47,12 @@
   .footer .social {
     margin-bottom: 40px
   }
-  
+
   .footer .social .social__item {
     margin: 0 .5rem;
     font-size: 0
   }
-  
+
   .footer .social .social__link {
     display: inline-block;
     width: 2rem;
@@ -60,18 +64,25 @@
     color: white;
     background: variables.$primary-color;
     transition: all .25s;
-    will-change: transform
+    will-change: transform;
+
+    svg {
+      width: 21px;
+      height: 21px;
+      fill: variables.$white;
+      transition: fill 200ms;
+    }
   }
-  
+
   .footer .social .social__link:hover {
     transform: scale(.9);
     color: white
   }
-  
+
   .footer .social .social__link:hover:after {
     content: none
   }
-  
+
   .footer .social .social__link:after {
     content: none
   }
