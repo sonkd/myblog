@@ -24,6 +24,8 @@
 @use '1-tools/grid';
 @use '1-tools/aos';
 @use '1-tools/animate';
+@use '1-tools/styles';
+@use '1-tools/wrapper';                  // Wrapper
 
 /* ============== :: 2 Base Styles ============== */
 @use '2-base/base';
@@ -32,7 +34,6 @@
 @use '2-base/image';
 
 /* ============== :: 3 Modules ============== */
-@use '3-modules/wrapper';                // Wrapper
 @use '3-modules/header';                 // Header
 @use '3-modules/author-section';         // Author Section
 @use '3-modules/footer';                 // Footer

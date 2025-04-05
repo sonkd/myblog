@@ -3,54 +3,46 @@
 .social {
   text-align: center;
 
-  h1,h2,h3,h4,h5,h6,ul,li {
+  h1, h2, h3, h4, h5, h6, ul, li {
     margin-bottom: 0 !important;
   }
+
   ul {
-    padding-left: 0 !important
+    padding-left: 0 !important;
   }
 }
 
 .social__list {
   display: inline-block;
-  // margin: 1rem
 }
 
 .social .social__item {
   display: inline-block;
-
-  a {
-    color: variables.$dark;
-  }
 }
 
 .social .social__link {
   position: relative;
   z-index: 1;
-  padding-right: 1rem;
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Vertically center the SVG */
+  justify-content: center; /* Horizontally center the SVG */
+  width: 48px; /* Button size */
+  height: 48px; /* Button size */
+  border-radius: 50%; /* Make it circular */
+  background-color: variables.$dark; /* Purple background */
+  transition: all 0.25s;
+}
+
+.social .social__link svg {
+  width: 24px; /* Icon size */
+  height: 24px; /* Icon size */
+  fill: white; /* Icon color */
 }
 
 .social .social__link:hover {
-  color: white
+  background-color: variables.$primary-color; /* Change background on hover */
 }
 
-.social .social__link:hover:after {
-  transform: translate3d(-50%, -50%, 0) scale(.9)
-}
-
-.social .social__link:after {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  top: 50%;
-  left: 25%;
-  transform: translate3d(-50%, -50%, 0) scale(0);
-  width: 100%;
-  height: 0;
-  padding-bottom: 100%;
-  border-radius: 50%;
-  /*background: linear-gradient(90deg,#6b69fa 0%,#312fa4 167%);*/
-  background: variables.$dark;
-  transition: all .25s
+.social .social__link:hover svg {
+  fill: variables.$secondary-color; /* Change icon color on hover */
 }
