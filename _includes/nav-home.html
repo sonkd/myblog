@@ -1,21 +1,10 @@
-<nav class="nav-home">
-      <ul class="nav__list list-reset">
-        {% if page.title != "Home" %}
-        <li class="nav__item">
-            <a class="nav__link" href="{{ site.url }}/">🏠Home</a>
-        </li>
-        {% endif %}
-        
-        {% assign nav_list = site.pages | sort: 'order' %} 
-        {% assign current_page = page.title %}
-        {% for page in nav_list %}
-          {% unless page.name == 'tags.html' or page.name == '404.html' %}
-          {% if page.title and page.isMainPage and page.title != current_page and page.title != "About me" %}
-          <li class="nav__item">
-            <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-          </li>
-          {% endif %}
-          {% endunless %}
-        {% endfor %}
-      </ul>
+<nav class="nav-home overflow-x-auto whitespace-nowrap scrollbar-hide">
+  <div class="flex flex-wrap gap-2 snap-x">
+    {% assign nav_list = site.data.shortcuts | sort: 'order' %}
+    {% for page in nav_list %}
+    <a href="{{ page.link }}" class="nav__link snap-start outline-button px-4 py-2 bg-gray-200 hover:bg-gray-300 rounded-lg mx-2 transition-all duration-200 inline-flex items-center justify-center">
+      {{ page.text }}
+    </a>
+    {% endfor %}
+  </div>
 </nav>

@@ -4,24 +4,28 @@ title: Home
 ---
 
 <!-- Author -->
-<section class="container max-w-full p-4">
-    <div class="author max-w-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container flex justify-center max-w-full p-4">
+    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <div class="author__inner">
             <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
             <h1 class="author__job">{{ site.author.name }}</h1>
-            <p class="author__bio">{{ site.author.bio }}</p>
+            <div class="author__bio px-4 py-3 rounded-2xl shadow-sm gap-6">
+                <p>{{ site.author.bio }}</p>
+                {% include nav-home.html %}
+            </div>
             <div class="hidden-links">
                 {% include social-link.html %}
             </div>
+        </div>
+        <div class="flex justify-center items-center gap-2">
             <div class="author__more">
                 <a href="{{site.baseurl}}/about/#now" class="say-hello">Know more</a>
-                <!-- <a href="{{site.baseurl}}/projects/" class="know-more">See my works</a> -->
             </div>
+            <a href="/sitemap" class="nav__link no-underline p-4">All pages</a>
         </div>
-        {% include nav-home.html %}
     </div>
 </section>
-
+<hr>
 <!-- Writings -->
 <section class="container max-w-full flex justify-center p-4">
     <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
@@ -41,9 +45,9 @@ title: Home
     <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <h2 style="text-align: center;">My everyday music made by Spotify</h2>
         <iframe style="border-radius:12px"
-                src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0" width="100%"
-                height="352" frameBorder="0" allowfullscreen=""
-                allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0"
+            width="100%" height="352" frameBorder="0" allowfullscreen=""
+            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
     </div>
 </section>
 
@@ -58,7 +62,7 @@ title: Home
         <ul>
             {% for article in articles %}
             <li>
-                <a href="{{ article.url }}" target="_blank">
+                <a href="{{ article.url }}" class="no-underline" target="_blank">
                     {{ article.alt }}
                 </a>
             </li>
@@ -67,7 +71,7 @@ title: Home
         {% endfor %}
         <div style="text-align: center;padding-top: 2rem;">
             <a href="https://sonkd.notion.site/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c"
-               class="works-button c-button c-button--secondary c-button--small">More articles</a>
+                class="works-button c-button c-button--secondary c-button--small">More articles</a>
         </div>
     </div>
 </section>

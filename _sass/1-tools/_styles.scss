@@ -1,4 +1,5 @@
 @use "0-settings/variables";
+
 *,
 ::after,
 ::before {
@@ -469,6 +470,18 @@ legend {
     display: flex
 }
 
+.flex-nowrap {
+    flex-wrap: nowrap
+}
+
+.flex-wrap {
+    flex-wrap: wrap
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse
+}
+
 .flex-1 {
     flex: 1 1 0%
 }
@@ -602,7 +615,8 @@ legend {
 }
 
 .max-h-96 {
-    max-height: 24rem; /* 384px */
+    max-height: 24rem;
+    /* 384px */
 }
 
 .max-h-fit {
@@ -695,23 +709,19 @@ legend {
 }
 
 .max-w-lg {
-    max-width: 32rem
-    // max-width: var(--container-lg); /* 32rem (512px) */
+    max-width: 32rem // max-width: var(--container-lg); /* 32rem (512px) */
 }
 
 .max-w-xl {
-    max-width: 36rem
-    // max-width: var(--container-xl); /* 36rem (576px) */
+    max-width: 36rem // max-width: var(--container-xl); /* 36rem (576px) */
 }
 
 .max-w-2xl {
-    max-width: 42rem
-    // max-width: var(--container-2xl); /* 42rem (672px) */
+    max-width: 42rem // max-width: var(--container-2xl); /* 42rem (672px) */
 }
 
 .max-w-3xl {
-    max-width: 48rem
-    // max-width: var(--container-3xl); /* 48rem (768px) */
+    max-width: 48rem // max-width: var(--container-3xl); /* 48rem (768px) */
 }
 
 .flex-nav {
@@ -1143,6 +1153,14 @@ legend {
     text-transform: uppercase
 }
 
+.underline {
+    text-decoration-line: underline;
+}
+
+.no-underline {
+    text-decoration-line: none;
+}
+
 .italic {
     font-style: italic
 }
@@ -1230,6 +1248,12 @@ legend {
 .shadow-md {
     --su--shadow: 0 4px 6px -1px rgb(0, 0, 0, 0.1), 0 2px 4px -2px rgb(0, 0, 0, 0.1);
     --su--shadow-colored: 0 4px 6px -1px var(--su--shadow-color), 0 2px 4px -2px var(--su--shadow-color);
+    box-shadow: var(--su--ring-offset-shadow, 0 0 #0000), var(--su--ring-shadow, 0 0 #0000), var(--su--shadow)
+}
+
+.shadow-sm {
+    --su--shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+    --su--shadow-colored: 0 1px 2px 0 var(--su--shadow-color);
     box-shadow: var(--su--ring-offset-shadow, 0 0 #0000), var(--su--ring-shadow, 0 0 #0000), var(--su--shadow)
 }
 

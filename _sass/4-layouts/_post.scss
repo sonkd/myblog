@@ -1,12 +1,12 @@
 @use "0-settings/variables";
 /* Post */
 .post {
-  margin-top: 80px;
-  margin-bottom: 80px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 
   @media #{variables.$mobile} {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 }
 
@@ -46,7 +46,7 @@
   margin-bottom: 45px;
   p {
     font-size: variables.$body-size;
-    line-height: 140%;
+    line-height: 120%;
     letter-spacing: 0.3px;
     color: variables.$dark;
     img {

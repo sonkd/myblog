@@ -3,118 +3,155 @@
 
 @media all {
   .c-hero__btn {
-      display: flex;
-      align-items: center;
-      margin-top: 40px
+    display: flex;
+    align-items: center;
+    margin-top: 40px
   }
 
   .c-hero__btn .cta-button {
-      margin-right: 8px
+    margin-right: 8px
   }
 
   .c-hero__btn .works-button:hover .circle-bg {
-      transition: all .2s cubic-bezier(.215,.61,.355,1);
-      transform: scale(.94)
+    transition: all .2s cubic-bezier(.215, .61, .355, 1);
+    transform: scale(.94)
   }
 
   .c-hero__btn .works-button .circle-bg {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-width: 18px;
-      height: 18px;
-      margin-right: 8px;
-      font-size: 14px;
-      border-radius: 50%;
-      will-change: transform;
-      background: linear-gradient(90deg,variables.$primary-color 0%, variables.$secondary-color 167%);
-      transition: all .2s cubic-bezier(.215,.61,.355,1)
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 18px;
+    height: 18px;
+    margin-right: 8px;
+    font-size: 14px;
+    border-radius: 50%;
+    will-change: transform;
+    background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 167%);
+    transition: all .2s cubic-bezier(.215, .61, .355, 1)
   }
 
   .c-hero__btn .works-button .button-arrow {
-      color: #fff
+    color: #fff
   }
 }
 
 @media #{variables.$tablet} {
   .c-hero__btn {
-      margin-top:32px
+    margin-top: 32px
   }
 }
 
 @media #{variables.$mobile} {
-  .c-hero__btn .cta-button,.c-hero__btn .works-button {
-      font-size:15px
+
+  .c-hero__btn .cta-button,
+  .c-hero__btn .works-button {
+    font-size: 15px
   }
 }
 
 .c-button {
-    position: relative;
-    z-index: 1;
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    line-height: 1;
-    font-weight: 700;
-    border-radius: 16px;
-    white-space: nowrap;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    overflow: hidden;
-    transition: all .25s ease;
-    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
-    will-change: transform;
-  
-    &:active {
-      transform: translateY(2px) scale(0.98);
-    }
-  
-    &--primary {
-      color: variables.$white;
-      background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 167%);
-  
-      &:hover {
-        color: variables.$white !important;
-  
-        &:before {
-          opacity: 1;
-        }
-      }
-  
-      &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        display: block;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        will-change: transform;
-        transition: opacity 0.35s;
-        background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 107%);
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+  font-weight: 700;
+  border-radius: 16px;
+  white-space: nowrap;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all .25s ease;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.05);
+  will-change: transform;
+
+  &:active {
+    transform: translateY(2px) scale(0.98);
+  }
+
+  &--primary {
+    color: variables.$white;
+    background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 167%);
+
+    &:hover {
+      color: variables.$white !important;
+
+      &:before {
+        opacity: 1;
       }
     }
-  
-    &--secondary {
-      color: variables.$primary-color;
-      text-decoration: none;
-      background: variables.$background-color-4;
-  
-      &:hover {
-        transform: translate(0, -3px);
-      }
-    }
-  
-    &--small {
-      padding: 16px 24px;
-      font-size: 16px;
-    }
-  
-    &--large {
-      padding: 24px 44px;
-      font-size: 18px;
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      display: block;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      will-change: transform;
+      transition: opacity 0.35s;
+      background: linear-gradient(90deg, variables.$primary-color 0%, variables.$secondary-color 107%);
     }
   }
+
+  &--secondary {
+    color: variables.$primary-color;
+    text-decoration: none;
+    background: variables.$background-color-4;
+
+    &:hover {
+      transform: translate(0, -3px);
+    }
+  }
+
+  &--small {
+    padding: 16px 24px;
+    font-size: 16px;
+  }
+
+  &--large {
+    padding: 24px 44px;
+    font-size: 18px;
+  }
+}
+
+.outline-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  padding: 12px 20px;
+  font-size: 14px; // Adjusted font size for better readability
+  font-weight: 600;
+  line-height: 1.2; // Added line-height for better vertical alignment
+  border: 2px solid variables.$border-2-color-darker;
+  border-radius: 50px; // Reduced border-radius for a more subtle rounded look
+  background: none;
+  color: variables.$sub-text-color;
+  cursor: pointer;
+  transition: all 0.3s ease; // Slightly increased transition duration for smoother effect
+
+  &:hover {
+    background: variables.$background-color-4;
+    color: variables.$primary-color; // Added hover color change for better contrast
+  }
+
+  &:active {
+    transform: translateY(2px);
+    background: variables.$background-color-3; // Added active background for better feedback
+  }
+
+  .icon {
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 16px; // Ensures icon size matches button text
+  }
+}

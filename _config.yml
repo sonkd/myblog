@@ -9,7 +9,7 @@ author:
   name: Kevin Kim
   image: '/assets/img/profile.jpg'
   job: Product Designer
-  bio: I'm a product designer living in Hanoi, Vietnam, with a <a href="/archive/#culinary">love for food</a>.
+  bio: I'm a product designer living in Hanoi, Vietnam, with a <a class="underline" href="/archive/#culinary">love for food</a>.
   email: sonkdbk@gmail.com
   play: "https://play.sonkd.com"
 

@@ -1,0 +1,14 @@
+- text: What I'm thinking
+  link: /blog/
+  order: 1
+- text: Work done
+  link: /projects/
+  order: 3
+- text: My fun and stupid experiments
+  link: https://play.sonkd.com
+  order: 4
+- text: My books to read
+  link: /blog#reading
+  order: 5
+  
+

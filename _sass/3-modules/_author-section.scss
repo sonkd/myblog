@@ -1,13 +1,9 @@
 @use "0-settings/variables";
 /* Author */
 .author {
-  margin: 4rem 0;
+  // margin: 4rem 0;
   padding-bottom: 4rem;
-  border-bottom: 1px solid variables.$border-1-color;
-  
-  a {
-    text-decoration: none;
-  }
+  // border-bottom: 1px solid variables.$border-1-color;
 
   @media #{variables.$mobile} {
     margin: 2rem 0;
@@ -23,7 +19,7 @@
   max-height: 130px;
   margin: 0 auto 2rem;
   border-radius: 50%;
-  background-color: variables.$background-color-2;
+  background-color: variables.$background-color-gray-lighter;
   transition: opacity 100ms ease;
   &:hover {
     .avatar {
@@ -40,12 +36,14 @@
 }
 
 .author__bio {
-  max-width: 450px;
-  margin: 0 auto 2rem;
-  font-size: 1rem;
-  line-height: variables.$body-line_height;
+  max-width: 100%;
+  margin: 1rem 0rem 3rem;
+  // padding: 1rem 2rem;
+  // font-size: 1rem;
+  // line-height: variables.$body-line_height;
   text-align: center;
   color: variables.$sub-text-color;
+  background-color: variables.$background-color-3;
 }
 
 .author__more {
@@ -55,7 +53,7 @@
 a.say-hello {
   display: inline-block;
   padding: 1rem 2rem;
-  font-size: 1rem;
+  font-size: variables.$body-size;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
