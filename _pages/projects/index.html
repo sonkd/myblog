@@ -8,21 +8,21 @@ show: true
 isMainPage: true
 ---
 
-<section class="container-full" style="text-align: center">
+<section class="container max-w-full p-4" style="text-align: center">
   <h1>{{ page.title | escape }}.Think.Play</h1>
   <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people
     love.</p>
 </section>
 
 <!-- start add photo wall from data -->
-<section id="mywall">
+<section id="mywall p-4">
   {% assign list-image = site.data.photo-wall %}
   {% assign show-option = 'photo-wall--only-desktop' %}
   {% include gallery-background.html %}
 </section>
 <!-- end -->
 
-<section class="animate container-full">
+<section class="animate container max-w-full p-4">
   {% if site.projects.size == 0 %}
   <p class="text-center">Nothing published yet!</p>
   {% else %}

@@ -162,15 +162,6 @@ a {
   &:hover {
     color: variables.$active-text-color;
   }
-
-  &[target="_blank"]::after {
-    content: " \2197";
-    font-size: variables.$tiny-font-size;
-    line-height: 0;
-    position: relative;
-    bottom: 5px;
-    vertical-align: baseline;
-  }
 }
 
 hr {
@@ -190,15 +181,7 @@ hr {
     line-height: 30px;
     margin-top: -15px;
     position: absolute;
-    color: color.adjust(black, variables.$lightness: 20%);
-  }
-
-  &:after {
-    position: absolute;
-    margin-left: -71px;
-    margin-top: -71px;
-    opacity: 0.05;
-    line-height: 0;
+    color: color.adjust(variables.$black, variables.$lightness: 20%);
   }
 }
 

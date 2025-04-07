@@ -29,14 +29,14 @@
   width: 48px; /* Button size */
   height: 48px; /* Button size */
   border-radius: 50%; /* Make it circular */
-  background-color: variables.$dark; /* Purple background */
+  background-color: variables.$background-color-3; /* Purple background */
   transition: all 0.25s;
 }
 
 .social .social__link svg {
   width: 24px; /* Icon size */
   height: 24px; /* Icon size */
-  fill: white; /* Icon color */
+  fill: variables.$black; /* Icon color */
 }
 
 .social .social__link:hover {
@@ -44,5 +44,5 @@
 }
 
 .social .social__link:hover svg {
-  fill: variables.$secondary-color; /* Change icon color on hover */
+  fill: variables.$white; /* Change icon color on hover */
 }

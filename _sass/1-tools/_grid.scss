@@ -2,14 +2,3 @@
 .container {
   max-width: variables.$mobile;
 }
-
-.container-full {
-  max-width: variables.$desktop;
-}
-
-.container,
-.container-full {
-  margin: 0 auto;
-  padding-left: 20px;
-  padding-right: 20px;
-}

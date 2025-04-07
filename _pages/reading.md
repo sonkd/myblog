@@ -7,7 +7,7 @@ show: false
 isMainPage:
 ---
 
-A selection of books I've read that I found helpful and would like to share on my website.
+<span style="color: #757575;">A selection of books I've read that I found helpful and would like to share on my website.</span>
 
 <div id="books-list">
     <!-- The list of books will be rendered here -->
@@ -40,42 +40,43 @@ A selection of books I've read that I found helpful and would like to share on m
         sortedYears.forEach(year => {
           const yearSection = document.createElement('section');
           yearSection.innerHTML = `
-            <header class="title-row">
-                <h1 class="" id="${year}">${year}</h1>
-                <p class="">${booksByYear[year].filter(book => book.status === 'Finished').length} / ${booksByYear[year].length} books finished</p>
+            <header class="title-row flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+                <h1 class="text-2xl font-semibold text-gray-800" id="${year}">${year}</h1>
+                <p class="text-sm text-gray-500">${booksByYear[year].filter(book => book.status === 'Finished').length} / ${booksByYear[year].length} books finished</p>
             </header>
-            <table>
-                <thead>
+            <div class="overflow-x-auto bg-white shadow rounded-xl">
+            <table class="min-w-full text-left text-sm text-gray-700">
+                <thead class="bg-gray-100 border-b text-gray-600">
                     <tr>
-                        <th scope="column">Title</th>
-                        <th scope="column">Author</th>
-                        <th scope="column" class="hide-mobile"><span class="visually-hidden">Status</span></th>
+                        <th scope="column" class="px-4 py-3 font-medium">Title</th>
+                        <th scope="column" class="px-4 py-3 font-medium">Author</th>
+                        <th scope="column" class="hide-mobile px-4 py-3 font-medium hidden md:table-cell"><span class="visually-hidden sr-only">My review</span></th>
                     </tr>
                 </thead>
                 <tbody>
                 </tbody>
             </table>
+            </div>
           `;
 
           const tableBody = yearSection.querySelector('tbody');
 
           booksByYear[year].forEach(book => {
             const bookRow = document.createElement('tr');
-            bookRow.classList.add('h-entry');
+            bookRow.classList.add('h-entry', 'border-b', 'hover:bg-gray-50', 'transition');
             bookRow.innerHTML = `
-              <th scope="row">
-                  <a href="${book.link || '#'}" class="p-name u-url u-uid" target="_blank">${book.title}</a><br>
+              <th scope="row" class="px-4 py-3">
+                  <a href="${book.link || '#'}" class="p-name u-url u-uid text-blue-600 font-medium hover:underline" target="_blank">${book.title}</a><br>
                   <span class="hide-large f6">
                       <span class="BookStatus-${book.status.replace(/\s+/g, '')}">${book.status}</span>
                   </span>
               </th>
-              <td>${book.author}</td>
-              <td class="f6 no-wrap hide-mobile">
-                  <span class="BookStatus-${book.status.replace(/\s+/g, '')}">${book.status}</span>
+              <td class="px-4 py-3">${book.author}</td>
+              <td class="f6 no-wrap hide-mobile px-4 py-3 text-xs text-amber-600 hidden md:table-cell">
+                  <span class="BookStatus-${book.review.replace(/\s+/g, '')}">${book.review}</span>
               </td>
             `;
-            tableBody.appendChild(bookRow);
-          });
+            tableBody.appendChild(bookRow);    });
 
           container.appendChild(yearSection);
         });

@@ -59,17 +59,15 @@
     height: 2rem;
     padding-right: 0;
     line-height: 2.25rem;
-    font-size: 1rem;
+    font-size: 1.5rem;
     border-radius: 50%;
-    color: white;
-    background: variables.$primary-color;
     transition: all .25s;
     will-change: transform;
 
     svg {
-      width: 21px;
-      height: 21px;
-      fill: variables.$white;
+      width: 20px;
+      height: 20px;
+      fill: variables.$black;
       transition: fill 200ms;
     }
   }

@@ -4,8 +4,8 @@ title: Home
 ---
 
 <!-- Author -->
-<section class="container-full">
-    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container max-w-full p-4">
+    <div class="author max-w-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <div class="author__inner">
             <img src="{{site.baseurl}}{{site.author.image}}" alt="{{site.author.name}}" class="author__img">
             <h1 class="author__job">{{ site.author.name }}</h1>
@@ -23,22 +23,22 @@ title: Home
 </section>
 
 <!-- Writings -->
-<section class="container max-w-2xl">
-    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container max-w-full flex justify-center p-4">
+    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% include recent-posts.html %}
     </div>
 </section>
 
 <!-- Projects -->
-<section class="container-full">
-    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container max-w-full p-4">
+    <div class="author max-w-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% include latest-works.html %}
     </div>
 </section>
 
 <!-- Musics -->
-<section class="container max-w-2xl">
-    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container max-w-full flex justify-center p-4">
+    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <h2 style="text-align: center;">My everyday music made by Spotify</h2>
         <iframe style="border-radius:12px"
                 src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0" width="100%"
@@ -48,8 +48,8 @@ title: Home
 </section>
 
 <!-- Articles -->
-<section class="container max-w-2xl">
-    <div class="author" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section class="container max-w-full flex justify-center p-4">
+    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <h2 style="text-align: center;"> Published </h2>
         {% for item in site.data.publish %}
         {% assign category = item[0] %}
