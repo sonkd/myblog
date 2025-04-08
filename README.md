@@ -1,6 +1,6 @@
-# Derrick — Minimal Theme for Jekyll.
+# Hello World
 
-Derrick is a clean minimal and fast theme for a personal blog.
+This is my personal blog.
 
 * * *
 
