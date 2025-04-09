@@ -71,7 +71,7 @@ isMainPage: true
             {% if posts.size > 0 %}
             {% if paginator.total_pages > 1 %}
             {% for post in paginator.posts %}
-            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+            <div class="article gap-4" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
                 <div class="article__content">
                     <div class="article__meta">
                         <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
