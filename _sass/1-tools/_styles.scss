@@ -109,7 +109,7 @@ legend {
     padding: 0
 }
 
-[hidden] {
+.hidden {
     display: none !important
 }
 
@@ -169,6 +169,13 @@ legend {
         padding-right: 1rem;
         padding-left: 1rem
     }
+    .sm\:hidden {
+        display: none !important
+    }
+
+    .sm\:table-cell {
+        display: table-cell
+    }
 }
 
 @media (min-width: 768px) {
@@ -176,6 +183,14 @@ legend {
         max-width: 768px;
         padding-right: 1rem;
         padding-left: 1rem
+    }
+
+    .md\:hidden {
+        display: none !important
+    }
+
+    .md\:table-cell {
+        display: table-cell
     }
 }
 
@@ -185,6 +200,14 @@ legend {
         padding-right: 1rem;
         padding-left: 1rem
     }
+    
+    .lg\:hidden {
+        display: none !important
+    }
+
+    .lg\:table-cell {
+        display: table-cell
+    }
 }
 
 @media (min-width: 1280px) {
@@ -192,6 +215,10 @@ legend {
         max-width: 1280px;
         padding-right: 3rem;
         padding-left: 3rem
+    }
+
+    .xl\:hidden {
+        display: none !important
     }
 }
 
@@ -201,8 +228,30 @@ legend {
         padding-right: 14rem;
         padding-left: 14rem
     }
+    .\2xl\:hidden {
+        display: none !important
+    }
 }
 
+/* vertical-align */
+.align-baseline {
+    vertical-align: baseline
+}
+
+.align-top {
+    vertical-align: top
+}
+
+.align-middle {
+    vertical-align: middle
+}
+
+.align-bottom {
+    vertical-align: bottom
+}
+
+
+/* position */
 .sticky-top {
     position: fixed;
     top: 0;
@@ -466,6 +515,10 @@ legend {
     display: inline-block
 }
 
+.table-cell {
+    display: table-cell
+}
+
 .flex {
     display: flex
 }
@@ -669,6 +722,18 @@ legend {
 
 .w-\[50\%\] {
     width: 50%
+}
+
+.w-1\/2 {
+    width: calc(100% * 1/2)
+}
+
+.w-1\/3 {
+    width: calc(100% * 1/3)
+}
+
+.w-1\/4 {
+    width: calc(100% * 1/4)
 }
 
 .w-full {
@@ -1193,6 +1258,11 @@ legend {
 .text-blue-400 {
     --su--text-opacity: 1;
     color: rgba(96, 165, 250, var(--su--text-opacity))
+}
+
+.text-blue-500 {
+    --su--text-opacity: 1;
+    color: rgba(59, 130, 246, var(--su--text-opacity))
 }
 
 .text-gray-400 {
