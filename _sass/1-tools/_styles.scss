@@ -110,7 +110,7 @@ legend {
 }
 
 .hidden {
-    display: none !important
+    display: none
 }
 
 ::backdrop {
@@ -170,7 +170,7 @@ legend {
         padding-left: 1rem
     }
     .sm\:hidden {
-        display: none !important
+        display: none
     }
 
     .sm\:table-cell {
@@ -186,7 +186,7 @@ legend {
     }
 
     .md\:hidden {
-        display: none !important
+        display: none
     }
 
     .md\:table-cell {
@@ -200,9 +200,9 @@ legend {
         padding-right: 1rem;
         padding-left: 1rem
     }
-    
+
     .lg\:hidden {
-        display: none !important
+        display: none
     }
 
     .lg\:table-cell {
@@ -218,7 +218,7 @@ legend {
     }
 
     .xl\:hidden {
-        display: none !important
+        display: none
     }
 }
 
@@ -229,7 +229,7 @@ legend {
         padding-left: 14rem
     }
     .\2xl\:hidden {
-        display: none !important
+        display: none
     }
 }
 
@@ -587,6 +587,7 @@ legend {
     aspect-ratio: 1/1
 }
 
+/* Height */
 .h-52 {
     height: 13rem
 }
@@ -599,16 +600,8 @@ legend {
     height: 15rem
 }
 
-.h-60 {
-    height: 15rem
-}
-
 .h-9 {
     height: 2.25rem
-}
-
-.h-12 {
-    height: 3rem
 }
 
 .h-4 {
@@ -621,6 +614,14 @@ legend {
 
 .h-8 {
     height: 2rem
+}
+
+.h-12 {
+    height: 3rem
+}
+
+.h-16 {
+    height: 4rem
 }
 
 .h-\[220px\] {

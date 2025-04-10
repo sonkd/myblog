@@ -50,7 +50,7 @@ isMainPage:
           <tr>
             <th scope="column" class="px-4 py-3 font-bold">Title</th>
             <th scope="column" class="px-4 py-3 font-bold">Author</th>
-            <th scope="column" class="px-4 py-3 font-bold sm:table-cell">My review</th>
+            <th scope="column" class="px-4 py-3 font-bold sm:table-cell sm:hidden ">My review</th>
           </tr>
         </thead>
         <tbody>
@@ -79,8 +79,8 @@ isMainPage:
           </span>
         </th>
         <td class="align-top px-4 py-3 w-1/3">${book.author}</td>
-        <td class="align-top w-1/3 px-4 py-3 sm:table-cell">    ${book.review}
-        </td>    `;
+        <td class="align-top w-1/3 px-4 py-3 sm:table-cell sm:hidden">${book.review}
+        </td>`;
       tableBody.appendChild(bookRow);    
       });
 

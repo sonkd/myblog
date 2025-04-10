@@ -1,0 +1,28 @@
+@keyframes flash-messages-slide {
+    0%,20%    { transform: translateY(0%); }
+    25%,45%   { transform: translateY(-100%); }
+    50%, 70%   { transform: translateY(-200%); }
+    75%, 95%   { transform: translateY(-300%); }
+    100%  { transform: translateY(-300%); }
+}
+
+@keyframes fade-flash-message {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+    }
+}
+
+// This class is used to animate a series of flash messages sliding vertically.
+.animate-flash-messages {
+    animation: flash-messages-slide 16s ease-in-out infinite;
+    // Adding a delay to ensure the animation starts after the page content is loaded
+    animation-delay: 2s;
+    will-change: transform;
+}

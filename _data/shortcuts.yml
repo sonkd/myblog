@@ -1,3 +1,11 @@
+- intro: I'm a product designer living in Hanoi, Vietnam, with a <a class="underline" href="/archive/#culinary">love for food</a>.
+  link:
+- intro: Contributed to a team recognized by <a class="underline" href="/projects/2021-04-09-bill-payment">the Good Design Award</a>.
+  link:
+- intro: Led a blockchain product to <a class="underline" href="/projects/2022-12-09-ready-crypto-wallet">#6 on Product Hunt</a>.
+  link:
+- intro: Drove digital experience growth, <a class="underline" href="/projects/2022-04-09-credit-card-instalment">boosting new users by 800% and generating over $40M.</a>
+  link:
 - text: What I'm thinking
   link: /blog/
   order: 1
