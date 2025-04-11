@@ -20,18 +20,18 @@ isMainPage: true
     </p>
 </section>
 <hr>
-<section class="container max-w-full p-4 flex justify-center">
+<section class="container max-w-full flex justify-center">
     <!-- tabs -->
-    <div class="tabs c-tabs__bar library-tab max-w-2xl" style="justify-content:center !important">
-        <a href="#" data-tab-value="#micro" class="c-tab c-tab--active c-tab--small">🙉Micro</a>
-        <a href="#" data-tab-value="#thought" class="c-tab c-tab--inactive c-tab--small">🙈Thoughts</a>
-        <a href="#" data-tab-value="#reading" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🙊Reading</a>
-        <a href="#" data-tab-value="#showing" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🌄Showing</a>
+    <div class="tabs flex gap-2 max-w-2xl overflow-x-auto p-4">
+        <a href="#" data-tab-value="#micro" class="c-tab c-tab--active c-tab--small flex-none">🙉Micro</a>
+        <a href="#" data-tab-value="#thought" class="c-tab c-tab--inactive c-tab--small flex-none">🙈Thoughts</a>
+        <a href="#" data-tab-value="#reading" class="c-tab c-tab--inactive c-tab--small flex-none">🙊Reading</a>
+        <a href="#" data-tab-value="#showing" class="c-tab c-tab--inactive c-tab--small flex-none">🌄Showing</a>
     </div>
 </section>
 <section class="container max-w-full flex justify-center p-4">
     <!-- end tabs -->
-    <div class="tab-content">
+    <div class="tab-content max-w-full">
         <!-- TAB 1 -->
         <div class="tabs__tab active max-w-2xl" id="micro" data-tab-info>
             <p style="text-align: center;">Simple.Short.Story.</p>
@@ -205,6 +205,15 @@ isMainPage: true
             // Add 'active' class to the selected tab and content
             tab.classList.replace('c-tab--inactive', 'c-tab--active');
             target.classList.add('active');
+
+            // Scroll the tabs container to align the selected tab to the left
+            const tabsContainer = document.querySelector('.tabs');
+            const remInPixels = parseFloat(getComputedStyle(document.documentElement).fontSize);
+            const tabOffset = tab.offsetLeft - tabsContainer.offsetLeft - remInPixels;
+            tabsContainer.scrollTo({
+                left: tabOffset,
+                behavior: 'smooth'
+            });
         }
 
         // Set default tab based on URL hash or fallback to the first tab

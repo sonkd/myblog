@@ -14,4 +14,4 @@ A message about "Less is More". An abundance of material possessions characteriz
 
 I'm listening 🎵 "Sit Down"--James
 
-<iframe width="560" height="300" src="https://www.youtube.com/embed/zPNw_2h0CnU;controls=0" title="James - Sit Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="100%" height="300" src="https://www.youtube.com/embed/zPNw_2h0CnU;controls=0" title="James - Sit Down" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

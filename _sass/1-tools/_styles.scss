@@ -523,6 +523,10 @@ legend {
     display: flex
 }
 
+.flex-none {
+    flex: none
+}
+
 .flex-nowrap {
     flex-wrap: nowrap
 }
@@ -899,9 +903,29 @@ legend {
     gap: 1.5rem
 }
 
+/* overflow */
+
+.overflow-auto {
+    overflow: auto
+}
+
 .overflow-hidden {
     overflow: hidden
 }
+
+.overflow-clip {
+    overflow: clip
+}
+
+.overflow-x-auto {
+    overflow-x: auto
+}
+
+.overflow-y-auto {
+    overflow-y: auto
+}
+
+/* border-radius */
 
 .rounded-full {
     border-radius: 9999px
