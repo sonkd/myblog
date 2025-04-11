@@ -40,11 +40,11 @@ isMainPage:
     sortedYears.forEach(year => {
       const yearSection = document.createElement('section');
       yearSection.innerHTML = `
-      <header class="title-row flex flex-col sm:flex-row sm:items-center justify-between mb-4">
+      <header class="title-row flex flex-row items-end justify-between">
         <h1 class="text-2xl font-semibold text-gray-800" id="${year}">${year}</h1>
-        <p class="text-sm text-gray-500">${booksByYear[year].filter(book => book.status === 'Finished').length} / ${booksByYear[year].length} books finished</p>
+        <p class="text-sm text-gray-500">${booksByYear[year].filter(book => book.status === 'Done').length} / ${booksByYear[year].length} books finished</p>
       </header>
-      <div class="overflow-x-auto bg-white shadow rounded-xl">
+      <div class="overflow-x-auto mb-4 bg-white shadow rounded-xl">
       <table class="w-full text-left text-sm text-gray-700">
         <thead class="bg-gray-100 border-b text-gray-600">
           <tr>
@@ -65,10 +65,11 @@ isMainPage:
       const bookRow = document.createElement('tr');
       bookRow.classList.add('h-entry', 'border-b', 'hover:bg-gray-50', 'transition');
       const statusColor = {
+        'To-read': 'gray',
         'Reading': '#42c3ff',
         'Dropped': 'red',
         'Paused': '#ffb459',
-        'Finished': 'green'
+        'Done': 'green'
       }[book.status] || 'gray';
 
       bookRow.innerHTML = `

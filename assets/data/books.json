@@ -1,12 +1,182 @@
 [
   {
-    "title": "Hello World",
-    "year": 2025,
-    "author": "Sơn KD",
+    "title": "Lives of the Stoics: The Art of Living from Zeno to Marcus Aurelius",
+    "year": 2023,
+    "author": "Ryan Holiday",
     "description": "No description available",
-    "link": "sonkd.com",
+    "link": "https://www.goodreads.com/book/show/50484473-lives-of-the-stoics",
+    "status": "Done",
+    "category": "Philosophy, Sociology",
+    "review": "No review available"
+  },
+  {
+    "title": "Euthyphro/Socrates tự biện/Crito/Pheado",
+    "year": 2023,
+    "author": "Plato",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/26062792-euthyphro-socrates-t-bi-n-crito-pheado",
+    "status": "Done",
+    "category": "Philosophy, Sociology",
+    "review": "No review available"
+  },
+  {
+    "title": "The Daily Stoic: 366 Meditations on Wisdom, Perseverance, and the Art of Living",
+    "year": 2023,
+    "author": "Ryan Holiday",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/29093292-the-daily-stoic",
+    "status": "Done",
+    "category": "Psychology, Sociology, Philosophy",
+    "review": "No review available"
+  },
+  {
+    "title": "The Power of Habit: Why We Do What We Do in Life and Business",
+    "year": 2024,
+    "author": "Charles Duhigg",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/12609433-the-power-of-habit",
+    "status": "Done",
+    "category": "Science, Psychology, Business, Productivity",
+    "review": "No review available"
+  },
+  {
+    "title": "Blue Ocean Strategy: How to Create Uncontested Market Space and Make the Competition Irrelevant",
+    "year": 2024,
+    "author": "W. Chan Kim",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/4898.Blue_Ocean_Strategy",
+    "status": "Done",
+    "category": "Economics, Business, Management, Leadership",
+    "review": "No review available"
+  },
+  {
+    "title": "Sapiens",
+    "year": 2023,
+    "author": "Yuval Noah Harari",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/23692271-sapiens",
+    "status": "Done",
+    "category": "Philosophy, Psychology, Sociology, History, Science",
+    "review": "No review available"
+  },
+  {
+    "title": "Thinking Fast and Slow",
+    "year": 2024,
+    "author": "Daniel Kahneman",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "status": "Done",
+    "category": "Psychology, Business",
+    "review": "No review available"
+  },
+  {
+    "title": "Sapiens",
+    "year": 2024,
+    "author": "Yuval Noah Harari",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/23692271-sapiens",
+    "status": "Done",
+    "category": "Philosophy, Psychology, Sociology, History, Science",
+    "review": "Re-read"
+  },
+  {
+    "title": "The Alchemist",
+    "year": 2024,
+    "author": "Paulo Coelho",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/18144590-the-alchemist",
+    "status": "Done",
+    "category": "Fantasy, Fiction, Philosophy",
+    "review": "No review available"
+  },
+  {
+    "title": "The Art of Strategy: A Game Theorist's Guide to Success in Business and Life",
+    "year": 2024,
+    "author": "Avinash K. Dixit",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/7475419-the-art-of-strategy",
+    "status": "Done",
+    "category": "Business, Mathematics, Psychology, Management",
+    "review": "No review available"
+  },
+  {
+    "title": "Psychology of success the new",
+    "year": 2024,
+    "author": "Carol S. Dweck",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/40745.Mindset",
+    "status": "Done",
+    "category": "Psychology, Science, Sociology",
+    "review": "No review available"
+  },
+  {
+    "title": "Homo Deus: A History of Tomorrow",
+    "year": 2024,
+    "author": "Yuval Noah Harari",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/31138556-homo-deus",
+    "status": "Done",
+    "category": "History, Science, Sociology",
+    "review": "No review available"
+  },
+  {
+    "title": "The Psychology of Money",
+    "year": 2024,
+    "author": "Morgan Housel",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/41881472-the-psychology-of-money",
+    "status": "Done",
+    "category": "Finance, Science, Psychology, Business",
+    "review": "No review available"
+  },
+  {
+    "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+    "year": 2024,
+    "author": "Dan Ariely",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/1713426.Predictably_Irrational",
+    "status": "Done",
+    "category": "Business, Science, Psychology",
+    "review": "No review available"
+  },
+  {
+    "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+    "year": 2025,
+    "author": "Malcolm Gladwell",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/2612.The_Tipping_Point",
+    "status": "To-read",
+    "category": "Science, Psychology, Sociology, Economics, Business",
+    "review": "No review available"
+  },
+  {
+    "title": "Guns, Germs, and Steel: The Fates of Human Societies",
+    "year": 2025,
+    "author": "Jared Diamond",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/1842.Guns_Germs_and_Steel",
     "status": "Reading",
-    "category": "Jekyll",
-    "review": "Testing"
+    "category": "History, Science, Sociology, Economics",
+    "review": "No review available"
+  },
+  {
+    "title": "Thinking Fast and Slow",
+    "year": 2025,
+    "author": "Daniel Kahneman",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow",
+    "status": "Done",
+    "category": "Psychology, Business",
+    "review": "Re-read"
+  },
+  {
+    "title": "Barking up the wrong tree",
+    "year": 2025,
+    "author": "Eric Barker",
+    "description": "No description available",
+    "link": "https://www.goodreads.com/book/show/31706504-barking-up-the-wrong-tree",
+    "status": "Reading",
+    "category": "Psychology, Business, Science",
+    "review": "No review available"
   }
 ]
