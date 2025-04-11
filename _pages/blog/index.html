@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: default
 title: 🧠✏️Blog
 permalink: /blog/
 order: 3
 show: true
 isMainPage: true
 ---
-<div class="container" style="padding: unset;">
+
+<section class="animate container max-w-full p-4 text-center">
+    <h1>{{ page.title | escape }}</h1>
     <p style="text-align: center; color:#757575">I share my thoughts about product development, user behaviors,
         productivity, inspirations, strategies.
         <a href="/feed/blog.xml"><svg width="12" height="12" viewBox="0 0 16 16" fill="none"
@@ -16,19 +18,22 @@ isMainPage: true
                     fill="#333" />
             </svg></a>
     </p>
-    <hr>
-
+</section>
+<hr>
+<section class="container max-w-full p-4 flex justify-center">
     <!-- tabs -->
-    <div class="tabs c-tabs__bar library-tab" style="justify-content:center !important">
+    <div class="tabs c-tabs__bar library-tab max-w-2xl" style="justify-content:center !important">
         <a href="#" data-tab-value="#micro" class="c-tab c-tab--active c-tab--small">🙉Micro</a>
         <a href="#" data-tab-value="#thought" class="c-tab c-tab--inactive c-tab--small">🙈Thoughts</a>
         <a href="#" data-tab-value="#reading" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🙊Reading</a>
         <a href="#" data-tab-value="#showing" class="c-tab c-tab__last-one c-tab--inactive c-tab--small">🌄Showing</a>
     </div>
+</section>
+<section class="container max-w-full flex justify-center p-4">
     <!-- end tabs -->
     <div class="tab-content">
         <!-- TAB 1 -->
-        <div class="tabs__tab active" id="micro" data-tab-info>
+        <div class="tabs__tab active max-w-2xl" id="micro" data-tab-info>
             <p style="text-align: center;">Simple.Short.Story.</p>
             {% assign stories = site.micro | reverse %}
             {% if stories.size > 0 %}
@@ -65,7 +70,7 @@ isMainPage: true
             {% endif %}
         </div>
         <!-- TAB 2 -->
-        <div class="tabs__tab" id="thought" data-tab-info>
+        <div class="tabs__tab max-w-2xl" id="thought" data-tab-info>
             <p style="text-align: center;">Research.Reflection.Rethink.</p>
             {% assign posts = site.blog | where: 'hidden', "false" | reverse %}
             {% if posts.size > 0 %}
@@ -114,7 +119,7 @@ isMainPage: true
             {% include pagination-nav.html %}
             {% else %}
             {% for post in posts %}
-            <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
+            <div class="article gap-4" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
                 <div class="article__content">
                     <div class="article__meta">
                         <span class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
@@ -156,7 +161,7 @@ isMainPage: true
             {% endif %}
         </div>
         <!-- TAB 3 -->
-        <div class="tabs__tab" id="reading" data-tab-info>
+        <div class="tabs__tab max-w-2xl" id="reading" data-tab-info>
             <p style="text-align: center;">Lifelong.Learning.Loop.</p>
             <div class="photo-wall--all-screen">
                 <iframe class="airtable-embed" src="https://airtable.com/embed/shrbF6hVIeEA1b3mD?backgroundColor=green"
@@ -164,8 +169,8 @@ isMainPage: true
                     style="background: transparent; border: 1px solid #ccc;"></iframe>
             </div>
         </div>
-         <!-- TAB 4 -->
-         <div class="tabs__tab" id="showing" data-tab-info>
+        <!-- TAB 4 -->
+        <div class="tabs__tab" id="showing" data-tab-info>
             <p style="text-align: center;">Design and Play</p>
             <div class="grid-wall--all-screen">
                 <main>
@@ -182,7 +187,7 @@ isMainPage: true
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <script type="text/javascript">
     document.addEventListener("DOMContentLoaded", () => {

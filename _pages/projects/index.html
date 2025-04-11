@@ -8,7 +8,7 @@ show: true
 isMainPage: true
 ---
 
-<section class="container max-w-full p-4" style="text-align: center">
+<section class="container max-w-full p-4 text-center">
   <h1>{{ page.title | escape }}.Think.Play</h1>
   <p style="color:#757575">80% of thinking and empathy + 20% ideations and delivery = Design for stuffs that people
     love.</p>
@@ -22,13 +22,13 @@ isMainPage: true
 </section>
 <!-- end -->
 
-<section class="animate container max-w-full p-4">
-  {% if site.projects.size == 0 %}
+{% if site.projects.size == 0 %}
   <p class="text-center">Nothing published yet!</p>
-  {% else %}
-  <div class="row">
+{% else %}
+<section class="container flex justify-center max-w-full p-4">
+  <div class="row w-full max-w-5xl">
     {% assign c = "c-project-card" %}
-    <article class="{{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
+    <article class="animate {{c}} col col-4 col-d-6 col-t-12" data-aos="fade-up" data-aos-easing="ease-out-quad"
       data-aos-duration="{{delay-time}}">
       <div class="{{c}}__content">
         <a href="{{ site.author.play }}" class="{{c}}__image">>
@@ -114,5 +114,5 @@ isMainPage: true
     {% endfor %}
     {% endif %}
   </div>
-  {% endif %}
 </section>
+{% endif %}

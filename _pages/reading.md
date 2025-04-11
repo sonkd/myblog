@@ -2,7 +2,7 @@
 layout: page
 title: Reading
 permalink: /reading/
-order: 1
+order: 
 show: false
 isMainPage:
 ---
