@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: simple
 title: Now
 permalink: /now/
 order: 1
