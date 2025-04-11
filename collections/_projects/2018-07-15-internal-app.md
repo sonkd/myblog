@@ -35,7 +35,7 @@ Các chức năng chính:
 
 ### Prototype
 
-<video src="/assets/img/project/internal-app/app.mp4" width="500rem" style ="margin: auto; background-color: white" controls autoplay loop></video>
+<video src="/assets/img/project/internal-app/app.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
 
 ### Live product
 
