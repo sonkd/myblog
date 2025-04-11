@@ -38,4 +38,4 @@ Inspired by [Spotify Wrapped](https://www.spotify.com/us/wrapped/), Techcombank 
 
 <video src="/assets/img/project/tcb-rewind/rewind-mock.mp4" width="100%" style ="margin: auto; background-color: white" controls autoplay loop></video>
 ---
-<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeatvn.network%2Fposts%2Fpfbid02hkYyAa6veX8DBUetN21zNiGHPdr9ftJebKGXxDUnmpyy9RrpMBHJHppm8mAj3Zq6l&show_text=true&width=500" width="500" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+<iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fbeatvn.network%2Fposts%2Fpfbid02hkYyAa6veX8DBUetN21zNiGHPdr9ftJebKGXxDUnmpyy9RrpMBHJHppm8mAj3Zq6l&show_text=true&width=500" width="400" height="800" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
