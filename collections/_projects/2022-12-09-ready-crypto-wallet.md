@@ -36,5 +36,5 @@ See mor detail at Ready's [Roadmap](https://ready.io/whitepaper/Roadmap-e768f599
 
 We also launched Ready on Product Hunt and please give us +1 vote (thanks).
 
-<iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/365008?v=1" width="500" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>.
+<iframe style="border: none;" src="https://cards.producthunt.com/cards/posts/365008?v=1" width="100%" height="405" frameborder="0" scrolling="no" allowfullscreen></iframe>.
 

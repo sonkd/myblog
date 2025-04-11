@@ -3,7 +3,6 @@
 .project {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 1rem;
 
     @media #{variables.$mobile} {
         margin-top: 50px;
@@ -51,7 +50,7 @@
 }
 
 .project__info {
-    padding: 16px;
+    padding: 1rem .5rem;
     text-align: left;
 
     h4 {
@@ -61,9 +60,9 @@
     }
 
     p {
-        font-size: variables.$body-size;
-        line-height: calc(variables.$body-line_height + 0rem);
-        letter-spacing: 0.3px;
+        font-size: variables.$caption-size;
+        line-height: variables.$caption-line-height;
+        //letter-spacing: 0.3px;
         color: variables.$dark;
     }
 }
@@ -109,8 +108,8 @@
 
     p {
         font-size: variables.$body-size;
-        line-height: calc(variables.$body-line_height + 0rem);
-        letter-spacing: 0.3px;
+        line-height: variables.$body-line-height;
+        // letter-spacing: 0.3px;
         color: variables.$dark;
 
         img {

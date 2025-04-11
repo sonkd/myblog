@@ -95,10 +95,10 @@ $quote-size: 20px;
 $quote-line-height: 28px;
 
 $body-size: 18px;
-$body-line-height: 26px;
+$body-line-height: calc($body-size + .5rem);
 
 $caption-size: 12px;
-$caption-line-height: 20px;
+$caption-line-height: calc($caption-size + .25rem);
 
 $h1-size: 2.25rem;
 $h2-size: 1.875rem;
