@@ -46,16 +46,15 @@ isMainPage:
       </header>
       <div class="overflow-x-auto mb-4 bg-white shadow rounded-xl">
       <table class="w-full text-left text-sm text-gray-700">
-        <thead class="bg-gray-100 border-b text-gray-600">
+        <thead class="bg-gray-100 border-b border-gray-300">
           <tr>
             <th scope="column" class="px-4 py-3 font-bold">Title</th>
             <th scope="column" class="px-4 py-3 font-bold">Author</th>
-            <th scope="column" class="px-4 py-3 font-bold sm:table-cell sm:hidden ">My review</th>
+            <th scope="column" class="px-4 py-3 font-bold hidden md:table-cell lg:table-cell">My review</th>
           </tr>
         </thead>
         <tbody>
-        </tbody>
-      </table>
+        </tbody>    </table>
       </div>
       `;
 
@@ -80,7 +79,7 @@ isMainPage:
           </span>
         </th>
         <td class="align-top px-4 py-3 w-1/3">${book.author}</td>
-        <td class="align-top w-1/3 px-4 py-3 sm:table-cell sm:hidden">${book.review}
+        <td class="align-top w-1/3 px-4 py-3 hidden md:table-cell lg:table-cell">${book.review}
         </td>`;
       tableBody.appendChild(bookRow);    
       });

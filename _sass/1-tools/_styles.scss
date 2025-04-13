@@ -967,6 +967,19 @@ legend {
     border-style: none
 }
 
+.border-t {
+    border-top-width: 1px
+}
+
+.border-b {
+    border-bottom-width: 1px
+}
+
+.border-gray-300 {
+    --su--border-opacity: 1;
+    border-color: rgba(156, 163, 175, var(--su--border-opacity))
+}
+
 .border-gray-100 {
     --su--border-opacity: 1;
     border-color: rgba(243, 244, 246, var(--su--border-opacity))
@@ -985,6 +998,11 @@ legend {
 .bg-gray-50 {
     --su--bg-opacity: 1;
     background-color: rgba(249, 250, 251, var(--su--bg-opacity))
+}
+
+.bg-gray-100 {
+    --su--bg-opacity: 1;
+    background-color: rgba(243, 244, 246, var(--su--bg-opacity))
 }
 
 .bg-gray-800 {
@@ -1196,6 +1214,10 @@ legend {
     padding-top: 4rem
 }
 
+.pt-8 {
+    padding-top: 2rem
+}
+
 .pt-4 {
     padding-top: 1rem
 }
@@ -1348,6 +1370,11 @@ legend {
 .text-gray-500 {
     --su--text-opacity: 1;
     color: rgba(107, 114, 128, var(--su--text-opacity))
+}
+
+.text-gray-600 {
+    --su--text-opacity: 1;
+    color: rgba(75, 85, 99, var(--su--text-opacity))
 }
 
 .text-green-800 {

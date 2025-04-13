@@ -42,7 +42,7 @@ title: Home
 <!-- Musics -->
 <section class="container max-w-full flex justify-center p-4">
     <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-        <h2 style="text-align: center;">My everyday music made by Spotify</h2>
+        <h2 class="text-center">My everyday music made by Spotify</h2>
         <iframe style="border-radius:12px"
             src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0"
             width="100%" height="352" frameBorder="0" allowfullscreen=""
@@ -53,7 +53,7 @@ title: Home
 <!-- Articles -->
 <section class="container max-w-full flex justify-center p-4">
     <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-        <h2 style="text-align: center;"> Published </h2>
+        <h2 class="text-center"> Published </h2>
         {% for item in site.data.publish %}
         {% assign category = item[0] %}
         {% assign articles = item[1] %}
@@ -68,7 +68,7 @@ title: Home
             {% endfor %}
         </ul>
         {% endfor %}
-        <div style="text-align: center;padding-top: 2rem;">
+        <div class ="pt-8 text-center">
             <a href="https://sonkd.notion.site/95bfb5952e93439e8d04c371d88205b1?v=ddaab8b6c0734ed19f0223044719578c"
                 class="works-button c-button c-button--secondary c-button--small">More articles</a>
         </div>
