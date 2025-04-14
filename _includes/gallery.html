@@ -5,9 +5,9 @@
   {% else %}
   {% assign count = 1 %}
   {% for image in list %}
-  <div class="mySlides fade">
+  <div class="mySlide fade bg-neutral-800">
     <div class="numbertext">{{count}} / {{list.size}}</div>
-    <img src="{{image.url}}" style="width:100%" alt="{{image.alt}}">
+    <img src="{{image.url}}" class="w-full h-96 object-contain" alt="{{image.alt}}" style="position: relative;">
     <!-- <div class="text">{{image.alt}}</div> -->
   </div>
   {% assign count = count | plus: 1 %}
@@ -25,5 +25,5 @@
     {% assign count = count | plus: 1 %}
     {% endfor %}
   </div>
-  {% endif%}
+  {% endif %}
 </div>

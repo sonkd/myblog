@@ -6,6 +6,8 @@ tags: [Game Design, Product Development, UX/UI]
 image: /assets/img/project/sketch-board.jpg
 headerImage: true
 projects: true
+hasPhotoSlide: true
+hasGallery: true
 hidden: true # don't count this post in blog pagination
 description: ""
 author: sonohyeah
@@ -17,13 +19,19 @@ Những công việc chính bao gồm:
 ### Thiết kế kịch bản
 Là dòng game casual, social nên đòi hỏi phải có những câu chuyện để kể với người dùng. Người dùng đã quá thuần thục về cách chơi game (game play đơn giản), vì thế game storytelling là điểm nhấn chính. Dựa trên các cốt truyện thần thoại, cổ tích, nhân vật, sự kiện và sự sáng tạo, tôi xây dựng nên thế giới riêng cho mỗi câu chuyện.
 
+<!-- start add photo wall from data -->
+{% assign galleryID = "GameDesign" %}
+{% assign list = site.data.showcase['project0']['images01'] %}
+{% include gallery.html %}
+<!-- end -->
+
 ### Viết tài liệu user flow, wireframe, công thức
 Ngoài việc chỉ ra các luồng hoạt động (user flow, use case), các bản wireframe, công thức tính toán cũng là cốt loi và mang yếu tố "độc quyền" của game. Không chỉ dừng lại việc hoạt động trơn tru, UX/UI đẹp và thuận tiện, mà còn cần quan tâm đến <span class="evidence">thiết kế cảm xúc của người chơi </span>.
 
 <!-- start add photo wall from data -->
-{% assign list-image = site.data.showcase.project-0.images-02 %}
+{% assign list-image = site.data.showcase['project0']['images02'] %}
 {% assign show-option = 'photo-wall--all-screen' %}
-{% include gallery-background.html %}
+{% include gallery-background.html images=list-image option=show-option %}
 <!-- end -->
 
 ### Triển khai thiết kế UI

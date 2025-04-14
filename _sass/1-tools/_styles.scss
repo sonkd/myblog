@@ -604,6 +604,10 @@ legend {
     height: 15rem
 }
 
+.h-96 {
+    height: 24rem
+}
+
 .h-9 {
     height: 2.25rem
 }
@@ -1083,9 +1087,15 @@ legend {
     background-position: center
 }
 
+/* object-fit */
 .object-cover {
     -o-object-fit: cover;
     object-fit: cover
+}
+
+.object-contain {
+    -o-object-fit: contain;
+    object-fit: contain
 }
 
 .p-2 {

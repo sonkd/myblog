@@ -14,6 +14,7 @@ roles:
 
 tags: [Digital Banking, UX Design]
 image: /assets/img/project/tcb-lixi/project-cover.png
+hasPhotoSlide: true
 showcase-code: project07 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

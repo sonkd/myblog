@@ -16,6 +16,7 @@ roles:
 
 tags: [UX Design, ELP]
 image: /assets/img/project/internal-app/03.png
+hasPhotoSlide: true
 showcase-code: project05 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

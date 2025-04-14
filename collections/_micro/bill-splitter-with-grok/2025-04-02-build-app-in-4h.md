@@ -19,7 +19,7 @@ hidden: false
 
 Tò mò vọc vạch với tính năng *Code* của [Grok](https://grok.com/), tôi đã thử nghiệm ngay với ý tưởng xây dựng một ứng dụng **Chia tiền** cho nhóm bạn. Bắt đầu với đoạn prompt:
 
-```bash
+```
 Help me code a web app for splitting bills of a group of friends; my basic idea includes some requirements: 
 - payer can create multiple request bills with title name, total amount, the payees with a note about their item or something 
 - export to save on Notes app (iOS or Android) 
@@ -42,7 +42,7 @@ Cấu trúc "sinh" của AI như sau:
 
 Nhận thấy cần đơn giản hơn một chút, tôi điều chỉnh.
 
-```bash
+```
 Hold on, Can I code only with Javascript, make it with a simple alternative version
 ```
 \

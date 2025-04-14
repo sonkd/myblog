@@ -17,6 +17,7 @@ roles:
 
 tags: [Digital Banking, UX Design, Payment]
 image: /assets/img/project/bill-payment/cover.png
+hasPhotoSlide: true
 showcase-code: project01 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

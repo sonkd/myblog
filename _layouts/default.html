@@ -4,8 +4,8 @@
 {% include head.html %}
 
 <body>
-<!-- Google Analytics -->
-{% if site.google-analytics %}
+  <!-- Google Analytics -->
+  {% if site.google-analytics %}
   <!-- begin Cookie Consent popup -->
   <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
   <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.1.0/cookie-consent.js"
@@ -60,6 +60,7 @@
   <script src="{{ site.baseurl }}/assets/js/vendors/jquery.fitvids.js"></script>
   <script src="{{ site.baseurl }}/assets/js/common.js"></script>
 
+  {% if page.hasPhotoSlide %}
   <script>
     let slideIndex = 1;
     let slideshows = document.getElementsByClassName("slideshow-container");
@@ -73,7 +74,11 @@
 
     // Next/previous controls
     function plusSlides(n, albumID) {
-      showSlides(slideIndex += n, albumID.valueOf());
+      if (!albumID) {
+        console.error("albumID is undefined or null. Ensure a valid albumID is passed.");
+        return;
+      }
+      showSlides(slideIndex += n, albumID);
     }
 
     // Thumbnail image controls
@@ -83,7 +88,7 @@
 
     function showSlides(n, album) {
       let i;
-      let children = album.querySelectorAll('.mySlides');
+      let children = album.querySelectorAll('.mySlide');
       let dots = album.querySelectorAll('.dot');
 
       if (n > children.length) {
@@ -102,48 +107,65 @@
       dots[slideIndex - 1].className += " active";
     }
   </script>
+  {% endif %}
 
+  {% if page.hasGallery %}
   <script>
-    // target the anchor links and div container
-    const links = document.querySelectorAll("main.gallery > a");
-    const overlay = document.querySelector("div.view-photo");
+    document.addEventListener('DOMContentLoaded', function () {
+      // Target the anchor links and div container
+      const links = document.querySelectorAll("div.gallery > a");
+      const overlay = document.querySelector("div.view-photo");
 
-    // following a click event on the links show the overlay
-    function showOverlay() {
-      // use the src & alt attribute of the selected image in the overlay
-      const src = this.querySelector('img').getAttribute('src');
-      const alt = this.querySelector('img').getAttribute('alt');
-      overlay.querySelector('img').setAttribute('src', src);
-      overlay.querySelector('img').setAttribute('alt', alt);
-
-      overlay.classList.add('overlay');
-
-      // to remove the anchor links from reach set the tabindex attribute to a negative value
-      links.forEach(link => link.setAttribute('tabindex', -1));
-    }
-
-    links.forEach(link => link.addEventListener('click', showOverlay));
-
-    // following a click event on the overlay, consider if the click was registered on the button
-    // if so hide the overlay back
-    function hideOverlay(e) {
-      if (e.target.tagName === 'BUTTON') {
-        overlay.classList.remove('overlay');
-        // restore the default value of the anchor links
-        links.forEach(link => link.setAttribute('tabindex', 0));
+      if (!overlay) {
+        console.error("Overlay container not found. Ensure 'view-photo' div exists.");
+        return;
       }
-      if (e.target.contains(overlay) && e.target !== overlay) {
-        overlay.classList.remove('overlay');
-        // restore the default value of the anchor links
-        links.forEach(link => link.setAttribute('tabindex', 0));
-      }
-    }
 
-    if ($(".view-photo")[0]){
+      // Show the overlay with the selected image
+      function showOverlay(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+
+        const img = this.querySelector('img');
+        if (!img) {
+          console.error("No image found inside the clicked link.");
+          return;
+        }
+
+        const src = img.getAttribute('src');
+        const alt = img.getAttribute('alt') || '';
+
+        const overlayImg = overlay.querySelector('img');
+        if (overlayImg) {
+          overlayImg.setAttribute('src', src);
+          overlayImg.setAttribute('alt', alt);
+        } else {
+          console.error("No image element found inside the overlay.");
+          return;
+        }
+
+        overlay.classList.add('overlay');
+
+        // Disable tab navigation for links
+        links.forEach(link => link.setAttribute('tabindex', -1));
+      }
+
+      // Hide the overlay
+      function hideOverlay(event) {
+        if (event.target.tagName === 'BUTTON' || event.target === overlay) {
+          overlay.classList.remove('overlay');
+
+          // Restore tab navigation for links
+          links.forEach(link => link.setAttribute('tabindex', 0));
+        }
+      }
+
+      // Attach event listeners
+      links.forEach(link => link.addEventListener('click', showOverlay));
       overlay.addEventListener('click', hideOverlay);
-    }
- 
+    });
   </script>
+  {% endif %}
   <!-- end js -->
 </body>
+
 </html>

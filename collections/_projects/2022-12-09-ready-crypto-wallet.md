@@ -16,6 +16,7 @@ roles:
 
 tags: [Web3, Blockchain, Product Development, UX Design]
 image: /assets/img/project/ready-wallet/cover.png
+hasPhotoSlide: true
 showcase-code: project13 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

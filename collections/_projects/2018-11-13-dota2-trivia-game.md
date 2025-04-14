@@ -19,6 +19,7 @@ roles:
 
 tags: [Game Design, UX/UI]
 image: /assets/img/project/dota2-trivia/dota2-trivia-cover.png
+hasPhotoSlide: true
 showcase-code: project06 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

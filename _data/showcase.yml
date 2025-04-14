@@ -98,9 +98,9 @@ project01:
   images:
     - url: /assets/img/project/bill-payment/04.png
     - url: /assets/img/project/bill-payment/detected-bills.png
-project00:
+project0:
   name: Game design
-  images:
+  images01:
     - url: /assets/img/project/game-design/float-land.jpg
     - url: /assets/img/project/game-design/3worlds.jpg
     - url: /assets/img/project/game-design/hai-tac.jpg

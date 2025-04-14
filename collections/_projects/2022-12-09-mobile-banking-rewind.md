@@ -16,6 +16,7 @@ roles:
 
 tags: [Digital Banking, UX Design, Data driven]
 image: /assets/img/project/tcb-rewind/rewind-project-cover.png
+hasPhotoSlide: true
 showcase-code: project08 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination

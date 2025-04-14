@@ -18,6 +18,6 @@ I actually howled and hugged and sang together. Music is wonderful, it's really 
 
 <!-- start add photo wall from data -->
 {% assign list = site.data.micro.micro1.images %}
-{% assign galleryID = site.data.micro.micro1.id %}
+{% assign galleryID = "MusicOfSpheres" %}
 {% include gallery.html %}
 <!-- end -->

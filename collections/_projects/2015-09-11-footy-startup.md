@@ -15,6 +15,7 @@ roles:
 
 tags: [Startup, Football, Product Development, UX/UI]
 image: /assets/img/project/footy-background.jpg
+hasPhotoSlide: true
 showcase-code: project11 # update in data/showcase
 
 hidden: true # don't count this post in blog pagination
