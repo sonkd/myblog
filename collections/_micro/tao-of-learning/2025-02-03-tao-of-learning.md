@@ -42,7 +42,7 @@ Tôi quan sát thấy nhiều bạn trẻ (và cả đồng trang lứa) trong n
 
 > Trước khi “làm thầy”, hãy “thượng đài” thật nhiều.
 
-Bởi chỉ có ra thực chiến, ta mới biết bí kíp học được thực sự dùng được bao nhiêu, có còn hợp thời, hợp cảnh không. Tránh việc biến kiến thức sơ sài thành “lối tắt” nguy hiểm—khiến người khác (hoặc chính mình) rơi vào cảnh “Tàu hỏa nhập ma”.
+Bởi chỉ có ra thực chiến, ta mới biết bí kíp học được thực sự dùng được bao nhiêu, có còn hợp thời, hợp cảnh không. Tránh việc biến kiến thức sơ sài thành “lối tắt” nguy hiểm—khiến người khác (hoặc chính mình) rơi vào cảnh “Tàu hỏa nhập ma”—Dùng không đúng lúc, đúng nơi, đúng chỗ.
 
 ![Tao of learning](/micro/Dunning-Kruger-curve.png)
 
