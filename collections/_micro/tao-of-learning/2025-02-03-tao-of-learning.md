@@ -55,4 +55,4 @@ Cá nhân tôi từng trải qua cả hai kiểu học, và nhận ra: chia sẻ
 #### Lifelong learning--Vòng lặp của sự học
 Tôi thấy lời khuyên cho người trẻ của Jack Ma ngụ ý cho một vòng lặp “học suốt đời”: từ học thầy, đi làm, khám phá chính mình, quay về chia sẻ, rồi sống nhẹ nhàng sau cùng. Giống đường cong Dunning-Kruger – càng biết, càng thấy cần học nữa.
 
-Kết luận, học nhiều râu mọc càng nhiều, khi nào dài quá thì nê đi "chia sẻ" 😉.
+Kết luận, học nhiều râu mọc càng nhiều, khi nào dài quá thì nên đi "chia sẻ" 😉.

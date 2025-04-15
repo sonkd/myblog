@@ -31,9 +31,9 @@ project11:
   name: Footy
   images:
     - url: /assets/img/project/footy1.jpg
-      alt: footy
-    - url: /assets/img/project/footy-background.jpg
-      alt: footy
+      alt: footy-mockup
+    - url: /assets/img/project/footy2.jpg
+      alt: footy-wireframe
 project10:
   name: Ứng dụng hồ sơ sức khoẻ
   images:

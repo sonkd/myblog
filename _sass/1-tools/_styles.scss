@@ -250,6 +250,38 @@ legend {
     vertical-align: bottom
 }
 
+/* filter: blur() */
+.blur-xs {
+    filter: blur(4px)
+}
+
+.blur-sm {
+    filter: blur(8px)
+}
+
+.blur-md {
+    filter: blur(12px)
+}
+
+.blur-lg {
+    filter: blur(16px)
+}
+
+.blur-xlg {
+    filter: blur(24px)
+}
+
+.blur-2xl {
+    filter: blur(32px)
+}
+
+.blur-3xl {
+    filter: blur(48px)
+}
+
+.blur-none {
+    filter: blur(0)
+}
 
 /* position */
 .sticky-top {
@@ -681,12 +713,25 @@ legend {
     /* 384px */
 }
 
+.max-h-120 {
+    max-height: 30rem;
+    /* 480px */
+}
+
 .max-h-fit {
     max-height: fit-content;
 }
 
+.max-h-\[400px\] {
+    max-height: 400px
+}
+
 .min-h-\[100px\] {
     min-height: 100px
+}
+
+.min-h-\[300px\] {
+    min-height: 300px
 }
 
 .w-80 {
@@ -1098,6 +1143,11 @@ legend {
     object-fit: contain
 }
 
+.object-center {
+    -o-object-position: center;
+    object-position: center
+}
+
 .p-2 {
     padding: .5rem
 }
@@ -1411,8 +1461,13 @@ legend {
     color: rgba(255, 255, 255, var(--su--text-opacity))
 }
 
+/* opacity */
 .opacity-0 {
     opacity: 0
+}
+
+.opacity-50 {
+    opacity: .5
 }
 
 .shadow {
