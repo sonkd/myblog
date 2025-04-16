@@ -1,18 +1,10 @@
 ---
 title: "Music of September"
-layout: post
 date: 2021-09-02 12:30:56
-author: sonohyeah
 image: 
-headerImage: false
-description: ""
 tags:
 - Music
 - Storytelling
-
-star: false
-blog: true
-hidden: false
 
 ---
 

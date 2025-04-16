@@ -1,10 +1,7 @@
 ---
 title: "Flow"
-layout: post
 date: 2024-05-05 12:40:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Product Design
 

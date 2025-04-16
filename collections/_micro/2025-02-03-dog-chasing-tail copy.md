@@ -1,17 +1,10 @@
 ---
 title: Invisible thing
-layout: post
 date: 2025-04-15 16:49:56
-author: sonohyeah
 image: 
-headerImage: false
 description: ""
 tags:
 - Problem Solving
-
-star: false
-blog: true
-hidden: false
 
 ---
 

@@ -1,18 +1,11 @@
 ---
 title: "Ways of working on Figma-DesignOps"
-layout: post
 date: 2023-08-25 14:51:00
-author: sonkd
 image: /assets/img/blog/2023-08-25/design-collaboration-levels.png
 tags:
 - Design Ops
 - Design management
 - UX/UI
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

@@ -1,17 +1,10 @@
 ---
 title: "Flow - Dòng chảy phát triển sản phẩm"
-layout: post
 date: 2023-11-02 12:24:00
-author: sonkd
 image: 
 tags:
 - Product Development
 - Data driven
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

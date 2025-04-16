@@ -1,10 +1,7 @@
 ---
 title: "Simple problem solving framework - 80/20"
-layout: post
 date: 2024-06-18 15:44:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Problem Solving
 - UX Design

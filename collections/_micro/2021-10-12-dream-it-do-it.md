@@ -1,10 +1,7 @@
 ---
 title: "Dream it, Do it"
-layout: post
 date: 2021-10-12 9:12:44
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Career Path
 

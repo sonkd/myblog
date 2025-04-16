@@ -1,10 +1,7 @@
 ---
 title: "Decision architecture"
-layout: post
 date: 2023-11-03 10:55:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Desision making
 

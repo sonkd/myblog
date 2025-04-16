@@ -1,17 +1,9 @@
 ---
 title: Thoát khỏi vòng luẩn quẩn
-layout: post
 date: 2025-02-03 14:55:56
-author: sonohyeah
 image: 
-headerImage: false
-description: ""
 tags:
 - Problem Solving
-
-star: false
-blog: true
-hidden: false
 
 ---
 

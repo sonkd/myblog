@@ -1,10 +1,7 @@
 ---
 title: "Break the rules"
-layout: post
 date: 2024-08-07 12:00:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Problem Solving
 - UX Design

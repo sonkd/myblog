@@ -1,8 +1,6 @@
 ---
 title: "The ultimate goal - Mục tiêu tối thượng"
-layout: post
 date: 2021-03-07 14:22:20
-author: sonohyeah
 image: /assets/img/blog/goal-levels.png
 headerImage: false
 tags:

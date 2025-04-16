@@ -1,18 +1,11 @@
 ---
 title: "Cái nhìn tổng quan về Usability Testing trong phát triển sản phẩm"
-layout: post
 date: 2023-12-27 12:24:00
-author: sonkd
 image: https://usabilitygeek.com/wp-content/uploads/2020/06/website-usability-testing.width-750.png
 tags:
 - Product Development
 - UX Research
 - Usability Testing
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

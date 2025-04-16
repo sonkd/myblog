@@ -1,18 +1,10 @@
 ---
 title: "3 Eternal Gates Philosophy"
-layout: post
 date: 2024-04-05 16:25:00
-author: sonohyeah
 image: /assets/img/micro/3-eternal-gates.jpg
-headerImage: false
 tags:
 - Philosophy
 - Problem Solving
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 Có 3 góc nhìn trong đạo học phương Đông khi xem xét vấn đề:

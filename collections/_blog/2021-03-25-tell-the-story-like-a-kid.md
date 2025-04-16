@@ -1,17 +1,9 @@
 ---
 title: "Storytelling - Kể chuyện như một đứa trẻ"
-layout: post
 date: 2021-03-25 23:54:34
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Storytelling
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

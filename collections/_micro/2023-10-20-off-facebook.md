@@ -1,10 +1,8 @@
 ---
 title: "Off facebook"
-layout: post
 date: 2023-10-20 10:55:00
 author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Desision making
 - Habit

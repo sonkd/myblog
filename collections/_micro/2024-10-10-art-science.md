@@ -1,10 +1,7 @@
 ---
 title: "The beautiful of ART is science"
-layout: post
 date: 2024-10-10 10:16:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Art
 - Science

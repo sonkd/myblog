@@ -1,18 +1,10 @@
 ---
 title: "Simplicity and the practice without theory"
-layout: post
 date: 2021-03-07 23:36:34
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Learning
 - Simplicity
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 ## What is the simplicity

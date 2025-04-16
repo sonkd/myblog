@@ -1,8 +1,6 @@
 ---
 title: "Các vấn đề về Nhận thức trong thiết kế trải nghiệm sản phẩm số"
-layout: post
 date: 2024-03-22 14:29:00
-author: sonkd
 image: /assets/img/blog/fish-sauce.png
 tags:
 - UX Design
@@ -10,11 +8,6 @@ tags:
 - Cognitive Bias
 - Decision Making
 - Customer Behaviour
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

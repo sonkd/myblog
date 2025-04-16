@@ -1,18 +1,11 @@
 ---
 title: "Music-healling for soul"
-layout: post
 date: 2021-09-10 12:00:01
-author: sonohyeah
 image: 
-headerImage: false
 description: ""
 tags:
 - Music
 - Storytelling
-
-star: false
-blog: true
-hidden: false
 
 ---
 

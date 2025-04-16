@@ -1,10 +1,7 @@
 ---
 title: "Music of Spheres"
-layout: post
 date: 2023-11-11 10:55:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Music
 

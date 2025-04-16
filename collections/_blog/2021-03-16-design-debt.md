@@ -1,18 +1,10 @@
 ---
 title: "Design Debt"
-layout: post
 date: 2021-03-16 23:51:34
-author: sonohyeah
 image: /assets/img/blog/technical-debt-pentalog.png
-headerImage: false
 tags:
 - Design Ops
 - Product Development
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

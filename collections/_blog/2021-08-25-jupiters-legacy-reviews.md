@@ -1,19 +1,11 @@
 ---
 title: "Review phim Jupiter's Legacy: Con đường sự nghiệp"
-layout: post
 date: 2021-08-25 18:40:00
-author: sonohyeah
 image: /assets/img/blog/2021-08-25/jupiters-legacy.jpeg
-headerImage: false
 tags:
 - Career Path
 - Movies
 - Storytelling
-
-star: false
-blog: true
-hidden: false
-comments: true
 
 ---
 

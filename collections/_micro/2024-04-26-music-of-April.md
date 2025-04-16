@@ -1,10 +1,7 @@
 ---
 title: "If I hadn’t seen such riches, I could live with being poor"
-layout: post
 date: 2024-04-26 16:53:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Music
 

@@ -1,10 +1,7 @@
 ---
 title: "Music of October"
-layout: post
 date: 2024-10-20 19:30:56
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Music
 

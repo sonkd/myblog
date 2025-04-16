@@ -1,10 +1,7 @@
 ---
 title: "Dual career path"
-layout: post
 date: 2024-06-05 12:40:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Career Path
 

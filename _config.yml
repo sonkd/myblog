@@ -84,6 +84,26 @@ defaults:
       path: '_pages'
     values:
       permalink: /:basename:output_ext
+  - scope:
+      path: '_blog'
+    values:
+      layout: post
+      author: sonkd
+      showHeaderImage: true
+      blog: true
+      star: false
+      hidden: false
+      comments: true
+  - scope:
+      path: '_micro'
+    values:
+      layout: post
+      author: sonkd
+      showHeaderImage: false
+      blog: true
+      star: false
+      hidden: false
+      comments: false
 
 feed:
   collections:

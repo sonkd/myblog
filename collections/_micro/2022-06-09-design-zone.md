@@ -1,10 +1,7 @@
 ---
 title: "An explanation of the roles in product design."
-layout: post
 date: 2022-06-09 10:55:00
-author: sonohyeah
 image: 
-headerImage: false
 tags:
 - Product Design
 

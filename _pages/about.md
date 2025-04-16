@@ -2,7 +2,7 @@
 layout: simple
 title: About me
 permalink: /about/
-image: '/assets/img/mystudio.jpg'
+image: '/assets/img/mystudio.png'
 order: 5
 isMainPage: true
 ---

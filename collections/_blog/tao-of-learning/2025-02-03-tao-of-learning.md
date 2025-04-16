@@ -2,17 +2,11 @@
 title: Đạo của sự học
 layout: post
 date: 2025-04-15 9:00:00
-author: sonohyeah
-image: 
-headerImage: false
-description: ""
+image: /blog/Dunning-Kruger-curve.png
+showHeaderImage: false
 tags:
 - Learning
 - Career Path
-
-star: false
-blog: true
-hidden: false
 
 ---
 
@@ -44,7 +38,7 @@ Tôi quan sát thấy nhiều bạn trẻ (và cả đồng trang lứa) trong n
 
 Bởi chỉ có ra thực chiến, ta mới biết bí kíp học được thực sự dùng được bao nhiêu, có còn hợp thời, hợp cảnh không. Tránh việc biến kiến thức sơ sài thành “lối tắt” nguy hiểm—khiến người khác (hoặc chính mình) rơi vào cảnh “Tàu hỏa nhập ma”—Dùng không đúng lúc, đúng nơi, đúng chỗ.
 
-![Tao of learning](/micro/Dunning-Kruger-curve.png)
+![Tao of learning](/blog/Dunning-Kruger-curve.png)
 
 #### Hai kiểu học—ngắn hạn và dài hạn
 - Học ngắn hạn *(short-term leverage)*: Các khóa học online, chứng chỉ nhanh, bootcamp/mentorship… giúp bạn “lên tay” nhanh ở Learn Phase. Dễ tiếp cận ngành, có nhiều ngoại lực thúc đẩy.
