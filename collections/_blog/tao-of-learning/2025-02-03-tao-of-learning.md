@@ -29,8 +29,9 @@ Tuổi này thường hay… hoang mang:
 - Khởi nghiệp với những ý tưởng mang "hoài bão", ngớ ngẩn và thú vị?
 - Cày học thêm: AI, Data Analysis, Tài chính và Tâm lý học?
 
-**Chuyện đi dạy "sớm" ở mốc 30 **\
-Trớ trêu là có những “bí kíp võ công” (từ sách, trên mạng và các diễn đàn miễn phí) vừa mới cầm trên tay, luyện được vài chiêu đã muốn chia sẻ ngay cho nóng hổi. Ngày nay, những cuốn bí kíp ấy đước rút tỉ vô cùng ngắn gọn, dễ "scan" mì ăn liền qua một vài slide hay những post/bài viết medium (trái ngược với những cuốn sách dày khô khan nhiều chữ/nhiều chú giải và bài tập 😂). Điều này là dễ hiểu vì con người luôn thích *shortcut*, thích nhìn thấy **output sớm**, như chơi game thì muốn hack/cheat để lên level nhanh.
+**Chuyện đi dạy "sớm" ở mốc 30**\
+
+Trớ trêu là có những “bí kíp võ công” (từ sách, trên mạng và các diễn đàn miễn phí) vừa mới cầm trên tay, luyện được vài chiêu đã muốn chia sẻ ngay cho nóng hổi. Ngày nay, những cuốn bí kíp ấy được rút tỉa vô cùng ngắn gọn, dễ "scan" mì ăn liền qua một vài slide hay những post/bài viết medium (trái ngược với những cuốn sách dày khô khan nhiều chữ/nhiều chú giải và bài tập 😂). Điều này là dễ hiểu vì con người luôn thích *shortcut*, thích nhìn thấy **output sớm**, như chơi game thì muốn hack/cheat để lên level nhanh.
 
 Tôi quan sát thấy nhiều bạn trẻ (và cả đồng trang lứa) trong ngành bắt đầu làm coach/mentor khá sớm. Đây là xu hướng tốt nếu xét trên góc độ học tập nhóm mà lại có cơ hội phát triển brand cá nhân và networking. Nhưng về lâu dài, điều này có thể tạo ra hệ quả không nhỏ đến thế hệ kế cận. Kiến thức bây giờ thì nhiều và đa dạng, dễ như tra từ điền mà không cần nhớ lâu và hiểu sâu. Điều đó có thúc đẩy nội tại có phát triển? Liên tưởng câu chuyện "học trò họ Mỗ" của Khổng Tử là một lời cảnh tỉnh: **thừa thầy nhưng thiếu thợ**.
 
@@ -41,10 +42,10 @@ Bởi chỉ có thực chiến nhiều, ta mới biết bí kíp học được 
 ![Tao of learning](/blog/Dunning-Kruger-curve.png)
 
 #### Hai kiểu học—ngắn hạn và dài hạn
-- Học ngắn hạn *(short-term leverage)*: Các khóa học online, chứng chỉ nhanh, bootcamp/mentorship… giúp bạn “lên tay” nhanh ở Learn Phase. Dễ tiếp cận ngành, có nhiều ngoại lực thúc đẩy.
-- Học nền tảng *(long-term compound)*: Học bài bản, học từ thầy giỏi, có người đồng hành cùng thực hành. Kiến thức này tạo dduowcj bệ phóng dài hạn—không chỉ giỏi hơn mà vững hơn, ít bị “cuốn” theo xu hướng tạm thời.
+- Học ngắn hạn *(short-term leverage)*: Các khóa học online, chứng chỉ ngắn hạn, bootcamp/mentorship… giúp bạn “lên tay” nhanh ở Learning Phase. Dễ tiếp cận ngành, có nhiều ngoại lực thúc đẩy.
+- Học nền tảng *(long-term compound)*: Học bài bản, học từ thầy giỏi, có người đồng hành cùng thực hành. Kiến thức này tạo được bệ phóng dài hạn—không chỉ giỏi hơn mà vững hơn, ít bị “cuốn” theo xu hướng tạm thời.
 
-Cá nhân tôi từng trải qua cả hai kiểu trên, và nhận ra: chia sẻ cũng là một cách học—nhưng chỉ khi bạn biết rõ mình đang [chia sẻ vì mục đích, vì ai, và tại sao](/micro/2025-03-30-knowledge-sharing-paradox). Khi ấy, chia sẻ không chỉ truyền cảm hứng mà còn truyền được chất.
+Cá nhân tôi từng trải qua cả hai kiểu trên, và nhận ra: chia sẻ cũng là một cách học—nhưng chỉ khi bạn biết rõ mình đang [chia sẻ vì mục đích gì, vì ai, và tại sao](/micro/2025-03-30-knowledge-sharing-paradox). Khi ấy, chia sẻ không chỉ truyền cảm hứng mà còn truyền được chất.
 
 #### Lifelong learning--Vòng lặp của sự học
 Tôi thấy lời khuyên cho người trẻ của Jack Ma còn ngụ ý cho một vòng lặp “học-tập suốt đời”: từ học thầy, đi làm, khám phá chính mình, quay về chia sẻ. Như đường cong Dunning-Kruger – càng biết nhiều, càng thấy cần học nữa.
