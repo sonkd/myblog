@@ -318,6 +318,18 @@ legend {
     left: 0
 }
 
+.left-1\/2 {
+    left: 50%
+}
+
+.right-0 {
+    right: 0
+}
+
+.right-1\/2 {
+    right: 50%
+}
+
 .start-0 {
     inset-inline-start: 0px
 }
@@ -348,6 +360,10 @@ legend {
 
 .top-10 {
     top: 2.5rem
+}
+
+.top-1\/2 {
+    top: 50%
 }
 
 .float-start {
@@ -702,6 +718,10 @@ legend {
 
 .h-fit {
     height: fit-content;
+}
+
+.h-screen {
+    height: 100vh
 }
 
 .max-h-64 {
@@ -1532,6 +1552,10 @@ legend {
 
 .duration-500 {
     transition-duration: .5s
+}
+
+.duration-700 {
+    transition-duration: .7s
 }
 
 .ease-in-out {

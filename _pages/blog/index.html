@@ -26,7 +26,6 @@ isMainPage: true
         <a href="#" data-tab-value="#micro" class="c-tab c-tab--active c-tab--small flex-none">🙉Micro</a>
         <a href="#" data-tab-value="#thought" class="c-tab c-tab--inactive c-tab--small flex-none">🙈Thoughts</a>
         <a href="#" data-tab-value="#reading" class="c-tab c-tab--inactive c-tab--small flex-none">🙊Reading</a>
-        <a href="#" data-tab-value="#showing" class="c-tab c-tab--inactive c-tab--small flex-none">🌄Showing</a>
     </div>
 </section>
 <section class="container max-w-full flex justify-center p-4">
@@ -165,21 +164,6 @@ isMainPage: true
             <p style="text-align: center;">Lifelong.Learning.Loop.</p>
             {% assign reading_page = site.pages | where: "permalink", "/reading/" | first %}
             {{ reading_page.content }}
-        </div>
-        <!-- TAB 4 -->
-        <div class="tabs__tab" id="showing" data-tab-info>
-            <p class="text-center">Design and Play</p>
-            <div class="grid-wall--all-screen gap-4">
-                {% assign clips = site.data.interactions | sort:"category" | reverse %}
-                {% for post in clips %}
-                    {% if post.image %}
-                    <a><img src="{{post.image}}" alt="{{post.title}}"></a>
-                    {% else if post.clip %}
-                    <a><video src="{{post.clip}}" width="100%" height="100%" autoplay muted playsinline
-                            loop></video></a>
-                    {% endif %}
-                {% endfor %}
-            </div>
         </div>
     </div>
 </section>

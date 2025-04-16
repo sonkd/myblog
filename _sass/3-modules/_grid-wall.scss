@@ -13,19 +13,22 @@
     /* remove overflow to give the impression of a zoom when scaling the image up */
     a {
         overflow: hidden;
-        // margin: 16px;
-        border-radius: 20px
+        width: auto;
+        height: 100%;
+        min-height: 400px;
+        max-height: 600px;
+        border-radius: 20px;
+        background-color: variables.$background-color-3
     }
 
     img,
     video {
-        object-fit: contain;
+        object-fit: cover;
         display: block;
+        border-radius: 20px;
         z-index: 2;
         width: 100%;
-        height: auto;
-        max-height: 600px;
-        background-color: variables.$background-color-4;
+        height: 100%;
         /* transition the scale and brightness of the image when hover/focus-ing on the anchor link */
         filter: brightness(0.8);
         transition: all 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
@@ -59,7 +62,7 @@
     .grid-wall--all-screen {
         /* display the anchor links in a grid */
         display: grid;
-        grid-template-columns: repeat(auto-fill, 50%);
+        grid-template-columns: repeat(3, minmax(0, 1fr));
         /* center the content horizontally & vertically */
         justify-content: left;
         align-content: center;
@@ -68,8 +71,8 @@
 
         /* update the size of a few selected cells */
         a:nth-of-type(1) {
-            grid-column: span 2;
-            grid-row: span 2;
+            grid-column: span 1;
+            grid-row: span 1;
         }
 
         /* the default overflow is substituted by the scale/brightness of the nested images */

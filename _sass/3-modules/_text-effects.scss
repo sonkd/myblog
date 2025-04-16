@@ -1,0 +1,158 @@
+@keyframes flash-messages-slide {
+
+    0%,
+    20% {
+        transform: translateY(0%);
+    }
+
+    25%,
+    45% {
+        transform: translateY(-100%);
+    }
+
+    50%,
+    70% {
+        transform: translateY(-200%);
+    }
+
+    75%,
+    95% {
+        transform: translateY(-300%);
+    }
+
+    100% {
+        transform: translateY(-300%);
+    }
+}
+
+@keyframes fade-flash-message {
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    10%,
+    90% {
+        opacity: 1;
+    }
+}
+
+@keyframes splash-effect {
+
+    0%,
+    100% {
+        transform: scale(1);
+        color: #fff;
+    }
+
+    50% {
+        transform: scale(1.2);
+        color: #ff4081;
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+
+    50% {
+        transform: scale(1.3);
+        opacity: 0.4;
+    }
+}
+
+@keyframes glitch {
+    0% {
+        transform: translate(0);
+        text-shadow: none;
+    }
+
+    10% {
+        transform: translate(-2px, 2px) rotate(1deg);
+        text-shadow: -1px 0 red, 1px 0 cyan;
+    }
+
+    20% {
+        transform: translate(2px, -2px) rotate(-1deg);
+        text-shadow: -1px 0 blue, 1px 0 lime;
+    }
+
+    30% {
+        transform: translate(0);
+        text-shadow: none;
+    }
+
+    40% {
+        transform: translate(-1px, 1px) rotate(0.5deg);
+        text-shadow: -1px 0 magenta, 1px 0 yellow;
+    }
+
+    50% {
+        transform: translate(1px, -1px);
+        text-shadow: 1px 0 red, -1px 0 cyan;
+    }
+
+    60%,
+    100% {
+        transform: translate(0);
+        text-shadow: none;
+    }
+}
+
+// This class is used to animate a series of flash messages sliding vertically.
+.animate-flash-messages {
+    animation: flash-messages-slide 16s ease-in-out infinite;
+    // Adding a delay to ensure the animation starts after the page content is loaded
+    animation-delay: 2s;
+    will-change: transform;
+}
+
+#animated-title {
+    position: relative;
+    height: 120px;
+}
+
+#animated-title .letter {
+    position: absolute;
+    font-size: 2.5rem;
+    font-weight: bold;
+    transition: all 1s ease-in-out;
+    opacity: 0;
+}
+
+#animated-title.ready .letter {
+    opacity: 1;
+}
+
+#animated-title.assemble .letter {
+    transform: translate(0, 0) rotate(0deg);
+}
+
+.click-me {
+    position: relative;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    // animation: splash-effect 1.5s infinite ease-in-out;
+    animation: glitch 2.5s infinite ease-in-out;
+
+    &::after {
+        content: '☚';
+        font-size: 3rem;
+        position: absolute;
+        //top: 0;
+        //left: 0;
+        right: -.5rem;
+        bottom: 0;
+        // border: 2px solid #fff;
+        animation: pulse 1.5s infinite ease-in-out;
+    }
+}
