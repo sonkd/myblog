@@ -18,7 +18,9 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
   
   <!-- Main Stylesheet -->
-  <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+  <!-- <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet"> -->
+  <link rel="preload" href="{{ site.baseurl }}/assets/css/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css"></noscript>
   
   {% seo %}
 </head>

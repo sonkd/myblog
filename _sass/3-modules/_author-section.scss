@@ -1,9 +1,7 @@
 @use "0-settings/variables";
 /* Author */
 .author {
-  // margin: 4rem 0;
   padding-bottom: 2rem;
-  // border-bottom: 1px solid variables.$border-1-color;
 
   @media #{variables.$mobile} {
     margin: 2rem 0;
@@ -30,7 +28,7 @@
 
 .author__job {
   margin-bottom: 0;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: center;
   color: variables.$primary-text-color;
 }
@@ -38,9 +36,6 @@
 .author__bio {
   max-width: 100%;
   margin: 1rem 0rem 3rem;
-  // padding: 1rem 2rem;
-  // font-size: 1rem;
-  // line-height: variables.$body-line_height;
   text-align: center;
   color: variables.$sub-text-color;
   background-color: variables.$background-color-3;

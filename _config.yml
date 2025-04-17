@@ -7,7 +7,7 @@ url: "https://sonkd.com" # the base hostname & protocol for your site, e.g. http
 # Author Settings
 author:
   name: Kevin Kim
-  image: '/assets/img/profile.jpg'
+  image: '/assets/img/profile.webp'
   job: Product Designer
   bio: I'm a product designer living in Hanoi, Vietnam, with a <a class="underline" href="/archive/#culinary">love for food</a>.
   email: sonkdbk@gmail.com

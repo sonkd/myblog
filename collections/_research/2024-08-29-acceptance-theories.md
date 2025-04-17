@@ -65,7 +65,7 @@ The Fogg Behavior Model shows that three elements must converge at the same mome
 
 > B = MAP or MAT
 
-![The fogg behaviour model](https://behaviormodel.org/wp-content/uploads/2020/08/Fogg-Behavior-Model.jpg)
+![The fogg behaviour model](/assets/img/research/Fogg-Behavior-Model.jpg)
 
 Reference: <https://behaviormodel.org/>{:target="_blank"}
 

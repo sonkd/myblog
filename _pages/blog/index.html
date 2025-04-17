@@ -103,8 +103,9 @@ isMainPage: true
 
                 {% if post.image %}
                 <div class="article__image-box">
-                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                        style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image" aria-label="{{post.title}}">
+                        <img src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    </a>
                 </div>
                 {% else %}
                 <div class="article__image-box">
@@ -144,8 +145,9 @@ isMainPage: true
 
                 {% if post.image %}
                 <div class="article__image-box">
-                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image"
-                        style="background-image: url({{site.baseurl}}{{post.image}})" aria-label="{{post.title}}"></a>
+                    <a href="{{post.url | prepend: site.baseurl}}" class="article__image" aria-label="{{post.title}}">
+                        <img src="{{site.baseurl}}{{post.image}}" alt="{{post.title}}" loading="lazy">
+                    </a></a>
                 </div>
                 {% else %}
                 <div class="article__image-box">
