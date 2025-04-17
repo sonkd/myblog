@@ -17,14 +17,7 @@ order:
 <section class="container flex justify-center max-w-full p-4">
   <div class="w-full grid-wall--all-screen gap-4">
     <a href="{{ site.author.play }}"><img src="{{site.baseurl}}/assets/img/rick_man.webp" alt="Play Zone | Simple.Stupid.Fun"></a>
-    {% assign clips = site.data.interactions | sort:"category" | reverse %}
-    {% for post in clips %}
-      {% if post.image %}
-      <a data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="400"><img src="{{post.image}}" alt="{{post.title}}"></a>
-      {% else if post.clip %}
-      <a data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="400"><video src="{{post.clip}}" width="100%" height="100%" autoplay muted playsinline loop></video></a>
-      {% endif %}
-    {% endfor %}
+    {% include experiments.html %}
   </div>
 </section>
 

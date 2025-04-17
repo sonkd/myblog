@@ -26,33 +26,37 @@ title: Home
 </section>
 <hr>
 <!-- Writings -->
-<section class="container max-w-full flex justify-center p-4">
-    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section id="writings" class="container max-w-full flex justify-center p-4">
+    <div class="max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% include recent-posts.html %}
     </div>
 </section>
 
 <!-- Projects -->
-<section class="container max-w-full p-4">
-    <div class="author max-w-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section id="projects" class="container max-w-full p-4">
+    <div class="max-w-full" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         {% include latest-works.html %}
     </div>
 </section>
 
-<!-- Musics -->
-<section class="container max-w-full flex justify-center p-4">
-    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
-        <h2 class="text-center">My everyday music made by Spotify</h2>
-        <iframe style="border-radius:12px"
-            src="https://open.spotify.com/embed/playlist/37i9dQZF1E3a9kSpwcR0vY?utm_source=generator&theme=0"
-            width="100%" height="352" frameBorder="0" allowfullscreen=""
-            allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<!-- Experiments -->
+<section id="experiments" class="container max-w-full flex justify-center p-4">
+    <div class="max-w-full">
+        <h2 class="text-center">Experiments</h2>
+        <div class="w-full grid-wall--all-screen gap-4">
+            {% assign number_of_items = 3 %}
+            {% include experiments.html %}
+        </div>
+        <div class ="pt-8 text-center">
+            <a href="{{site.baseurl}}/experiments/"
+            class="works-button c-button c-button--secondary c-button--small">Play all</a>
+        </div>
     </div>
 </section>
 
 <!-- Articles -->
-<section class="container max-w-full flex justify-center p-4">
-    <div class="author max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
+<section id="articles" class="container max-w-full flex justify-center p-4">
+    <div class="max-w-2xl" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="700">
         <h2 class="text-center"> Published </h2>
         {% for item in site.data.publish %}
         {% assign category = item[0] %}

@@ -12,11 +12,10 @@ tags:
 **"Covid" time. Music-healling for soul.**
 Silence. Fighting stronger. New challenges, new opportunities.
 
-<iframe width="100%" height="315" style="text-align:center" src="https://www.youtube.com/embed/7IRIP-hSfJ0?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+![Soul Healing](/assets/img/under-sea.gif){:width="100%" height="auto"}
 
-<iframe width="100%" height="315" style="text-align:center" src="https://www.youtube.com/embed/SX_ViT4Ra7k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[I'll Be There - Katie Melua](https://youtu.be/7IRIP-hSfJ0)\
+[Lemon - Kenshi Yonezu](https://youtu.be/SX_ViT4Ra7k)
 
-<br>
-**My most favorite song**
-
-<iframe width="100%" height="315" style="text-align:center" src="https://www.youtube.com/embed/k4V3Mo61fJM?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+**My most favorite song**\
+[Fix you - Coldplay](https://youtu.be/k4V3Mo61fJM)

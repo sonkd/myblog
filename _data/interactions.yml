@@ -1,24 +1,28 @@
-- title: Clip 0
+- title: Game design concept
   date: 2017-09-15
-  category: WEB
+  category: web
   clip: /assets/img/project//game-design/demo free spin animation.mp4
-- title: Clip 1
+- title: Movie character
   date: 2018-11-26
-  category: WEB
+  category: web
   image: /assets/img/archieve/interactions/clip_1.gif
-- title: Clip 2
+- title: Search
   date: 2022-11-26
-  category: WEB
+  category: web
   image: /assets/img/archieve/interactions/clip_2.gif
-- title: Clip 3
+- title: Transfer money
   date: 2017-11-26
-  category: WEB
+  category: mobile
   clip: /assets/img/archieve/interactions/clip_3.mp4
-- title: Clip 4
+- title: Bills sense
   date: 2022-11-26
   category: mobile
   clip: /assets/img/project/bill-payment/clip_2.mp4
-- title: Clip 5
+- title: Bill payment
+  date: 2022-11-26
+  category: mobile
+  clip: /assets/img/project/bill-payment/clip_1.mp4
+- title: Payment experience
   date: 2022-11-26
   category: mobile
   clip: /assets/img/archieve/interactions/billing.mp4
