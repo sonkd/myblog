@@ -1,5 +1,5 @@
 {% if site.projects.size > 0 %}
-<h2 style="text-align: center;">Latest works</h2>
+<h2 class="text-center">Latest works</h2>
 <div class="row">
   {% assign c = "c-project-card" %}
   {% assign projects = site.projects | reverse %}
@@ -37,7 +37,7 @@
   {% assign delay-time = delay-time | plus: 150 %}
   {% endfor %}
 </div>
-<div style="text-align: center;padding-top: 40px;">
+<div class="text-center pt-8">
   <a href="{{site.baseurl}}/projects/" class="works-button c-button c-button--secondary c-button--small">More works</a>
 </div>
 {% endif %}
