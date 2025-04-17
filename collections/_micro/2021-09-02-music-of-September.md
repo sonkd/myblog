@@ -14,5 +14,4 @@ Vietnam's National Day. Proud of the nation's history.
 - [Lá Cờ - Tạ Quang Thắng](https://youtu.be/MsuzMwWGBrY)
 - [Victory - Two Steps From Hell](https://youtu.be/hKRUPYrAQoE)
 
-My tracks:
-<iframe src="https://open.spotify.com/embed/playlist/5FKpAXLPrmzw4CVQFLGxP6" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+My tracks: [**September 2021**](https://open.spotify.com/embed/playlist/5FKpAXLPrmzw4CVQFLGxP6)

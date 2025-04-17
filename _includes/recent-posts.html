@@ -9,9 +9,9 @@
                     site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                     }}</time></span>
         </div>
-        <h3 class="article__title">
+        <h5 class="article__title">
             <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-        </h3>
+        </h5>
         <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content |
             strip_html | truncate: 130 }}{% endif %}</p>
         {% if post.tags.size >= 1 %}

@@ -91,10 +91,10 @@ $primary-font-1: $font-sans-serif;
 $primary-font-2: $font-serif;
 $secondary-font: $font-monospace;
 
-$quote-size: 20px;
-$quote-line-height: 28px;
+$quote-size: 18px;
+$quote-line-height: calc($quote-size + .75rem);;
 
-$body-size: 18px;
+$body-size: 16px;
 $body-line-height: calc($body-size + .5rem);
 
 $caption-size: 12px;

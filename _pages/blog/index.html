@@ -40,13 +40,13 @@ isMainPage: true
             {% for post in paginator.stories %}
             <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
                 <div>
-                    <h3 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
+                    <h5 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">{% assign
                             date_format =
                             site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                             }}</time><a href="{{ post.url | prepend: site.baseurl }}"> # </a><br>
 
                         <b>{{post.title}}</b>
-                    </h3>
+                    </h5>
                     {{ post.content }}
                 </div>
             </div>
@@ -56,11 +56,11 @@ isMainPage: true
             {% for post in stories %}
             <div class="article" data-aos="fade-up" data-aos-easing="ease-out-quad" data-aos-duration="800">
                 <div>
-                    <h3 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">
+                    <h5 class="article__date"><time datetime="{{ post.date | date_to_xmlschema }}">
                             {% assign date_format = site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date |
                             date: date_format }}</time><a href="{{ post.url | prepend: site.baseurl }}"> # </a><br>
                         <b>{{post.title}}</b>
-                    </h3>
+                    </h5>
                     {{ post.content }}
                 </div>
             </div>
@@ -83,9 +83,9 @@ isMainPage: true
                                 site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                                 }}</time></span>
                     </div>
-                    <h3 class="article__title">
+                    <h5 class="article__title">
                         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                    </h3>
+                    </h5>
 
                     <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
                         |
@@ -127,9 +127,9 @@ isMainPage: true
                                 site.minima.date_format | default: "%B %-d, %Y" %}{{ post.date | date: date_format
                                 }}</time></span>
                     </div>
-                    <h3 class="article__title">
+                    <h5 class="article__title">
                         <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
-                    </h3>
+                    </h5>
 
                     <p class="article__excerpt">{% if post.description %}{{ post.description }}{% else %}{{ post.content
                         |
